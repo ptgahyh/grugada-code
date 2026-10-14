@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+data/
+qc_plots/
+qc_*.png
+Audit_SCD_List.csv
