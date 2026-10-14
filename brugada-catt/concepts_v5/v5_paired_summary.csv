@@ -1,0 +1,9 @@
+model,ref,mean_delta,thang,hoa,thua
+CBM5-Sign,CBM3-Sign,-0.026,0,0,9
+CBM3n-Sign,CBM3-Sign,-0.031,0,0,9
+CBM5-Sign,CBM3n-Sign,0.005,2,7,0
+CBM5-SignAda,CBM5-Sign,0.006,3,4,2
+Hybrid-S5,Hybrid-S3,-0.015,0,4,5
+Hybrid-A5,Hybrid-S3,-0.01,0,7,2
+Hybrid-S3,CNN-V1V3,0.002,0,9,0
+Hybrid-A5,CNN-V1V3,-0.008,0,9,0

@@ -1,0 +1,121 @@
+split,method,prev,bacc,bacc_min,sens,spec
+held-out,AdaBN,0.05,0.73,0.687,0.896,0.563
+held-out,AdaBN,0.1,0.744,0.698,0.891,0.596
+held-out,AdaBN,0.2,0.755,0.714,0.859,0.652
+held-out,AdaBN,tự nhiên,0.765,0.714,0.815,0.715
+held-out,AdaBN+CATT,0.05,0.794,0.76,0.829,0.758
+held-out,AdaBN+CATT,0.1,0.8,0.767,0.819,0.781
+held-out,AdaBN+CATT,0.2,0.802,0.777,0.8,0.804
+held-out,AdaBN+CATT,tự nhiên,0.801,0.776,0.776,0.827
+held-out,BBSE-Q,0.05,0.647,0.502,0.742,0.552
+held-out,BBSE-Q,0.1,0.652,0.502,0.758,0.545
+held-out,BBSE-Q,0.2,0.666,0.502,0.798,0.534
+held-out,BBSE-Q,tự nhiên,0.68,0.502,0.853,0.506
+held-out,CATT[CBM3],0.05,0.773,0.714,0.852,0.695
+held-out,CATT[CBM3],0.1,0.786,0.721,0.844,0.729
+held-out,CATT[CBM3],0.2,0.794,0.719,0.813,0.775
+held-out,CATT[CBM3],tự nhiên,0.793,0.719,0.796,0.79
+held-out,CATT[CBM5],0.05,0.79,0.75,0.831,0.749
+held-out,CATT[CBM5],0.1,0.802,0.767,0.821,0.783
+held-out,CATT[CBM5],0.2,0.803,0.772,0.811,0.795
+held-out,CATT[CBM5],tự nhiên,0.799,0.772,0.776,0.823
+held-out,CATT[CNN9],0.05,0.742,0.649,0.827,0.657
+held-out,CATT[CNN9],0.1,0.749,0.652,0.83,0.669
+held-out,CATT[CNN9],0.2,0.754,0.651,0.811,0.697
+held-out,CATT[CNN9],tự nhiên,0.754,0.651,0.794,0.715
+held-out,CATT[CNNalt],0.05,0.727,0.609,0.876,0.578
+held-out,CATT[CNNalt],0.1,0.731,0.606,0.877,0.585
+held-out,CATT[CNNalt],0.2,0.73,0.608,0.87,0.59
+held-out,CATT[CNNalt],tự nhiên,0.729,0.608,0.853,0.606
+held-out,CATT[LogReg9],0.05,0.768,0.722,0.864,0.673
+held-out,CATT[LogReg9],0.1,0.773,0.724,0.857,0.689
+held-out,CATT[LogReg9],0.2,0.774,0.724,0.833,0.714
+held-out,CATT[LogReg9],tự nhiên,0.772,0.724,0.793,0.752
+held-out,CATT[ResNet],0.05,0.738,0.606,0.869,0.606
+held-out,CATT[ResNet],0.1,0.739,0.61,0.867,0.611
+held-out,CATT[ResNet],0.2,0.742,0.614,0.859,0.626
+held-out,CATT[ResNet],tự nhiên,0.739,0.615,0.841,0.637
+held-out,CATT[ST_V2],0.05,0.785,0.741,0.831,0.74
+held-out,CATT[ST_V2],0.1,0.799,0.771,0.817,0.78
+held-out,CATT[ST_V2],0.2,0.794,0.77,0.79,0.798
+held-out,CATT[ST_V2],tự nhiên,0.789,0.769,0.757,0.822
+held-out,EM-prior,0.05,0.705,0.55,0.853,0.558
+held-out,EM-prior,0.1,0.708,0.551,0.858,0.558
+held-out,EM-prior,0.2,0.707,0.549,0.856,0.558
+held-out,EM-prior,tự nhiên,0.707,0.55,0.857,0.558
+held-out,MED,0.05,0.751,0.729,0.875,0.628
+held-out,MED,0.1,0.764,0.728,0.87,0.658
+held-out,MED,0.2,0.776,0.723,0.832,0.719
+held-out,MED,tự nhiên,0.773,0.713,0.749,0.797
+held-out,ORACLE,0.05,0.842,0.814,0.837,0.848
+held-out,ORACLE,0.1,0.832,0.814,0.819,0.845
+held-out,ORACLE,0.2,0.823,0.804,0.806,0.839
+held-out,ORACLE,tự nhiên,0.82,0.802,0.805,0.835
+held-out,SRC,0.05,0.704,0.548,0.85,0.558
+held-out,SRC,0.1,0.704,0.548,0.85,0.558
+held-out,SRC,0.2,0.701,0.548,0.844,0.558
+held-out,SRC,tự nhiên,0.701,0.548,0.845,0.558
+held-out,TENT,0.05,0.734,0.693,0.896,0.571
+held-out,TENT,0.1,0.747,0.701,0.89,0.604
+held-out,TENT,0.2,0.758,0.716,0.857,0.66
+held-out,TENT,tự nhiên,0.767,0.715,0.812,0.722
+phát triển,AdaBN,0.05,0.75,0.749,0.724,0.776
+phát triển,AdaBN,0.1,0.738,0.735,0.671,0.805
+phát triển,AdaBN,0.2,0.749,0.741,0.657,0.841
+phát triển,AdaBN,tự nhiên,0.734,0.728,0.569,0.899
+phát triển,AdaBN+CATT,0.05,0.75,0.743,0.784,0.716
+phát triển,AdaBN+CATT,0.1,0.74,0.733,0.738,0.743
+phát triển,AdaBN+CATT,0.2,0.756,0.743,0.722,0.79
+phát triển,AdaBN+CATT,tự nhiên,0.752,0.738,0.644,0.86
+phát triển,BBSE-Q,0.05,0.516,0.515,0.034,0.999
+phát triển,BBSE-Q,0.1,0.51,0.508,0.02,0.999
+phát triển,BBSE-Q,0.2,0.506,0.504,0.013,1.0
+phát triển,BBSE-Q,tự nhiên,0.518,0.509,0.038,0.999
+phát triển,CATT[CBM3],0.05,0.753,0.753,0.693,0.812
+phát triển,CATT[CBM3],0.1,0.741,0.736,0.636,0.847
+phát triển,CATT[CBM3],0.2,0.75,0.738,0.651,0.849
+phát triển,CATT[CBM3],tự nhiên,0.749,0.731,0.618,0.879
+phát triển,CATT[CBM5],0.05,0.741,0.74,0.793,0.688
+phát triển,CATT[CBM5],0.1,0.733,0.723,0.73,0.735
+phát triển,CATT[CBM5],0.2,0.753,0.739,0.679,0.826
+phát triển,CATT[CBM5],tự nhiên,0.756,0.741,0.651,0.86
+phát triển,CATT[CNN9],0.05,0.74,0.715,0.587,0.892
+phát triển,CATT[CNN9],0.1,0.728,0.706,0.565,0.891
+phát triển,CATT[CNN9],0.2,0.74,0.712,0.58,0.9
+phát triển,CATT[CNN9],tự nhiên,0.728,0.721,0.514,0.941
+phát triển,CATT[CNNalt],0.05,0.602,0.588,0.217,0.987
+phát triển,CATT[CNNalt],0.1,0.606,0.597,0.227,0.985
+phát triển,CATT[CNNalt],0.2,0.621,0.619,0.261,0.981
+phát triển,CATT[CNNalt],tự nhiên,0.611,0.602,0.236,0.986
+phát triển,CATT[LogReg9],0.05,0.726,0.713,0.783,0.669
+phát triển,CATT[LogReg9],0.1,0.725,0.718,0.728,0.721
+phát triển,CATT[LogReg9],0.2,0.749,0.74,0.734,0.763
+phát triển,CATT[LogReg9],tự nhiên,0.757,0.742,0.628,0.885
+phát triển,CATT[ResNet],0.05,0.629,0.564,0.287,0.971
+phát triển,CATT[ResNet],0.1,0.632,0.58,0.292,0.971
+phát triển,CATT[ResNet],0.2,0.628,0.588,0.276,0.98
+phát triển,CATT[ResNet],tự nhiên,0.608,0.57,0.232,0.983
+phát triển,CATT[ST_V2],0.05,0.751,0.74,0.721,0.781
+phát triển,CATT[ST_V2],0.1,0.743,0.737,0.69,0.797
+phát triển,CATT[ST_V2],0.2,0.754,0.741,0.702,0.807
+phát triển,CATT[ST_V2],tự nhiên,0.754,0.74,0.687,0.821
+phát triển,EM-prior,0.05,0.573,0.567,0.151,0.994
+phát triển,EM-prior,0.1,0.573,0.564,0.151,0.994
+phát triển,EM-prior,0.2,0.574,0.564,0.153,0.994
+phát triển,EM-prior,tự nhiên,0.574,0.565,0.153,0.994
+phát triển,MED,0.05,0.745,0.742,0.717,0.774
+phát triển,MED,0.1,0.73,0.721,0.67,0.79
+phát triển,MED,0.2,0.74,0.728,0.655,0.825
+phát triển,MED,tự nhiên,0.716,0.714,0.513,0.918
+phát triển,ORACLE,0.05,0.794,0.793,0.746,0.843
+phát triển,ORACLE,0.1,0.767,0.766,0.701,0.834
+phát triển,ORACLE,0.2,0.771,0.761,0.688,0.853
+phát triển,ORACLE,tự nhiên,0.766,0.757,0.684,0.848
+phát triển,SRC,0.05,0.582,0.572,0.173,0.99
+phát triển,SRC,0.1,0.584,0.576,0.178,0.99
+phát triển,SRC,0.2,0.58,0.57,0.169,0.99
+phát triển,SRC,tự nhiên,0.581,0.571,0.171,0.99
+phát triển,TENT,0.05,0.753,0.753,0.716,0.79
+phát triển,TENT,0.1,0.74,0.736,0.665,0.814
+phát triển,TENT,0.2,0.75,0.743,0.656,0.845
+phát triển,TENT,tự nhiên,0.734,0.729,0.567,0.901

@@ -1,0 +1,12 @@
+,0
+auroc_v13_old,0.86
+auroc_v13_new,0.862
+auroc_cnn9_new,0.819
+auroc_cbm5_old,0.804
+auroc_cbm5_new,0.805
+SRC_old,0.633
+SRC_new,0.64
+CATT_old,0.783
+CATT_new,0.786
+ORACLE_old,0.802
+ORACLE_new,0.805

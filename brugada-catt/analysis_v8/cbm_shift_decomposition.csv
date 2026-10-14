@@ -1,0 +1,10 @@
+setting,dneg,dpos,top,share_top3,qrs_share_signed
+huca->claris,0.61,-1.2,"T_V3 +0.58, tri_w_V2 -0.56, Corrado_V3 +0.51",0.34,-0.76
+huca->mortara,0.29,-1.5,"QRS_w -0.83, tri_w_V2 -0.81, T_V3 +0.66",0.38,-2.87
+claris->huca,1.13,0.6,"J_elev_V2 +0.68, QRS_w +0.29, beta_rel_V1 +0.20",0.46,0.26
+claris->mortara,0.13,-0.54,"QRS_w -0.16, J_elev_V2 -0.13, curv60_V2 +0.09",0.45,-1.2
+mortara->huca,2.9,2.05,"ST80_V2 +2.18, QRS_w +1.65, T_V3 -0.58",0.5,0.57
+mortara->claris,0.63,1.57,"QRS_w +0.59, ST80_V2 +0.53, J_elev_V1 +0.15",0.46,0.94
+claris+mortara->huca,0.8,0.27,"QRS_w +1.01, Corrado_V3 -0.38, T_V3 -0.35",0.43,1.26
+huca+mortara->claris,0.21,0.58,"Corrado_V3 +0.16, T_V3 +0.12, slope_V3 +0.10",0.41,-0.39
+huca+claris->mortara,0.31,0.07,"T_V3 +0.23, Corrado_V3 +0.19, QRS_w -0.13",0.59,-0.41
