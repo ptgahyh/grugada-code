@@ -169,3 +169,13 @@ python huca_label_check.py <thư mục HUCA> ../harmonized .
 python huca_subgroups.py <thư mục HUCA> ../harmonized scores .
 python sim_catt.py .
 ```
+
+### Bổ sung: độ dịch logit theo đơn vị tách lớp (`logit_shift.py`)
+
+Tạo ra các con số ở Mục 3.4 ("negatives moved 0.93–1.06 separations…", "removing the 23 negatives… at most 0.11 logit units").
+Trước đây các số này chỉ có trong README, không có script.
+
+```bash
+python analysis_v8/logit_shift.py concepts_v5 harmonized <thư mục HUCA có metadata.csv> analysis_v8
+```
+Ra `logit_shift_raw.csv`, `logit_shift_per_setting.csv` và bản tóm tắt in ra màn hình. Cần chạy để xác nhận các khoảng trong bài.

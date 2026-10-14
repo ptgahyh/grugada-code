@@ -24,9 +24,9 @@ We used three public Brugada syndrome (BrS) ECG cohorts, treated as three domain
 - a flag for a Brugada-type pattern on the baseline ECG (`basal_pattern`);
 - a sudden-death flag.
 
-The diagnostic label takes the value 2 in seven records, a value the database documentation does not define. We treated labels 1 and 2 as BrS-positive, and checked that excluding these seven records does not change the results (Section 3.9).
+The diagnostic label takes the value 2 in seven records, a value that the database README describes only as "other/atypical cases". We treated labels 1 and 2 as BrS-positive, and checked that excluding these seven records does not change the results (Section 3.9).
 
-We removed four exact duplicates (patient IDs 844915, 1220716, 1366050, 1307673; the first copy was kept) and three records containing flat-line segments of at least 2 s (267630, 903802, 1230482). None of the removed records belonged to a patient with sudden death. The final cohort has 356 recordings, 73 of them BrS-positive (20.5%).
+We removed four exact duplicates (patient IDs 844915, 1220716, 1366050, 1307673; the first copy was kept) and three records containing flat-line segments of at least 2 s in at least one lead (267630, 903802, 1230482). None of the removed records belonged to a patient with sudden death. The final cohort has 356 recordings, 73 of them BrS-positive (20.5%).
 
 Only 21 of the 73 positives show a Brugada-type pattern on the baseline ECG, whereas 23 negatives do. Most HUCA positives, like most Melo positives, therefore do not show a spontaneous diagnostic pattern on the analysed ECG.
 
@@ -47,9 +47,9 @@ Only 21 of the 73 positives show a Brugada-type pattern on the baseline ECG, whe
 
 ## 2.2 Signal harmonization
 
-All cohorts were mapped to one format: one representative beat per patient, nine leads (I, II, III, V1–V6), 100 Hz, 75 samples (−290 ms to +460 ms around the QRS complex), each lead z-scored. We chose 100 Hz because it is the native rate of Brugada-HUCA. We kept nine leads because they are the leads available in both Melo cohorts.
+All cohorts were mapped to one format: one representative beat per patient, nine leads (I, II, III, V1–V6), 100 Hz, 75 samples with the QRS energy peak at sample 28 (−280 ms to +460 ms around it), each lead z-scored. We chose 100 Hz because it is the native rate of Brugada-HUCA. We kept nine leads because they are the leads available in both Melo cohorts.
 
-**HUCA.** Leads were converted to mV and band-pass filtered (second-order Butterworth, 0.5–40 Hz, zero phase). QRS complexes were detected as peaks of the summed absolute first difference across the nine leads (minimum distance 330 ms, height ≥ 35% of the 99th percentile). Beats were cut from −290 ms to +460 ms around each peak, and the sample-wise median over all complete beats (at least three) formed the representative beat.
+**HUCA.** Leads were converted to mV and band-pass filtered (second-order Butterworth, 0.5–40 Hz, applied forward and backward for zero phase). QRS complexes were detected as peaks of the summed absolute first difference across the nine leads (minimum distance 330 ms, height ≥ 35% of the 99th percentile). Beats were cut from −290 ms to +450 ms around each peak (75 samples), and the sample-wise median over all complete beats (at least three) formed the representative beat.
 
 **Melo.** The nine leads of each 200 Hz beat were resampled to 100 Hz with a polyphase filter with anti-aliasing (150 to 75 samples).
 
@@ -78,7 +78,7 @@ To quantify the site information that survives harmonization, we trained a linea
 
 ## 2.4 Baseline classifiers and lead restriction
 
-**ST\_V2 rule.** A single hand-crafted feature without training: the mean amplitude of V2 from 60 to 90 ms after the QRS energy peak, minus the mean over the PR interval (−140 to −90 ms). Its threshold was chosen on the validation set like every other model.
+**ST\_V2 rule.** A single hand-crafted feature without training: the mean amplitude of V2 from 60 to 90 ms after the QRS energy peak, minus the mean over the PR interval (−140 to −90 ms); both windows include their end points (samples 34–37 and 14–19 of the aligned beat). Its threshold was chosen on the validation set like every other model.
 
 **Logistic regression.** L2-regularized logistic regression on the standardized raw samples (C ∈ {10⁻⁴, 10⁻³, 10⁻², 10⁻¹} by five-fold cross-validated AUROC, class-balanced weights).
 
@@ -110,10 +110,10 @@ $$
 Here t₀ = 28 is the anchor, and the soft maximum is a scaled log-sum-exp. The J point is the soft *first* time after t₀ at which the normalized energy falls below a threshold θ:
 
 $$
-g_t = \sigma\!\left(\frac{\theta - \hat e_t}{\tau}\right), \qquad w_t = g_t \prod_{s<t} (1 - g_s), \qquad J = \sum_t w_t\, t + \Big(1 - \sum_t w_t\Big) t_{\max} + 2\tanh(\delta_J)
+g_t = \sigma\!\left(\frac{\theta - \hat e_t}{\tau}\right), \qquad w_t = g_t \prod_{s<t} (1 - g_s), \qquad J = \sum_t w_t\, (t+1) + \Big(1 - \sum_t w_t\Big) (t_{\max}+1) + 2\tanh(\delta_J)
 $$
 
-The search runs over t ∈ \[t₀ + 1, t₀ + 14\]; τ = 0.05; θ ∈ \[0.03, 0.5\] is initialized at 0.15; and δ~J~ is a learnable shift of up to ±20 ms. The survival product makes J a differentiable analogue of "the first sample below threshold".
+Because ê~t~ is the difference between samples t and t + 1, a crossing at t places the J point at t + 1. The search runs over t ∈ \[t₀ + 1, t₀ + 14\]; τ = 0.05; θ ∈ \[0.03, 0.5\] is initialized at 0.15; and δ~J~ is a learnable shift of up to ±20 ms. The survival product makes J a differentiable analogue of "the first sample below threshold".
 
 **Baseline and take-off point.**
 
@@ -180,7 +180,7 @@ A concept therefore enters the model only if it points the same way at all train
 
 **Variants.** CBM uses the 28 concepts above. CBM-noQRS removes the duration concept (s = 0). CBM-sd15 replaces QRS\_w with QRS\_sd15, a duration concept designed to be robust to device bandwidth.
 
-QRS\_w is a soft threshold width of the derivative energy, so it depends on the high-frequency content that differs between acquisition devices. QRS\_sd15 is instead the RMS duration (square root of the second central moment) of the derivative energy envelope e(t) of V1–V3, computed within the QRS window after a 15 Hz low-pass filter:
+QRS\_w is a soft threshold width of the derivative energy, so it depends on the high-frequency content that differs between acquisition devices. QRS\_sd15 is instead the RMS duration (square root of the second central moment) of the derivative energy envelope e(t) of V1–V3, computed within −80 to +140 ms after a 15 Hz low-pass filter. The envelope is normalized to its peak, and a floor of 0.1 is subtracted with a soft rectifier before the moments are taken:
 
 $$
 \mathrm{QRS}_{sd15} = \sqrt{\frac{\sum_t (t-\mu)^2\, e(t)}{\sum_t e(t)}}, \qquad \mu = \frac{\sum_t t\, e(t)}{\sum_t e(t)}
@@ -361,7 +361,7 @@ Public datasets used:
 
 For every Mortara beat we found its most similar Claris beat (Pearson correlation over nine leads × 75 samples). The highest such correlation was 0.87 (median 0.69). This is the same level as between HUCA and Claris (maximum 0.87), and well below two other reference levels:
 
-- the typical nearest neighbour within a cohort (median 0.90–0.92);
+- the typical nearest neighbour within a cohort (median 0.89–0.90);
 - the same HUCA patient processed by two different median-beat pipelines (median 0.96; Section 2.10).
 
 No mutual nearest-neighbour pair across the two devices exceeded r = 0.95.
@@ -416,7 +416,7 @@ The only CNN setting that did not improve was Mortara → HUCA (0.884 → 0.864)
 
 **Figure 2.** Out-of-domain AUROC with all nine leads (open grey) and with V1–V3 only (blue) for three architectures in the nine cross-site settings. Blue segments mark improvements, grey segments losses.
 
-**Table 6.** Out-of-domain AUROC with all nine leads versus V1–V3 only. This is an independent training run from Table 5; differences in the shared 9-lead CNN columns reflect training stochasticity (at most 0.03).
+**Table 6.** Out-of-domain AUROC with all nine leads versus V1–V3 only. This is an independent training run from Table 5; differences in the shared 9-lead CNN columns reflect training stochasticity (at most 0.031).
 
 | Setting | LogReg 9 | LogReg V1–V3 | CNN 9 | CNN V1–V3 | ResNet 9 | ResNet V1–V3 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -457,7 +457,7 @@ CNN-V1V3 was therefore used as the main black-box model and as the target model 
 | T\_V2, coved vs saddle (AUC) | 1.000 | 1.000 | 1.000 |
 | J\_elev V2, abnormal vs normal (AUC) | 0.999 | 0.987 | 0.985 |
 
-**J-point localization on LUDB.** On the 191 non-paced LUDB records, the soft J-point at its clinical initialization agreed with the cardiologist-annotated QRS offset with negligible bias (Table 8).
+**J-point localization on LUDB.** On the 191 non-paced LUDB records, the soft J-point at its clinical initialization agreed with the cardiologist-annotated QRS offset with negligible bias (Table 8). Against the pre-specified CSE criterion (SD ≤ 11.6 ms), the nine-lead variant passed (SD 9.8 ms). The V1–V3 variant used in the concept layer passed in normal conduction (SD 7.7 ms) but not overall (SD 15.0 ms), because of conduction disorders (SD 23.6 ms).
 
 - With energy from all nine leads: bias −0.6 ms, SD 9.8 ms, MAE 7.1 ms; 75% of records within ±10 ms and 95% within ±20 ms.
 - With energy from V1–V3 only (the main layer): bias 0.0 ms, SD 15.0 ms.
@@ -478,14 +478,14 @@ CNN-V1V3 was therefore used as the main black-box model and as the target model 
 | V1–V3 energy, initial, normal conduction | 130 | +2.2 | 7.7 | 76% | 100% |
 | V1–V3 energy, initial, conduction disorder | 61 | −4.5 | 23.6 | 61% | 84% |
 
-**What the CBM learned.** When the fiducials were learned end-to-end by a CBM trained on the three BrS cohorts, the measurement point moved consistently later:
+**What the CBM learned.** When the fiducials were learned end-to-end by a CBM trained on the three BrS cohorts, the measurement point moved consistently later (values for the nine-lead-energy variant, with the V1–V3 variant in parentheses):
 
-- θ decreased from 0.15 to 0.087.
-- δ~J~ converged to +13.5 ms.
-- The baseline window moved from −80 to −100 ms.
-- The ST offset moved from 80 to 90 ms.
+- θ decreased from 0.15 to 0.087 (0.088).
+- δ~J~ converged to +13.5 ms (+13.8 ms).
+- The baseline window moved from −80 to −100 ms (−102.5 ms).
+- The ST offset moved from 80 to 90 ms (91 ms).
 
-The learned J-point lay about 20 ms after the annotated QRS offset (bias +19.3 and +20.6 ms) with unchanged or better precision (SD 8.9 ms with nine-lead energy). The model thus chose to measure ST level slightly into the early ST segment rather than exactly at the end of the QRS complex. This is physiologically plausible for a disease defined by early ST elevation, and it was discovered without any J-point labels. The learned parameters were nearly identical across seeds (θ 0.0866 and 0.0864; δ~J~ 13.5 and 13.6 ms).
+The learned J-point lay about 20 ms after the annotated QRS offset (bias +19.3 and +20.6 ms) with unchanged or better precision (SD 8.9 ms with nine-lead energy). The model thus chose to measure ST level slightly into the early ST segment rather than exactly at the end of the QRS complex. This is physiologically plausible for a disease defined by early ST elevation, and it was discovered without any J-point labels. The learned parameters were nearly identical across seeds (nine-lead variant: θ 0.0866 and 0.0864, δ~J~ 13.5 and 13.6 ms; V1–V3 variant: θ 0.0875 and 0.0876, δ~J~ 13.8 and 13.9 ms).
 
 ![](fig3_ludb_jpoint.png){width=16cm}
 
@@ -517,7 +517,9 @@ The concept layer therefore does not improve discrimination over the best black 
 
 The unlearned ST\_V2 had the best worst case of all (0.702). A fixed physical measurement transports its threshold better than a learned representation, and this is the observation that motivates CATT (Section 3.6).
 
-**Domain-adaptive normalization depends on prevalence.** CBM-Ada slightly improved the mean AUROC (0.844) and the worst-case balanced accuracy (0.682). However, it normalizes concepts with statistics of the target batch, and those statistics depend on the batch's disease prevalence. In the prevalence stress test:
+**Domain-adaptive normalization depends on prevalence.** CBM-Ada slightly improved the mean AUROC (0.844) and the worst-case balanced accuracy (0.682). However, it normalizes concepts with statistics of the target batch, and those statistics depend on the batch's disease prevalence. In the prevalence stress test (run with the version of the concept layer that computes the J point and QRS\_w from nine-lead energy):
+
+<!-- TODO: chạy lại với lớp V1–V3: python concepts_v3/stress_ada.py harmonized concepts_v3 v3 -> stress_summary_v3.csv, rồi cập nhật 3 gạch đầu dòng dưới đây -->
 
 - The balanced accuracy of the CBM stayed at about 0.72 at every prevalence.
 - The balanced accuracy of CBM-Ada rose from 0.719 at 5% prevalence to 0.740 at 35–50%.
@@ -529,11 +531,11 @@ Target-batch normalization is therefore unsuitable for screening populations, wh
 
 CBM-sd15 was nonetheless retained as the pre-specified CATT pseudo-labeller, because that role rewards robustness of the threshold rather than ranking (Section 3.8).
 
-**What the CBM learned is stable and clinically coherent.** We retrained the CBM in each of the nine settings (first validation split). This reproduced the scores of the main analysis to within 6 × 10⁻⁷. The learned weights pointed in the same direction in every setting (Table 9b).
+**What the CBM learned is stable and clinically coherent.** We retrained the CBM in each of the nine settings (first validation split). This reproduced the scores of the main analysis to within 6 × 10⁻⁷. Seventeen of the 28 concepts were active with the same sign in all nine settings. Five more never changed sign but were removed by the sign gate in some settings. Six changed sign between settings because the gate is recomputed on each training pool (curv60\_V2, curv60\_V3, ST80\_V2, tri\_w\_V2, tri\_w\_V3, r\_prime\_V3); curv60\_V2 had the fourth largest mean absolute weight (0.39). Table 9b lists the twelve consistent concepts with the largest weights.
 
 The largest weights belonged to QRS energy width and J-point elevation in V2 (positive in 9/9 settings). Next came the terminal r′ amplitude in V2 and J-point elevation in V1 (positive), and ST slope, T-wave polarity in V2/V3 and the relative β-angle concept (negative). Together these describe a coved type-1 morphology: an elevated J point, a downsloping ST segment and an inverted T wave.
 
-**Table 9b.** The most heavily weighted CBM concepts across the nine settings. Weights are on standardized concepts; the sign is fixed by the sign gate before training.
+**Table 9b.** The most heavily weighted CBM concepts among those active with the same sign in all nine settings. Weights are on standardized concepts; the sign is fixed by the sign gate before training.
 
 | Concept | Sign gate (+ / − out of 9) | Mean weight |
 | --- | --- | --- |
@@ -553,6 +555,8 @@ The largest weights belonged to QRS energy width and J-point elevation in V2 (po
 
 In the three settings with a HUCA target, the negatives moved:
 
+<!-- Nguồn số liệu: analysis_v8/logit_shift.py (logit_shift_per_setting.csv). Chạy lại để xác nhận các khoảng dưới đây. -->
+
 - CNN-V1V3: 0.93–1.06 separations, i.e. almost exactly onto the source positives;
 - CBM-sd15: 0.21–0.32 separations;
 - CBM: 0.27–0.55 separations.
@@ -568,7 +572,7 @@ $$
 The terms point to two concept families:
 
 - QRS energy width was among the top contributors in every HUCA ↔ Melo setting, for both classes. It was higher in HUCA, which pushes HUCA logits up and Melo logits down (for example Mortara → HUCA: +1.65 for negatives and +1.72 for positives).
-- ST level in V2 (J\_elev\_V2, ST80\_V2) was the other main contributor into HUCA (+0.56 to +2.51 for negatives).
+- ST level in V2 (J\_elev\_V2, ST80\_V2) was the other main contributor for negatives in Claris → HUCA (+0.56) and Mortara → HUCA (+2.51). In Claris + Mortara → HUCA it contributed only +0.28, and QRS energy width dominated.
 
 The 23 HUCA negatives with a Brugada-type baseline pattern did not cause the shift. Removing them changed the logit shift of the negatives by at most 0.11 logit units (2–3% of the shift for CNN-V1V3, 5–14% for CBM-sd15).
 
@@ -630,7 +634,7 @@ The errors had opposite signs in the two directions:
 | **Held-out mean** |  | **0.701** | **0.762** | **0.799** | **0.820** |
 | **Held-out worst** |  | **0.548** | **0.701** | **0.772** | **0.802** |
 
-**Low prevalence.** The held-out gain persisted when target batches were resampled to screening-like prevalence. CATT reached 0.794, 0.802 and 0.803 at 5%, 10% and 20% prevalence, against 0.70 for SRC and 0.82–0.84 for the oracle.
+**Low prevalence.** The held-out gain persisted when target batches were resampled to screening-like prevalence. CATT reached 0.794, 0.802 and 0.803 at 5%, 10% and 20% prevalence (10 resampled batches per setting; 0.790 at 5% over the 200 batches of Section 3.7), against 0.70 for SRC and 0.82–0.84 for the oracle.
 
 On the held-out settings, CATT improved over SRC in 3–4 of 7 settings and worsened none by more than 0.01. The Wilcoxon signed-rank test reached p = 0.031 at 10% and 20% prevalence. At 5% and natural prevalence the p-values were 0.16 and 0.22, because only three or four settings had a threshold that needed repair; the remaining near-zero differences carry little signal. We therefore emphasize the size and consistency of the effect in the broken settings, not the p-value.
 
@@ -845,7 +849,7 @@ The concept decomposition of Section 3.4 instead points to ST-segment level in V
 | Mortara → HUCA | 0.908 | 0.842 | 0.32 | 0.17 | 0.791 (0.784) |
 | Claris + Mortara → HUCA | 0.930 | 0.886 | 0.49 | 0.25 | 0.797 (0.789) |
 
-**Table 15.** Sensitivity to the HUCA median-beat construction (natural prevalence, three validation seeds).
+**Table 15.** Sensitivity to the HUCA median-beat construction (natural prevalence, three validation seeds). —, not computed: the 9-lead CNN was not retrained in the original-beat run.
 
 | Metric (7 settings involving HUCA) | Original HUCA beats | Device-style HUCA beats |
 | --- | --- | --- |

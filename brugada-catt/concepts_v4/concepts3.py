@@ -25,7 +25,7 @@
                 (biên độ / QRSpp) × (thời gian / 100 ms) → bất biến thang; góc rộng ~ dạng vòm
      r_prime  = softmax(x − nền) trên 60 ms cuối QRS / QRSpp
      tri_w    = độ rộng (ms) của phức bộ r'–ST tại độ cao tương đối h·đỉnh  (h học được)
-     T        = trung bình (x − nền) ở [J+140, J+280] ms / QRSpp
+     T        = trung bình (x − nền) ở [Jl+120, Jl+240] ms / QRSpp
    Toàn cục: QRS_w = độ rộng (ms) của năng lượng QRS chuẩn hóa trên ngưỡng 0.3
    (v3: điểm J và QRS_w chỉ tính từ năng lượng của V1–V3, không dùng chuyển đạo chi và V4–V6)
 3. Đầu phân loại tuyến tính trên khái niệm đã chuẩn hóa → hệ số đọc được như y văn lâm sàng.

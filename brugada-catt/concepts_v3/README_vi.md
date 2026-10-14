@@ -115,3 +115,9 @@ python compare_v3.py <harmonized> <concepts_v2> .
 python analyze_v3.py . <harmonized>
 ```
 Thư mục `concepts_v3` cần nằm cạnh thư mục `concepts_v2`, vì `cbm_lib.py` nạp `concepts2.py` từ đó.
+
+**Bổ sung:** `stress_ada.py` nhận thêm tham số thứ ba `v3` để chạy stress test với lớp khái niệm chính của bài báo
+(năng lượng V1–V3, `concepts_v4/concepts3.py`). Kết quả gốc (`stress_summary.csv`) được tạo với lớp v2 (năng lượng 9 chuyển đạo).
+```bash
+python concepts_v3/stress_ada.py harmonized concepts_v3 v3   # -> stress_summary_v3.csv, stress_per_setting_v3.csv
+```

@@ -11,7 +11,10 @@ Thí nghiệm
   B. Cỡ lô: tỉ lệ tự nhiên, N ∈ {20, 50, 100, 200, toàn bộ}, 30 lần lặp
 Mọi mô hình được đánh giá trên CÙNG các lô rút ngẫu nhiên. Ngưỡng cố định, chọn trên validation.
 
-Chạy: python stress_ada.py <thư mục harmonized> <thư mục output>
+Chạy: python stress_ada.py <thư mục harmonized> <thư mục output> [v2|v3]
+  v2 (mặc định): lớp khái niệm v2, J và QRS_w từ năng lượng 9 chuyển đạo (kết quả gốc, stress_summary.csv)
+  v3: lớp khái niệm chính của bài báo (concepts_v4/concepts3.py, năng lượng V1–V3),
+      ghi ra stress_raw_v3.json, stress_summary_v3.csv, stress_per_setting_v3.csv
 """
 import json
 import os
@@ -21,11 +24,23 @@ import time
 import numpy as np
 from sklearn.metrics import roc_auc_score
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from cbm_lib import (DOMAINS, cbm_predict, load, pack, sign_gate, strat_val, train_cbm2,  # noqa: E402
-                     youden)
-
 HD, OUT = sys.argv[1], sys.argv[2]
+CV = sys.argv[3] if len(sys.argv) > 3 else "v2"
+HERE = os.path.dirname(os.path.abspath(__file__))
+if CV == "v2":
+    sys.path.insert(0, HERE)
+    from cbm_lib import (DOMAINS, cbm_predict, load, pack, sign_gate, strat_val, train_cbm2,  # noqa: E402
+                         youden)
+    SUFFIX = ""
+else:
+    import functools
+    sys.path.insert(0, os.path.join(HERE, "..", "concepts_v4"))
+    import cbm_lib4 as L4  # noqa: E402
+    DOMAINS, cbm_predict, load, pack, strat_val, youden = L4.DOMAINS, L4.cbm_predict, L4.load, L4.pack, L4.strat_val, L4.youden
+    sign_gate = functools.partial(L4.sign_gate, cv=CV)
+    train_cbm2 = functools.partial(L4.train_cbm2, cv=CV)
+    SUFFIX = f"_{CV}"
+
 X, Y = load(HD)
 SETTINGS = [([a], b) for a in DOMAINS for b in DOMAINS if a != b] + [([a for a in DOMAINS if a != b], b) for b in DOMAINS]
 PREVS = [0.05, 0.10, 0.20, 0.35, 0.50, 0.70]
@@ -74,12 +89,12 @@ for src, tgt in SETTINGS:
                              auroc=roc_auc_score(yb, s), sens=sens, spec=spec, bal_acc=(sens + spec) / 2))
     print(src, "->", tgt, f"{time.time() - t0:.0f}s", flush=True)
 
-json.dump(rows, open(os.path.join(OUT, "stress_raw.json"), "w"))
+json.dump(rows, open(os.path.join(OUT, f"stress_raw{SUFFIX}.json"), "w"))
 import pandas as pd  # noqa: E402
 df = pd.DataFrame(rows)
 agg = df.groupby(["kind", "value", "method"])[["auroc", "sens", "spec", "bal_acc"]].mean().round(3)
 per = df.groupby(["kind", "value", "method", "train", "test"])[["bal_acc"]].mean().round(3)
-agg.to_csv(os.path.join(OUT, "stress_summary.csv")); per.to_csv(os.path.join(OUT, "stress_per_setting.csv"))
+agg.to_csv(os.path.join(OUT, f"stress_summary{SUFFIX}.csv")); per.to_csv(os.path.join(OUT, f"stress_per_setting{SUFFIX}.csv"))
 pd.set_option("display.width", 200)
 print(agg.to_string())
 print("xong", f"{time.time() - t0:.0f}s")
