@@ -1,0 +1,585 @@
+{
+ "results": [
+  {
+   "protocol": "within",
+   "train": "huca",
+   "test": "huca",
+   "model": "ST_V2",
+   "auroc": 0.829,
+   "ci": [
+    0.768,
+    0.888
+   ],
+   "auprc": 0.67,
+   "sens": 0.712,
+   "spec": 0.77,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "within",
+   "train": "huca",
+   "test": "huca",
+   "model": "LogReg",
+   "auroc": 0.872,
+   "ci": [
+    0.816,
+    0.921
+   ],
+   "auprc": 0.722,
+   "sens": 0.74,
+   "spec": 0.837,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "within",
+   "train": "huca",
+   "test": "huca",
+   "model": "CNN",
+   "auroc": 0.929,
+   "ci": [
+    0.884,
+    0.962
+   ],
+   "auprc": 0.818,
+   "sens": 0.795,
+   "spec": 0.894,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "within",
+   "train": "claris",
+   "test": "claris",
+   "model": "ST_V2",
+   "auroc": 0.79,
+   "ci": [
+    0.763,
+    0.816
+   ],
+   "auprc": 0.808,
+   "sens": 0.636,
+   "spec": 0.771,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "within",
+   "train": "claris",
+   "test": "claris",
+   "model": "LogReg",
+   "auroc": 0.872,
+   "ci": [
+    0.851,
+    0.891
+   ],
+   "auprc": 0.89,
+   "sens": 0.752,
+   "spec": 0.797,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "within",
+   "train": "claris",
+   "test": "claris",
+   "model": "CNN",
+   "auroc": 0.893,
+   "ci": [
+    0.874,
+    0.911
+   ],
+   "auprc": 0.905,
+   "sens": 0.827,
+   "spec": 0.808,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "within",
+   "train": "mortara",
+   "test": "mortara",
+   "model": "ST_V2",
+   "auroc": 0.805,
+   "ci": [
+    0.756,
+    0.852
+   ],
+   "auprc": 0.75,
+   "sens": 0.701,
+   "spec": 0.76,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "within",
+   "train": "mortara",
+   "test": "mortara",
+   "model": "LogReg",
+   "auroc": 0.825,
+   "ci": [
+    0.78,
+    0.866
+   ],
+   "auprc": 0.723,
+   "sens": 0.766,
+   "spec": 0.721,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "within",
+   "train": "mortara",
+   "test": "mortara",
+   "model": "CNN",
+   "auroc": 0.81,
+   "ci": [
+    0.763,
+    0.856
+   ],
+   "auprc": 0.72,
+   "sens": 0.745,
+   "spec": 0.755,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "cross",
+   "train": "huca",
+   "test": "claris",
+   "model": "ST_V2",
+   "auroc": 0.79,
+   "ci": [
+    0.763,
+    0.816
+   ],
+   "auprc": 0.808,
+   "sens": 0.587,
+   "spec": 0.88,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "cross",
+   "train": "huca",
+   "test": "claris",
+   "model": "LogReg",
+   "auroc": 0.692,
+   "ci": [
+    0.661,
+    0.719
+   ],
+   "auprc": 0.722,
+   "sens": 0.735,
+   "spec": 0.525,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "cross",
+   "train": "huca",
+   "test": "claris",
+   "model": "CNN",
+   "auroc": 0.751,
+   "ci": [
+    0.721,
+    0.778
+   ],
+   "auprc": 0.765,
+   "sens": 0.272,
+   "spec": 0.957,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "cross",
+   "train": "huca",
+   "test": "mortara",
+   "model": "ST_V2",
+   "auroc": 0.805,
+   "ci": [
+    0.756,
+    0.852
+   ],
+   "auprc": 0.75,
+   "sens": 0.489,
+   "spec": 0.914,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "cross",
+   "train": "huca",
+   "test": "mortara",
+   "model": "LogReg",
+   "auroc": 0.71,
+   "ci": [
+    0.654,
+    0.765
+   ],
+   "auprc": 0.657,
+   "sens": 0.555,
+   "spec": 0.794,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "cross",
+   "train": "huca",
+   "test": "mortara",
+   "model": "CNN",
+   "auroc": 0.785,
+   "ci": [
+    0.737,
+    0.831
+   ],
+   "auprc": 0.724,
+   "sens": 0.336,
+   "spec": 0.961,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "cross",
+   "train": "claris",
+   "test": "huca",
+   "model": "ST_V2",
+   "auroc": 0.829,
+   "ci": [
+    0.768,
+    0.888
+   ],
+   "auprc": 0.67,
+   "sens": 0.712,
+   "spec": 0.788,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "cross",
+   "train": "claris",
+   "test": "huca",
+   "model": "LogReg",
+   "auroc": 0.87,
+   "ci": [
+    0.818,
+    0.917
+   ],
+   "auprc": 0.724,
+   "sens": 0.945,
+   "spec": 0.413,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "cross",
+   "train": "claris",
+   "test": "huca",
+   "model": "CNN",
+   "auroc": 0.842,
+   "ci": [
+    0.787,
+    0.893
+   ],
+   "auprc": 0.671,
+   "sens": 0.986,
+   "spec": 0.219,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "cross",
+   "train": "claris",
+   "test": "mortara",
+   "model": "ST_V2",
+   "auroc": 0.805,
+   "ci": [
+    0.756,
+    0.852
+   ],
+   "auprc": 0.75,
+   "sens": 0.547,
+   "spec": 0.884,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "cross",
+   "train": "claris",
+   "test": "mortara",
+   "model": "LogReg",
+   "auroc": 0.798,
+   "ci": [
+    0.746,
+    0.847
+   ],
+   "auprc": 0.767,
+   "sens": 0.504,
+   "spec": 0.936,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "cross",
+   "train": "claris",
+   "test": "mortara",
+   "model": "CNN",
+   "auroc": 0.838,
+   "ci": [
+    0.792,
+    0.88
+   ],
+   "auprc": 0.792,
+   "sens": 0.657,
+   "spec": 0.897,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "cross",
+   "train": "mortara",
+   "test": "huca",
+   "model": "ST_V2",
+   "auroc": 0.829,
+   "ci": [
+    0.768,
+    0.888
+   ],
+   "auprc": 0.67,
+   "sens": 0.808,
+   "spec": 0.664,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "cross",
+   "train": "mortara",
+   "test": "huca",
+   "model": "LogReg",
+   "auroc": 0.805,
+   "ci": [
+    0.737,
+    0.868
+   ],
+   "auprc": 0.649,
+   "sens": 0.89,
+   "spec": 0.406,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "cross",
+   "train": "mortara",
+   "test": "huca",
+   "model": "CNN",
+   "auroc": 0.884,
+   "ci": [
+    0.84,
+    0.927
+   ],
+   "auprc": 0.756,
+   "sens": 1.0,
+   "spec": 0.152,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "cross",
+   "train": "mortara",
+   "test": "claris",
+   "model": "ST_V2",
+   "auroc": 0.79,
+   "ci": [
+    0.763,
+    0.816
+   ],
+   "auprc": 0.808,
+   "sens": 0.69,
+   "spec": 0.78,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "cross",
+   "train": "mortara",
+   "test": "claris",
+   "model": "LogReg",
+   "auroc": 0.789,
+   "ci": [
+    0.762,
+    0.814
+   ],
+   "auprc": 0.817,
+   "sens": 0.669,
+   "spec": 0.824,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "cross",
+   "train": "mortara",
+   "test": "claris",
+   "model": "CNN",
+   "auroc": 0.733,
+   "ci": [
+    0.704,
+    0.761
+   ],
+   "auprc": 0.744,
+   "sens": 0.777,
+   "spec": 0.552,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "lodo",
+   "train": "claris+mortara",
+   "test": "huca",
+   "model": "ST_V2",
+   "auroc": 0.829,
+   "ci": [
+    0.768,
+    0.888
+   ],
+   "auprc": 0.67,
+   "sens": 0.781,
+   "spec": 0.731,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "lodo",
+   "train": "claris+mortara",
+   "test": "huca",
+   "model": "LogReg",
+   "auroc": 0.872,
+   "ci": [
+    0.817,
+    0.921
+   ],
+   "auprc": 0.739,
+   "sens": 0.932,
+   "spec": 0.382,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "lodo",
+   "train": "claris+mortara",
+   "test": "huca",
+   "model": "CNN",
+   "auroc": 0.845,
+   "ci": [
+    0.791,
+    0.892
+   ],
+   "auprc": 0.669,
+   "sens": 1.0,
+   "spec": 0.166,
+   "n": 356,
+   "n_pos": 73
+  },
+  {
+   "protocol": "lodo",
+   "train": "huca+mortara",
+   "test": "claris",
+   "model": "ST_V2",
+   "auroc": 0.79,
+   "ci": [
+    0.763,
+    0.816
+   ],
+   "auprc": 0.808,
+   "sens": 0.69,
+   "spec": 0.778,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "lodo",
+   "train": "huca+mortara",
+   "test": "claris",
+   "model": "LogReg",
+   "auroc": 0.797,
+   "ci": [
+    0.773,
+    0.821
+   ],
+   "auprc": 0.83,
+   "sens": 0.805,
+   "spec": 0.584,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "lodo",
+   "train": "huca+mortara",
+   "test": "claris",
+   "model": "CNN",
+   "auroc": 0.738,
+   "ci": [
+    0.71,
+    0.765
+   ],
+   "auprc": 0.764,
+   "sens": 0.732,
+   "spec": 0.593,
+   "n": 1154,
+   "n_pos": 596
+  },
+  {
+   "protocol": "lodo",
+   "train": "huca+claris",
+   "test": "mortara",
+   "model": "ST_V2",
+   "auroc": 0.805,
+   "ci": [
+    0.756,
+    0.852
+   ],
+   "auprc": 0.75,
+   "sens": 0.526,
+   "spec": 0.888,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "lodo",
+   "train": "huca+claris",
+   "test": "mortara",
+   "model": "LogReg",
+   "auroc": 0.808,
+   "ci": [
+    0.762,
+    0.854
+   ],
+   "auprc": 0.751,
+   "sens": 0.438,
+   "spec": 0.927,
+   "n": 370,
+   "n_pos": 137
+  },
+  {
+   "protocol": "lodo",
+   "train": "huca+claris",
+   "test": "mortara",
+   "model": "CNN",
+   "auroc": 0.862,
+   "ci": [
+    0.819,
+    0.901
+   ],
+   "auprc": 0.804,
+   "sens": 0.394,
+   "spec": 0.966,
+   "n": 370,
+   "n_pos": 137
+  }
+ ],
+ "domain_classifier": {
+  "acc_3class": 0.955,
+  "auc_huca_vs_melo": 0.998,
+  "auc_claris_vs_mortara": 0.98
+ }
+}

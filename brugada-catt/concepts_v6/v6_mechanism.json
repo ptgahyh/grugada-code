@@ -1,0 +1,31 @@
+{
+ "spearman_gap_vs_cond_rho": [
+  0.333,
+  0.0076314487416397556
+ ],
+ "spearman_gap_vs_one_minus": [
+  -0.622,
+  5.3682128472754835e-08
+ ],
+ "spearman_gap_vs_labeler_auroc": [
+  0.455,
+  0.0001790390041190051
+ ],
+ "n_points": 63,
+ "spearman_cond_rho_vs_one_minus": -0.018,
+ "linreg_theory": {
+  "std_coef": {
+   "cond_rho": 0.0255,
+   "one_minus": -0.0462
+  },
+  "r2": 0.815
+ },
+ "linreg_plus_auroc": {
+  "std_coef": {
+   "cond_rho": 0.0121,
+   "one_minus": -0.0487,
+   "auroc": 0.022
+  },
+  "r2": 0.898
+ }
+}

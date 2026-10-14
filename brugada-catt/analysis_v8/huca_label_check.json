@@ -1,0 +1,188 @@
+{
+ "all_363": {
+  "brugada": {
+   "0": 287,
+   "1": 69,
+   "2": 7
+  },
+  "basal_x_brugada": {
+   "0": {
+    "0": 264,
+    "1": 23
+   },
+   "1": {
+    "0": 50,
+    "1": 19
+   },
+   "2": {
+    "0": 3,
+    "1": 4
+   }
+  },
+  "sd_x_brugada": {
+   "0": {
+    "0": 281,
+    "1": 65,
+    "2": 6
+   },
+   "1": {
+    "0": 6,
+    "1": 4,
+    "2": 1
+   }
+  }
+ },
+ "removed_records": [
+  {
+   "patient_id": 267630,
+   "basal_pattern": 0,
+   "sudden_death": 0,
+   "brugada": 1
+  },
+  {
+   "patient_id": 844915,
+   "basal_pattern": 0,
+   "sudden_death": 0,
+   "brugada": 0
+  },
+  {
+   "patient_id": 903802,
+   "basal_pattern": 0,
+   "sudden_death": 0,
+   "brugada": 0
+  },
+  {
+   "patient_id": 1220716,
+   "basal_pattern": 1,
+   "sudden_death": 0,
+   "brugada": 1
+  },
+  {
+   "patient_id": 1230482,
+   "basal_pattern": 1,
+   "sudden_death": 0,
+   "brugada": 1
+  },
+  {
+   "patient_id": 1307673,
+   "basal_pattern": 0,
+   "sudden_death": 0,
+   "brugada": 0
+  },
+  {
+   "patient_id": 1366050,
+   "basal_pattern": 0,
+   "sudden_death": 0,
+   "brugada": 0
+  }
+ ],
+ "n_files_available": 356,
+ "rr_cv_gt_0.15_available": 11,
+ "rr_cv_gt_0.15_in356": 11,
+ "hr_median_bpm": 69.33333333333333,
+ "mean_sep_brugada": 0.13764409147172108,
+ "mean_sep_basal": 0.0959886467698968,
+ "top_concepts": [
+  {
+   "concept": "J_elev_V1",
+   "auc_brugada": 0.766,
+   "auc_basal": 0.707,
+   "auc_brugada_without_basal": 0.751
+  },
+  {
+   "concept": "slope_V1",
+   "auc_brugada": 0.272,
+   "auc_basal": 0.295,
+   "auc_brugada_without_basal": 0.272
+  },
+  {
+   "concept": "Corrado_V1",
+   "auc_brugada": 0.702,
+   "auc_basal": 0.686,
+   "auc_brugada_without_basal": 0.7
+  },
+  {
+   "concept": "T_V2",
+   "auc_brugada": 0.241,
+   "auc_basal": 0.332,
+   "auc_brugada_without_basal": 0.24
+  },
+  {
+   "concept": "r_prime_V1",
+   "auc_brugada": 0.729,
+   "auc_basal": 0.666,
+   "auc_brugada_without_basal": 0.726
+  },
+  {
+   "concept": "beta_rel_V1",
+   "auc_brugada": 0.388,
+   "auc_basal": 0.371,
+   "auc_brugada_without_basal": 0.403
+  }
+ ],
+ "sd_J_elev_V1": {
+  "p_crude": 0.44612741470336914,
+  "stratified": {
+   "brugada": {
+    "n_sd": 5,
+    "p": 0.7586988210678101
+   },
+   "non_brugada": {
+    "n_sd": 6,
+    "p": 0.8038754463195801
+   }
+  }
+ },
+ "sd_J_elev_V2": {
+  "p_crude": 0.39137697219848633,
+  "stratified": {
+   "brugada": {
+    "n_sd": 5,
+    "p": 0.3996052145957947
+   },
+   "non_brugada": {
+    "n_sd": 6,
+    "p": 0.4944276809692383
+   }
+  }
+ },
+ "sd_ST80_V2": {
+  "p_crude": 0.4182247221469879,
+  "stratified": {
+   "brugada": {
+    "n_sd": 5,
+    "p": 0.11025041341781616
+   },
+   "non_brugada": {
+    "n_sd": 6,
+    "p": 0.7102728486061096
+   }
+  }
+ },
+ "sd_QRS_w": {
+  "p_crude": 0.4659101068973541,
+  "stratified": {
+   "brugada": {
+    "n_sd": 5,
+    "p": 0.4496527314186096
+   },
+   "non_brugada": {
+    "n_sd": 6,
+    "p": 0.48816588521003723
+   }
+  }
+ },
+ "sd_rate_brugada_vs_not": {
+  "table": [
+   [
+    277,
+    6
+   ],
+   [
+    68,
+    5
+   ]
+  ],
+  "fisher_p": 0.052613602955881175
+ }
+}

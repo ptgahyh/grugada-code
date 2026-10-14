@@ -1,0 +1,75 @@
+{
+ "claris+mortara->huca": {
+  "dropped": [
+   "ST80_V2",
+   "ST80_V3"
+  ],
+  "negative": [
+   "ST80_V1",
+   "slope_V1",
+   "beta_rel_V1",
+   "tri_w_V1",
+   "T_V1",
+   "slope_V2",
+   "beta_rel_V2",
+   "tri_w_V2",
+   "T_V2",
+   "slope_V3",
+   "beta_rel_V3",
+   "tri_w_V3",
+   "T_V3"
+  ]
+ },
+ "huca+mortara->claris": {
+  "dropped": [
+   "ST80_V1",
+   "curv60_V1",
+   "ST80_V2",
+   "curv60_V2",
+   "tri_w_V2",
+   "J_elev_V3",
+   "ST80_V3",
+   "curv60_V3",
+   "r_prime_V3",
+   "tri_w_V3"
+  ],
+  "negative": [
+   "slope_V1",
+   "beta_rel_V1",
+   "tri_w_V1",
+   "T_V1",
+   "slope_V2",
+   "beta_rel_V2",
+   "T_V2",
+   "slope_V3",
+   "beta_rel_V3",
+   "T_V3"
+  ]
+ },
+ "huca+claris->mortara": {
+  "dropped": [
+   "ST80_V1",
+   "curv60_V1",
+   "tri_w_V1",
+   "ST80_V2",
+   "curv60_V2",
+   "tri_w_V2",
+   "J_elev_V3",
+   "ST80_V3",
+   "curv60_V3",
+   "r_prime_V3",
+   "tri_w_V3"
+  ],
+  "negative": [
+   "slope_V1",
+   "beta_rel_V1",
+   "T_V1",
+   "slope_V2",
+   "beta_rel_V2",
+   "T_V2",
+   "slope_V3",
+   "beta_rel_V3",
+   "T_V3"
+  ]
+ }
+}

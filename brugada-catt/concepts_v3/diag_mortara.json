@@ -1,0 +1,336 @@
+{
+ "concept_shift_claris_to_mortara": [
+  {
+   "concept": "QRS_w",
+   "smd_neg": -0.984,
+   "smd_pos": -0.83,
+   "auc_claris": 0.636,
+   "auc_mortara": 0.693
+  },
+  {
+   "concept": "ST80_V3",
+   "smd_neg": -0.294,
+   "smd_pos": -0.182,
+   "auc_claris": 0.507,
+   "auc_mortara": 0.524
+  },
+  {
+   "concept": "J_elev_V1",
+   "smd_neg": -0.281,
+   "smd_pos": -0.181,
+   "auc_claris": 0.719,
+   "auc_mortara": 0.77
+  },
+  {
+   "concept": "T_V1",
+   "smd_neg": -0.278,
+   "smd_pos": -0.325,
+   "auc_claris": 0.351,
+   "auc_mortara": 0.36
+  },
+  {
+   "concept": "tri_w_V2",
+   "smd_neg": -0.274,
+   "smd_pos": -0.233,
+   "auc_claris": 0.447,
+   "auc_mortara": 0.457
+  },
+  {
+   "concept": "ST80_V2",
+   "smd_neg": -0.264,
+   "smd_pos": -0.059,
+   "auc_claris": 0.453,
+   "auc_mortara": 0.54
+  },
+  {
+   "concept": "J_elev_V3",
+   "smd_neg": -0.263,
+   "smd_pos": -0.056,
+   "auc_claris": 0.739,
+   "auc_mortara": 0.773
+  },
+  {
+   "concept": "curv60_V1",
+   "smd_neg": -0.255,
+   "smd_pos": 0.014,
+   "auc_claris": 0.582,
+   "auc_mortara": 0.635
+  },
+  {
+   "concept": "ST80_V1",
+   "smd_neg": -0.237,
+   "smd_pos": -0.25,
+   "auc_claris": 0.475,
+   "auc_mortara": 0.458
+  },
+  {
+   "concept": "r_prime_V1",
+   "smd_neg": -0.235,
+   "smd_pos": -0.049,
+   "auc_claris": 0.664,
+   "auc_mortara": 0.718
+  },
+  {
+   "concept": "T_V3",
+   "smd_neg": -0.224,
+   "smd_pos": -0.207,
+   "auc_claris": 0.423,
+   "auc_mortara": 0.436
+  },
+  {
+   "concept": "tri_w_V3",
+   "smd_neg": -0.204,
+   "smd_pos": -0.14,
+   "auc_claris": 0.401,
+   "auc_mortara": 0.412
+  },
+  {
+   "concept": "slope_V1",
+   "smd_neg": 0.198,
+   "smd_pos": 0.097,
+   "auc_claris": 0.273,
+   "auc_mortara": 0.226
+  },
+  {
+   "concept": "J_elev_V2",
+   "smd_neg": -0.168,
+   "smd_pos": 0.104,
+   "auc_claris": 0.768,
+   "auc_mortara": 0.817
+  },
+  {
+   "concept": "r_prime_V3",
+   "smd_neg": -0.16,
+   "smd_pos": -0.083,
+   "auc_claris": 0.677,
+   "auc_mortara": 0.689
+  },
+  {
+   "concept": "curv60_V3",
+   "smd_neg": -0.152,
+   "smd_pos": 0.093,
+   "auc_claris": 0.638,
+   "auc_mortara": 0.661
+  },
+  {
+   "concept": "beta_rel_V1",
+   "smd_neg": 0.125,
+   "smd_pos": 0.143,
+   "auc_claris": 0.371,
+   "auc_mortara": 0.346
+  },
+  {
+   "concept": "beta_rel_V2",
+   "smd_neg": -0.123,
+   "smd_pos": -0.227,
+   "auc_claris": 0.332,
+   "auc_mortara": 0.299
+  },
+  {
+   "concept": "curv60_V2",
+   "smd_neg": -0.105,
+   "smd_pos": 0.128,
+   "auc_claris": 0.599,
+   "auc_mortara": 0.656
+  },
+  {
+   "concept": "tri_w_V1",
+   "smd_neg": -0.1,
+   "smd_pos": -0.119,
+   "auc_claris": 0.468,
+   "auc_mortara": 0.448
+  },
+  {
+   "concept": "r_prime_V2",
+   "smd_neg": -0.098,
+   "smd_pos": 0.162,
+   "auc_claris": 0.684,
+   "auc_mortara": 0.724
+  },
+  {
+   "concept": "Corrado_V2",
+   "smd_neg": 0.08,
+   "smd_pos": 0.096,
+   "auc_claris": 0.724,
+   "auc_mortara": 0.738
+  },
+  {
+   "concept": "T_V2",
+   "smd_neg": -0.066,
+   "smd_pos": 0.108,
+   "auc_claris": 0.371,
+   "auc_mortara": 0.43
+  },
+  {
+   "concept": "slope_V3",
+   "smd_neg": 0.06,
+   "smd_pos": -0.031,
+   "auc_claris": 0.277,
+   "auc_mortara": 0.238
+  },
+  {
+   "concept": "Corrado_V3",
+   "smd_neg": 0.047,
+   "smd_pos": 0.099,
+   "auc_claris": 0.676,
+   "auc_mortara": 0.692
+  },
+  {
+   "concept": "beta_rel_V3",
+   "smd_neg": 0.021,
+   "smd_pos": -0.018,
+   "auc_claris": 0.321,
+   "auc_mortara": 0.303
+  },
+  {
+   "concept": "slope_V2",
+   "smd_neg": -0.013,
+   "smd_pos": -0.137,
+   "auc_claris": 0.251,
+   "auc_mortara": 0.202
+  },
+  {
+   "concept": "Corrado_V1",
+   "smd_neg": -0.011,
+   "smd_pos": 0.12,
+   "auc_claris": 0.697,
+   "auc_mortara": 0.742
+  }
+ ],
+ "cnn_restriction": [
+  {
+   "train": "huca",
+   "test": "claris",
+   "CNN": 0.751,
+   "CNN-V1V3": 0.829,
+   "CNN-noST": 0.677,
+   "CNN-QRS": 0.689
+  },
+  {
+   "train": "huca",
+   "test": "mortara",
+   "CNN": 0.785,
+   "CNN-V1V3": 0.814,
+   "CNN-noST": 0.821,
+   "CNN-QRS": 0.826
+  },
+  {
+   "train": "claris",
+   "test": "huca",
+   "CNN": 0.842,
+   "CNN-V1V3": 0.876,
+   "CNN-noST": 0.846,
+   "CNN-QRS": 0.841
+  },
+  {
+   "train": "claris",
+   "test": "mortara",
+   "CNN": 0.838,
+   "CNN-V1V3": 0.89,
+   "CNN-noST": 0.863,
+   "CNN-QRS": 0.861
+  },
+  {
+   "train": "mortara",
+   "test": "huca",
+   "CNN": 0.884,
+   "CNN-V1V3": 0.865,
+   "CNN-noST": 0.821,
+   "CNN-QRS": 0.851
+  },
+  {
+   "train": "mortara",
+   "test": "claris",
+   "CNN": 0.733,
+   "CNN-V1V3": 0.865,
+   "CNN-noST": 0.713,
+   "CNN-QRS": 0.721
+  },
+  {
+   "train": "claris+mortara",
+   "test": "huca",
+   "CNN": 0.814,
+   "CNN-V1V3": 0.909,
+   "CNN-noST": 0.839,
+   "CNN-QRS": 0.857
+  },
+  {
+   "train": "huca+mortara",
+   "test": "claris",
+   "CNN": 0.737,
+   "CNN-V1V3": 0.868,
+   "CNN-noST": 0.733,
+   "CNN-QRS": 0.732
+  },
+  {
+   "train": "huca+claris",
+   "test": "mortara",
+   "CNN": 0.86,
+   "CNN-V1V3": 0.879,
+   "CNN-noST": 0.832,
+   "CNN-QRS": 0.839
+  }
+ ],
+ "mortara_error_groups": {
+  "ca_dương_cả_hai_bắt": {
+   "n": 91,
+   "J_elev_V1": 0.215,
+   "J_elev_V2": 0.296,
+   "Corrado_V1": 0.714,
+   "Corrado_V2": 0.615,
+   "slope_V2": -0.555,
+   "T_V1": -0.15,
+   "T_V2": -0.028,
+   "r_prime_V2": 0.346,
+   "QRS_w": 0.647
+  },
+  "chỉ_CNN_bắt": {
+   "n": 17,
+   "J_elev_V1": 0.085,
+   "J_elev_V2": 0.11,
+   "Corrado_V1": 0.359,
+   "Corrado_V2": 0.28,
+   "slope_V2": -0.166,
+   "T_V1": -0.05,
+   "T_V2": 0.07,
+   "r_prime_V2": 0.158,
+   "QRS_w": 0.573
+  },
+  "chỉ_CBM_bắt": {
+   "n": 5,
+   "J_elev_V1": 0.23,
+   "J_elev_V2": 0.134,
+   "Corrado_V1": 0.688,
+   "Corrado_V2": 0.313,
+   "slope_V2": -0.23,
+   "T_V1": -0.125,
+   "T_V2": 0.088,
+   "r_prime_V2": 0.136,
+   "QRS_w": 0.635
+  },
+  "cả_hai_bỏ_sót": {
+   "n": 24,
+   "J_elev_V1": 0.134,
+   "J_elev_V2": 0.073,
+   "Corrado_V1": 0.442,
+   "Corrado_V2": 0.198,
+   "slope_V2": -0.114,
+   "T_V1": -0.036,
+   "T_V2": 0.082,
+   "r_prime_V2": 0.078,
+   "QRS_w": 0.584
+  },
+  "âm_tính": {
+   "n": 233,
+   "J_elev_V1": 0.067,
+   "J_elev_V2": 0.066,
+   "Corrado_V1": 0.356,
+   "Corrado_V2": 0.15,
+   "slope_V2": -0.043,
+   "T_V1": -0.065,
+   "T_V2": 0.041,
+   "r_prime_V2": 0.129,
+   "QRS_w": 0.552
+  }
+ }
+}

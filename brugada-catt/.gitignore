@@ -1,0 +1,9 @@
+*.npz
+*.npy
+*.jsonl
+*.zip
+__pycache__/
+*.pyc
+scores/
+log*.txt
+labels_*.csv

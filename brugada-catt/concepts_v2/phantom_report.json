@@ -1,0 +1,72 @@
+{
+ "T1_max_abs_diff_ratio_concepts": 1.8458813858535095e-05,
+ "T1_QRS_w_max_diff_ms": 7.235662301541268e-05,
+ "T2_grads_finite": true,
+ "T2_fd_vs_autograd_theta": [
+  3.4655,
+  3.4684
+ ],
+ "T3-5_sach": {
+  "J_elev_V1_spearman": 0.998,
+  "J_elev_V2_spearman": 0.998,
+  "ST80_V1_spearman": 0.99,
+  "ST80_V2_spearman": 0.99,
+  "Corrado_V1_AUC_coved_vs_saddle": 0.956,
+  "Corrado_V2_AUC_coved_vs_saddle": 0.957,
+  "curv60_V1_AUC_coved_vs_saddle": 0.854,
+  "curv60_V2_AUC_coved_vs_saddle": 0.854,
+  "beta_rel_V1_AUC_coved_vs_saddle": 0.614,
+  "beta_rel_V2_AUC_coved_vs_saddle": 0.622,
+  "T_V2_AUC_coved_vs_saddle": 1.0,
+  "J_elev_V2_AUC_abnormal_vs_normal": 0.999,
+  "J_pos_ms_after_anchor_median": 50.7,
+  "J_pos_ms_IQR": [
+   50.5,
+   51.6
+  ]
+ },
+ "T3-5_nhieu": {
+  "J_elev_V1_spearman": 0.947,
+  "J_elev_V2_spearman": 0.958,
+  "ST80_V1_spearman": 0.843,
+  "ST80_V2_spearman": 0.869,
+  "Corrado_V1_AUC_coved_vs_saddle": 0.926,
+  "Corrado_V2_AUC_coved_vs_saddle": 0.942,
+  "curv60_V1_AUC_coved_vs_saddle": 0.891,
+  "curv60_V2_AUC_coved_vs_saddle": 0.91,
+  "beta_rel_V1_AUC_coved_vs_saddle": 0.636,
+  "beta_rel_V2_AUC_coved_vs_saddle": 0.619,
+  "T_V2_AUC_coved_vs_saddle": 1.0,
+  "J_elev_V2_AUC_abnormal_vs_normal": 0.987,
+  "J_pos_ms_after_anchor_median": 51.5,
+  "J_pos_ms_IQR": [
+   50.8,
+   52.9
+  ]
+ },
+ "T3-5_nhieu+lech": {
+  "J_elev_V1_spearman": 0.949,
+  "J_elev_V2_spearman": 0.955,
+  "ST80_V1_spearman": 0.848,
+  "ST80_V2_spearman": 0.87,
+  "Corrado_V1_AUC_coved_vs_saddle": 0.943,
+  "Corrado_V2_AUC_coved_vs_saddle": 0.936,
+  "curv60_V1_AUC_coved_vs_saddle": 0.895,
+  "curv60_V2_AUC_coved_vs_saddle": 0.876,
+  "beta_rel_V1_AUC_coved_vs_saddle": 0.651,
+  "beta_rel_V2_AUC_coved_vs_saddle": 0.624,
+  "T_V2_AUC_coved_vs_saddle": 1.0,
+  "J_elev_V2_AUC_abnormal_vs_normal": 0.988,
+  "J_pos_ms_after_anchor_median": 46.7,
+  "J_pos_ms_IQR": [
+   42.3,
+   50.4
+  ]
+ },
+ "T6_subsample_vs_hard": {
+  "J_elev_V1_spearman_soft": 0.942,
+  "J_elev_V1_spearman_hard": 0.942,
+  "J_elev_V2_spearman_soft": 0.947,
+  "J_elev_V2_spearman_hard": 0.944
+ }
+}

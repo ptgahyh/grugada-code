@@ -1,0 +1,107 @@
+{
+ "I1": {
+  "huca": {
+   "abs": {
+    "auroc_alone": 0.705,
+    "auroc_residual": 0.596,
+    "max_rho_other": 0.26,
+    "most_similar": "ST80_V2"
+   },
+   "sd15": {
+    "auroc_alone": 0.736,
+    "auroc_residual": 0.487,
+    "max_rho_other": 0.59,
+    "most_similar": "r_prime_V1"
+   }
+  },
+  "claris": {
+   "abs": {
+    "auroc_alone": 0.655,
+    "auroc_residual": 0.592,
+    "max_rho_other": 0.32,
+    "most_similar": "J_elev_V3"
+   },
+   "sd15": {
+    "auroc_alone": 0.701,
+    "auroc_residual": 0.548,
+    "max_rho_other": 0.71,
+    "most_similar": "r_prime_V1"
+   }
+  },
+  "mortara": {
+   "abs": {
+    "auroc_alone": 0.708,
+    "auroc_residual": 0.581,
+    "max_rho_other": 0.36,
+    "most_similar": "J_elev_V3"
+   },
+   "sd15": {
+    "auroc_alone": 0.766,
+    "auroc_residual": 0.521,
+    "max_rho_other": 0.71,
+    "most_similar": "r_prime_V1"
+   }
+  }
+ },
+ "I2": {
+  "huca->claris": {
+   "none": 0.785,
+   "abs": 0.81,
+   "sd15": 0.792,
+   "both": 0.807
+  },
+  "huca->mortara": {
+   "none": 0.759,
+   "abs": 0.803,
+   "sd15": 0.766,
+   "both": 0.799
+  },
+  "claris->huca": {
+   "none": 0.849,
+   "abs": 0.887,
+   "sd15": 0.87,
+   "both": 0.891
+  },
+  "claris->mortara": {
+   "none": 0.852,
+   "abs": 0.87,
+   "sd15": 0.855,
+   "both": 0.87
+  },
+  "mortara->huca": {
+   "none": 0.731,
+   "abs": 0.789,
+   "sd15": 0.744,
+   "both": 0.786
+  },
+  "mortara->claris": {
+   "none": 0.839,
+   "abs": 0.853,
+   "sd15": 0.841,
+   "both": 0.852
+  }
+ },
+ "I3": {
+  "huca": {
+   "hf_auroc": 0.214,
+   "rho_qrsw_hf": -0.5,
+   "rho_qrsw_resid_hf": -0.31,
+   "hf_mean_neg": 0.181,
+   "hf_mean_pos": 0.111
+  },
+  "claris": {
+   "hf_auroc": 0.309,
+   "rho_qrsw_hf": -0.51,
+   "rho_qrsw_resid_hf": -0.44,
+   "hf_mean_neg": 0.248,
+   "hf_mean_pos": 0.173
+  },
+  "mortara": {
+   "hf_auroc": 0.369,
+   "rho_qrsw_hf": -0.47,
+   "rho_qrsw_resid_hf": -0.37,
+   "hf_mean_neg": 0.248,
+   "hf_mean_pos": 0.203
+  }
+ }
+}

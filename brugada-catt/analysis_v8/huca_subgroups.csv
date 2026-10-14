@@ -1,0 +1,10 @@
+setting,model,auroc_all,auroc_pos_with_basal,auroc_pos_without_basal,auroc_excl_label2,fpr_neg_basal_SRC,fpr_neg_nobasal_SRC,sens_pos_basal_SRC,sens_pos_nobasal_SRC,bacc_SRC,bacc_excl_label2_SRC,fpr_neg_basal_CATT,fpr_neg_nobasal_CATT,sens_pos_basal_CATT,sens_pos_nobasal_CATT,bacc_CATT,bacc_excl_label2_CATT,fpr_neg_basal_ORACLE,fpr_neg_nobasal_ORACLE,sens_pos_basal_ORACLE,sens_pos_nobasal_ORACLE,bacc_ORACLE,bacc_excl_label2_ORACLE
+Claris+Mortara→HUCA,CBM,0.898,0.915,0.891,0.891,,,,,,,,,,,,,,,,,,
+Claris+Mortara→HUCA,CBM-sd15,0.84,0.872,0.827,0.832,,,,,,,,,,,,,,,,,,
+Claris+Mortara→HUCA,CNN-V1V3,0.898,0.93,0.886,0.892,1.0,0.89,1.0,0.994,0.548,0.548,0.493,0.25,0.937,0.833,0.797,0.789,0.348,0.141,0.905,0.801,0.837,0.83
+Claris→HUCA,CBM,0.889,0.906,0.882,0.881,,,,,,,,,,,,,,,,,,
+Claris→HUCA,CBM-sd15,0.86,0.884,0.85,0.851,,,,,,,,,,,,,,,,,,
+Claris→HUCA,CNN-V1V3,0.868,0.884,0.861,0.864,1.0,0.894,1.0,1.0,0.549,0.549,0.638,0.335,0.952,0.885,0.772,0.767,0.377,0.173,0.873,0.782,0.809,0.81
+Mortara→HUCA,CBM,0.825,0.86,0.811,0.817,,,,,,,,,,,,,,,,,,
+Mortara→HUCA,CBM-sd15,0.785,0.832,0.766,0.776,,,,,,,,,,,,,,,,,,
+Mortara→HUCA,CNN-V1V3,0.861,0.908,0.842,0.85,0.87,0.804,1.0,0.942,0.575,0.573,0.319,0.173,0.825,0.744,0.791,0.784,0.29,0.164,0.825,0.763,0.803,0.797
