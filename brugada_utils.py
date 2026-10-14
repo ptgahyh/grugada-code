@@ -27,7 +27,7 @@ LEAD_V1 = 6
 PRE_R = 0.4
 POST_R = 0.6
 
-FEATURE_COLUMNS = ['V1_J', 'V1_Slope', 'V1_T_Amp', 'V1_QRS', 'HR', 'n_beats']
+FEATURE_COLUMNS = ['V1_J', 'V1_Slope', 'V1_T_Amp', 'V1_QRS', 'HR', 'RR_CV', 'n_beats']
 
 
 def apply_standard_filter(data, fs):
@@ -82,9 +82,24 @@ def qrs_bounds(beats, r_idx, fs):
     vel = np.abs(np.diff(beats, axis=0)).sum(axis=1)
     lo = max(r_idx - int(0.12 * fs), 0)
     hi = min(r_idx + int(0.16 * fs), len(vel))
-    thr = 0.2 * vel[lo:hi].max()
-    active = np.where(vel[lo:hi] >= thr)[0] + lo
-    return int(active[0]), int(active[-1]) + 1
+    peak = lo + int(np.argmax(vel[lo:hi]))
+    thr = 0.2 * vel[peak]
+
+    # Mở rộng từ điểm biến thiên mạnh nhất ra hai phía, chỉ lấy vùng liền mạch
+    # (cho phép hụt ngưỡng 1 mẫu, vd tại đáy sóng S) để không lan sang sóng T/P.
+    def extend(i, step, limit):
+        while i + step != limit:
+            if vel[i + step] >= thr:
+                i += step
+            elif i + 2 * step != limit and vel[i + 2 * step] >= thr:
+                i += 2 * step
+            else:
+                break
+        return i
+
+    onset = extend(peak, -1, lo - 1)
+    offset = extend(peak, 1, hi)
+    return onset, offset + 1
 
 
 def extract_features(pid):
@@ -98,6 +113,7 @@ def extract_features(pid):
             print(f"⚠️ ID {pid}: không tìm được nhịp hợp lệ")
             return result
 
+        rr = np.diff(peaks)
         onset, j_idx = qrs_bounds(beats, r_idx, fs)
         st80_idx = j_idx + int(round(0.08 * fs))
         t_end = r_idx + int(0.45 * fs)
@@ -112,7 +128,9 @@ def extract_features(pid):
             'V1_T_Amp': round(np.min(v1[st80_idx:t_end]), 4),
             # 4. Độ rộng QRS (ms)
             'V1_QRS': round((j_idx - onset) * 1000 / fs),
-            'HR': round(60 * fs / np.median(np.diff(peaks)), 1) if len(peaks) > 1 else np.nan,
+            'HR': round(60 * fs / np.median(rr), 1),
+            # Độ biến thiên RR: > 0.15 gợi ý ngoại tâm thu/rung nhĩ -> nhịp trung bình kém tin cậy
+            'RR_CV': round(np.std(rr) / np.mean(rr), 3),
             'n_beats': n,
         })
     except Exception as e:
