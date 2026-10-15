@@ -555,7 +555,7 @@ The largest weights belonged to QRS energy width and J-point elevation in V2 (po
 
 In the three settings with a HUCA target, the negatives moved:
 
-<!-- Nguồn số liệu: analysis_v8/logit_shift.py (logit_shift_per_setting.csv). Chạy lại để xác nhận các khoảng dưới đây. -->
+<!-- Nguồn số liệu: analysis_v8/logit_shift.py (logit_shift_per_setting.csv); đã chạy lại 15/10/2026, khớp. -->
 
 - CNN-V1V3: 0.93–1.06 separations, i.e. almost exactly onto the source positives;
 - CBM-sd15: 0.21–0.32 separations;
@@ -574,7 +574,7 @@ The terms point to two concept families:
 - QRS energy width was among the top contributors in every HUCA ↔ Melo setting, for both classes. It was higher in HUCA, which pushes HUCA logits up and Melo logits down (for example Mortara → HUCA: +1.65 for negatives and +1.72 for positives).
 - ST level in V2 (J\_elev\_V2, ST80\_V2) was the other main contributor for negatives in Claris → HUCA (+0.56) and Mortara → HUCA (+2.51). In Claris + Mortara → HUCA it contributed only +0.28, and QRS energy width dominated.
 
-The 23 HUCA negatives with a Brugada-type baseline pattern did not cause the shift. Removing them changed the logit shift of the negatives by at most 0.11 logit units (2–3% of the shift for CNN-V1V3, 5–14% for CBM-sd15).
+The 23 HUCA negatives with a Brugada-type baseline pattern did not cause the shift. Removing them changed the logit shift of the negatives by at most 0.11 logit units (2–3% of the shift for CNN-V1V3, 4–15% for CBM-sd15).
 
 ## 3.5 The QRS width concept carries device-dependent diagnostic information
 
