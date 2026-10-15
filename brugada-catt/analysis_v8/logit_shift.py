@@ -54,10 +54,10 @@ for f in sorted(glob.glob(os.path.join(RAW, "v5_raw_*.jsonl"))):
 
 df = pd.DataFrame(rows)
 df.to_csv(os.path.join(OUT, "logit_shift_raw.csv"), index=False)
-per = df.groupby(["setting", "train", "test", "model"]).mean(numeric_only=True).drop(columns="vseed").round(3)
-per.to_csv(os.path.join(OUT, "logit_shift_per_setting.csv"))
+per = df.groupby(["setting", "train", "test", "model"]).mean(numeric_only=True).drop(columns="vseed")
+per.round(3).to_csv(os.path.join(OUT, "logit_shift_per_setting.csv"))
 pd.set_option("display.width", 200)
-print(per.to_string())
+print(per.round(3).to_string())
 
 print("\nTóm tắt (trung bình 3 seed validation, khoảng qua các thiết lập):")
 for label, mask in [("đích HUCA", per.index.get_level_values("test") == "huca"),
