@@ -99,3 +99,10 @@ python harmonize_hires.py <thư mục HUCA có metadata.csv và files/> ../harmo
 python sens_huca.py ../harmonized huca_hires.npz . 0 2  &  python sens_huca.py ../harmonized huca_hires.npz . 1 2
 python compare_sens.py . ../concepts_v5
 ```
+
+**Bổ sung (15/10/2026):** cột "HUCA gốc" của CNN 9 chuyển đạo trong Bảng 15 được tính bằng đúng `sens_huca.py`,
+thay `huca_hires.npz` bằng `harmonized/huca.npz` gốc (kết quả trong `orig_huca_run/`). CNN-V1V3 chạy lại trùng
+`v5_raw` đến 4 chữ số; AUROC CNN9 trung bình 7 thiết lập = 0.817.
+```bash
+cd sensitivity_v7 && python sens_huca.py ../harmonized ../harmonized/huca.npz orig_huca_run 0 2   # và chunk 1
+```

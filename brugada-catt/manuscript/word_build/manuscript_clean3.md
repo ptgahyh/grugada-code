@@ -517,13 +517,13 @@ The concept layer therefore does not improve discrimination over the best black 
 
 The unlearned ST\_V2 had the best worst case of all (0.702). A fixed physical measurement transports its threshold better than a learned representation, and this is the observation that motivates CATT (Section 3.6).
 
-**Domain-adaptive normalization depends on prevalence.** CBM-Ada slightly improved the mean AUROC (0.844) and the worst-case balanced accuracy (0.682). However, it normalizes concepts with statistics of the target batch, and those statistics depend on the batch's disease prevalence. In the prevalence stress test (run with the version of the concept layer that computes the J point and QRS\_w from nine-lead energy):
+**Domain-adaptive normalization depends on prevalence.** CBM-Ada slightly improved the mean AUROC (0.844) and the worst-case balanced accuracy (0.682). However, it normalizes concepts with statistics of the target batch, and those statistics depend on the batch's disease prevalence. In the prevalence stress test (target batches of 100 ECGs, 30 draws per prevalence):
 
-<!-- TODO: chạy lại với lớp V1–V3: python concepts_v3/stress_ada.py harmonized concepts_v3 v3 -> stress_summary_v3.csv, rồi cập nhật 3 gạch đầu dòng dưới đây -->
+<!-- Nguồn: concepts_v3/stress_ada.py ... v3 -> concepts_v3/run_v3/stress_summary_v3.csv (chạy 15/10/2026). Lớp 9 chuyển đạo cũ cho cùng kết luận: stress_summary.csv. -->
 
-- The balanced accuracy of the CBM stayed at about 0.72 at every prevalence.
-- The balanced accuracy of CBM-Ada rose from 0.719 at 5% prevalence to 0.740 at 35–50%.
-- Its operating point drifted with prevalence: sensitivity/specificity 0.86/0.57 at 5%, and 0.61/0.87 at 70%.
+- The balanced accuracy of the CBM stayed between 0.73 and 0.76 at every prevalence, and its sensitivity and specificity did not move (0.73–0.78 and 0.74–0.75).
+- The balanced accuracy of CBM-Ada was 0.738 at 5% prevalence, below that of the CBM (0.761), and 0.756–0.758 at 35–50%.
+- Its operating point drifted with prevalence: sensitivity/specificity 0.87/0.61 at 5%, and 0.59/0.90 at 70%.
 
 Target-batch normalization is therefore unsuitable for screening populations, where prevalence is low and unknown. The fixed-normalization CBM was used as the default.
 
@@ -849,12 +849,12 @@ The concept decomposition of Section 3.4 instead points to ST-segment level in V
 | Mortara → HUCA | 0.908 | 0.842 | 0.32 | 0.17 | 0.791 (0.784) |
 | Claris + Mortara → HUCA | 0.930 | 0.886 | 0.49 | 0.25 | 0.797 (0.789) |
 
-**Table 15.** Sensitivity to the HUCA median-beat construction (natural prevalence, three validation seeds). —, not computed: the 9-lead CNN was not retrained in the original-beat run.
+**Table 15.** Sensitivity to the HUCA median-beat construction (natural prevalence, three validation seeds).
 
 | Metric (7 settings involving HUCA) | Original HUCA beats | Device-style HUCA beats |
 | --- | --- | --- |
 | AUROC, CNN-V1V3 | 0.860 | 0.862 |
-| AUROC, CNN (9 leads) | — | 0.819 |
+| AUROC, CNN (9 leads) | 0.817 | 0.819 |
 | AUROC, CBM-sd15 | 0.804 | 0.805 |
 | Balanced accuracy, SRC | 0.633 | 0.640 |
 | Balanced accuracy, CATT | 0.783 | 0.786 |
