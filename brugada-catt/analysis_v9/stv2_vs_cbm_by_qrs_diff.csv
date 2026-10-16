@@ -1,0 +1,4 @@
+tertile,bacc_diff_mean,bacc_cbm_better,auroc_diff_mean,auroc_cbm_better
+giữa,0.011,6,-0.016,4
+hẹp,0.049,6,0.049,8
+rộng,0.023,8,0.021,6

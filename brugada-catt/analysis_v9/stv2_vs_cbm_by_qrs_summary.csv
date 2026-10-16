@@ -1,0 +1,6 @@
+,bacc,bacc,auroc,auroc
+labeller,CBM-sd15,ST_V2,CBM-sd15,ST_V2
+tertile,,,,
+giữa,0.73,0.72,0.805,0.821
+hẹp,0.741,0.693,0.841,0.792
+rộng,0.724,0.701,0.802,0.781
