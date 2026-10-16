@@ -1,0 +1,4 @@
+how,SRC_mean,MED_mean,UPA_mean,GMM-2_mean,Otsu_mean,CATT_mean,ORACLE_mean,SRC_worst,MED_worst,UPA_worst,GMM-2_worst,Otsu_worst,CATT_worst,ORACLE_worst
+"chọn A, đo B",0.702,0.773,0.786,0.784,0.784,0.794,0.805,0.548,0.716,0.762,0.735,0.735,0.771,0.78
+chọn và đo trên A,0.701,0.77,0.783,0.781,0.781,0.796,0.824,0.549,0.714,0.76,0.735,0.737,0.769,0.804
+toàn cohort (Bảng 11/12),0.701,0.773,0.786,0.785,0.783,0.799,0.82,0.548,0.713,0.762,0.751,0.742,0.772,0.802
