@@ -1,0 +1,35 @@
+{'k': 0, 'train': 'huca', 'test': 'claris', 'leads': 'V2 earlyST', 'auroc': 0.828, 'SRC': np.float64(0.768), 'CATT': np.float64(0.766), 'ORACLE': np.float64(0.772), 'labeller_bacc': np.float64(0.734)}
+{'k': 0, 'train': 'huca', 'test': 'claris', 'leads': 'V1-V3 earlyST', 'auroc': 0.812, 'SRC': np.float64(0.751), 'CATT': np.float64(0.76), 'ORACLE': np.float64(0.761), 'labeller_bacc': np.float64(0.734)}
+{'k': 0, 'train': 'huca', 'test': 'claris', 'leads': 'V1-V3 full', 'auroc': 0.829, 'SRC': np.float64(0.547), 'CATT': np.float64(0.781), 'ORACLE': np.float64(0.782), 'labeller_bacc': np.float64(0.734)}
+{'k': 1, 'train': 'huca', 'test': 'mortara', 'leads': 'V2 earlyST', 'auroc': 0.779, 'SRC': np.float64(0.679), 'CATT': np.float64(0.694), 'ORACLE': np.float64(0.728), 'labeller_bacc': np.float64(0.702)}
+{'k': 1, 'train': 'huca', 'test': 'mortara', 'leads': 'V1-V3 earlyST', 'auroc': 0.83, 'SRC': np.float64(0.698), 'CATT': np.float64(0.753), 'ORACLE': np.float64(0.776), 'labeller_bacc': np.float64(0.702)}
+{'k': 1, 'train': 'huca', 'test': 'mortara', 'leads': 'V1-V3 full', 'auroc': 0.814, 'SRC': np.float64(0.556), 'CATT': np.float64(0.745), 'ORACLE': np.float64(0.764), 'labeller_bacc': np.float64(0.702)}
+{'k': 2, 'train': 'claris', 'test': 'huca', 'leads': 'V2 earlyST', 'auroc': 0.887, 'SRC': np.float64(0.745), 'CATT': np.float64(0.803), 'ORACLE': np.float64(0.817), 'labeller_bacc': np.float64(0.75)}
+{'k': 2, 'train': 'claris', 'test': 'huca', 'leads': 'V1-V3 earlyST', 'auroc': 0.889, 'SRC': np.float64(0.756), 'CATT': np.float64(0.783), 'ORACLE': np.float64(0.826), 'labeller_bacc': np.float64(0.75)}
+{'k': 2, 'train': 'claris', 'test': 'huca', 'leads': 'V1-V3 full', 'auroc': 0.876, 'SRC': np.float64(0.539), 'CATT': np.float64(0.803), 'ORACLE': np.float64(0.818), 'labeller_bacc': np.float64(0.75)}
+{'k': 3, 'train': 'claris', 'test': 'mortara', 'leads': 'V2 earlyST', 'auroc': 0.834, 'SRC': np.float64(0.745), 'CATT': np.float64(0.749), 'ORACLE': np.float64(0.773), 'labeller_bacc': np.float64(0.716)}
+{'k': 3, 'train': 'claris', 'test': 'mortara', 'leads': 'V1-V3 earlyST', 'auroc': 0.858, 'SRC': np.float64(0.756), 'CATT': np.float64(0.745), 'ORACLE': np.float64(0.792), 'labeller_bacc': np.float64(0.716)}
+{'k': 3, 'train': 'claris', 'test': 'mortara', 'leads': 'V1-V3 full', 'auroc': 0.89, 'SRC': np.float64(0.821), 'CATT': np.float64(0.786), 'ORACLE': np.float64(0.836), 'labeller_bacc': np.float64(0.716)}
+{'k': 4, 'train': 'mortara', 'test': 'huca', 'leads': 'V2 earlyST', 'auroc': 0.853, 'SRC': np.float64(0.751), 'CATT': np.float64(0.772), 'ORACLE': np.float64(0.782), 'labeller_bacc': np.float64(0.736)}
+{'k': 4, 'train': 'mortara', 'test': 'huca', 'leads': 'V1-V3 earlyST', 'auroc': 0.909, 'SRC': np.float64(0.733), 'CATT': np.float64(0.787), 'ORACLE': np.float64(0.825), 'labeller_bacc': np.float64(0.736)}
+{'k': 4, 'train': 'mortara', 'test': 'huca', 'leads': 'V1-V3 full', 'auroc': 0.865, 'SRC': np.float64(0.606), 'CATT': np.float64(0.774), 'ORACLE': np.float64(0.812), 'labeller_bacc': np.float64(0.736)}
+{'k': 5, 'train': 'mortara', 'test': 'claris', 'leads': 'V2 earlyST', 'auroc': 0.821, 'SRC': np.float64(0.734), 'CATT': np.float64(0.765), 'ORACLE': np.float64(0.775), 'labeller_bacc': np.float64(0.735)}
+{'k': 5, 'train': 'mortara', 'test': 'claris', 'leads': 'V1-V3 earlyST', 'auroc': 0.828, 'SRC': np.float64(0.762), 'CATT': np.float64(0.761), 'ORACLE': np.float64(0.77), 'labeller_bacc': np.float64(0.735)}
+{'k': 5, 'train': 'mortara', 'test': 'claris', 'leads': 'V1-V3 full', 'auroc': 0.865, 'SRC': np.float64(0.79), 'CATT': np.float64(0.794), 'ORACLE': np.float64(0.802), 'labeller_bacc': np.float64(0.735)}
+{'k': 6, 'train': 'claris+mortara', 'test': 'huca', 'leads': 'V2 earlyST', 'auroc': 0.884, 'SRC': np.float64(0.803), 'CATT': np.float64(0.795), 'ORACLE': np.float64(0.812), 'labeller_bacc': np.float64(0.75)}
+{'k': 6, 'train': 'claris+mortara', 'test': 'huca', 'leads': 'V1-V3 earlyST', 'auroc': 0.899, 'SRC': np.float64(0.769), 'CATT': np.float64(0.819), 'ORACLE': np.float64(0.832), 'labeller_bacc': np.float64(0.75)}
+{'k': 6, 'train': 'claris+mortara', 'test': 'huca', 'leads': 'V1-V3 full', 'auroc': 0.909, 'SRC': np.float64(0.594), 'CATT': np.float64(0.817), 'ORACLE': np.float64(0.844), 'labeller_bacc': np.float64(0.75)}
+{'k': 7, 'train': 'huca+mortara', 'test': 'claris', 'leads': 'V2 earlyST', 'auroc': 0.817, 'SRC': np.float64(0.757), 'CATT': np.float64(0.77), 'ORACLE': np.float64(0.782), 'labeller_bacc': np.float64(0.734)}
+{'k': 7, 'train': 'huca+mortara', 'test': 'claris', 'leads': 'V1-V3 earlyST', 'auroc': 0.832, 'SRC': np.float64(0.765), 'CATT': np.float64(0.773), 'ORACLE': np.float64(0.776), 'labeller_bacc': np.float64(0.734)}
+{'k': 7, 'train': 'huca+mortara', 'test': 'claris', 'leads': 'V1-V3 full', 'auroc': 0.868, 'SRC': np.float64(0.799), 'CATT': np.float64(0.798), 'ORACLE': np.float64(0.807), 'labeller_bacc': np.float64(0.734)}
+{'k': 8, 'train': 'huca+claris', 'test': 'mortara', 'leads': 'V2 earlyST', 'auroc': 0.83, 'SRC': np.float64(0.729), 'CATT': np.float64(0.723), 'ORACLE': np.float64(0.784), 'labeller_bacc': np.float64(0.702)}
+{'k': 8, 'train': 'huca+claris', 'test': 'mortara', 'leads': 'V1-V3 earlyST', 'auroc': 0.846, 'SRC': np.float64(0.77), 'CATT': np.float64(0.785), 'ORACLE': np.float64(0.786), 'labeller_bacc': np.float64(0.702)}
+{'k': 8, 'train': 'huca+claris', 'test': 'mortara', 'leads': 'V1-V3 full', 'auroc': 0.879, 'SRC': np.float64(0.803), 'CATT': np.float64(0.78), 'ORACLE': np.float64(0.831), 'labeller_bacc': np.float64(0.702)}
+
+Held-out (7 settings):
+                auroc           SRC          CATT        ORACLE        labeller_bacc       
+                mean    min   mean    min   mean    min   mean    min          mean    min
+leads                                                                                     
+V2 earlyST     0.847  0.817  0.752  0.729  0.768  0.723  0.789  0.773         0.732  0.702
+V1-V3 earlyST  0.866  0.828  0.759  0.733  0.779  0.745  0.801  0.770         0.732  0.702
+V1-V3 full     0.879  0.865  0.707  0.539  0.793  0.774  0.822  0.802         0.732  0.702

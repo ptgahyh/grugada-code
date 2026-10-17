@@ -1,0 +1,32 @@
+|LA-WCT| peak relative to |V2| peak: median 0.22
+|RA-WCT| peak relative to |V2| peak: median 0.46
+{'train': 'claris', 'target_lead': 'V1', 'auroc': 0.888, 'SRC': np.float64(0.661), 'CATT': np.float64(0.844), 'ORACLE': np.float64(0.847), 'labeller_bacc': np.float64(0.61), 'corr_with_true_lead': 1.0}
+{'train': 'claris', 'target_lead': 'W1-RA', 'auroc': 0.852, 'SRC': np.float64(0.755), 'CATT': np.float64(0.769), 'ORACLE': np.float64(0.792), 'labeller_bacc': np.float64(0.72), 'corr_with_true_lead': 0.71}
+{'train': 'claris', 'target_lead': 'W1-LA', 'auroc': 0.797, 'SRC': np.float64(0.636), 'CATT': np.float64(0.716), 'ORACLE': np.float64(0.782), 'labeller_bacc': np.float64(0.583), 'corr_with_true_lead': 0.936}
+{'train': 'claris', 'target_lead': 'V2', 'auroc': 0.863, 'SRC': np.float64(0.682), 'CATT': np.float64(0.781), 'ORACLE': np.float64(0.788), 'labeller_bacc': np.float64(0.75), 'corr_with_true_lead': 1.0}
+{'train': 'claris', 'target_lead': 'W2-RA', 'auroc': 0.854, 'SRC': np.float64(0.711), 'CATT': np.float64(0.778), 'ORACLE': np.float64(0.78), 'labeller_bacc': np.float64(0.722), 'corr_with_true_lead': 0.898}
+{'train': 'claris', 'target_lead': 'W2-LA', 'auroc': 0.858, 'SRC': np.float64(0.663), 'CATT': np.float64(0.794), 'ORACLE': np.float64(0.796), 'labeller_bacc': np.float64(0.734), 'corr_with_true_lead': 0.976}
+{'train': 'claris', 'target_lead': 'I (wrist)', 'auroc': 0.793, 'SRC': np.float64(0.628), 'CATT': np.float64(0.727), 'ORACLE': np.float64(0.747), 'labeller_bacc': np.float64(0.609), 'corr_with_true_lead': 1.0}
+{'train': 'mortara', 'target_lead': 'V1', 'auroc': 0.866, 'SRC': np.float64(0.634), 'CATT': np.float64(0.657), 'ORACLE': np.float64(0.812), 'labeller_bacc': np.float64(0.513), 'corr_with_true_lead': 1.0}
+{'train': 'mortara', 'target_lead': 'W1-RA', 'auroc': 0.849, 'SRC': np.float64(0.747), 'CATT': np.float64(0.691), 'ORACLE': np.float64(0.799), 'labeller_bacc': np.float64(0.552), 'corr_with_true_lead': 0.71}
+{'train': 'mortara', 'target_lead': 'W1-LA', 'auroc': 0.802, 'SRC': np.float64(0.646), 'CATT': np.float64(0.606), 'ORACLE': np.float64(0.753), 'labeller_bacc': np.float64(0.494), 'corr_with_true_lead': 0.936}
+{'train': 'mortara', 'target_lead': 'V2', 'auroc': 0.869, 'SRC': np.float64(0.599), 'CATT': np.float64(0.797), 'ORACLE': np.float64(0.802), 'labeller_bacc': np.float64(0.736), 'corr_with_true_lead': 1.0}
+{'train': 'mortara', 'target_lead': 'W2-RA', 'auroc': 0.862, 'SRC': np.float64(0.629), 'CATT': np.float64(0.787), 'ORACLE': np.float64(0.794), 'labeller_bacc': np.float64(0.75), 'corr_with_true_lead': 0.898}
+{'train': 'mortara', 'target_lead': 'W2-LA', 'auroc': 0.86, 'SRC': np.float64(0.595), 'CATT': np.float64(0.758), 'ORACLE': np.float64(0.795), 'labeller_bacc': np.float64(0.73), 'corr_with_true_lead': 0.976}
+{'train': 'mortara', 'target_lead': 'I (wrist)', 'auroc': 0.707, 'SRC': np.float64(0.666), 'CATT': np.float64(0.621), 'ORACLE': np.float64(0.682), 'labeller_bacc': np.float64(0.509), 'corr_with_true_lead': 1.0}
+{'train': 'claris+mortara', 'target_lead': 'V1', 'auroc': 0.881, 'SRC': np.float64(0.665), 'CATT': np.float64(0.745), 'ORACLE': np.float64(0.815), 'labeller_bacc': np.float64(0.649), 'corr_with_true_lead': 1.0}
+{'train': 'claris+mortara', 'target_lead': 'W1-RA', 'auroc': 0.867, 'SRC': np.float64(0.762), 'CATT': np.float64(0.727), 'ORACLE': np.float64(0.812), 'labeller_bacc': np.float64(0.665), 'corr_with_true_lead': 0.71}
+{'train': 'claris+mortara', 'target_lead': 'W1-LA', 'auroc': 0.792, 'SRC': np.float64(0.642), 'CATT': np.float64(0.7), 'ORACLE': np.float64(0.749), 'labeller_bacc': np.float64(0.582), 'corr_with_true_lead': 0.936}
+{'train': 'claris+mortara', 'target_lead': 'V2', 'auroc': 0.867, 'SRC': np.float64(0.608), 'CATT': np.float64(0.791), 'ORACLE': np.float64(0.799), 'labeller_bacc': np.float64(0.75), 'corr_with_true_lead': 1.0}
+{'train': 'claris+mortara', 'target_lead': 'W2-RA', 'auroc': 0.86, 'SRC': np.float64(0.654), 'CATT': np.float64(0.761), 'ORACLE': np.float64(0.786), 'labeller_bacc': np.float64(0.722), 'corr_with_true_lead': 0.898}
+{'train': 'claris+mortara', 'target_lead': 'W2-LA', 'auroc': 0.86, 'SRC': np.float64(0.606), 'CATT': np.float64(0.774), 'ORACLE': np.float64(0.792), 'labeller_bacc': np.float64(0.734), 'corr_with_true_lead': 0.976}
+{'train': 'claris+mortara', 'target_lead': 'I (wrist)', 'auroc': 0.805, 'SRC': np.float64(0.7), 'CATT': np.float64(0.732), 'ORACLE': np.float64(0.746), 'labeller_bacc': np.float64(0.609), 'corr_with_true_lead': 1.0}
+             auroc    SRC   CATT  ORACLE  labeller_bacc  corr_with_true_lead
+target_lead                                                                 
+V1           0.878  0.653  0.749   0.825          0.591                1.000
+W1-RA        0.856  0.755  0.729   0.801          0.646                0.710
+W1-LA        0.797  0.641  0.674   0.762          0.553                0.936
+V2           0.866  0.630  0.790   0.796          0.746                1.000
+W2-RA        0.858  0.665  0.775   0.786          0.731                0.898
+W2-LA        0.859  0.622  0.775   0.794          0.733                0.976
+I (wrist)    0.768  0.665  0.693   0.725          0.576                1.000
