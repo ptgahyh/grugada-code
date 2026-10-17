@@ -1,0 +1,722 @@
+[
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "V1",
+  "auroc": 0.8296,
+  "bacc_src": 0.7356,
+  "bacc_oracle": 0.7563
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "V2",
+  "auroc": 0.7991,
+  "bacc_src": 0.7165,
+  "bacc_oracle": 0.7406
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "V3",
+  "auroc": 0.7288,
+  "bacc_src": 0.6525,
+  "bacc_oracle": 0.6677
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "V1+V2",
+  "auroc": 0.7975,
+  "bacc_src": 0.676,
+  "bacc_oracle": 0.7281
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "V2+V3",
+  "auroc": 0.8165,
+  "bacc_src": 0.7366,
+  "bacc_oracle": 0.7624
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "V1+V3",
+  "auroc": 0.8234,
+  "bacc_src": 0.5725,
+  "bacc_oracle": 0.7629
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "V1-V3",
+  "auroc": 0.8291,
+  "bacc_src": 0.5469,
+  "bacc_oracle": 0.7823
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "I",
+  "auroc": 0.6364,
+  "bacc_src": 0.5971,
+  "bacc_oracle": 0.609
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "II",
+  "auroc": 0.7472,
+  "bacc_src": 0.6474,
+  "bacc_oracle": 0.6863
+ },
+ {
+  "train": "huca",
+  "test": "claris",
+  "leads": "9-lead",
+  "auroc": 0.7514,
+  "bacc_src": 0.6144,
+  "bacc_oracle": 0.6942
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "V1",
+  "auroc": 0.8105,
+  "bacc_src": 0.6984,
+  "bacc_oracle": 0.748
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "V2",
+  "auroc": 0.771,
+  "bacc_src": 0.6494,
+  "bacc_oracle": 0.7074
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "V3",
+  "auroc": 0.6457,
+  "bacc_src": 0.6284,
+  "bacc_oracle": 0.6284
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "V1+V2",
+  "auroc": 0.7653,
+  "bacc_src": 0.6325,
+  "bacc_oracle": 0.7064
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "V2+V3",
+  "auroc": 0.8057,
+  "bacc_src": 0.7175,
+  "bacc_oracle": 0.7669
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "V1+V3",
+  "auroc": 0.8083,
+  "bacc_src": 0.5453,
+  "bacc_oracle": 0.7508
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "V1-V3",
+  "auroc": 0.814,
+  "bacc_src": 0.5562,
+  "bacc_oracle": 0.7643
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "I",
+  "auroc": 0.5635,
+  "bacc_src": 0.5213,
+  "bacc_oracle": 0.5564
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "II",
+  "auroc": 0.7697,
+  "bacc_src": 0.6024,
+  "bacc_oracle": 0.7231
+ },
+ {
+  "train": "huca",
+  "test": "mortara",
+  "leads": "9-lead",
+  "auroc": 0.7846,
+  "bacc_src": 0.6486,
+  "bacc_oracle": 0.7343
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "V1",
+  "auroc": 0.8877,
+  "bacc_src": 0.661,
+  "bacc_oracle": 0.8474
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "V2",
+  "auroc": 0.8632,
+  "bacc_src": 0.6824,
+  "bacc_oracle": 0.7879
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "V3",
+  "auroc": 0.5929,
+  "bacc_src": 0.5576,
+  "bacc_oracle": 0.5778
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "V1+V2",
+  "auroc": 0.8558,
+  "bacc_src": 0.5866,
+  "bacc_oracle": 0.7824
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "V2+V3",
+  "auroc": 0.8941,
+  "bacc_src": 0.6912,
+  "bacc_oracle": 0.8337
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "V1+V3",
+  "auroc": 0.898,
+  "bacc_src": 0.5709,
+  "bacc_oracle": 0.8403
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "V1-V3",
+  "auroc": 0.8755,
+  "bacc_src": 0.5389,
+  "bacc_oracle": 0.8178
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "I",
+  "auroc": 0.7929,
+  "bacc_src": 0.6281,
+  "bacc_oracle": 0.7468
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "II",
+  "auroc": 0.8285,
+  "bacc_src": 0.6226,
+  "bacc_oracle": 0.7765
+ },
+ {
+  "train": "claris",
+  "test": "huca",
+  "leads": "9-lead",
+  "auroc": 0.8417,
+  "bacc_src": 0.6027,
+  "bacc_oracle": 0.7776
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "V1",
+  "auroc": 0.8839,
+  "bacc_src": 0.8092,
+  "bacc_oracle": 0.8248
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "V2",
+  "auroc": 0.8787,
+  "bacc_src": 0.8096,
+  "bacc_oracle": 0.8257
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "V3",
+  "auroc": 0.8252,
+  "bacc_src": 0.7688,
+  "bacc_oracle": 0.7772
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "V1+V2",
+  "auroc": 0.8961,
+  "bacc_src": 0.8354,
+  "bacc_oracle": 0.8446
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "V2+V3",
+  "auroc": 0.8683,
+  "bacc_src": 0.7935,
+  "bacc_oracle": 0.8156
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "V1+V3",
+  "auroc": 0.8808,
+  "bacc_src": 0.821,
+  "bacc_oracle": 0.8386
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "V1-V3",
+  "auroc": 0.8896,
+  "bacc_src": 0.8208,
+  "bacc_oracle": 0.8365
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "I",
+  "auroc": 0.688,
+  "bacc_src": 0.6222,
+  "bacc_oracle": 0.6465
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "II",
+  "auroc": 0.8366,
+  "bacc_src": 0.7716,
+  "bacc_oracle": 0.7914
+ },
+ {
+  "train": "claris",
+  "test": "mortara",
+  "leads": "9-lead",
+  "auroc": 0.8385,
+  "bacc_src": 0.777,
+  "bacc_oracle": 0.7821
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "V1",
+  "auroc": 0.8663,
+  "bacc_src": 0.6345,
+  "bacc_oracle": 0.8122
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "V2",
+  "auroc": 0.8687,
+  "bacc_src": 0.5992,
+  "bacc_oracle": 0.8023
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "V3",
+  "auroc": 0.5877,
+  "bacc_src": 0.5489,
+  "bacc_oracle": 0.5829
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "V1+V2",
+  "auroc": 0.8371,
+  "bacc_src": 0.6385,
+  "bacc_oracle": 0.7813
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "V2+V3",
+  "auroc": 0.8403,
+  "bacc_src": 0.6082,
+  "bacc_oracle": 0.7915
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "V1+V3",
+  "auroc": 0.8179,
+  "bacc_src": 0.7327,
+  "bacc_oracle": 0.7767
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "V1-V3",
+  "auroc": 0.8645,
+  "bacc_src": 0.6062,
+  "bacc_oracle": 0.8125
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "I",
+  "auroc": 0.7067,
+  "bacc_src": 0.6662,
+  "bacc_oracle": 0.6821
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "II",
+  "auroc": 0.8225,
+  "bacc_src": 0.7299,
+  "bacc_oracle": 0.7619
+ },
+ {
+  "train": "mortara",
+  "test": "huca",
+  "leads": "9-lead",
+  "auroc": 0.8836,
+  "bacc_src": 0.576,
+  "bacc_oracle": 0.8103
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "V1",
+  "auroc": 0.8663,
+  "bacc_src": 0.77,
+  "bacc_oracle": 0.8101
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "V2",
+  "auroc": 0.8835,
+  "bacc_src": 0.8172,
+  "bacc_oracle": 0.8278
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "V3",
+  "auroc": 0.826,
+  "bacc_src": 0.6779,
+  "bacc_oracle": 0.7633
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "V1+V2",
+  "auroc": 0.8689,
+  "bacc_src": 0.8122,
+  "bacc_oracle": 0.8124
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "V2+V3",
+  "auroc": 0.8672,
+  "bacc_src": 0.7833,
+  "bacc_oracle": 0.8061
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "V1+V3",
+  "auroc": 0.8579,
+  "bacc_src": 0.7878,
+  "bacc_oracle": 0.8039
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "V1-V3",
+  "auroc": 0.8651,
+  "bacc_src": 0.7896,
+  "bacc_oracle": 0.802
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "I",
+  "auroc": 0.6476,
+  "bacc_src": 0.5929,
+  "bacc_oracle": 0.6141
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "II",
+  "auroc": 0.7748,
+  "bacc_src": 0.6502,
+  "bacc_oracle": 0.7118
+ },
+ {
+  "train": "mortara",
+  "test": "claris",
+  "leads": "9-lead",
+  "auroc": 0.7334,
+  "bacc_src": 0.6644,
+  "bacc_oracle": 0.6793
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "V1",
+  "auroc": 0.881,
+  "bacc_src": 0.6645,
+  "bacc_oracle": 0.8149
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "V2",
+  "auroc": 0.8672,
+  "bacc_src": 0.6082,
+  "bacc_oracle": 0.7992
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "V3",
+  "auroc": 0.6262,
+  "bacc_src": 0.5417,
+  "bacc_oracle": 0.5905
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "V1+V2",
+  "auroc": 0.8557,
+  "bacc_src": 0.6042,
+  "bacc_oracle": 0.8008
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "V2+V3",
+  "auroc": 0.8989,
+  "bacc_src": 0.5762,
+  "bacc_oracle": 0.8498
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "V1+V3",
+  "auroc": 0.8881,
+  "bacc_src": 0.5587,
+  "bacc_oracle": 0.8356
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "V1-V3",
+  "auroc": 0.9089,
+  "bacc_src": 0.5936,
+  "bacc_oracle": 0.8443
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "I",
+  "auroc": 0.8045,
+  "bacc_src": 0.7005,
+  "bacc_oracle": 0.7458
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "II",
+  "auroc": 0.8328,
+  "bacc_src": 0.5466,
+  "bacc_oracle": 0.7873
+ },
+ {
+  "train": "claris+mortara",
+  "test": "huca",
+  "leads": "9-lead",
+  "auroc": 0.8143,
+  "bacc_src": 0.6042,
+  "bacc_oracle": 0.7356
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "V1",
+  "auroc": 0.8523,
+  "bacc_src": 0.7686,
+  "bacc_oracle": 0.7871
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "V2",
+  "auroc": 0.8548,
+  "bacc_src": 0.7928,
+  "bacc_oracle": 0.7981
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "V3",
+  "auroc": 0.8234,
+  "bacc_src": 0.7228,
+  "bacc_oracle": 0.7584
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "V1+V2",
+  "auroc": 0.8468,
+  "bacc_src": 0.7898,
+  "bacc_oracle": 0.7942
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "V2+V3",
+  "auroc": 0.8468,
+  "bacc_src": 0.7706,
+  "bacc_oracle": 0.7775
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "V1+V3",
+  "auroc": 0.8575,
+  "bacc_src": 0.7994,
+  "bacc_oracle": 0.8145
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "V1-V3",
+  "auroc": 0.8678,
+  "bacc_src": 0.7992,
+  "bacc_oracle": 0.8074
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "I",
+  "auroc": 0.6475,
+  "bacc_src": 0.5824,
+  "bacc_oracle": 0.6151
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "II",
+  "auroc": 0.7864,
+  "bacc_src": 0.7014,
+  "bacc_oracle": 0.7186
+ },
+ {
+  "train": "huca+mortara",
+  "test": "claris",
+  "leads": "9-lead",
+  "auroc": 0.737,
+  "bacc_src": 0.6699,
+  "bacc_oracle": 0.6738
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "V1",
+  "auroc": 0.8568,
+  "bacc_src": 0.7826,
+  "bacc_oracle": 0.7903
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "V2",
+  "auroc": 0.8545,
+  "bacc_src": 0.7864,
+  "bacc_oracle": 0.8038
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "V3",
+  "auroc": 0.82,
+  "bacc_src": 0.7268,
+  "bacc_oracle": 0.7791
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "V1+V2",
+  "auroc": 0.8305,
+  "bacc_src": 0.754,
+  "bacc_oracle": 0.7868
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "V2+V3",
+  "auroc": 0.8492,
+  "bacc_src": 0.7903,
+  "bacc_oracle": 0.8051
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "V1+V3",
+  "auroc": 0.8665,
+  "bacc_src": 0.8008,
+  "bacc_oracle": 0.8162
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "V1-V3",
+  "auroc": 0.8788,
+  "bacc_src": 0.8025,
+  "bacc_oracle": 0.8309
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "I",
+  "auroc": 0.702,
+  "bacc_src": 0.6546,
+  "bacc_oracle": 0.6641
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "II",
+  "auroc": 0.8273,
+  "bacc_src": 0.7431,
+  "bacc_oracle": 0.774
+ },
+ {
+  "train": "huca+claris",
+  "test": "mortara",
+  "leads": "9-lead",
+  "auroc": 0.8595,
+  "bacc_src": 0.6896,
+  "bacc_oracle": 0.7967
+ }
+]

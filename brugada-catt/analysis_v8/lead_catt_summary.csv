@@ -1,0 +1,6 @@
+,auroc,auroc,SRC,SRC,CATT,CATT,ORACLE,ORACLE,labeller_bacc,labeller_bacc
+,mean,min,mean,min,mean,min,mean,min,mean,min
+leads,,,,,,,,,,
+V2,0.867,0.855,0.728,0.599,0.793,0.761,0.806,0.788,0.732,0.702
+V1+V2,0.856,0.83,0.717,0.587,0.785,0.75,0.8,0.781,0.732,0.702
+V1-V3,0.879,0.865,0.707,0.539,0.793,0.774,0.822,0.802,0.732,0.702
