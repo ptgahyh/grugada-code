@@ -1,0 +1,104 @@
+{'train': 'huca', 'test': 'claris', 'leads': 'V1', 'auroc': 0.8296, 'bacc_src': np.float64(0.7356), 'bacc_oracle': np.float64(0.7563)} 18s
+{'train': 'huca', 'test': 'claris', 'leads': 'V2', 'auroc': 0.7991, 'bacc_src': np.float64(0.7165), 'bacc_oracle': np.float64(0.7406)} 22s
+{'train': 'huca', 'test': 'claris', 'leads': 'V3', 'auroc': 0.7288, 'bacc_src': np.float64(0.6525), 'bacc_oracle': np.float64(0.6677)} 25s
+{'train': 'huca', 'test': 'claris', 'leads': 'V1+V2', 'auroc': 0.7975, 'bacc_src': np.float64(0.676), 'bacc_oracle': np.float64(0.7281)} 29s
+{'train': 'huca', 'test': 'claris', 'leads': 'V2+V3', 'auroc': 0.8165, 'bacc_src': np.float64(0.7366), 'bacc_oracle': np.float64(0.7624)} 32s
+{'train': 'huca', 'test': 'claris', 'leads': 'V1+V3', 'auroc': 0.8234, 'bacc_src': np.float64(0.5725), 'bacc_oracle': np.float64(0.7629)} 35s
+{'train': 'huca', 'test': 'claris', 'leads': 'V1-V3', 'auroc': 0.8291, 'bacc_src': np.float64(0.5469), 'bacc_oracle': np.float64(0.7823)} 38s
+{'train': 'huca', 'test': 'claris', 'leads': 'I', 'auroc': 0.6364, 'bacc_src': np.float64(0.5971), 'bacc_oracle': np.float64(0.609)} 41s
+{'train': 'huca', 'test': 'claris', 'leads': 'II', 'auroc': 0.7472, 'bacc_src': np.float64(0.6474), 'bacc_oracle': np.float64(0.6863)} 46s
+{'train': 'huca', 'test': 'claris', 'leads': '9-lead', 'auroc': 0.7514, 'bacc_src': np.float64(0.6144), 'bacc_oracle': np.float64(0.6942)} 49s
+{'train': 'huca', 'test': 'mortara', 'leads': 'V1', 'auroc': 0.8105, 'bacc_src': np.float64(0.6984), 'bacc_oracle': np.float64(0.748)} 53s
+{'train': 'huca', 'test': 'mortara', 'leads': 'V2', 'auroc': 0.771, 'bacc_src': np.float64(0.6494), 'bacc_oracle': np.float64(0.7074)} 57s
+{'train': 'huca', 'test': 'mortara', 'leads': 'V3', 'auroc': 0.6457, 'bacc_src': np.float64(0.6284), 'bacc_oracle': np.float64(0.6284)} 60s
+{'train': 'huca', 'test': 'mortara', 'leads': 'V1+V2', 'auroc': 0.7653, 'bacc_src': np.float64(0.6325), 'bacc_oracle': np.float64(0.7064)} 64s
+{'train': 'huca', 'test': 'mortara', 'leads': 'V2+V3', 'auroc': 0.8057, 'bacc_src': np.float64(0.7175), 'bacc_oracle': np.float64(0.7669)} 67s
+{'train': 'huca', 'test': 'mortara', 'leads': 'V1+V3', 'auroc': 0.8083, 'bacc_src': np.float64(0.5453), 'bacc_oracle': np.float64(0.7508)} 71s
+{'train': 'huca', 'test': 'mortara', 'leads': 'V1-V3', 'auroc': 0.814, 'bacc_src': np.float64(0.5562), 'bacc_oracle': np.float64(0.7643)} 74s
+{'train': 'huca', 'test': 'mortara', 'leads': 'I', 'auroc': 0.5635, 'bacc_src': np.float64(0.5213), 'bacc_oracle': np.float64(0.5564)} 77s
+{'train': 'huca', 'test': 'mortara', 'leads': 'II', 'auroc': 0.7697, 'bacc_src': np.float64(0.6024), 'bacc_oracle': np.float64(0.7231)} 81s
+{'train': 'huca', 'test': 'mortara', 'leads': '9-lead', 'auroc': 0.7846, 'bacc_src': np.float64(0.6486), 'bacc_oracle': np.float64(0.7343)} 106s
+{'train': 'claris', 'test': 'huca', 'leads': 'V1', 'auroc': 0.8877, 'bacc_src': np.float64(0.661), 'bacc_oracle': np.float64(0.8474)} 154s
+{'train': 'claris', 'test': 'huca', 'leads': 'V2', 'auroc': 0.8632, 'bacc_src': np.float64(0.6824), 'bacc_oracle': np.float64(0.7879)} 229s
+{'train': 'claris', 'test': 'huca', 'leads': 'V3', 'auroc': 0.5929, 'bacc_src': np.float64(0.5576), 'bacc_oracle': np.float64(0.5778)} 298s
+{'train': 'claris', 'test': 'huca', 'leads': 'V1+V2', 'auroc': 0.8558, 'bacc_src': np.float64(0.5866), 'bacc_oracle': np.float64(0.7824)} 340s
+{'train': 'claris', 'test': 'huca', 'leads': 'V2+V3', 'auroc': 0.8941, 'bacc_src': np.float64(0.6912), 'bacc_oracle': np.float64(0.8337)} 381s
+{'train': 'claris', 'test': 'huca', 'leads': 'V1+V3', 'auroc': 0.898, 'bacc_src': np.float64(0.5709), 'bacc_oracle': np.float64(0.8403)} 621s
+{'train': 'claris', 'test': 'huca', 'leads': 'V1-V3', 'auroc': 0.8755, 'bacc_src': np.float64(0.5389), 'bacc_oracle': np.float64(0.8178)} 668s
+{'train': 'claris', 'test': 'huca', 'leads': 'I', 'auroc': 0.7929, 'bacc_src': np.float64(0.6281), 'bacc_oracle': np.float64(0.7468)} 906s
+{'train': 'claris', 'test': 'huca', 'leads': 'II', 'auroc': 0.8285, 'bacc_src': np.float64(0.6226), 'bacc_oracle': np.float64(0.7765)} 919s
+{'train': 'claris', 'test': 'huca', 'leads': '9-lead', 'auroc': 0.8417, 'bacc_src': np.float64(0.6027), 'bacc_oracle': np.float64(0.7776)} 926s
+{'train': 'claris', 'test': 'mortara', 'leads': 'V1', 'auroc': 0.8839, 'bacc_src': np.float64(0.8092), 'bacc_oracle': np.float64(0.8248)} 935s
+{'train': 'claris', 'test': 'mortara', 'leads': 'V2', 'auroc': 0.8787, 'bacc_src': np.float64(0.8096), 'bacc_oracle': np.float64(0.8257)} 945s
+{'train': 'claris', 'test': 'mortara', 'leads': 'V3', 'auroc': 0.8252, 'bacc_src': np.float64(0.7688), 'bacc_oracle': np.float64(0.7772)} 959s
+{'train': 'claris', 'test': 'mortara', 'leads': 'V1+V2', 'auroc': 0.8961, 'bacc_src': np.float64(0.8354), 'bacc_oracle': np.float64(0.8446)} 969s
+{'train': 'claris', 'test': 'mortara', 'leads': 'V2+V3', 'auroc': 0.8683, 'bacc_src': np.float64(0.7935), 'bacc_oracle': np.float64(0.8156)} 978s
+{'train': 'claris', 'test': 'mortara', 'leads': 'V1+V3', 'auroc': 0.8808, 'bacc_src': np.float64(0.821), 'bacc_oracle': np.float64(0.8386)} 996s
+{'train': 'claris', 'test': 'mortara', 'leads': 'V1-V3', 'auroc': 0.8896, 'bacc_src': np.float64(0.8208), 'bacc_oracle': np.float64(0.8365)} 1006s
+{'train': 'claris', 'test': 'mortara', 'leads': 'I', 'auroc': 0.688, 'bacc_src': np.float64(0.6222), 'bacc_oracle': np.float64(0.6465)} 1023s
+{'train': 'claris', 'test': 'mortara', 'leads': 'II', 'auroc': 0.8366, 'bacc_src': np.float64(0.7716), 'bacc_oracle': np.float64(0.7914)} 1035s
+{'train': 'claris', 'test': 'mortara', 'leads': '9-lead', 'auroc': 0.8385, 'bacc_src': np.float64(0.777), 'bacc_oracle': np.float64(0.7821)} 1042s
+{'train': 'mortara', 'test': 'huca', 'leads': 'V1', 'auroc': 0.8663, 'bacc_src': np.float64(0.6345), 'bacc_oracle': np.float64(0.8122)} 1046s
+{'train': 'mortara', 'test': 'huca', 'leads': 'V2', 'auroc': 0.8687, 'bacc_src': np.float64(0.5992), 'bacc_oracle': np.float64(0.8023)} 1050s
+{'train': 'mortara', 'test': 'huca', 'leads': 'V3', 'auroc': 0.5877, 'bacc_src': np.float64(0.5489), 'bacc_oracle': np.float64(0.5829)} 1055s
+{'train': 'mortara', 'test': 'huca', 'leads': 'V1+V2', 'auroc': 0.8371, 'bacc_src': np.float64(0.6385), 'bacc_oracle': np.float64(0.7813)} 1059s
+{'train': 'mortara', 'test': 'huca', 'leads': 'V2+V3', 'auroc': 0.8403, 'bacc_src': np.float64(0.6082), 'bacc_oracle': np.float64(0.7915)} 1064s
+{'train': 'mortara', 'test': 'huca', 'leads': 'V1+V3', 'auroc': 0.8179, 'bacc_src': np.float64(0.7327), 'bacc_oracle': np.float64(0.7767)} 1068s
+{'train': 'mortara', 'test': 'huca', 'leads': 'V1-V3', 'auroc': 0.8645, 'bacc_src': np.float64(0.6062), 'bacc_oracle': np.float64(0.8125)} 1072s
+{'train': 'mortara', 'test': 'huca', 'leads': 'I', 'auroc': 0.7067, 'bacc_src': np.float64(0.6662), 'bacc_oracle': np.float64(0.6821)} 1076s
+{'train': 'mortara', 'test': 'huca', 'leads': 'II', 'auroc': 0.8225, 'bacc_src': np.float64(0.7299), 'bacc_oracle': np.float64(0.7619)} 1080s
+{'train': 'mortara', 'test': 'huca', 'leads': '9-lead', 'auroc': 0.8836, 'bacc_src': np.float64(0.576), 'bacc_oracle': np.float64(0.8103)} 1084s
+{'train': 'mortara', 'test': 'claris', 'leads': 'V1', 'auroc': 0.8663, 'bacc_src': np.float64(0.77), 'bacc_oracle': np.float64(0.8101)} 1089s
+{'train': 'mortara', 'test': 'claris', 'leads': 'V2', 'auroc': 0.8835, 'bacc_src': np.float64(0.8172), 'bacc_oracle': np.float64(0.8278)} 1092s
+{'train': 'mortara', 'test': 'claris', 'leads': 'V3', 'auroc': 0.826, 'bacc_src': np.float64(0.6779), 'bacc_oracle': np.float64(0.7633)} 1097s
+{'train': 'mortara', 'test': 'claris', 'leads': 'V1+V2', 'auroc': 0.8689, 'bacc_src': np.float64(0.8122), 'bacc_oracle': np.float64(0.8124)} 1102s
+{'train': 'mortara', 'test': 'claris', 'leads': 'V2+V3', 'auroc': 0.8672, 'bacc_src': np.float64(0.7833), 'bacc_oracle': np.float64(0.8061)} 1107s
+{'train': 'mortara', 'test': 'claris', 'leads': 'V1+V3', 'auroc': 0.8579, 'bacc_src': np.float64(0.7878), 'bacc_oracle': np.float64(0.8039)} 1111s
+{'train': 'mortara', 'test': 'claris', 'leads': 'V1-V3', 'auroc': 0.8651, 'bacc_src': np.float64(0.7896), 'bacc_oracle': np.float64(0.802)} 1115s
+{'train': 'mortara', 'test': 'claris', 'leads': 'I', 'auroc': 0.6476, 'bacc_src': np.float64(0.5929), 'bacc_oracle': np.float64(0.6141)} 1120s
+{'train': 'mortara', 'test': 'claris', 'leads': 'II', 'auroc': 0.7748, 'bacc_src': np.float64(0.6502), 'bacc_oracle': np.float64(0.7118)} 1124s
+{'train': 'mortara', 'test': 'claris', 'leads': '9-lead', 'auroc': 0.7334, 'bacc_src': np.float64(0.6644), 'bacc_oracle': np.float64(0.6793)} 1128s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'V1', 'auroc': 0.881, 'bacc_src': np.float64(0.6645), 'bacc_oracle': np.float64(0.8149)} 1141s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'V2', 'auroc': 0.8672, 'bacc_src': np.float64(0.6082), 'bacc_oracle': np.float64(0.7992)} 1153s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'V3', 'auroc': 0.6262, 'bacc_src': np.float64(0.5417), 'bacc_oracle': np.float64(0.5905)} 1169s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'V1+V2', 'auroc': 0.8557, 'bacc_src': np.float64(0.6042), 'bacc_oracle': np.float64(0.8008)} 1186s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'V2+V3', 'auroc': 0.8989, 'bacc_src': np.float64(0.5762), 'bacc_oracle': np.float64(0.8498)} 1202s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'V1+V3', 'auroc': 0.8881, 'bacc_src': np.float64(0.5587), 'bacc_oracle': np.float64(0.8356)} 1220s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'V1-V3', 'auroc': 0.9089, 'bacc_src': np.float64(0.5936), 'bacc_oracle': np.float64(0.8443)} 1234s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'I', 'auroc': 0.8045, 'bacc_src': np.float64(0.7005), 'bacc_oracle': np.float64(0.7458)} 1258s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': 'II', 'auroc': 0.8328, 'bacc_src': np.float64(0.5466), 'bacc_oracle': np.float64(0.7873)} 1276s
+{'train': 'claris+mortara', 'test': 'huca', 'leads': '9-lead', 'auroc': 0.8143, 'bacc_src': np.float64(0.6042), 'bacc_oracle': np.float64(0.7356)} 1289s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'V1', 'auroc': 0.8523, 'bacc_src': np.float64(0.7686), 'bacc_oracle': np.float64(0.7871)} 1297s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'V2', 'auroc': 0.8548, 'bacc_src': np.float64(0.7928), 'bacc_oracle': np.float64(0.7981)} 1304s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'V3', 'auroc': 0.8234, 'bacc_src': np.float64(0.7228), 'bacc_oracle': np.float64(0.7584)} 1312s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'V1+V2', 'auroc': 0.8468, 'bacc_src': np.float64(0.7898), 'bacc_oracle': np.float64(0.7942)} 1323s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'V2+V3', 'auroc': 0.8468, 'bacc_src': np.float64(0.7706), 'bacc_oracle': np.float64(0.7775)} 1330s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'V1+V3', 'auroc': 0.8575, 'bacc_src': np.float64(0.7994), 'bacc_oracle': np.float64(0.8145)} 1338s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'V1-V3', 'auroc': 0.8678, 'bacc_src': np.float64(0.7992), 'bacc_oracle': np.float64(0.8074)} 1349s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'I', 'auroc': 0.6475, 'bacc_src': np.float64(0.5824), 'bacc_oracle': np.float64(0.6151)} 1357s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': 'II', 'auroc': 0.7864, 'bacc_src': np.float64(0.7014), 'bacc_oracle': np.float64(0.7186)} 1368s
+{'train': 'huca+mortara', 'test': 'claris', 'leads': '9-lead', 'auroc': 0.737, 'bacc_src': np.float64(0.6699), 'bacc_oracle': np.float64(0.6738)} 1374s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'V1', 'auroc': 0.8568, 'bacc_src': np.float64(0.7826), 'bacc_oracle': np.float64(0.7903)} 1387s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'V2', 'auroc': 0.8545, 'bacc_src': np.float64(0.7864), 'bacc_oracle': np.float64(0.8038)} 1403s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'V3', 'auroc': 0.82, 'bacc_src': np.float64(0.7268), 'bacc_oracle': np.float64(0.7791)} 1419s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'V1+V2', 'auroc': 0.8305, 'bacc_src': np.float64(0.754), 'bacc_oracle': np.float64(0.7868)} 1435s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'V2+V3', 'auroc': 0.8492, 'bacc_src': np.float64(0.7903), 'bacc_oracle': np.float64(0.8051)} 1455s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'V1+V3', 'auroc': 0.8665, 'bacc_src': np.float64(0.8008), 'bacc_oracle': np.float64(0.8162)} 1469s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'V1-V3', 'auroc': 0.8788, 'bacc_src': np.float64(0.8025), 'bacc_oracle': np.float64(0.8309)} 1484s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'I', 'auroc': 0.702, 'bacc_src': np.float64(0.6546), 'bacc_oracle': np.float64(0.6641)} 1504s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': 'II', 'auroc': 0.8273, 'bacc_src': np.float64(0.7431), 'bacc_oracle': np.float64(0.774)} 1520s
+{'train': 'huca+claris', 'test': 'mortara', 'leads': '9-lead', 'auroc': 0.8595, 'bacc_src': np.float64(0.6896), 'bacc_oracle': np.float64(0.7967)} 1535s
+        auroc        bacc_src        bacc_oracle       
+         mean    min     mean    min        mean    min
+leads                                                  
+V1      0.859  0.810    0.725  0.634       0.799  0.748
+V2      0.849  0.771    0.718  0.599       0.788  0.707
+V3      0.720  0.588    0.647  0.542       0.681  0.578
+V1+V2   0.839  0.765    0.703  0.587       0.782  0.706
+V2+V3   0.854  0.806    0.719  0.576       0.801  0.762
+V1+V3   0.855  0.808    0.688  0.545       0.804  0.751
+V1-V3   0.866  0.814    0.673  0.539       0.811  0.764
+I       0.688  0.564    0.618  0.521       0.653  0.556
+II      0.803  0.747    0.668  0.547       0.748  0.686
+9-lead  0.805  0.733    0.650  0.576       0.743  0.674
+done 1535s
