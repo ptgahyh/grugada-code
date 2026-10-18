@@ -1,0 +1,44 @@
+orig         mean correlation of V2 beat with original: 1.000
+LP25         mean correlation of V2 beat with original: 0.898
+HP0.67c      mean correlation of V2 beat with original: 0.894
+HP1c         mean correlation of V2 beat with original: 0.879
+quant+noise  mean correlation of V2 beat with original: 0.981
+combined     mean correlation of V2 beat with original: 0.868
+{'part': 'A within-HUCA', 'source': 'HUCA (5-fold)', 'variant': 'orig', 'auroc': 0.9005760201365022, 'SRC': np.float64(0.7728195488721805), 'ORACLE': np.float64(0.8309937557481001), 'neg_shift': np.float64(0.05662680959290591)}
+{'part': 'A within-HUCA', 'source': 'HUCA (5-fold)', 'variant': 'LP25', 'auroc': 0.8979137421946851, 'SRC': np.float64(0.7815538847117793), 'ORACLE': np.float64(0.8274601868435064), 'neg_shift': np.float64(0.15484911500909557)}
+{'part': 'A within-HUCA', 'source': 'HUCA (5-fold)', 'variant': 'HP0.67c', 'auroc': 0.8867321748390532, 'SRC': np.float64(0.7489912280701755), 'ORACLE': np.float64(0.8162060119076431), 'neg_shift': np.float64(0.2692370027588099)}
+{'part': 'A within-HUCA', 'source': 'HUCA (5-fold)', 'variant': 'HP1c', 'auroc': 0.8774868096229246, 'SRC': np.float64(0.7180889724310777), 'ORACLE': np.float64(0.8122367975216613), 'neg_shift': np.float64(0.33774845693894995)}
+{'part': 'A within-HUCA', 'source': 'HUCA (5-fold)', 'variant': 'quant+noise', 'auroc': 0.898736628103974, 'SRC': np.float64(0.7865664160401002), 'ORACLE': np.float64(0.8323248947190087), 'neg_shift': np.float64(0.05645844604308779)}
+{'part': 'A within-HUCA', 'source': 'HUCA (5-fold)', 'variant': 'combined', 'auroc': 0.8851832131274505, 'SRC': np.float64(0.712951127819549), 'ORACLE': np.float64(0.8360762863642964), 'neg_shift': np.float64(0.3587308653583211)}
+{'part': 'B Melo->HUCA', 'source': 'claris', 'variant': 'orig', 'auroc': 0.8755022024299337, 'SRC': np.float64(0.5388692579505301), 'ORACLE': np.float64(0.8177549736192458), 'neg_shift': np.float32(1.0447811)}
+{'part': 'B Melo->HUCA', 'source': 'claris', 'variant': 'LP25', 'auroc': 0.8703228617067621, 'SRC': np.float64(0.5300353356890459), 'ORACLE': np.float64(0.8047340142310857), 'neg_shift': np.float32(1.0864944)}
+{'part': 'B Melo->HUCA', 'source': 'claris', 'variant': 'HP0.67c', 'auroc': 0.8377462607096181, 'SRC': np.float64(0.5176678445229682), 'ORACLE': np.float64(0.7733675395711312), 'neg_shift': np.float32(1.3626299)}
+{'part': 'B Melo->HUCA', 'source': 'claris', 'variant': 'HP1c', 'auroc': 0.8192555302773609, 'SRC': np.float64(0.5176678445229682), 'ORACLE': np.float64(0.7696161479258434), 'neg_shift': np.float32(1.4664204)}
+{'part': 'B Melo->HUCA', 'source': 'claris', 'variant': 'quant+noise', 'auroc': 0.8733723800764799, 'SRC': np.float64(0.5406360424028268), 'ORACLE': np.float64(0.8124546202623554), 'neg_shift': np.float32(1.0500387)}
+{'part': 'B Melo->HUCA', 'source': 'claris', 'variant': 'combined', 'auroc': 0.8368749697468416, 'SRC': np.float64(0.519434628975265), 'ORACLE': np.float64(0.7636381238201269), 'neg_shift': np.float32(1.3830394)}
+{'part': 'B Melo->HUCA', 'source': 'mortara', 'variant': 'orig', 'auroc': 0.8645142552882521, 'SRC': np.float64(0.6062248898785033), 'ORACLE': np.float64(0.8124546202623554), 'neg_shift': np.float32(0.9427262)}
+{'part': 'B Melo->HUCA', 'source': 'mortara', 'variant': 'LP25', 'auroc': 0.8623844329347984, 'SRC': np.float64(0.5779563386417542), 'ORACLE': np.float64(0.8175371508785517), 'neg_shift': np.float32(0.997956)}
+{'part': 'B Melo->HUCA', 'source': 'mortara', 'variant': 'HP0.67c', 'auroc': 0.8498475240815142, 'SRC': np.float64(0.5532213563095987), 'ORACLE': np.float64(0.7974248511544605), 'neg_shift': np.float32(1.0657406)}
+{'part': 'B Melo->HUCA', 'source': 'mortara', 'variant': 'HP1c', 'auroc': 0.8341642867515369, 'SRC': np.float64(0.5390870806912241), 'ORACLE': np.float64(0.7943269277312551), 'neg_shift': np.float32(1.1496139)}
+{'part': 'B Melo->HUCA', 'source': 'mortara', 'variant': 'quant+noise', 'auroc': 0.8625296480952612, 'SRC': np.float64(0.599157752069316), 'ORACLE': np.float64(0.8159881891669489), 'neg_shift': np.float32(0.93076223)}
+{'part': 'B Melo->HUCA', 'source': 'mortara', 'variant': 'combined', 'auroc': 0.8554141052325863, 'SRC': np.float64(0.5390870806912241), 'ORACLE': np.float64(0.820175226293625), 'neg_shift': np.float32(1.1004196)}
+{'part': 'B Melo->HUCA', 'source': 'claris+mortara', 'variant': 'orig', 'auroc': 0.9088532842828791, 'SRC': np.float64(0.5936395759717314), 'ORACLE': np.float64(0.8442567404036981), 'neg_shift': np.float32(0.8629)}
+{'part': 'B Melo->HUCA', 'source': 'claris+mortara', 'variant': 'LP25', 'auroc': 0.9093857398712426, 'SRC': np.float64(0.5547703180212014), 'ORACLE': np.float64(0.8402875260177163), 'neg_shift': np.float32(0.89581835)}
+{'part': 'B Melo->HUCA', 'source': 'claris+mortara', 'variant': 'HP0.67c', 'auroc': 0.8611743065976089, 'SRC': np.float64(0.5337867273343336), 'ORACLE': np.float64(0.8166416573890314), 'neg_shift': np.float32(1.257924)}
+{'part': 'B Melo->HUCA', 'source': 'claris+mortara', 'variant': 'HP1c', 'auroc': 0.8366813495328912, 'SRC': np.float64(0.5249528050728496), 'ORACLE': np.float64(0.8018539135485745), 'neg_shift': np.float32(1.348956)}
+{'part': 'B Melo->HUCA', 'source': 'claris+mortara', 'variant': 'quant+noise', 'auroc': 0.9064814366619874, 'SRC': np.float64(0.5848056537102474), 'ORACLE': np.float64(0.8387385643061136), 'neg_shift': np.float32(0.8553363)}
+{'part': 'B Melo->HUCA', 'source': 'claris+mortara', 'variant': 'combined', 'auroc': 0.8658695967859045, 'SRC': np.float64(0.5267195895251464), 'ORACLE': np.float64(0.8184084418413282), 'neg_shift': np.float32(1.2778556)}
+                           auroc    SRC  ORACLE  neg_shift
+part          variant                                     
+A within-HUCA orig         0.901  0.773   0.831      0.057
+              LP25         0.898  0.782   0.827      0.155
+              HP0.67c      0.887  0.749   0.816      0.269
+              HP1c         0.877  0.718   0.812      0.338
+              quant+noise  0.899  0.787   0.832      0.056
+              combined     0.885  0.713   0.836      0.359
+B Melo->HUCA  orig         0.883  0.580   0.825      0.950
+              LP25         0.881  0.554   0.821      0.993
+              HP0.67c      0.850  0.535   0.796      1.229
+              HP1c         0.830  0.527   0.789      1.322
+              quant+noise  0.881  0.575   0.822      0.945
+              combined     0.853  0.528   0.801      1.254
