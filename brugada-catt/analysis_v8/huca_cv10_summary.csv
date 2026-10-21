@@ -1,0 +1,5 @@
+,auroc,auroc,sens,sens,spec,spec,bacc,bacc,f1,f1,acc,acc
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,,,
+CNN 9 leads,0.883,0.014,0.781,0.041,0.886,0.047,0.833,0.005,0.705,0.035,0.864,0.029
+CNN V1-V3,0.891,0.008,0.744,0.075,0.874,0.054,0.809,0.018,0.669,0.032,0.847,0.03

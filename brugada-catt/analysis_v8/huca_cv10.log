@@ -1,0 +1,11 @@
+{'rep': 0, 'model': 'CNN V1-V3', 'auroc': 0.898, 'sens': np.float64(0.671), 'spec': np.float64(0.936), 'bacc': np.float64(0.804), 'f1': 0.7, 'acc': np.float64(0.882)}
+{'rep': 0, 'model': 'CNN 9 leads', 'auroc': 0.894, 'sens': np.float64(0.74), 'spec': np.float64(0.936), 'bacc': np.float64(0.838), 'f1': 0.745, 'acc': np.float64(0.896)}
+{'rep': 1, 'model': 'CNN V1-V3', 'auroc': 0.892, 'sens': np.float64(0.822), 'spec': np.float64(0.837), 'bacc': np.float64(0.83), 'f1': 0.67, 'acc': np.float64(0.834)}
+{'rep': 1, 'model': 'CNN 9 leads', 'auroc': 0.866, 'sens': np.float64(0.822), 'spec': np.float64(0.845), 'bacc': np.float64(0.833), 'f1': 0.678, 'acc': np.float64(0.84)}
+{'rep': 2, 'model': 'CNN V1-V3', 'auroc': 0.882, 'sens': np.float64(0.74), 'spec': np.float64(0.848), 'bacc': np.float64(0.794), 'f1': 0.635, 'acc': np.float64(0.826)}
+{'rep': 2, 'model': 'CNN 9 leads', 'auroc': 0.888, 'sens': np.float64(0.781), 'spec': np.float64(0.876), 'bacc': np.float64(0.829), 'f1': 0.691, 'acc': np.float64(0.857)}
+             auroc          sens          spec          bacc            f1           acc       
+              mean    std   mean    std   mean    std   mean    std   mean    std   mean    std
+model                                                                                          
+CNN 9 leads  0.883  0.014  0.781  0.041  0.886  0.047  0.833  0.005  0.705  0.035  0.864  0.029
+CNN V1-V3    0.891  0.008  0.744  0.075  0.874  0.054  0.809  0.018  0.669  0.032  0.847  0.030
