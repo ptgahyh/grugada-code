@@ -6,3 +6,12 @@
 1 huca -> mortara vseed 2 374s
 2 claris -> huca vseed 0 578s
 2 claris -> huca vseed 1 776s
+2 claris -> huca vseed 2 1000s
+3 claris -> mortara vseed 0 1209s
+3 claris -> mortara vseed 1 1402s
+3 claris -> mortara vseed 2 1615s
+4 mortara -> huca vseed 0 1689s
+4 mortara -> huca vseed 1 1758s
+4 mortara -> huca vseed 2 1821s
+5 mortara -> claris vseed 0 1895s
+5 mortara -> claris vseed 1 1969s

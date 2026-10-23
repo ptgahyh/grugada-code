@@ -27,3 +27,15 @@ J+0ms_L120ms                     0.764      0.760     0.628    0.628      0.702 
 whole beat                       0.826      0.819     0.581    0.571      0.756     0.741        0.766       0.757
 
 Chosen on development settings: J-20ms_L60ms | held-out windows: ['J-20ms_L60ms', 'J-20ms_L90ms', 'J-10ms_L60ms', 'whole beat', 'QRS+50ms_L90ms (last week)']
+setting 2 vseed 0 137s
+setting 2 vseed 1 263s
+setting 2 vseed 2 387s
+setting 3 vseed 0 518s
+setting 3 vseed 1 636s
+setting 3 vseed 2 759s
+setting 4 vseed 0 786s
+setting 4 vseed 1 830s
+setting 4 vseed 2 883s
+setting 5 vseed 0 909s
+setting 5 vseed 1 952s
+setting 5 vseed 2 1006s
