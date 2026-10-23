@@ -1,0 +1,11 @@
+{
+ "rule": "max mean dev SRC balanced accuracy; ties within 0.005 -> higher dev AUROC",
+ "chosen": "J-20ms_L60ms",
+ "held_out_windows": [
+  "J-20ms_L60ms",
+  "J-20ms_L90ms",
+  "J-10ms_L60ms",
+  "whole beat",
+  "QRS+50ms_L90ms (last week)"
+ ]
+}
