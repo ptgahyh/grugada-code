@@ -1,0 +1,17 @@
+{'comparison': 'C1 AUROC: CNN-V1V3 vs Melo DNN', 'A': np.float64(0.8650495981942158), 'B': np.float64(0.796780707724598), 'delta': np.float64(0.06826889046961782), 'ci_lo': np.float64(0.05055536583826728), 'ci_hi': np.float64(0.08647604140503312), 'p_boot': 0.0005}
+{'comparison': 'C2 CATT: CNN-V1V3 vs Melo DNN', 'A': np.float64(0.7992700767348273), 'B': np.float64(0.7222434237438071), 'delta': np.float64(0.07702665299102018), 'ci_lo': np.float64(0.05358668805133572), 'ci_hi': np.float64(0.093173633484922), 'p_boot': 0.0005}
+{'comparison': 'C3 AUROC: V1 vs V1-V3', 'A': np.float64(0.8603205418807026), 'B': np.float64(0.8650495981942158), 'delta': np.float64(-0.004729056313513169), 'ci_lo': np.float64(-0.017413317347850836), 'ci_hi': np.float64(0.00855677310496672), 'p_boot': np.float64(0.458)}
+{'comparison': 'C4 AUROC: V2 vs V1-V3', 'A': np.float64(0.8459352740330334), 'B': np.float64(0.8650495981942158), 'delta': np.float64(-0.019114324161182417), 'ci_lo': np.float64(-0.033398579894357), 'ci_hi': np.float64(-0.004547361642209046), 'p_boot': np.float64(0.007)}
+{'comparison': 'C5 AUROC: V1-V3 vs 9 leads', 'A': np.float64(0.8650495981942158), 'B': np.float64(0.8119110315946662), 'delta': np.float64(0.05313856659954963), 'ci_lo': np.float64(0.0363436582774196), 'ci_hi': np.float64(0.069018361941893), 'p_boot': 0.0005}
+{'comparison': 'C6 SRC: window J-20ms_L60ms vs whole beat', 'A': np.float64(0.7042138714021474), 'B': np.float64(0.7012735822126329), 'delta': np.float64(0.0029402891895145), 'ci_lo': np.float64(-0.010435254303889257), 'ci_hi': np.float64(0.015870381273092662), 'p_boot': np.float64(0.657)}
+{'comparison': 'C7 CATT: V2-only pipeline vs CNN-V1V3', 'A': np.float64(0.7873188914923676), 'B': np.float64(0.7992700767348273), 'delta': np.float64(-0.01195118524245975), 'ci_lo': np.float64(-0.031306905107764446), 'ci_hi': np.float64(0.004554443524321006), 'p_boot': np.float64(0.168)}
+{'comparison': 'C8 AUROC on HUCA: watch at V2 vs real V2', 'A': np.float64(0.8585174069950682), 'B': np.float64(0.866590294248942), 'delta': np.float64(-0.008072887253873784), 'ci_lo': np.float64(-0.030216854639624376), 'ci_hi': np.float64(0.0131234167513752), 'p_boot': np.float64(0.458)}
+                               comparison      A      B   delta   ci_lo   ci_hi  p_boot  p_holm
+           C1 AUROC: CNN-V1V3 vs Melo DNN 0.8650 0.7968  0.0683  0.0506  0.0865  0.0005   0.004
+            C2 CATT: CNN-V1V3 vs Melo DNN 0.7993 0.7222  0.0770  0.0536  0.0932  0.0005   0.004
+                    C3 AUROC: V1 vs V1-V3 0.8603 0.8650 -0.0047 -0.0174  0.0086  0.4580   1.000
+                    C4 AUROC: V2 vs V1-V3 0.8459 0.8650 -0.0191 -0.0334 -0.0045  0.0070   0.035
+               C5 AUROC: V1-V3 vs 9 leads 0.8650 0.8119  0.0531  0.0363  0.0690  0.0005   0.004
+C6 SRC: window J-20ms_L60ms vs whole beat 0.7042 0.7013  0.0029 -0.0104  0.0159  0.6570   1.000
+    C7 CATT: V2-only pipeline vs CNN-V1V3 0.7873 0.7993 -0.0120 -0.0313  0.0046  0.1680   0.672
+ C8 AUROC on HUCA: watch at V2 vs real V2 0.8585 0.8666 -0.0081 -0.0302  0.0131  0.4580   1.000
