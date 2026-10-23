@@ -20,3 +20,8 @@ hidden noise
        0.20       0.896  0.804
 picked by source validation: (128, 0.05) | best on target: (64, 0.05)
 Melo DNN (pick: source val) done 969s
+Melo DNN (pick: best on target) done 1134s
+                                 auroc9_mean  auroc9_min  held_SRC_mean  held_SRC_min  held_CATT_mean  held_CATT_min  held_ORACLE_mean  held_ORACLE_min
+model                                                                                                                                                  
+Melo DNN (pick: best on target)        0.801       0.744          0.673         0.613           0.731          0.695             0.750            0.699
+Melo DNN (pick: source val)            0.797       0.748          0.677         0.599           0.722          0.689             0.747            0.692
