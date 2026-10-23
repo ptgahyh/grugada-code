@@ -19,3 +19,4 @@ hidden noise
        0.10       0.893  0.797
        0.20       0.896  0.804
 picked by source validation: (128, 0.05) | best on target: (64, 0.05)
+Melo DNN (pick: source val) done 969s
