@@ -1,3 +1,21 @@
 config 64 0.05 54s
 config 64 0.1 113s
 config 64 0.2 176s
+config 128 0.05 248s
+config 128 0.1 321s
+config 128 0.2 387s
+config 256 0.05 495s
+config 256 0.1 620s
+config 256 0.2 747s
+              val_auroc  auroc
+hidden noise                  
+64     0.05       0.897  0.806
+       0.10       0.903  0.800
+       0.20       0.904  0.794
+128    0.05       0.905  0.796
+       0.10       0.903  0.795
+       0.20       0.897  0.800
+256    0.05       0.897  0.799
+       0.10       0.893  0.797
+       0.20       0.896  0.804
+picked by source validation: (128, 0.05) | best on target: (64, 0.05)
