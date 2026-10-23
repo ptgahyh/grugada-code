@@ -1,0 +1,19 @@
+['claris'] 0
+['claris'] 1
+['claris'] 2
+['mortara'] 0
+['mortara'] 1
+['mortara'] 2
+['claris', 'mortara'] 0
+['claris', 'mortara'] 1
+['claris', 'mortara'] 2
+                  auroc           SRC          CATT        ORACLE       
+                   mean    std   mean    std   mean    std   mean    std
+target                                                                  
+Real V2           0.867  0.005  0.656  0.056  0.767  0.036  0.797  0.008
+Watch at V2 (RA)  0.859  0.003  0.693  0.053  0.772  0.013  0.790  0.010
+Watch at V2 (LA)  0.859  0.007  0.639  0.052  0.764  0.024  0.793  0.008
+Real V1           0.877  0.012  0.682  0.058  0.765  0.048  0.824  0.015
+Watch at V1 (RA)  0.860  0.008  0.752  0.041  0.751  0.054  0.811  0.012
+Watch at V1 (LA)  0.795  0.008  0.648  0.040  0.706  0.039  0.760  0.010
+Wrist (lead I)    0.748  0.051  0.656  0.045  0.690  0.026  0.714  0.030

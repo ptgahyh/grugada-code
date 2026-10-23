@@ -20,3 +20,6 @@
 6 claris+mortara -> huca vseed 1 2567s
 6 claris+mortara -> huca vseed 2 2858s
 7 huca+mortara -> claris vseed 0 2996s
+7 huca+mortara -> claris vseed 1 3154s
+7 huca+mortara -> claris vseed 2 3296s
+8 huca+claris -> mortara vseed 0 3572s
