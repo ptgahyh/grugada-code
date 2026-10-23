@@ -102,11 +102,45 @@ Máy giải thích tối đa khoảng 1/3 độ lệch liên viện, chủ yếu
 
 ## 6. Mạng Melo cài lại: có bị yếu do siêu tham số?
 
-MELO_PLACEHOLDER
+Bài gốc không nêu số nơron, mức nhiễu và optimizer. Mình quét 9 cấu hình (số nơron 64/128/256 × nhiễu Gauss 0.05/0.1/0.2), đầu vào 9 chuyển đạo, ensemble 7 mạng, seed validation 0. AUROC liên viện của mọi cấu hình nằm trong khoảng **0.794–0.806**. Vậy khoảng cách với CNN-V1V3 không phải do chọn siêu tham số.
+
+Hai cấu hình được chạy đủ 3 seed:
+
+| Mô hình | AUROC 9 thiết lập (TB / tệ nhất) | SRC held-out | CATT | Oracle |
+|---|---|---|---|---|
+| Melo DNN, chọn theo validation nguồn (128 nơron, σ 0.05) | 0.797 / 0.748 | 0.677 | 0.722 | 0.747 |
+| Melo DNN, cấu hình tốt nhất trên đích (64 nơron, σ 0.05; cận trên có lợi cho Melo) | 0.801 / 0.744 | 0.673 | 0.731 | 0.750 |
+| CNN-V1V3 của bài | 0.865 / 0.819 | 0.701 | 0.799 | 0.820 |
+
+- CATT cũng nâng mạng Melo (0.677 → 0.722), tức CATT không phụ thuộc kiến trúc.
+- Giới hạn: trên Claris → Mortara, bản cài lại đạt khoảng 0.82, thấp hơn mức 0.934 Melo báo cáo. Họ có nhãn gốc, tín hiệu 200 Hz và siêu tham số đầy đủ.
 
 ## 7. Kiểm định bootstrap theo bệnh nhân (2000 lần, Holm)
 
-BOOT_PLACEHOLDER
+Mỗi lần lặp lấy mẫu lại bệnh nhân của từng cohort đích một lần, phân tầng theo lớp. Cùng một mẫu được dùng cho mọi thiết lập và seed có cùng đích. Ngưỡng nguồn giữ cố định; ngưỡng phụ thuộc lô đích (CATT) được ước lượng lại ở mỗi lần lặp. Giá trị p bootstrap thấp nhất có thể là 1/2000 = 0.0005.
+
+| So sánh (A − B) | A | B | Δ | KTC 95% | p Holm |
+|---|---|---|---|---|---|
+| C1 AUROC liên viện: CNN-V1V3 − Melo DNN | 0.865 | 0.797 | **+0.068** | 0.051 đến 0.087 | 0.004 |
+| C2 CATT held-out: CNN-V1V3 − Melo DNN | 0.799 | 0.722 | **+0.077** | 0.054 đến 0.093 | 0.004 |
+| C3 AUROC: chỉ V1 − V1–V3 | 0.860 | 0.865 | −0.005 | −0.017 đến 0.009 | 1.00 |
+| C4 AUROC: chỉ V2 − V1–V3 | 0.846 | 0.865 | **−0.019** | −0.033 đến −0.005 | 0.035 |
+| C5 AUROC: V1–V3 − 9 chuyển đạo | 0.865 | 0.812 | **+0.053** | 0.036 đến 0.069 | 0.004 |
+| C6 SRC held-out: cửa sổ chọn trên dev − cả nhịp | 0.704 | 0.701 | +0.003 | −0.010 đến 0.016 | 1.00 |
+| C7 CATT held-out: hệ thống chỉ dùng V2 − CNN-V1V3 | 0.787 | 0.799 | −0.012 | −0.031 đến 0.005 | 0.67 |
+| C8 AUROC ở HUCA: đồng hồ tại V2 − V2 thật | 0.859 | 0.867 | −0.008 | −0.030 đến 0.013 | 1.00 |
+
+Đọc kết quả:
+- **Có ý nghĩa sau Holm:**
+  - CNN-V1V3 hơn mạng Melo, cả về AUROC lẫn sau CATT.
+  - V1–V3 hơn 9 chuyển đạo.
+  - Chỉ V2 kém V1–V3 một chút (−0.019).
+- **Không khác biệt có ý nghĩa:**
+  - Chỉ V1 so với V1–V3.
+  - Hệ thống chỉ dùng V2 sau CATT so với CNN-V1V3.
+  - Đồng hồ tại V2 so với V2 thật.
+  - Cửa sổ ngắn so với cả nhịp, nên luận điểm cửa sổ bị bỏ.
+- "Không khác biệt có ý nghĩa" chưa phải là "tương đương". Khi viết bài, nêu khoảng tin cậy, đừng nói "bằng nhau".
 
 ## Chạy lại
 
