@@ -1,0 +1,73 @@
+part,rep,source,variant,auroc,SRC,neg_shift
+A within HUCA,0,HUCA,orig,0.9083,0.792,0.0443
+A within HUCA,0,HUCA,LP25,0.9035,0.7955,0.1343
+A within HUCA,0,HUCA,HP0.67c,0.8941,0.7767,0.2445
+A within HUCA,0,HUCA,HP1c,0.8831,0.7356,0.2934
+A within HUCA,0,HUCA,quant+noise,0.906,0.7986,0.0401
+A within HUCA,0,HUCA,combined,0.8932,0.7256,0.3233
+B Melo->HUCA,0,claris,orig,0.8558,0.5442,1.0071
+B Melo->HUCA,0,claris,LP25,0.8552,0.5265,1.0402
+B Melo->HUCA,0,claris,HP0.67c,0.8199,0.5197,1.4409
+B Melo->HUCA,0,claris,HP1c,0.8061,0.5161,1.5763
+B Melo->HUCA,0,claris,quant+noise,0.8567,0.5424,0.9856
+B Melo->HUCA,0,claris,combined,0.8154,0.5144,1.4847
+B Melo->HUCA,0,mortara,orig,0.8658,0.6283,0.887
+B Melo->HUCA,0,mortara,LP25,0.8709,0.6069,0.9256
+B Melo->HUCA,0,mortara,HP0.67c,0.8459,0.5978,1.0151
+B Melo->HUCA,0,mortara,HP1c,0.8314,0.5554,1.1075
+B Melo->HUCA,0,mortara,quant+noise,0.861,0.6318,0.8812
+B Melo->HUCA,0,mortara,combined,0.8514,0.5799,1.0409
+B Melo->HUCA,0,claris+mortara,orig,0.8951,0.5671,0.9108
+B Melo->HUCA,0,claris+mortara,LP25,0.8968,0.5389,0.924
+B Melo->HUCA,0,claris+mortara,HP0.67c,0.8522,0.5371,1.2964
+B Melo->HUCA,0,claris+mortara,HP1c,0.8303,0.5336,1.4075
+B Melo->HUCA,0,claris+mortara,quant+noise,0.8933,0.5654,0.8899
+B Melo->HUCA,0,claris+mortara,combined,0.8547,0.5247,1.31
+A within HUCA,1,HUCA,orig,0.8869,0.7998,-0.0762
+A within HUCA,1,HUCA,LP25,0.8722,0.8045,0.1672
+A within HUCA,1,HUCA,HP0.67c,0.8495,0.7853,0.2627
+A within HUCA,1,HUCA,HP1c,0.828,0.7345,0.4213
+A within HUCA,1,HUCA,quant+noise,0.8856,0.8131,-0.1068
+A within HUCA,1,HUCA,combined,0.8281,0.7456,0.4473
+B Melo->HUCA,1,claris,orig,0.8847,0.5707,0.8891
+B Melo->HUCA,1,claris,LP25,0.8855,0.5548,0.9282
+B Melo->HUCA,1,claris,HP0.67c,0.8467,0.5265,1.2808
+B Melo->HUCA,1,claris,HP1c,0.8228,0.5247,1.4542
+B Melo->HUCA,1,claris,quant+noise,0.8855,0.5654,0.8618
+B Melo->HUCA,1,claris,combined,0.8494,0.5265,1.2979
+B Melo->HUCA,1,mortara,orig,0.8488,0.5305,1.1638
+B Melo->HUCA,1,mortara,LP25,0.8501,0.5163,1.2073
+B Melo->HUCA,1,mortara,HP0.67c,0.8285,0.5075,1.2843
+B Melo->HUCA,1,mortara,HP1c,0.8308,0.5075,1.3334
+B Melo->HUCA,1,mortara,quant+noise,0.8509,0.5287,1.1606
+B Melo->HUCA,1,mortara,combined,0.8422,0.4951,1.3082
+B Melo->HUCA,1,claris+mortara,orig,0.9013,0.5656,0.8847
+B Melo->HUCA,1,claris+mortara,LP25,0.9012,0.5371,0.9251
+B Melo->HUCA,1,claris+mortara,HP0.67c,0.8759,0.5283,1.2109
+B Melo->HUCA,1,claris+mortara,HP1c,0.8521,0.5212,1.3736
+B Melo->HUCA,1,claris+mortara,quant+noise,0.9021,0.5603,0.8974
+B Melo->HUCA,1,claris+mortara,combined,0.8814,0.5194,1.2917
+A within HUCA,2,HUCA,orig,0.8803,0.7934,0.019
+A within HUCA,2,HUCA,LP25,0.8784,0.7999,0.1166
+A within HUCA,2,HUCA,HP0.67c,0.8644,0.7864,0.1775
+A within HUCA,2,HUCA,HP1c,0.8512,0.7608,0.2608
+A within HUCA,2,HUCA,quant+noise,0.8792,0.794,0.0213
+A within HUCA,2,HUCA,combined,0.8579,0.7572,0.2666
+B Melo->HUCA,2,claris,orig,0.8637,0.5318,1.1112
+B Melo->HUCA,2,claris,LP25,0.8628,0.5194,1.1197
+B Melo->HUCA,2,claris,HP0.67c,0.8176,0.5141,1.41
+B Melo->HUCA,2,claris,HP1c,0.791,0.5124,1.5046
+B Melo->HUCA,2,claris,quant+noise,0.8603,0.5283,1.1105
+B Melo->HUCA,2,claris,combined,0.8292,0.5088,1.4084
+B Melo->HUCA,2,mortara,orig,0.8678,0.5658,0.6899
+B Melo->HUCA,2,mortara,LP25,0.8675,0.5605,0.7404
+B Melo->HUCA,2,mortara,HP0.67c,0.8424,0.5181,0.857
+B Melo->HUCA,2,mortara,HP1c,0.8322,0.5163,0.9087
+B Melo->HUCA,2,mortara,quant+noise,0.8673,0.5623,0.6866
+B Melo->HUCA,2,mortara,combined,0.8475,0.5163,0.8679
+B Melo->HUCA,2,claris+mortara,orig,0.8983,0.5124,0.9512
+B Melo->HUCA,2,claris+mortara,LP25,0.8955,0.5088,0.9862
+B Melo->HUCA,2,claris+mortara,HP0.67c,0.859,0.5053,1.3626
+B Melo->HUCA,2,claris+mortara,HP1c,0.8429,0.5053,1.4817
+B Melo->HUCA,2,claris+mortara,quant+noise,0.8971,0.5124,0.9272
+B Melo->HUCA,2,claris+mortara,combined,0.8719,0.5035,1.3806
