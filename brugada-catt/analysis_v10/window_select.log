@@ -39,3 +39,21 @@ setting 4 vseed 2 883s
 setting 5 vseed 0 909s
 setting 5 vseed 1 952s
 setting 5 vseed 2 1006s
+setting 6 vseed 0 1193s
+setting 6 vseed 1 1341s
+setting 6 vseed 2 1506s
+setting 7 vseed 0 1574s
+setting 7 vseed 1 1627s
+setting 7 vseed 2 1711s
+setting 8 vseed 0 1883s
+setting 8 vseed 1 2033s
+setting 8 vseed 2 2197s
+
+Held-out settings:
+                             auroc_mean  auroc_min  SRC_mean  SRC_min  CATT_mean  CATT_min  ORACLE_mean  ORACLE_min
+window                                                                                                            
+J-20ms_L60ms                     0.849      0.822     0.704    0.596      0.764     0.742        0.789       0.752
+J-20ms_L90ms                     0.859      0.835     0.719    0.625      0.776     0.757        0.796       0.767
+J-10ms_L60ms                     0.854      0.818     0.709    0.614      0.776     0.747        0.796       0.760
+whole beat                       0.876      0.860     0.701    0.548      0.799     0.772        0.820       0.802
+QRS+50ms_L90ms (last week)       0.864      0.827     0.748    0.710      0.779     0.761        0.802       0.773
