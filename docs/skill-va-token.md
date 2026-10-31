@@ -47,6 +47,15 @@ Nguồn: https://github.com/K-Dense-AI/scientific-agent-skills (trước đây l
 | Các danh sách `awesome-claude-skills` (travisvn, ComposioHQ…) | Chỉ là danh sách liên kết, nhiều skill chưa được kiểm định |
 | Phần còn lại của K-Dense (~130 skill: hoá học, gen, lượng tử…) | Không liên quan đề tài, chỉ làm phình mô tả. Chính K-Dense cũng cảnh báo nhiều skill cộng đồng chưa được rà soát kỹ |
 
+## 2b. Tự thêm skill khi cần: `skill-scout`
+Bạn không cần tự đi tìm skill nữa. Khi bạn hỏi việc mới mà chưa có skill phù hợp, `skill-scout` sẽ:
+1. Tra danh mục ~180 skill đã kiểm duyệt (`skill-scout/references/catalog.tsv`: 163 skill K-Dense + 17 skill của Anthropic) bằng `grep`, không đọc cả file, để đỡ tốn token.
+2. Chọn tối đa 2 skill phù hợp, tải về bằng `scripts/fetch_skill.py`. Script tự bỏ đoạn quảng cáo trích dẫn, kiểm tra định dạng và quét nội dung rủi ro.
+3. Nếu sạch: **Claude Code** tự cài vào `.claude/skills/` (hoặc `~/.claude/skills/`). **Chat/Cowork** tạo file ZIP để bạn tải lên, vì Claude không có quyền tải lên tài khoản của bạn. Dù ở đâu, Claude cũng đọc skill và dùng ngay cho câu hỏi đang làm.
+4. Nếu có rủi ro (gửi dữ liệu cho dịch vụ AI trả phí, đọc file `.env`/mật khẩu, tải-và-chạy lệnh…): **dừng lại và hỏi bạn** trước khi cài.
+
+Muốn gọi thẳng thì nói "tìm skill cho …" hoặc gõ `/skill-scout`.
+
 ## 3. Dùng trong chat claude.ai và Cowork
 Skill trong repo **không** tự có ở chat hay Cowork; phải tải lên tài khoản:
 
@@ -57,7 +66,7 @@ Skill trong repo **không** tự có ở chat hay Cowork; phải tải lên tài
 
 Tải lên một lần là dùng được ở chat và Cowork. Claude Code đăng nhập cùng tài khoản (bản v2.1.273 trở lên) cũng tự đồng bộ các skill này về.
 
-Nên tải: 7 skill K-Dense + `small-sample-stats`, `lit-review`, `research-writing-vn`. Skill `ecg-brugada-pipeline` chủ yếu hướng dẫn sửa `ecg_pipeline.py`, nên chỉ hữu ích khi có repo; vẫn tải được nếu muốn Claude nhớ các định nghĩa đo ECG.
+Nên tải: **`skill-scout`** (để chat/Cowork tự tìm skill mới) + 7 skill K-Dense + `small-sample-stats`, `lit-review`, `research-writing-vn`. Skill `ecg-brugada-pipeline` chủ yếu hướng dẫn sửa `ecg_pipeline.py`, nên chỉ hữu ích khi có repo; vẫn tải được nếu muốn Claude nhớ các định nghĩa đo ECG.
 
 ## 4. Dùng cho mọi dự án trong Claude Code trên máy bạn
 Chép vào thư mục skill của người dùng (áp dụng cho mọi repo):

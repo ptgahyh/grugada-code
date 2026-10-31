@@ -30,7 +30,7 @@
 
 ## Docs and skills
 - `README.md` (how to run, changes, results), `docs/tong-quan-tai-lieu.md` (literature review with sources; **never invent citations**), `docs/skill-va-token.md` (installed skills, token tips).
-- Project skills (`.claude/skills/`): `ecg-brugada-pipeline`, `small-sample-stats`, `lit-review`, `research-writing-vn` hold project-specific rules and take precedence. General skills from K-Dense (`neurokit2`, `statistical-analysis`, `scientific-visualization`, `scientific-writing`, `literature-review`, `paper-lookup`, `scientific-critical-thinking`) supply general method.
+- Project skills (`.claude/skills/`): `ecg-brugada-pipeline`, `small-sample-stats`, `lit-review`, `research-writing-vn` hold project-specific rules and take precedence. General skills from K-Dense (`neurokit2`, `statistical-analysis`, `scientific-visualization`, `scientific-writing`, `literature-review`, `paper-lookup`, `scientific-critical-thinking`) supply general method. `skill-scout` finds and adds missing skills from a vetted catalog when a task needs one.
 
 ## Token hygiene
 - Read only the part of a file you need; don't print whole CSVs or long logs.
