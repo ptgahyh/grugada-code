@@ -1,6 +1,6 @@
 ---
 name: ecg-brugada-pipeline
-description: Grugada project rules for 12-lead ECG processing in ecg_pipeline.py: QRS detection, median beat, J-point, ST/J/S-wave/aVR features, adding features, debugging odd feature values. Use for any ECG signal-processing change in this repo; for general NeuroKit2 APIs see neurokit2.
+description: "Grugada project rules for 12-lead ECG processing in ecg_pipeline.py: QRS detection, median beat, J-point, ST/J/S-wave/aVR features, adding features, debugging odd feature values. Use for any ECG signal-processing change in this repo; for general NeuroKit2 APIs see neurokit2."
 ---
 
 # Xử lý ECG cho nghiên cứu Brugada

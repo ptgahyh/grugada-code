@@ -1,6 +1,6 @@
 ---
 name: lit-review
-description: Grugada project rules for updating docs/tong-quan-tai-lieu.md: verified sources only, table format, link each finding to project features. Use when adding or checking literature for this repo; for searching use paper-lookup and literature-review.
+description: "Grugada project rules for updating docs/tong-quan-tai-lieu.md: verified sources only, table format, link each finding to project features. Use when adding or checking literature for this repo; for searching use paper-lookup and literature-review."
 ---
 
 # Tổng quan y văn có kiểm chứng

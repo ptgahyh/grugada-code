@@ -47,7 +47,19 @@ Nguồn: https://github.com/K-Dense-AI/scientific-agent-skills (trước đây l
 | Các danh sách `awesome-claude-skills` (travisvn, ComposioHQ…) | Chỉ là danh sách liên kết, nhiều skill chưa được kiểm định |
 | Phần còn lại của K-Dense (~130 skill: hoá học, gen, lượng tử…) | Không liên quan đề tài, chỉ làm phình mô tả. Chính K-Dense cũng cảnh báo nhiều skill cộng đồng chưa được rà soát kỹ |
 
-## 3. Dùng các skill này cho mọi dự án trên máy bạn
+## 3. Dùng trong chat claude.ai và Cowork
+Skill trong repo **không** tự có ở chat hay Cowork; phải tải lên tài khoản:
+
+1. Nén từng thư mục skill thành một file ZIP, thư mục nằm ở gốc ZIP (ví dụ `neurokit2.zip` chứa `neurokit2/SKILL.md`). Tên thư mục phải trùng `name:` trong `SKILL.md`.
+2. Trên claude.ai: **Customize → Skills → "+" → Create skill → Upload a skill**, chọn file ZIP.
+3. Bật công tắc của skill vừa tải lên.
+4. Cần bật **Code execution** (thực thi mã) trong cài đặt; skill không chạy nếu tắt.
+
+Tải lên một lần là dùng được ở chat và Cowork. Claude Code đăng nhập cùng tài khoản (bản v2.1.273 trở lên) cũng tự đồng bộ các skill này về.
+
+Nên tải: 7 skill K-Dense + `small-sample-stats`, `lit-review`, `research-writing-vn`. Skill `ecg-brugada-pipeline` chủ yếu hướng dẫn sửa `ecg_pipeline.py`, nên chỉ hữu ích khi có repo; vẫn tải được nếu muốn Claude nhớ các định nghĩa đo ECG.
+
+## 4. Dùng cho mọi dự án trong Claude Code trên máy bạn
 Chép vào thư mục skill của người dùng (áp dụng cho mọi repo):
 
 ```bash
@@ -62,7 +74,7 @@ foreach ($s in "neurokit2","statistical-analysis","scientific-visualization","sc
 
 Bốn skill dự án (`ecg-brugada-pipeline`…) nên để lại trong repo vì chỉ đúng cho đề tài này.
 
-## 4. Thói quen tiết kiệm token (quan trọng hơn chọn skill)
+## 5. Thói quen tiết kiệm token (quan trọng hơn chọn skill)
 Phần lớn token bị tiêu vào **lịch sử hội thoại dài, file lớn bị đọc nguyên, và kết quả lệnh dài**, không phải vào skill.
 
 1. **Mỗi việc một phiên.** Xong việc thì gõ `/clear`. Mỗi tin nhắn mới phải gửi kèm toàn bộ lịch sử phía trước, nên phiên càng dài, mỗi câu càng đắt.

@@ -1,6 +1,6 @@
 ---
 name: small-sample-stats
-description: Grugada project statistics rules for tiny event groups (11 SCD cases): AUC with bootstrap CI, BH q-values, Fisher exact, no multivariable/ML models for SCD. Use whenever comparing groups or interpreting significance in this repo; general test selection lives in statistical-analysis.
+description: "Grugada project statistics rules for tiny event groups (11 SCD cases): AUC with bootstrap CI, BH q-values, Fisher exact, no multivariable/ML models for SCD. Use whenever comparing groups or interpreting significance in this repo; general test selection lives in statistical-analysis."
 ---
 
 # Thống kê với cỡ mẫu nhỏ
