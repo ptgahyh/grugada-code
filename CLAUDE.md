@@ -1,38 +1,37 @@
-# CLAUDE.md: bối cảnh dự án Grugada
+# Grugada project context
 
-## Người dùng và mục tiêu
-- Người dùng nói tiếng Việt; trả lời, viết comment và tài liệu bằng **tiếng Việt**. Thuật ngữ y khoa/thống kê giữ tiếng Anh trong ngoặc khi cần (ví dụ: điểm J (J-point)).
-- Đề tài: đặc trưng ECG liên quan đến **chẩn đoán hội chứng Brugada** và **đột tử (SCD)** trên bộ dữ liệu công khai Brugada-HUCA. Mục tiêu là báo cáo/bài báo khoa học, nên **tính đúng về phương pháp quan trọng hơn kết quả "đẹp"**.
+(Written in English to save tokens: this file loads every session. Vietnamese costs noticeably more tokens for the same content.)
 
-## Dữ liệu (đã kiểm tra trực tiếp)
-- 363 ECG, 12 chuyển đạo, **100 Hz, 1200 mẫu (12 s)**, đơn vị mV. Thứ tự: I, II, III, aVR, aVL, aVF, V1–V6 (V1 = cột 6).
-- `metadata.csv`: `patient_id`, `basal_pattern` (0/1), `sudden_death` (0/1, **chỉ 11 ca = 1**), `brugada` (0/1/2; giá trị 2 có 7 ca, ý nghĩa chưa rõ → coi `brugada >= 1` là Brugada, tổng 76 ca khớp PhysioNet).
-- Trong phiên Claude trên cloud, physionet.org và zenodo.org bị chặn; tải từ bản sao GitHub bằng `python "0.tai du lieu.py" <thư_mục>` (raw.githubusercontent.com truy cập được). Đặt `BRUGADA_DIR=<thư_mục>`. Không commit dữ liệu thô vào repo.
+## User
+- **Always reply, comment code and write docs in Vietnamese.** Keep English medical/statistical terms in parentheses where useful, e.g. "điểm J (J-point)".
+- Goal: a scientific report/paper on ECG features for **Brugada diagnosis** and **sudden cardiac death (SCD)** using the public Brugada-HUCA dataset. Methodological correctness beats "nice" results.
 
-## Cấu trúc code
-- `ecg_pipeline.py`: **mọi thuật toán nằm ở đây** (lọc, dò QRS, nhịp trung vị, onset/điểm J, đặc trưng). Các script đánh số chỉ gọi module này. Sửa thuật toán thì sửa ở đây, không chép hàm sang script khác.
-- `0`→`5` là các bước chạy tuần tự; tên file có dấu cách nên phải đặt trong ngoặc kép khi chạy.
-- `Final_Research_Data.csv` (đầu ra bước 4), `results/stats_*.csv` và `figures/` (đầu ra bước 3, 5) được commit để người dùng xem kết quả không cần chạy lại.
-- Kiểm thử: `python -m pytest tests/` (ECG giả lập có đáp án). Chạy sau mọi thay đổi trong `ecg_pipeline.py`.
+## Data (verified)
+- 363 ECGs, 12 leads, **100 Hz, 1200 samples (12 s)**, mV. Order I, II, III, aVR, aVL, aVF, V1–V6 (V1 = column 6).
+- `metadata.csv`: `patient_id`, `basal_pattern` (0/1), `sudden_death` (0/1, **only 11 positives**), `brugada` (0/1/2; value 2 = 7 cases, meaning unknown → treat `brugada >= 1` as Brugada, 76 total, matches PhysioNet).
+- Cloud sessions: physionet.org and zenodo.org are blocked. Download with `python "0.tai du lieu.py" <dir>` (raw.githubusercontent.com works), then set `BRUGADA_DIR=<dir>`. Never commit raw data.
 
-## Quy tắc phương pháp (đừng tái phạm lỗi cũ)
-1. **Không viết cứng chỉ số mẫu**; mọi mốc thời gian = giây × `fs`.
-2. **Không dò đỉnh R trên riêng V1** (QRS ở V1 thường âm). Dùng `ep.detect_qrs` trên cả 12 chuyển đạo.
-3. Điểm J lấy từ `ep.delineate` (một điểm J chung cho mọi chuyển đạo), không dùng "R + hằng số".
-4. Không dùng `except:` trống; ghi lỗi vào cột `error`.
-5. Sau khi đổi thuật toán: chạy bước 3 cho các ca đột tử và vài ca lỗi, **xem hình** trước khi tin con số.
-6. Thống kê: báo cáo hiệu ứng (AUC/median [IQR]) + KTC 95% + q-value BH, không chỉ p-value. Với 11 ca đột tử: **không** xây mô hình đa biến/học máy để dự báo đột tử; ghi rõ "thăm dò".
-7. Ưu tiên kiểm định giả thuyết có sẵn từ y văn (S ở DI ≥ 40 ms, aVR R ≥ 0.3 mV, QRS rộng) hơn là dò tìm hàng loạt đặc trưng.
+## Code
+- `ecg_pipeline.py` holds **all algorithms** (filter, QRS detection, median beat, onset/J-point, features). Numbered scripts `0`–`5` only call it. Filenames contain spaces: quote them.
+- Committed outputs: `Final_Research_Data.csv`, `results/stats_*.csv`, `figures/`.
+- Tests: `python -m pytest tests/` after any change to `ecg_pipeline.py`.
 
-## Giới hạn đã biết
-- 100 Hz → độ phân giải 10 ms; không đo được QRS phân mảnh (fQRS).
-- Không có chuyển đạo V1–V2 ở khoang liên sườn cao.
-- Điểm J tự động chưa được đối chiếu với đo tay của bác sĩ.
+## Method rules (past bugs, do not repeat)
+1. No hard-coded sample indices; time = seconds × `fs`.
+2. Never detect R peaks on V1 alone; use `ep.detect_qrs` (12-lead energy).
+3. J-point from `ep.delineate` (one global J for all leads), never "R + constant".
+4. No bare `except:`; record failures in the `error` column.
+5. After changing an algorithm, run step 3 on the SCD cases and **look at the plots** before trusting numbers.
+6. Report effect size (AUC, median [IQR]) + 95% CI + BH q-value, not p alone. With 11 SCD cases: **no** multivariable/ML model for SCD; label results "exploratory".
+7. Prefer testing literature-defined hypotheses (lead I S-wave ≥ 40 ms, aVR R ≥ 0.3 mV, wide QRS) over mass feature screening.
 
-## Tài liệu
-- `README.md`: cách chạy, các thay đổi so với bản đầu, kết quả chính.
-- `docs/tong-quan-tai-lieu.md`: tổng quan y văn kèm nguồn. Cập nhật khi tra thêm tài liệu; **không bịa trích dẫn**, chỉ ghi nguồn đã mở được.
-- Skill riêng của dự án trong `.claude/skills/`: `ecg-brugada-pipeline`, `small-sample-stats`, `lit-review`, `research-writing-vn`.
+## Known limits
+100 Hz → 10 ms resolution, no fragmented QRS; no high intercostal V1–V2; automatic J-point not yet validated against manual cardiologist measurement.
 
-## Git
-- Commit message tiếng Việt hoặc tiếng Anh ngắn gọn, mô tả "vì sao".
+## Docs and skills
+- `README.md` (how to run, changes, results), `docs/tong-quan-tai-lieu.md` (literature review with sources; **never invent citations**), `docs/skill-va-token.md` (installed skills, token tips).
+- Project skills (`.claude/skills/`): `ecg-brugada-pipeline`, `small-sample-stats`, `lit-review`, `research-writing-vn` hold project-specific rules and take precedence. General skills from K-Dense (`neurokit2`, `statistical-analysis`, `scientific-visualization`, `scientific-writing`, `literature-review`, `paper-lookup`, `scientific-critical-thinking`) supply general method.
+
+## Token hygiene
+- Read only the part of a file you need; don't print whole CSVs or long logs.
+- Prefer one focused task per session; the user can `/clear` between tasks.

@@ -60,7 +60,7 @@ ST chênh lên ở điểm J rồi dốc xuống ở V1–V2, QRS rộng hơn v�
 
 **Với kết quả cũ**: V1_Slope p = 0.156 (cũ) → p = 0.54 (mới) khi so đột tử. Không có thay đổi nào từ "không ý nghĩa" sang "có ý nghĩa". Câu hỏi đột tử cần cohort lớn hơn chứ không cần thêm đặc trưng.
 
-Chi tiết: `results/stats_*.csv`. Tổng quan tài liệu: `docs/tong-quan-tai-lieu.md`.
+Chi tiết: `results/stats_*.csv`. Tổng quan tài liệu: `docs/tong-quan-tai-lieu.md`. Skill cho Claude và mẹo tiết kiệm token: `docs/skill-va-token.md`.
 
 ## Giới hạn
 

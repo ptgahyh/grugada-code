@@ -1,6 +1,6 @@
 ---
 name: lit-review
-description: Tra cứu và tổng hợp y văn khoa học có kiểm chứng nguồn. Dùng khi người dùng hỏi "có nghiên cứu nào về…", cần trích dẫn, so sánh kết quả với y văn, cập nhật docs/tong-quan-tai-lieu.md, hoặc tìm định nghĩa/ngưỡng chuẩn của một dấu hiệu ECG/lâm sàng.
+description: Grugada project rules for updating docs/tong-quan-tai-lieu.md: verified sources only, table format, link each finding to project features. Use when adding or checking literature for this repo; for searching use paper-lookup and literature-review.
 ---
 
 # Tổng quan y văn có kiểm chứng

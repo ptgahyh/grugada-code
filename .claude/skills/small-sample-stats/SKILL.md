@@ -1,6 +1,6 @@
 ---
 name: small-sample-stats
-description: Thống kê đúng cách khi nhóm biến cố rất nhỏ (ví dụ 11 ca đột tử) trong nghiên cứu y sinh. Dùng khi so sánh hai nhóm, chọn kiểm định, báo cáo p-value/AUC/KTC, hiệu chỉnh nhiều phép kiểm định, cân nhắc xây mô hình dự báo hoặc học máy, hoặc diễn giải kết quả "có ý nghĩa thống kê".
+description: Grugada project statistics rules for tiny event groups (11 SCD cases): AUC with bootstrap CI, BH q-values, Fisher exact, no multivariable/ML models for SCD. Use whenever comparing groups or interpreting significance in this repo; general test selection lives in statistical-analysis.
 ---
 
 # Thống kê với cỡ mẫu nhỏ

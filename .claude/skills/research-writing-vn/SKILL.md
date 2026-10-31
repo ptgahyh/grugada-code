@@ -1,6 +1,6 @@
 ---
 name: research-writing-vn
-description: Viết báo cáo, bài báo, poster hoặc slide khoa học tiếng Việt (hoặc tiếng Anh) từ kết quả dự án theo cấu trúc IMRaD và checklist STROBE/TRIPOD. Dùng khi người dùng muốn viết phần phương pháp, kết quả, bàn luận, tóm tắt (abstract), hoặc chuẩn bị nộp hội nghị/tạp chí.
+description: Grugada project rules for writing the Vietnamese/English report or paper (IMRaD, STROBE/TRIPOD+AI) from results/ and figures/. Use for abstract, methods, results, discussion or submission prep; general manuscript method lives in scientific-writing.
 ---
 
 # Viết báo cáo khoa học
