@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+brugada-huca/
+Audit_SCD_List.csv

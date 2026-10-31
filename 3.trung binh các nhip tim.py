@@ -1,84 +1,64 @@
-import pandas as pd
+"""
+BƯỚC 3: KIỂM TRA BẰNG MẮT NHỊP TRUNG VỊ VÀ CÁC MỐC ĐO
+Vẽ nhịp trung vị của DI, aVR, V1, V2 kèm QRS onset, điểm J, J+80 ms để bạn tự xác minh thuật toán.
+
+Cách chạy:
+    python "3.trung binh các nhip tim.py"                 # 2 ca mặc định + toàn bộ ca đột tử
+    python "3.trung binh các nhip tim.py" 428031 1142915  # chỉ các ID chỉ định
+Hình lưu trong thư mục figures/qc/.
+"""
 import os
-import wfdb
-import numpy as np
-from scipy.signal import butter, filtfilt, find_peaks
+import sys
+
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
-# ==========================================
-# 1. CẤU HÌNH ĐƯỜNG DẪN (Thay đổi cho đúng máy bạn)
-# ==========================================
-BASE_DIR = r'D:\brugada-huca-12-lead-ecg-recordings-for-the-study-of-brugada-syndrome-1.0.0\brugada-huca-12-lead-ecg-recordings-for-the-study-of-brugada-syndrome-1.0.0'
-FILES_DIR = os.path.join(BASE_DIR, 'files')
+import ecg_pipeline as ep
 
-# ==========================================
-# 2. ĐỊNH NGHĨA CÁC HÀM (BỘ MÁY XỬ LÝ)
-# ==========================================
+OUT_DIR = os.path.join('figures', 'qc')
+PLOT_LEADS = ['I', 'aVR', 'V1', 'V2']
 
-def apply_standard_filter(data, fs=100):
-    """Bộ lọc Butterworth Bậc 3 (0.5Hz - 40Hz) theo Protocol"""
-    nyq = 0.5 * fs
-    b, a = butter(3, [0.5/nyq, 40/nyq], btype='band')
-    return filtfilt(b, a, data)
 
-def get_cleaned_signal(pid):
-    """Hàm đọc file thô và làm sạch tín hiệu chuyển đạo V1"""
-    path = os.path.join(FILES_DIR, str(pid), str(pid))
-    record = wfdb.rdrecord(path)
-    # Lấy chuyển đạo V1 (Index 6)
-    v1_raw = record.p_signal[:, 6]
-    v1_clean = apply_standard_filter(v1_raw, record.fs)
-    return v1_clean, record.fs
+def plot_patient(pid, label=''):
+    feats, mb = ep.process_patient(pid)
+    if mb is None or 'onset' not in mb:
+        print(f'❌ ID {pid}: {feats["error"]}')
+        return
+    fs, beat = mb['fs'], mb['beat']
+    onset, j = mb['onset'], mb['j']
+    beat = ep.baseline_correct(beat, onset, fs)
+    t_ms = (np.arange(len(beat)) - mb['fid']) / fs * 1000
 
-def extract_average_beat(signal, fs=100):
-    """Tính toán nhịp tim trung bình để khử nhiễu tuyệt đối"""
-    # Tìm đỉnh R (khoảng cách tối thiểu 0.6s)
-    peaks, _ = find_peaks(signal, distance=int(fs*0.6), height=np.mean(signal))
-    
-    beats = []
-    for r in peaks:
-        # Cửa sổ 1000ms: 40 mẫu trước R (400ms), 60 mẫu sau R (600ms)
-        start, end = r - 40, r + 60
-        if start > 0 and end < len(signal):
-            beat = signal[start:end]
-            # Baseline Correction dựa trên đoạn PR (mẫu 30-35 trong cửa sổ)
-            baseline = np.mean(beat[30:35])
-            beats.append(beat - baseline)
-            
-    return np.mean(beats, axis=0) if len(beats) > 0 else None
+    fig, axes = plt.subplots(1, len(PLOT_LEADS), figsize=(16, 4), sharey=True)
+    for ax, lead in zip(axes, PLOT_LEADS):
+        ax.plot(t_ms, beat[:, ep.LEAD_IDX[lead]], color='tab:blue', lw=2)
+        ax.axhline(0, color='black', ls='--', alpha=0.4)
+        ax.axvline(t_ms[onset], color='tab:green', alpha=0.7, label='QRS onset')
+        ax.axvline(t_ms[j], color='tab:red', alpha=0.7, label='Điểm J')
+        ax.axvline(t_ms[j] + ep.ST_OFFSET * 1000, color='tab:orange', alpha=0.7, label='J+80 ms')
+        ax.set_title(lead)
+        ax.set_xlabel('ms (0 = mốc QRS)')
+        ax.grid(alpha=0.2)
+    axes[0].set_ylabel('mV')
+    axes[0].legend(fontsize=8)
+    fig.suptitle(f'ID {pid} {label} | QRS={feats["QRS_ms"]:.0f} ms, V1_J={feats["V1_J"]:.2f} mV, '
+                 f'V2_J={feats["V2_J"]:.2f} mV, n_beats={feats["n_beats"]}')
+    fig.tight_layout()
+    os.makedirs(OUT_DIR, exist_ok=True)
+    path = os.path.join(OUT_DIR, f'{pid}.png')
+    fig.savefig(path, dpi=90)
+    plt.close(fig)
+    print(f'✅ Đã lưu {path}')
 
-# ==========================================
-# 3. THỰC THI VÀ VẼ HÌNH XÁC MINH
-# ==========================================
 
-def run_verification(pid, title_ext):
-    try:
-        print(f"🔄 Đang xử lý ca {pid}...")
-        sig_clean, fs = get_cleaned_signal(pid)
-        avg_beat = extract_average_beat(sig_clean, fs)
-        
-        if avg_beat is not None:
-            plt.figure(figsize=(10, 5))
-            plt.plot(avg_beat, color='blue' if 'Brugada' in title_ext else 'red', linewidth=2)
-            plt.axhline(0, color='black', linestyle='--', alpha=0.5) # Đường đẳng điện
-            
-            # Đánh dấu các mốc quan trọng để kiểm tra mắt
-            r_idx = 40 # Đỉnh R luôn nằm ở mẫu 40 do ta cắt 40 trước R
-            j_idx = r_idx + 6 # J-point (60ms sau R)
-            
-            plt.scatter(j_idx, avg_beat[j_idx], color='black', zorder=5, label='J-point Candidate')
-            
-            plt.title(f"Xác minh Nhịp tim trung bình - ID {pid} ({title_ext})")
-            plt.xlabel("Mẫu (10ms mỗi mẫu)")
-            plt.ylabel("Biên độ (mV)")
-            plt.legend()
-            plt.grid(True, alpha=0.2)
-            plt.show()
-        else:
-            print(f"❌ Không tìm thấy đủ nhịp tim cho ID {pid}")
-    except Exception as e:
-        print(f"❌ Lỗi khi xử lý ID {pid}: {e}")
-
-# Chạy xác minh cho 2 ca quan trọng nhất
-run_verification(428031, "Brugada Đột tử điển hình")
-run_verification(1142915, "Đột tử ẩn - Nhãn Bình thường")
+if __name__ == '__main__':
+    meta = pd.read_csv(ep.METADATA_PATH).set_index('patient_id')
+    ids = [int(x) for x in sys.argv[1:]]
+    if not ids:
+        ids = [428031, 1142915] + meta.index[meta['sudden_death'] == 1].tolist()
+    for pid in dict.fromkeys(ids):
+        row = meta.loc[pid]
+        plot_patient(pid, f'(brugada={row.brugada}, đột tử={row.sudden_death})')
