@@ -1,0 +1,331 @@
+# source	name	size_kb	description   (anthropic-kwp names are plugin/skill)
+kdense	13c-metabolic-flux	12	Estimates intracellular metabolic fluxes from steady-state carbon-13 isotope-tracing measurements using validated atom maps, mfapy isotope simulation, constrain
+kdense	adaptyv	13	Uses the Adaptyv Bio Foundry API and Python SDK to design protein characterization experiments, estimate costs, submit sequences, monitor laboratory progress, a
+kdense	aeon	14	This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation,
+kdense	alphagenome	17	Looks up precomputed AlphaGenome Atlas effects for any GRCh38 single-nucleotide variant (AVI score with Phred and 18 SHAP feature attributions, plus raw and qua
+kdense	analytical-method-validation	19	Plans, executes, and documents validation, verification, and transfer of analytical procedures under the governing framework - ICH Q2(R2) and Q14, USP <1220>/<1
+kdense	anndata	15	Handles annotated matrices in single-cell analysis, .h5ad and Zarr files, and integration with the scverse ecosystem.
+kdense	arbor	16	Applies Arbor Hypothesis Tree Refinement to research artifacts with repeatable evaluators, including model training, agent harnesses, data synthesis and benchma
+kdense	arboreto	10	Infers candidate gene regulatory networks from bulk or single-cell expression data using AertsLab Arboreto GRNBoost2 and GENIE3.
+kdense	astropy	16	Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including units/quantities, coordinates, FITS I/O, tables, time systems, WC
+kdense	autoskill	16	Analyzes user-requested Screenpipe history windows to detect repeated research workflows, match existing scientific skills, and stage new skill drafts or compos
+kdense	benchling-integration	8	Benchling Python SDK and REST API integration for registry entities, inventory, ELN entries, workflows, Benchling Apps, and Data Warehouse queries.
+kdense	bgpt-paper-search	7	Searches BGPT scientific papers by topic or DOI and retrieves claim-level evidence extracted from full text, including experiments, reported statistics, scope,
+kdense	bids	14	Organizes, queries, validates, and converts Brain Imaging Data Structure (BIDS) datasets.
+kdense	biopython	16	Provides Biopython workflows for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez).
+kdense	bioservices	11	Provides a Python interface to bioinformatics services including UniProt, KEGG, ChEMBL, Reactome, QuickGO, and UniChem.
+kdense	bulk-rnaseq	16	Prepares bulk RNA-seq FASTQ, Salmon, STAR or featureCounts output for gene-level differential expression.
+kdense	cantera	8	Runs Cantera homogeneous chemical reactors and evaluates ignition delay with mechanism provenance, conservation checks, and numerical refinement.
+kdense	cellprofiler	7	Runs reproducible CellProfiler microscopy pipelines for nuclear segmentation, cell counts, and per-object fluorescence measurements.
+kdense	cellxgene-census	13	Queries the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data.
+kdense	cirq	13	Google quantum computing framework.
+kdense	citation-management	16	Comprehensive citation management for academic research.
+kdense	clinical-decision-support	13	Prepares and validates research-only clinical decision-support evaluation, evidence-profile, cohort, survival, biomarker/model, privacy, and governance artifact
+kdense	clinical-reports	15	Creates safety-bounded draft structures and runs local deterministic checks for clinical case, diagnostic, trial, safety, and aggregate research reports.
+kdense	cobrapy	11	Performs constraint-based metabolic modeling with COBRApy, including FBA, pFBA, FVA, gene knockouts, flux sampling, growth media, production envelopes, gap fill
+kdense	consciousness-council	13	Structures a multi-perspective council exercise for decisions, research trade-offs, and creative challenges.
+kdense	dask	17	Scales pandas, NumPy, and custom Python research workflows beyond memory or across clusters with Dask.
+kdense	database-lookup	26	Queries documented public database APIs with explicit endpoints, filters, pagination, and provenance.
+kdense	datalad	17	Retrieves, versions, and publishes scientific datasets with DataLad and git-annex, and captures computational provenance with datalad run, rerun, and containers
+kdense	datamol	10	Pythonic wrapper around RDKit with simplified interface and sensible defaults.
+kdense	deepchem	8	Builds molecular property prediction and MoleculeNet workflows with DeepChem, including SMILES featurization, scaffold or grouped holdouts, masked labels, graph
+kdense	deepspot-m	9	Generates transcriptome-wide virtual spatial transcriptomics from H&E histology with DeepSpot-M.
+kdense	deeptools	17	NGS analysis toolkit.
+kdense	depmap	13	Retrieves and analyzes Cancer Dependency Map (DepMap) release data, including CRISPR Chronos gene effects, cancer model annotations, omics biomarkers, and PRISM
+kdense	dhdna-profiler	11	Applies the DHDNA framework as an exploratory rubric for reasoning and writing patterns in supplied text.
+kdense	diffdock	11	Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from PDB or sequence plus SMILES/SDF/MOL2.
+kdense	dnanexus-integration	12	Builds and operates reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow.
+kdense	esm	10	Uses the Biohub esm Python SDK for ESM3 protein generation, ESMC embeddings, and ESMFold2 all-atom folding.
+kdense	etetoolkit	12	Analyzes, manipulates, compares, annotates, and visualizes phylogenetic or other hierarchical trees with ETE 4.
+kdense	exa-search	6	Searches scientific and technical web content with Exa and extracts page or PDF text from URLs in batches.
+kdense	experimental-design	15	Designs experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking, and laying out treatment combinations so results are interp
+kdense	exploratory-data-analysis	14	Performs bounded, local exploratory analysis of explicitly supported scientific files.
+kdense	fictiv	13	Operates Fictiv (app.fictiv.com), the on-demand manufacturing platform, end to end in the user's browser.
+kdense	flowio	13	Reads, inspects, and writes Flow Cytometry Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO.
+kdense	flowkit	8	Analyzes flow cytometry data with FlowKit, including spillover compensation, logicle and biexponential transforms, hierarchical gating, GatingML strategies, and
+kdense	fluidsim	13	Plans, configures, inspects, restarts, and analyzes bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety ch
+kdense	folklore-variant-evidence	13	Retrieves ClinGen gene-disease validity assertions for a public gene or disease, and reviews source-linked public evidence and literature for one supported GRCh
+kdense	generate-image	17	Generates or edits images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image, Riverflow).
+kdense	geniml	15	Supports audited local Geniml genomic-interval workflows: validate BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer compatib
+kdense	genomic-coordinates	12	Converts genomic intervals between coordinate conventions, normalises and compares variant representations, and detects assembly or contig-naming mismatches bef
+kdense	genomic-intelligence	24	Predicts regulatory features, gene structure, and expression directly from DNA sequence using Genomic Intelligence's hosted transformer DNA language models — no
+kdense	geomaster	11	Supports geospatial research workflows for remote sensing, vector and raster GIS, spatial statistics, terrain and network analysis, and machine learning for Ear
+kdense	geopandas	15	Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.
+kdense	get-available-resources	11	Detects host inventory and effective CPU, memory, disk, scheduler, container, and accelerator limits when a user asks for resource-aware planning or before a cl
+kdense	gget	10	Queries 20+ bioinformatics resources through CLI/Python.
+kdense	ginkgo-cloud-lab	10	Guides protocol selection, input preparation, pricing checks, and browser ordering on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio).
+kdense	glycoengineering	11	Analyzes and engineers protein glycosylation by scanning canonical N-glycosylation sequons, describing S/T-rich regions, checking curated glycan evidence, and p
+kdense	gtars	14	Supports Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, tokenization, fragment processing, and refget/BED
+kdense	histolab	8	Extracts and preprocesses whole-slide histology image tiles with Histolab.
+kdense	hugging-science	11	Discovers and evaluates scientific datasets, models, methodology posts, and Spaces through the Hugging Science catalog.
+kdense	hypogenic	14	Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets.
+kdense	hypothesis-generation	16	Formulates evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurem
+kdense	imaging-data-commons	30	Queries and downloads public cancer imaging data from NCI Imaging Data Commons.
+kdense	infographics	14	Creates and reviews infographics with Nano Banana 2 via OpenRouter.
+kdense	iso-standards-readiness	17	Prepares and structurally reviews readiness evidence for ISO management-system and laboratory-competence standards - ISO 13485 medical device QMS, ISO 14971 dev
+kdense	lab-hardware-cad	22	Designs custom laboratory hardware as parametric build123d models and exports fabrication artifacts as STEP, STL, and DXF files - microfluidic chips and molds,
+kdense	labarchive-integration	11	Integrates with the official LabArchives ELN REST-like API and Inventory API v1.
+kdense	lamindb	8	Manages biological datasets and models with LaminDB, including artifact registration, lineage tracking, schema validation, Bionty ontology annotation, query/sea
+kdense	latchbio-integration	9	Builds, registers, debugs, and operates bioinformatics workflows on Latch using the Python SDK, CLI, Latch Data and Registry, Nextflow, Snakemake, programmatic
+kdense	latex-posters	10	Creates research posters in LaTeX using beamerposter, tikzposter, or baposter.
+kdense	liteparse	12	Local document and PDF parsing that returns spatial text with bounding boxes.
+kdense	literature-review	12	Conducts systematic, scoping, and narrative literature reviews using PubMed, arXiv, bioRxiv, Semantic Scholar, and other appropriate sources. [installed]
+kdense	mageck	8	Analyzes pooled CRISPR screen FASTQ reads and guide-count matrices with MAGeCK, validates guide libraries and contrasts, measures replicate and library QC, and
+kdense	marine-carbonate-chemistry	9	Solves seawater carbonate chemistry with PyCO2SYS for chemical oceanography, ocean acidification, and marine carbon-cycle research.
+kdense	markdown-mermaid-writing	16	Writes scientific Markdown documentation and Mermaid diagrams for workflows, relationships, timelines, and schemas.
+kdense	market-research-reports	14	Builds evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios.
+kdense	markitdown	11	Converts heterogeneous documents and selected URIs to Markdown with Microsoft MarkItDown for text analysis, search, and LLM/RAG ingestion.
+kdense	matchms	12	Processes, cleans, compares, and searches tandem mass spectra with matchms.
+kdense	matlab	16	Builds, reviews, migrates, and plans MATLAB or GNU Octave numerical workflows.
+kdense	matplotlib	16	Creates and customizes scientific plots with Matplotlib.
+kdense	medchem	15	Applies medicinal chemistry filters for compound triage, using drug-likeness rules (Lipinski, Veber, CNS), structural alert catalogs (PAINS, NIBR, ChEMBL), comp
+kdense	modal	17	Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs.
+kdense	molecular-dynamics	18	Runs and analyzes molecular dynamics simulations with OpenMM and MDAnalysis.
+kdense	molfeat	9	Featurizes small molecules with Molfeat for QSAR/QSPR, chemical similarity, virtual screening, and molecular ML.
+kdense	ncats-arax	8	Queries the NCATS Translator ARAX production API for bounded, typed, provenance-rich one-hop and endpoint-pinned two-hop biomedical knowledge-graph relationship
+kdense	networkx	16	Creates, analyzes, and visualizes complex networks and graphs in Python with NetworkX.
+kdense	neurokit2	15	Builds and audits reproducible NeuroKit2 research workflows for physiological time-series preprocessing, event/interval analysis, multimodal alignment, variabil [installed]
+kdense	neuropixels-analysis	19	Analyzes Neuropixels extracellular recordings end-to-end with SpikeInterface.
+kdense	nextflow	14	Builds, runs, and debugs Nextflow DSL2 pipelines and nf-core workflows.
+kdense	nmrglue	8	Processes calibrated one-dimensional complex NMR free-induction decays with nmrglue into phased spectra, peak candidates, and signed integration regions.
+kdense	nwb-conversion	7	Converts neuroscience acquisition data to Neurodata Without Borders files with NeuroConv and PyNWB, preserves metadata and timebases, checks evidence-based cloc
+kdense	omero-integration	10	Inspects and automates microscopy data workflows against OMERO.server with omero-py, BlitzGateway, OMERO CLI, tables, annotations, ROIs, rendering, and document
+kdense	onekgpd	22	Queries the 1000 Genomes Project dataset (3,202 whole-genome-sequenced individuals, GRCh38) at the level of individual participants.
+kdense	ontology-term-resolution	14	Resolves free-text scientific labels to ontology term IDs and validates existing CURIEs against the EBI Ontology Lookup Service (OLS4).
+kdense	open-notebook	11	Organizes research with the self-hosted Open Notebook alternative to NotebookLM.
+kdense	openpiv	18	Performs Particle Image Velocimetry (PIV) analysis with OpenPIV.
+kdense	opentrons-integration	14	Authors, reviews, migrates, simulates, and troubleshoots official Opentrons Python Protocol API v2 protocols for Flex and OT-2 robots.
+kdense	optimize-for-gpu	13	GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster.
+kdense	pacsomatic	6	Prepares and launches nf-core/pacsomatic matched tumor-normal PacBio HiFi genomics workflows from unaligned BAM inputs.
+kdense	paper-lookup	25	Searches 18 scholarly APIs for papers, preprints, citations, open-access full text, repository records, and journal OA status, and returns results with reproduc [installed]
+kdense	paperclip	12	Searches and reads biomedical papers, FDA/PMDA/EMA documents, clinical trials, and protein records with the GXL Paperclip CLI and Python SDK.
+kdense	paperzilla	9	Reads projects, searches project feeds, and retrieves recommendations and canonical papers in Paperzilla through the pz CLI.
+kdense	pathml	12	Supports local computational pathology research with PathML: slide loading and tiling, preprocessing and QC, h5path storage, multiplex quantification, spatial g
+kdense	pathway-enrichment	16	Performs pathway and gene-set enrichment analysis on gene lists or ranked gene data and interprets the results.
+kdense	peer-review	13	Prepares evidence-bounded, constructive peer-review drafts and structured manuscript assessments.
+kdense	pennylane	7	Builds and differentiates PennyLane quantum circuits, hybrid PyTorch or JAX models, molecular VQE and QAOA workflows.
+kdense	phylogenetics	9	Builds and analyzes phylogenetic trees using MAFFT multiple sequence alignment, IQ-TREE maximum likelihood with ModelFinder and branch support, and FastTree app
+kdense	pi-agent	8	Builds with and operates Pi, the minimal terminal coding harness.
+kdense	polars	12	High-performance DataFrame library for Python ETL, analytics, and pandas migration.
+kdense	polars-bio	12	Performs genomic interval overlap, nearest, merge, coverage, complement and subtraction on Polars DataFrames, and reads or writes BED, VCF, BCF, BAM, CRAM, GFF,
+kdense	pptx-posters	12	Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets.
+kdense	primekg	9	Queries a pinned Precision Medicine Knowledge Graph (PrimeKG) CSV for typed gene, drug, disease, and phenotype nodes, direct associations, disease context, and
+kdense	primer-design	15	Designs and audits PCR and RT-qPCR primers with Primer3, explicit thermodynamic conditions, reference-based off-target amplification searches, and traceable seq
+kdense	pufferlib	15	Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL training, evaluation, and safe checkpoint review.
+kdense	pybamm	7	Simulates lithium-ion battery charge, discharge and rest experiments with PyBaMM, records parameter-set provenance, checks mesh and solver sensitivity, and comp
+kdense	pycalphad	8	Computes finite-temperature CALPHAD equilibria, phase fractions, and phase compositions from thermodynamic TDB databases using pycalphad.
+kdense	pydeseq2	10	Performs bulk RNA-seq differential expression analysis with PyDESeq2, including count validation, formula designs, explicit contrasts, Wald tests, FDR correctio
+kdense	pydicom	18	Reads, inspects, writes, transforms, and preflights local DICOM datasets and pixel data.
+kdense	pyhealth	8	Builds and validates PyHealth clinical machine-learning pipelines for EHR, signals, imaging, and medical codes.
+kdense	pylabrobot	11	Develops and reviews PyLabRobot lab-automation resources, liquid-handling plans, offline simulations, and supported-device integrations.
+kdense	pymatgen	17	Analyzes, validates, converts, and transforms materials structures and computed materials data with pymatgen.
+kdense	pymc	10	Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference, mutable-data predictions, posterior predictive che
+kdense	pymoo	13	Solves and validates single-, multi-, and many-objective optimization with pymoo, including NSGA-II, NSGA-III, MOEA/D, constraints, Pareto approximations, refer
+kdense	pyopenms	12	Processes mass spectrometry data with pyOpenMS.
+kdense	pysam	13	Provides Python/HTSlib workflows for genomic files.
+kdense	pytdc	14	Provides Therapeutics Data Commons workflows through PyTDC for registry discovery, dataset access, task-aware splits, evaluator metrics, benchmark groups, and b
+kdense	pyzotero	7	Manages Zotero reference libraries using the pyzotero Python client: retrieves, creates, updates, and deletes items, collections, tags, and attachments via the
+kdense	qiime2-amplicon	8	Processes paired-end 16S amplicon reads into QIIME 2 ASVs and taxonomy with retained artifact provenance.
+kdense	qiskit	12	Builds, simulates, transpiles, and executes quantum circuits with Qiskit and IBM Quantum Runtime.
+kdense	qutip	14	Simulate and audit closed and open quantum-system models with QuTiP 5, including deterministic, trajectory, steady-state, spectral, and phase-space workflows.
+kdense	rdkit	8	Cheminformatics toolkit for fine-grained molecular control.
+kdense	relion	7	Validates and executes RELION single-particle cryo-EM refinement and half-map postprocessing.
+kdense	research-grants	16	Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and Taiwan NSTC, including opportunity-specific requirements, aims, review criteria,
+kdense	rowan	16	Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow platform with a Python API.
+kdense	scanpy	19	Performs Scanpy single-cell RNA-seq QC, normalization, HVG selection, PCA/UMAP/t-SNE, clustering, exploratory marker ranking, pseudobulk preparation, visualizat
+kdense	scientific-brainstorming	14	Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation, adversarial rev
+kdense	scientific-critical-thinking	12	Evaluates scientific claims and evidence quality. [installed]
+kdense	scientific-schematics	19	Generates scientific diagram drafts using Nano Banana 2 AI with smart iterative refinement.
+kdense	scientific-slides	21	Builds slide decks and presentations for research talks.
+kdense	scientific-visualization	15	Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. [installed]
+kdense	scientific-writing	14	Drafts, revises, and audits scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confid [installed]
+kdense	scikit-bio	23	Biological data toolkit.
+kdense	scikit-learn	12	Supports machine learning in Python with scikit-learn.
+kdense	scikit-survival	16	Builds, evaluates, and audits right-censored or competing-risk survival workflows with scikit-survival, including leakage-safe preprocessing, model selection, p
+kdense	scvelo	12	Performs RNA velocity analysis with scVelo from spliced and unspliced single-cell RNA counts.
+kdense	scvi-tools	9	Fits probabilistic models for single-cell omics, including scVI batch integration, scANVI annotation, totalVI CITE-seq, MultiVI RNA/ATAC integration, and poster
+kdense	seaborn	13	Creates Seaborn statistical visualizations with pandas integration for distributions, relationships, categorical comparisons, regression displays, pair plots, a
+kdense	shap	16	Explain and audit machine-learning predictions with SHAP.
+kdense	simpy	14	Builds, inspects, tests, and analyzes bounded process-based discrete-event simulations with SimPy.
+kdense	statistical-analysis	23	Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted repo [installed]
+kdense	statistical-power	17	Calculates sample sizes and statistical power for study planning.
+kdense	statsmodels	12	Fits and diagnoses Python statistical models including OLS, GLM, discrete and mixed models, ARIMA and SARIMAX.
+kdense	sympy	12	Performs exact symbolic mathematics with SymPy for algebra, calculus, equation solving, symbolic linear algebra, physics, and lambdify or LaTeX code generation.
+kdense	tamarind	13	Provides access to a collection of open-source molecular design and structural biology tools on the Tamarind Bio platform, via its REST API or MCP server — no l
+kdense	tellurium	7	Simulates biochemical kinetic models from SBML or Antimony with Tellurium and libRoadRunner, checks model units, compares deterministic parameter perturbations,
+kdense	torch-geometric	21	Supports PyTorch Geometric (PyG) graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neigh
+kdense	torchdrug	11	Builds and troubleshoots TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised pretraining, molecule generation, retrosynthesis,
+kdense	transformers	10	Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tas
+kdense	treatment-plans	12	Formats and structurally validates local treatment-plan documentation after clinical decisions have already been supplied and verified by authorized licensed pr
+kdense	umap-learn	21	Applies UMAP-learn to nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP,
+kdense	vaex	7	Processes large tabular scientific datasets with Vaex expressions, filtered views, streamed statistics, binned visualizations, and file conversion.
+kdense	venue-templates	13	Prepares journal manuscripts, conference papers, research posters, and grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds.
+kdense	waypoint-bio	16	Supports work with Outpost Bio's open microbiome foundation models - the Waypoint checkpoints (Waypoint-6m, Waypoint-45m, Waypoint-170m), the Atlas pretraining
+kdense	what-if-oracle	11	Supports structured what-if scenario analysis for research planning, experimental contingencies, and scientific project decisions.
+anthropic	algorithmic-art	19	Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration.
+anthropic	brand-guidelines	2	Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel.
+anthropic	canvas-design	11	Create beautiful visual art in .png and .pdf documents using design philosophy.
+anthropic	claude-api	102	Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.
+anthropic	doc-coauthoring	15	Guide users through a structured workflow for co-authoring documentation.
+anthropic	docx	6	Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files).
+anthropic	frontend-design	9	Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.
+anthropic	internal-comms	1	A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use.
+anthropic	mcp-builder	10	Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.
+anthropic	pdf	7	Use this skill whenever the user wants to do anything with PDF files.
+anthropic	pptx	20	Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both.
+anthropic	skill-creator	32	Create new skills, modify and improve existing skills, and measure skill performance.
+anthropic	slack-gif-creator	7	Knowledge and utilities for creating animated GIFs optimized for Slack.
+anthropic	theme-factory	3	Toolkit for styling artifacts with a theme.
+anthropic	web-artifacts-builder	3	Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).
+anthropic	webapp-testing	3	Toolkit for interacting with and testing local web applications using Playwright.
+anthropic	xlsx	8	Use this skill any time a spreadsheet file is the primary input or output.
+anthropic-kwp	common-room/account-research	5	Research a company using Common Room data.
+anthropic-kwp	common-room/call-prep	5	Prepare for a customer or prospect call using Common Room signals.
+anthropic-kwp	common-room/compose-outreach	5	Generate personalized outreach messages using Common Room signals.
+anthropic-kwp	common-room/contact-research	5	Research a specific person using Common Room data.
+anthropic-kwp	common-room/prospect	6	Build targeted account or contact lists using Common Room's Prospector.
+anthropic-kwp	common-room/weekly-prep-brief	5	Generate a comprehensive weekly briefing for all external calls in the next 7 days.
+anthropic-kwp	customer-support/customer-research	9	Multi-source research on a customer question or topic with source attribution.
+anthropic-kwp	customer-support/draft-response	14	Draft a professional customer-facing response tailored to the situation and relationship.
+anthropic-kwp	customer-support/kb-article	11	Draft a knowledge base article from a resolved issue or common question.
+anthropic-kwp	customer-support/ticket-triage	11	Triage and prioritize a support ticket or customer issue.
+anthropic-kwp	data/analyze	4	Answer data questions -- from quick lookups to full analyses.
+anthropic-kwp	data/build-dashboard	25	Build an interactive HTML dashboard with charts, filters, and tables.
+anthropic-kwp	data/create-viz	5	Create publication-quality visualizations with Python.
+anthropic-kwp	data/data-visualization	10	Create effective data visualizations with Python (matplotlib, seaborn, plotly).
+anthropic-kwp	data/explore-data	11	Profile and explore a dataset to understand its shape, quality, and patterns.
+anthropic-kwp	data/sql-queries	10	Write correct, performant SQL across all major data warehouse dialects (Snowflake, BigQuery, Databricks, PostgreSQL, etc.).
+anthropic-kwp	data/statistical-analysis	10	Apply statistical methods including descriptive stats, trend analysis, outlier detection, and hypothesis testing.
+anthropic-kwp	data/write-query	4	Write optimized SQL for your dialect with best practices.
+anthropic-kwp	design/accessibility-review	4	Run a WCAG 2.1 AA accessibility audit on a design or page.
+anthropic-kwp	design/design-critique	3	Get structured design feedback on usability, hierarchy, and consistency.
+anthropic-kwp	design/design-handoff	3	Generate developer handoff specs from a design.
+anthropic-kwp	design/design-system	5	Audit, document, or extend your design system.
+anthropic-kwp	design/research-synthesis	2	Synthesize user research into themes, insights, and recommendations.
+anthropic-kwp	design/user-research	1	Plan, conduct, and synthesize user research.
+anthropic-kwp	design/ux-copy	3	Write or review UX copy — microcopy, error messages, empty states, CTAs.
+anthropic-kwp	engineering/architecture	2	Create or evaluate an architecture decision record (ADR).
+anthropic-kwp	engineering/code-review	4	Review code changes for security, performance, and correctness.
+anthropic-kwp	engineering/debug	3	Structured debugging session — reproduce, isolate, diagnose, and fix.
+anthropic-kwp	engineering/deploy-checklist	2	Pre-deployment verification checklist.
+anthropic-kwp	engineering/documentation	1	Write and maintain technical documentation.
+anthropic-kwp	engineering/incident-response	5	Run an incident response workflow — triage, communicate, and write postmortem.
+anthropic-kwp	engineering/standup	3	Generate a standup update from recent activity.
+anthropic-kwp	engineering/system-design	1	Design systems, services, and architectures.
+anthropic-kwp	engineering/tech-debt	1	Identify, categorize, and prioritize technical debt.
+anthropic-kwp	engineering/testing-strategy	1	Design test strategies and test plans.
+anthropic-kwp	enterprise-search/digest	5	Generate a daily or weekly digest of activity across all connected sources.
+anthropic-kwp	enterprise-search/search	6	Search across all connected sources in one query.
+anthropic-kwp	finance/audit-support	16	Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards.
+anthropic-kwp	finance/close-management	10	Manage the month-end close process with task sequencing, dependencies, and status tracking.
+anthropic-kwp	finance/financial-statements	14	Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
+anthropic-kwp	finance/journal-entry-prep	7	Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
+anthropic-kwp	finance/journal-entry	5	Prepare journal entries with proper debits, credits, and supporting detail.
+anthropic-kwp	finance/reconciliation	7	Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data.
+anthropic-kwp	finance/sox-testing	9	Generate SOX sample selections, testing workpapers, and control assessments.
+anthropic-kwp	finance/variance-analysis	10	Decompose financial variances into drivers with narrative explanations and waterfall analysis.
+anthropic-kwp	human-resources/comp-analysis	3	Analyze compensation — benchmarking, band placement, and equity modeling.
+anthropic-kwp	human-resources/draft-offer	2	Draft an offer letter with comp details and terms.
+anthropic-kwp	human-resources/interview-prep	1	Create structured interview plans with competency-based questions and scorecards.
+anthropic-kwp	human-resources/onboarding	3	Generate an onboarding checklist and first-week plan for a new hire.
+anthropic-kwp	human-resources/org-planning	1	Headcount planning, org design, and team structure optimization.
+anthropic-kwp	human-resources/people-report	2	Generate headcount, attrition, diversity, or org health reports.
+anthropic-kwp	human-resources/performance-review	4	Structure a performance review with self-assessment, manager template, and calibration prep.
+anthropic-kwp	human-resources/policy-lookup	4	Find and explain company policies in plain language.
+anthropic-kwp	human-resources/recruiting-pipeline	1	Track and manage recruiting pipeline stages.
+anthropic-kwp	legal/brief	6	Generate contextual briefings for legal work — daily summary, topic research, or incident response.
+anthropic-kwp	legal/legal-risk-assessment	12	Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria.
+anthropic-kwp	legal/meeting-briefing	8	Prepare structured briefings for meetings with legal relevance and track resulting action items.
+anthropic-kwp	legal/review-contract	16	Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis.
+anthropic-kwp	legal/triage-nda	14	Rapidly triage an incoming NDA and classify it as GREEN (standard approval), YELLOW (counsel review), or RED (full legal review).
+anthropic-kwp	legal/vendor-check	5	Check the status of existing agreements with a vendor across all connected systems — CLM, CRM, email, and document storage — with gap analysis and upcoming dead
+anthropic-kwp	marketing/brand-review	12	Review content against your brand voice, style guide, and messaging pillars, flagging deviations by severity with specific before/after fixes.
+anthropic-kwp	marketing/campaign-plan	13	Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics.
+anthropic-kwp	marketing/competitive-brief	12	Research competitors and generate a positioning and messaging comparison with content gaps, opportunities, and threats.
+anthropic-kwp	marketing/content-creation	8	Draft marketing content across channels — blog posts, social media, email newsletters, landing pages, press releases, and case studies.
+anthropic-kwp	marketing/draft-content	4	Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with channel-specific formatting and SEO recommendations.
+anthropic-kwp	marketing/email-sequence	10	Design and draft multi-email sequences with full copy, timing, branching logic, exit conditions, and performance benchmarks.
+anthropic-kwp	marketing/performance-report	18	Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations.
+anthropic-kwp	marketing/seo-audit	9	Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison.
+anthropic-kwp	operations/capacity-plan	3	Plan resource capacity — workload analysis and utilization forecasting.
+anthropic-kwp	operations/change-request	3	Create a change management request with impact analysis and rollback plan.
+anthropic-kwp	operations/compliance-tracking	1	Track compliance requirements and audit readiness.
+anthropic-kwp	operations/process-doc	2	Document a business process — flowcharts, RACI, and SOPs.
+anthropic-kwp	operations/process-optimization	1	Analyze and improve business processes.
+anthropic-kwp	operations/risk-assessment	1	Identify, assess, and mitigate operational risks.
+anthropic-kwp	operations/runbook	2	Create or update an operational runbook for a recurring task or procedure.
+anthropic-kwp	operations/status-report	2	Generate a status report with KPIs, risks, and action items.
+anthropic-kwp	operations/vendor-review	3	Evaluate a vendor — cost analysis, risk assessment, and recommendation.
+anthropic-kwp	product-management/competitive-brief	14	Create a competitive analysis brief for one or more competitors or a feature area.
+anthropic-kwp	product-management/metrics-review	17	Review and analyze product metrics with trend analysis and actionable insights.
+anthropic-kwp	product-management/product-brainstorming	15	Brainstorm product ideas, explore problem spaces, and challenge assumptions as a thinking partner.
+anthropic-kwp	product-management/roadmap-update	12	Update, create, or reprioritize your product roadmap.
+anthropic-kwp	product-management/stakeholder-update	14	Generate a stakeholder update tailored to audience and cadence.
+anthropic-kwp	product-management/synthesize-research	15	Synthesize user research from interviews, surveys, and feedback into structured insights.
+anthropic-kwp	product-management/write-spec	12	Write a feature spec or PRD from a problem statement or feature idea.
+anthropic-kwp	productivity/memory-management	8	Two-tier memory system that makes Claude a true workplace collaborator.
+anthropic-kwp	productivity/start	4	Initialize the productivity system and open the dashboard.
+anthropic-kwp	productivity/task-management	2	Simple task management using a shared TASKS.md file.
+anthropic-kwp	productivity/update	4	Sync tasks and refresh memory from your current activity.
+anthropic-kwp	sales/account-context	9	360-degree view of an account - CRM data, recent email threads, docs, transcripts, and internal chat chatter, synthesized into one brief.
+anthropic-kwp	sales/account-plan	9	Build or refresh a strategic account plan - current state, goals, stakeholder coverage, opportunity map, risks, and the action plan - written to a doc and key f
+anthropic-kwp	sales/account-research	9	Research a target company and optionally a specific contact - company overview, recent news, likely priorities, and fit against your ICP.
+anthropic-kwp	sales/account-tiering	9	Score and tier a list of accounts (or your full book) against ICP fit and engagement signals to prioritize where to spend time.
+anthropic-kwp	sales/call-prep	10	Pre-call brief for an upcoming meeting - attendees, account history, prior call context from transcripts, open opportunity status, and suggested discovery quest
+anthropic-kwp	sales/call-summary	11	Turn a call transcript or call notes into a customer follow-up email draft, an internal chat summary, and proposed CRM updates.
+anthropic-kwp	sales/close-plan	9	Build the business case and mutual action plan for a deal - the why-buy/why-now story, the ROI framing, and the dated step-by-step path to signature shared with
+anthropic-kwp	sales/competitive-intelligence	10	Competitive analysis two ways - the in-deal play against a named competitor, and win/loss patterns, competitor mentions, and battlecards across the book.
+anthropic-kwp	sales/create-an-asset	9	Build a customer deck, one-pager or leave-behind from your account data, call notes and approved materials, with no made-up numbers.
+anthropic-kwp	sales/crm-hygiene-check	9	Read-only audit of your CRM opportunities for missing fields, stale dates, and stage mismatches - outputs a fix checklist to apply by hand or through update-opp
+anthropic-kwp	sales/customer-health	9	Health check on a customer account and QBR-ready prep - relationship strength, engagement trend, risk signals, value delivered, and the agenda that makes the re
+anthropic-kwp	sales/customer-voice	8	Surface what customers are actually saying - direct attributed quotes on a topic across call transcripts and email, across your accounts.
+anthropic-kwp	sales/daily-briefing	8	Morning rundown - today's meetings with account context, opps closing soon with stale flags, waiting customer emails, and the day's top actions.
+anthropic-kwp	sales/deal-advance-gap	9	Forward-looking gap check on one opportunity - exactly what is missing to advance it to the next stage and to close, with who does what by when.
+anthropic-kwp	sales/deal-review	9	Deep-dive on a single opportunity - signal-adjusted health score, risks, gaps in qualification, and recommended next actions.
+anthropic-kwp	sales/deal-signals	9	Proactive watch over your book - deals gone quiet, close dates slipping into view, champion changes, renewal windows opening, competitor mentions - surfaced as 
+anthropic-kwp	sales/deal-slip-scenario	9	Model what happens to your number if a deal slips, shrinks, or dies - quota impact, coverage ratio change, and the substitute pipeline needed to stay on plan.
+anthropic-kwp	sales/draft-outreach	11	Draft a personalized outreach email or multi-touch sequence to a prospect, create it as an email draft for review, and add the contact to a sequence in your sal
+anthropic-kwp	sales/end-of-day	10	The closing beat of the day - every call processed or explicitly skipped, the CRM brought current, commitments captured, and tomorrow's top three teed up.
+anthropic-kwp	sales/expansion-whitespace	9	Find the expansion whitespace in an account or a book - what they own vs.
+anthropic-kwp	sales/forecast	9	Generate the commit / best-case / pipeline narrative for a forecast call or a 1:1 with your manager - what's closing, what's at risk, what changed since last ti
+anthropic-kwp	sales/handle-objection	9	Work through a live objection or competitive threat - what's really being said, the response that has worked before, and the proof points to use, grounded in yo
+anthropic-kwp	sales/inbox-sweep	11	Batch-process unread customer emails - classify, prioritize, and draft replies.
+anthropic-kwp	sales/lead-triage	10	Score and route an inbound lead, or rank a backlog of leads, against your ICP and qualification framework, then recommend a priority and next action.
+anthropic-kwp	sales/log-activity	9	Log a call, meeting, or email exchange to the CRM after the fact as a completed activity on the right account, opportunity, and contact - drafted from your desc
+anthropic-kwp	sales/pipeline-review	9	Stage-by-stage pipeline health check - coverage, aging, conversion, and at-risk deals - from CRM opportunity data.
+anthropic-kwp	sales/renewal-radar	9	Upcoming renewals with timing, risk, and uplift potential - and the renewal opportunity records to keep them honest.
+anthropic-kwp	sales/rep-context	8	Leader's prep on a single rep before a 1:1 - their pipeline, recent activity, what they've been working on per chat and calendar, and where they might need help
+anthropic-kwp	sales/route-lead	9	Decide who owns an unrouted lead or opportunity and manage the handoff - deterministic routing by the org's own rules, a routing card the human router accepts o
+anthropic-kwp	sales/schedule-meeting	11	Find a time, draft the invite, and book the meeting on Google Calendar or Outlook - then log it to the CRM as an event on the right account and opportunity.
+anthropic-kwp	sales/setup	15	First-run setup - checks which tools are connected, shows what's connected and what each one unlocks, learns how you write from your sent email, and renders a s
+anthropic-kwp	sales/stakeholder-map	9	Map the people in a deal or account - roles, influence, sentiment, who's missing, and your best access path to the people you haven't reached.
+anthropic-kwp	sales/team-pipeline	9	Leader view - roll up a team's pipeline by rep and stage, flag at-risk deals, and surface coaching moments.
+anthropic-kwp	sales/update-opportunity	9	Guided updates to an opportunity - push the stage, move the close date, set next steps, fix amount or forecast category.
+anthropic-kwp	sales/weekly-wrap	9	End-of-week summary for a rep or leader - what closed, what moved, what slipped, and what's on deck Monday.
+anthropic-kwp	sales/win-loss-review	8	Analyze recently closed opportunities to find patterns in what wins and what loses - stage of loss, common objections from transcripts, deal characteristics.
+anthropic-kwp	zoom-plugin/build-zoom-bot	1	Build a Zoom meeting bot, recorder, or real-time media workflow.
+anthropic-kwp	zoom-plugin/build-zoom-meeting-app	1	Build or embed a Zoom meeting flow.
+anthropic-kwp	zoom-plugin/choose-zoom-approach	1	Choose the right Zoom architecture for a use case.
+anthropic-kwp	zoom-plugin/debug-zoom-integration	1	Debug broken Zoom implementations quickly.
+anthropic-kwp	zoom-plugin/debug-zoom	1	Debug a broken Zoom integration by isolating the failure point and routing into the right Zoom references.
+anthropic-kwp	zoom-plugin/design-mcp-workflow	1	Design a Zoom MCP workflow for Claude.
+anthropic-kwp	zoom-plugin/plan-zoom-integration	1	Turn a Zoom integration idea into an implementation plan with architecture, auth, and delivery milestones.
+anthropic-kwp	zoom-plugin/plan-zoom-product	1	Choose the right Zoom building surface for a use case and explain the tradeoffs clearly.
+anthropic-kwp	zoom-plugin/setup-zoom-mcp	1	Decide when Zoom MCP is the right fit and produce a safe setup plan for Claude.
+anthropic-kwp	zoom-plugin/setup-zoom-oauth	1	Implement Zoom authentication correctly.
+anthropic-kwp	zoom-plugin/start	1	Start here for any Zoom integration or app idea.
+obra	brainstorming	13	You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in soft
+obra	diagnosing-superpowers	6	Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't f
+obra	dispatching-parallel-agents	5	Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
+obra	executing-plans	17	Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is
+obra	finishing-a-development-branch	7	Use when implementation is complete, all tests pass, and you need to decide how to integrate the work
+obra	receiving-code-review	6	Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical 
+obra	requesting-code-review	2	Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+obra	subagent-driven-development	19	Use when executing implementation plans with independent tasks in the current session
+obra	systematic-debugging	9	Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+obra	test-driven-development	9	Use when implementing any feature or bugfix, before writing implementation code
+obra	using-git-worktrees	6	Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via n
+obra	using-superpowers	3	Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
+obra	verification-before-completion	3	Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output be
+obra	writing-plans	10	Use when you have a spec or requirements for a multi-step task, before touching code
+obra	writing-skills	16	Use when creating new skills, editing existing skills, or verifying skills work before deployment
