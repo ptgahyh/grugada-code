@@ -49,12 +49,18 @@ Nguồn: https://github.com/K-Dense-AI/scientific-agent-skills (trước đây l
 
 ## 2b. Tự thêm skill khi cần: `skill-scout`
 Bạn không cần tự đi tìm skill nữa. Khi bạn hỏi việc mới mà chưa có skill phù hợp, `skill-scout` sẽ:
-1. Tra danh mục ~180 skill đã kiểm duyệt (`skill-scout/references/catalog.tsv`: 163 skill K-Dense + 17 skill của Anthropic) bằng `grep`, không đọc cả file, để đỡ tốn token.
+1. Tra danh mục ~330 skill đã kiểm duyệt (`skill-scout/references/catalog.tsv`) bằng `grep`, không đọc cả file, để đỡ tốn token:
+   - 163 skill khoa học/dữ liệu của K-Dense (MIT)
+   - 17 skill của Anthropic (Word, Excel, PowerPoint, PDF, thiết kế, tạo skill…)
+   - 135 skill từ 15 plugin chính thức của Anthropic cho công việc văn phòng: bán hàng, tài chính, pháp lý, marketing, chăm sóc khách hàng, quản lý sản phẩm, nhân sự, vận hành, kỹ thuật, thiết kế, dữ liệu, năng suất cá nhân… (Apache-2.0; bỏ các plugin của bên thứ ba)
+   - 15 skill `obra/superpowers` cho lập trình có kỷ luật: gỡ lỗi có hệ thống, TDD, lập kế hoạch, review code (MIT)
 2. Chọn tối đa 2 skill phù hợp, tải về bằng `scripts/fetch_skill.py`. Script tự bỏ đoạn quảng cáo trích dẫn, kiểm tra định dạng và quét nội dung rủi ro.
 3. Nếu sạch: **Claude Code** tự cài vào `.claude/skills/` (hoặc `~/.claude/skills/`). **Chat/Cowork** tạo file ZIP để bạn tải lên, vì Claude không có quyền tải lên tài khoản của bạn. Dù ở đâu, Claude cũng đọc skill và dùng ngay cho câu hỏi đang làm.
 4. Nếu có rủi ro (gửi dữ liệu cho dịch vụ AI trả phí, đọc file `.env`/mật khẩu, tải-và-chạy lệnh…): **dừng lại và hỏi bạn** trước khi cài.
 
 Muốn gọi thẳng thì nói "tìm skill cho …" hoặc gõ `/skill-scout`.
+
+Với nhóm công việc văn phòng (bán hàng, tài chính, pháp lý…), nếu cần nhiều skill cùng mảng thì nên **bật cả plugin** thay vì tải lẻ từng skill: trong Cowork/claude.ai vào thư mục plugin (claude.com/plugins hoặc thanh Customize); trong Claude Code chạy `claude plugin marketplace add anthropics/knowledge-work-plugins` rồi `claude plugin install <tên-plugin>@knowledge-work-plugins`.
 
 ## 3. Dùng trong chat claude.ai và Cowork
 Skill trong repo **không** tự có ở chat hay Cowork; phải tải lên tài khoản:

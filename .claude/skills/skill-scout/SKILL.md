@@ -1,6 +1,6 @@
 ---
 name: skill-scout
-description: "Finds, vets and adds a missing skill when the user's task (any domain) is not covered by an installed skill, or when the user asks to find/add/install a skill (\"tìm skill\", \"thêm skill\"). Searches a local catalog of ~180 vetted skills (K-Dense scientific skills, Anthropic skills), downloads with a safety scan, installs it (Claude Code) or builds a ZIP to upload (claude.ai chat/Cowork), and uses it right away."
+description: "Finds, vets and adds a missing skill when the user's task (any domain) is not covered by an installed skill, or when the user asks to find/add/install a skill (\"tìm skill\", \"thêm skill\"). Searches a local catalog of ~330 vetted skills (science, office documents, business functions such as sales/finance/legal/marketing/HR/operations, software engineering practice), downloads with a safety scan, installs it (Claude Code) or builds a ZIP to upload (claude.ai chat/Cowork), and uses it right away."
 ---
 
 # Skill scout
@@ -13,15 +13,17 @@ Reply to the user in Vietnamese.
 - Do not run for small talk, quick facts, or tasks you can already do well.
 
 ## Steps
-1. **Search the catalog with grep, never read it whole** (it is ~7k tokens):
+1. **Search the catalog with grep, never read it whole** (~330 rows, over 10k tokens):
    ```bash
    grep -iE "keyword1|keyword2" <this skill dir>/references/catalog.tsv | cut -c1-200
    ```
-   Columns: source, name, size_kb, description. Use English keywords (library name, method, data type). `[installed]` = already present.
+   Columns: source, name, size_kb, description. Use English keywords (library name, method, data type, job task). `[installed]` = already present.
+   Sources: `kdense` (science/data, MIT), `anthropic` (documents, design, building tools), `anthropic-kwp` (Anthropic's official knowledge-work plugins; name is `plugin/skill`), `obra` (software-engineering discipline: debugging, TDD, planning, code review; MIT).
 2. Pick **at most 2** skills that clearly fit. Prefer smaller ones. If nothing fits, say so and continue without a skill; do not search random GitHub repos unless the user explicitly asks (then treat them as untrusted and show the user what you found before installing).
-3. Fetch with the bundled script (stdlib only):
+3. For an `anthropic-kwp` hit, first check whether that plugin is already enabled (its skills appear as `<plugin>:<skill>` in your list). If the user will want several skills of that job area, recommend enabling the whole plugin instead of single skills: Cowork/claude.ai: the plugin directory at claude.com/plugins or the Customize sidebar, Claude Code `claude plugin marketplace add anthropics/knowledge-work-plugins` then `claude plugin install <plugin>@knowledge-work-plugins`. Plugin skills may expect connectors (CRM, email, calendar); without them they still give method guidance.
+   Otherwise fetch with the bundled script (stdlib only):
    ```bash
-   python <this skill dir>/scripts/fetch_skill.py <name> [--source anthropic] --dest <skills dir> --zip <out.zip>
+   python <this skill dir>/scripts/fetch_skill.py <name> --source <source column> --dest <skills dir> --zip <out.zip>
    ```
    - **Claude Code**: `--dest .claude/skills` when inside a project repo, else `--dest ~/.claude/skills`. A new skill may only be listed from the next session, so also do step 4.
    - **claude.ai chat / Cowork**: omit `--dest`; write the ZIP to the outputs folder and give it to the user with the upload path: **Customize → Skills → "+" → Create skill → Upload a skill**, then toggle it on (needs Code execution enabled). You cannot upload to their account yourself.
@@ -40,4 +42,4 @@ Reply to the user in Vietnamese.
 - Max 2 new skills per request. Every installed skill adds its description to every future session, so don't install "just in case".
 
 ## Updating the catalog
-The catalog was built on 2026-10-31 from K-Dense-AI/scientific-agent-skills (163 skills, MIT) and anthropics/skills (17 skills; docx/pdf/pptx/xlsx are source-available, not open source). If a name 404s, the upstream repo changed: tell the user and suggest rebuilding the catalog.
+Built 2026-11-02: K-Dense-AI/scientific-agent-skills (163, MIT); anthropics/skills (17; docx/pdf/pptx/xlsx source-available); anthropics/knowledge-work-plugins (135 skills from 15 first-party plugins, Apache-2.0; third-party partner plugins excluded); obra/superpowers (15, MIT). If a name 404s, the upstream repo changed: tell the user and suggest rebuilding the catalog.

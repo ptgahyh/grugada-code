@@ -3,7 +3,7 @@
 Download one skill from a trusted GitHub source, clean it, scan it, and install or zip it.
 
 Usage:
-    python fetch_skill.py <name> [--source kdense|anthropic] [--dest DIR] [--zip OUT.zip] [--force] [--drop FILE]
+    python fetch_skill.py <name> [--source kdense|anthropic|anthropic-kwp|obra] [--dest DIR] [--zip OUT.zip] [--force] [--drop FILE]
 
 - Downloads SKILL.md plus every references/, scripts/, assets/, templates/ file it links to
   (recursively through linked .md files) from raw.githubusercontent.com.
@@ -26,6 +26,9 @@ import zipfile
 SOURCES = {
     'kdense': 'https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills',
     'anthropic': 'https://raw.githubusercontent.com/anthropics/skills/main/skills',
+    # Plugin chính thức cho Cowork; tên dạng plugin/skill
+    'anthropic-kwp': 'https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main',
+    'obra': 'https://raw.githubusercontent.com/obra/superpowers/main/skills',
 }
 LINK = re.compile(r'(?<![\w/.-])((?:references|scripts|assets|templates)/[A-Za-z0-9_./-]+'
                   r'\.(?:md|py|json|txt|csv|yaml|yml|tex|sh|js|ts|html|css))')
@@ -45,8 +48,16 @@ def fetch(url):
         return r.read()
 
 
+def skill_url(name, source):
+    if source == 'anthropic-kwp':
+        plugin, skill = name.split('/')
+        return f'{SOURCES[source]}/{plugin}/skills/{skill}'
+    return f'{SOURCES[source]}/{name}'
+
+
 def download(name, source, out):
-    base = f'{SOURCES[source]}/{name}'
+    base = skill_url(name, source)
+    name = name.split('/')[-1]
     todo, seen = ['SKILL.md'], set()
     while todo:
         rel = todo.pop()
@@ -124,11 +135,13 @@ def main():
     ap.add_argument('--force', action='store_true', help='vẫn cài/zip dù có cảnh báo (chỉ khi người dùng đồng ý)')
     ap.add_argument('--drop', action='append', default=[], help='bỏ một file (đường dẫn tương đối) trước khi cài')
     args = ap.parse_args()
-    if not NAME_RE.match(args.name):
-        sys.exit('Tên skill không hợp lệ.')
+    parts = args.name.split('/')
+    if not all(NAME_RE.match(x) for x in parts) or len(parts) != (2 if args.source == 'anthropic-kwp' else 1):
+        sys.exit('Tên skill không hợp lệ (nguồn anthropic-kwp dùng dạng plugin/skill).')
 
     tmp = tempfile.mkdtemp(prefix='skill-')
     files = download(args.name, args.source, tmp)
+    args.name = parts[-1]
     root = os.path.join(tmp, args.name)
     text = clean(os.path.join(root, 'SKILL.md'))
     size_kb = sum(os.path.getsize(os.path.join(root, f)) for f in files) // 1024

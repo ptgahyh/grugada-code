@@ -1,4 +1,4 @@
-# source	name	size_kb	description
+# source	name	size_kb	description   (anthropic-kwp names are plugin/skill)
 kdense	13c-metabolic-flux	12	Estimates intracellular metabolic fluxes from steady-state carbon-13 isotope-tracing measurements using validated atom maps, mfapy isotope simulation, constrain
 kdense	adaptyv	13	Uses the Adaptyv Bio Foundry API and Python SDK to design protein characterization experiments, estimate costs, submit sequences, monitor laboratory progress, a
 kdense	aeon	14	This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation,
@@ -179,3 +179,153 @@ anthropic	theme-factory	3	Toolkit for styling artifacts with a theme.
 anthropic	web-artifacts-builder	3	Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).
 anthropic	webapp-testing	3	Toolkit for interacting with and testing local web applications using Playwright.
 anthropic	xlsx	8	Use this skill any time a spreadsheet file is the primary input or output.
+anthropic-kwp	common-room/account-research	5	Research a company using Common Room data.
+anthropic-kwp	common-room/call-prep	5	Prepare for a customer or prospect call using Common Room signals.
+anthropic-kwp	common-room/compose-outreach	5	Generate personalized outreach messages using Common Room signals.
+anthropic-kwp	common-room/contact-research	5	Research a specific person using Common Room data.
+anthropic-kwp	common-room/prospect	6	Build targeted account or contact lists using Common Room's Prospector.
+anthropic-kwp	common-room/weekly-prep-brief	5	Generate a comprehensive weekly briefing for all external calls in the next 7 days.
+anthropic-kwp	customer-support/customer-research	9	Multi-source research on a customer question or topic with source attribution.
+anthropic-kwp	customer-support/draft-response	14	Draft a professional customer-facing response tailored to the situation and relationship.
+anthropic-kwp	customer-support/kb-article	11	Draft a knowledge base article from a resolved issue or common question.
+anthropic-kwp	customer-support/ticket-triage	11	Triage and prioritize a support ticket or customer issue.
+anthropic-kwp	data/analyze	4	Answer data questions -- from quick lookups to full analyses.
+anthropic-kwp	data/build-dashboard	25	Build an interactive HTML dashboard with charts, filters, and tables.
+anthropic-kwp	data/create-viz	5	Create publication-quality visualizations with Python.
+anthropic-kwp	data/data-visualization	10	Create effective data visualizations with Python (matplotlib, seaborn, plotly).
+anthropic-kwp	data/explore-data	11	Profile and explore a dataset to understand its shape, quality, and patterns.
+anthropic-kwp	data/sql-queries	10	Write correct, performant SQL across all major data warehouse dialects (Snowflake, BigQuery, Databricks, PostgreSQL, etc.).
+anthropic-kwp	data/statistical-analysis	10	Apply statistical methods including descriptive stats, trend analysis, outlier detection, and hypothesis testing.
+anthropic-kwp	data/write-query	4	Write optimized SQL for your dialect with best practices.
+anthropic-kwp	design/accessibility-review	4	Run a WCAG 2.1 AA accessibility audit on a design or page.
+anthropic-kwp	design/design-critique	3	Get structured design feedback on usability, hierarchy, and consistency.
+anthropic-kwp	design/design-handoff	3	Generate developer handoff specs from a design.
+anthropic-kwp	design/design-system	5	Audit, document, or extend your design system.
+anthropic-kwp	design/research-synthesis	2	Synthesize user research into themes, insights, and recommendations.
+anthropic-kwp	design/user-research	1	Plan, conduct, and synthesize user research.
+anthropic-kwp	design/ux-copy	3	Write or review UX copy — microcopy, error messages, empty states, CTAs.
+anthropic-kwp	engineering/architecture	2	Create or evaluate an architecture decision record (ADR).
+anthropic-kwp	engineering/code-review	4	Review code changes for security, performance, and correctness.
+anthropic-kwp	engineering/debug	3	Structured debugging session — reproduce, isolate, diagnose, and fix.
+anthropic-kwp	engineering/deploy-checklist	2	Pre-deployment verification checklist.
+anthropic-kwp	engineering/documentation	1	Write and maintain technical documentation.
+anthropic-kwp	engineering/incident-response	5	Run an incident response workflow — triage, communicate, and write postmortem.
+anthropic-kwp	engineering/standup	3	Generate a standup update from recent activity.
+anthropic-kwp	engineering/system-design	1	Design systems, services, and architectures.
+anthropic-kwp	engineering/tech-debt	1	Identify, categorize, and prioritize technical debt.
+anthropic-kwp	engineering/testing-strategy	1	Design test strategies and test plans.
+anthropic-kwp	enterprise-search/digest	5	Generate a daily or weekly digest of activity across all connected sources.
+anthropic-kwp	enterprise-search/search	6	Search across all connected sources in one query.
+anthropic-kwp	finance/audit-support	16	Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards.
+anthropic-kwp	finance/close-management	10	Manage the month-end close process with task sequencing, dependencies, and status tracking.
+anthropic-kwp	finance/financial-statements	14	Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
+anthropic-kwp	finance/journal-entry-prep	7	Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
+anthropic-kwp	finance/journal-entry	5	Prepare journal entries with proper debits, credits, and supporting detail.
+anthropic-kwp	finance/reconciliation	7	Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data.
+anthropic-kwp	finance/sox-testing	9	Generate SOX sample selections, testing workpapers, and control assessments.
+anthropic-kwp	finance/variance-analysis	10	Decompose financial variances into drivers with narrative explanations and waterfall analysis.
+anthropic-kwp	human-resources/comp-analysis	3	Analyze compensation — benchmarking, band placement, and equity modeling.
+anthropic-kwp	human-resources/draft-offer	2	Draft an offer letter with comp details and terms.
+anthropic-kwp	human-resources/interview-prep	1	Create structured interview plans with competency-based questions and scorecards.
+anthropic-kwp	human-resources/onboarding	3	Generate an onboarding checklist and first-week plan for a new hire.
+anthropic-kwp	human-resources/org-planning	1	Headcount planning, org design, and team structure optimization.
+anthropic-kwp	human-resources/people-report	2	Generate headcount, attrition, diversity, or org health reports.
+anthropic-kwp	human-resources/performance-review	4	Structure a performance review with self-assessment, manager template, and calibration prep.
+anthropic-kwp	human-resources/policy-lookup	4	Find and explain company policies in plain language.
+anthropic-kwp	human-resources/recruiting-pipeline	1	Track and manage recruiting pipeline stages.
+anthropic-kwp	legal/brief	6	Generate contextual briefings for legal work — daily summary, topic research, or incident response.
+anthropic-kwp	legal/legal-risk-assessment	12	Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria.
+anthropic-kwp	legal/meeting-briefing	8	Prepare structured briefings for meetings with legal relevance and track resulting action items.
+anthropic-kwp	legal/review-contract	16	Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis.
+anthropic-kwp	legal/triage-nda	14	Rapidly triage an incoming NDA and classify it as GREEN (standard approval), YELLOW (counsel review), or RED (full legal review).
+anthropic-kwp	legal/vendor-check	5	Check the status of existing agreements with a vendor across all connected systems — CLM, CRM, email, and document storage — with gap analysis and upcoming dead
+anthropic-kwp	marketing/brand-review	12	Review content against your brand voice, style guide, and messaging pillars, flagging deviations by severity with specific before/after fixes.
+anthropic-kwp	marketing/campaign-plan	13	Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics.
+anthropic-kwp	marketing/competitive-brief	12	Research competitors and generate a positioning and messaging comparison with content gaps, opportunities, and threats.
+anthropic-kwp	marketing/content-creation	8	Draft marketing content across channels — blog posts, social media, email newsletters, landing pages, press releases, and case studies.
+anthropic-kwp	marketing/draft-content	4	Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with channel-specific formatting and SEO recommendations.
+anthropic-kwp	marketing/email-sequence	10	Design and draft multi-email sequences with full copy, timing, branching logic, exit conditions, and performance benchmarks.
+anthropic-kwp	marketing/performance-report	18	Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations.
+anthropic-kwp	marketing/seo-audit	9	Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison.
+anthropic-kwp	operations/capacity-plan	3	Plan resource capacity — workload analysis and utilization forecasting.
+anthropic-kwp	operations/change-request	3	Create a change management request with impact analysis and rollback plan.
+anthropic-kwp	operations/compliance-tracking	1	Track compliance requirements and audit readiness.
+anthropic-kwp	operations/process-doc	2	Document a business process — flowcharts, RACI, and SOPs.
+anthropic-kwp	operations/process-optimization	1	Analyze and improve business processes.
+anthropic-kwp	operations/risk-assessment	1	Identify, assess, and mitigate operational risks.
+anthropic-kwp	operations/runbook	2	Create or update an operational runbook for a recurring task or procedure.
+anthropic-kwp	operations/status-report	2	Generate a status report with KPIs, risks, and action items.
+anthropic-kwp	operations/vendor-review	3	Evaluate a vendor — cost analysis, risk assessment, and recommendation.
+anthropic-kwp	product-management/competitive-brief	14	Create a competitive analysis brief for one or more competitors or a feature area.
+anthropic-kwp	product-management/metrics-review	17	Review and analyze product metrics with trend analysis and actionable insights.
+anthropic-kwp	product-management/product-brainstorming	15	Brainstorm product ideas, explore problem spaces, and challenge assumptions as a thinking partner.
+anthropic-kwp	product-management/roadmap-update	12	Update, create, or reprioritize your product roadmap.
+anthropic-kwp	product-management/stakeholder-update	14	Generate a stakeholder update tailored to audience and cadence.
+anthropic-kwp	product-management/synthesize-research	15	Synthesize user research from interviews, surveys, and feedback into structured insights.
+anthropic-kwp	product-management/write-spec	12	Write a feature spec or PRD from a problem statement or feature idea.
+anthropic-kwp	productivity/memory-management	8	Two-tier memory system that makes Claude a true workplace collaborator.
+anthropic-kwp	productivity/start	4	Initialize the productivity system and open the dashboard.
+anthropic-kwp	productivity/task-management	2	Simple task management using a shared TASKS.md file.
+anthropic-kwp	productivity/update	4	Sync tasks and refresh memory from your current activity.
+anthropic-kwp	sales/account-context	9	360-degree view of an account - CRM data, recent email threads, docs, transcripts, and internal chat chatter, synthesized into one brief.
+anthropic-kwp	sales/account-plan	9	Build or refresh a strategic account plan - current state, goals, stakeholder coverage, opportunity map, risks, and the action plan - written to a doc and key f
+anthropic-kwp	sales/account-research	9	Research a target company and optionally a specific contact - company overview, recent news, likely priorities, and fit against your ICP.
+anthropic-kwp	sales/account-tiering	9	Score and tier a list of accounts (or your full book) against ICP fit and engagement signals to prioritize where to spend time.
+anthropic-kwp	sales/call-prep	10	Pre-call brief for an upcoming meeting - attendees, account history, prior call context from transcripts, open opportunity status, and suggested discovery quest
+anthropic-kwp	sales/call-summary	11	Turn a call transcript or call notes into a customer follow-up email draft, an internal chat summary, and proposed CRM updates.
+anthropic-kwp	sales/close-plan	9	Build the business case and mutual action plan for a deal - the why-buy/why-now story, the ROI framing, and the dated step-by-step path to signature shared with
+anthropic-kwp	sales/competitive-intelligence	10	Competitive analysis two ways - the in-deal play against a named competitor, and win/loss patterns, competitor mentions, and battlecards across the book.
+anthropic-kwp	sales/create-an-asset	9	Build a customer deck, one-pager or leave-behind from your account data, call notes and approved materials, with no made-up numbers.
+anthropic-kwp	sales/crm-hygiene-check	9	Read-only audit of your CRM opportunities for missing fields, stale dates, and stage mismatches - outputs a fix checklist to apply by hand or through update-opp
+anthropic-kwp	sales/customer-health	9	Health check on a customer account and QBR-ready prep - relationship strength, engagement trend, risk signals, value delivered, and the agenda that makes the re
+anthropic-kwp	sales/customer-voice	8	Surface what customers are actually saying - direct attributed quotes on a topic across call transcripts and email, across your accounts.
+anthropic-kwp	sales/daily-briefing	8	Morning rundown - today's meetings with account context, opps closing soon with stale flags, waiting customer emails, and the day's top actions.
+anthropic-kwp	sales/deal-advance-gap	9	Forward-looking gap check on one opportunity - exactly what is missing to advance it to the next stage and to close, with who does what by when.
+anthropic-kwp	sales/deal-review	9	Deep-dive on a single opportunity - signal-adjusted health score, risks, gaps in qualification, and recommended next actions.
+anthropic-kwp	sales/deal-signals	9	Proactive watch over your book - deals gone quiet, close dates slipping into view, champion changes, renewal windows opening, competitor mentions - surfaced as 
+anthropic-kwp	sales/deal-slip-scenario	9	Model what happens to your number if a deal slips, shrinks, or dies - quota impact, coverage ratio change, and the substitute pipeline needed to stay on plan.
+anthropic-kwp	sales/draft-outreach	11	Draft a personalized outreach email or multi-touch sequence to a prospect, create it as an email draft for review, and add the contact to a sequence in your sal
+anthropic-kwp	sales/end-of-day	10	The closing beat of the day - every call processed or explicitly skipped, the CRM brought current, commitments captured, and tomorrow's top three teed up.
+anthropic-kwp	sales/expansion-whitespace	9	Find the expansion whitespace in an account or a book - what they own vs.
+anthropic-kwp	sales/forecast	9	Generate the commit / best-case / pipeline narrative for a forecast call or a 1:1 with your manager - what's closing, what's at risk, what changed since last ti
+anthropic-kwp	sales/handle-objection	9	Work through a live objection or competitive threat - what's really being said, the response that has worked before, and the proof points to use, grounded in yo
+anthropic-kwp	sales/inbox-sweep	11	Batch-process unread customer emails - classify, prioritize, and draft replies.
+anthropic-kwp	sales/lead-triage	10	Score and route an inbound lead, or rank a backlog of leads, against your ICP and qualification framework, then recommend a priority and next action.
+anthropic-kwp	sales/log-activity	9	Log a call, meeting, or email exchange to the CRM after the fact as a completed activity on the right account, opportunity, and contact - drafted from your desc
+anthropic-kwp	sales/pipeline-review	9	Stage-by-stage pipeline health check - coverage, aging, conversion, and at-risk deals - from CRM opportunity data.
+anthropic-kwp	sales/renewal-radar	9	Upcoming renewals with timing, risk, and uplift potential - and the renewal opportunity records to keep them honest.
+anthropic-kwp	sales/rep-context	8	Leader's prep on a single rep before a 1:1 - their pipeline, recent activity, what they've been working on per chat and calendar, and where they might need help
+anthropic-kwp	sales/route-lead	9	Decide who owns an unrouted lead or opportunity and manage the handoff - deterministic routing by the org's own rules, a routing card the human router accepts o
+anthropic-kwp	sales/schedule-meeting	11	Find a time, draft the invite, and book the meeting on Google Calendar or Outlook - then log it to the CRM as an event on the right account and opportunity.
+anthropic-kwp	sales/setup	15	First-run setup - checks which tools are connected, shows what's connected and what each one unlocks, learns how you write from your sent email, and renders a s
+anthropic-kwp	sales/stakeholder-map	9	Map the people in a deal or account - roles, influence, sentiment, who's missing, and your best access path to the people you haven't reached.
+anthropic-kwp	sales/team-pipeline	9	Leader view - roll up a team's pipeline by rep and stage, flag at-risk deals, and surface coaching moments.
+anthropic-kwp	sales/update-opportunity	9	Guided updates to an opportunity - push the stage, move the close date, set next steps, fix amount or forecast category.
+anthropic-kwp	sales/weekly-wrap	9	End-of-week summary for a rep or leader - what closed, what moved, what slipped, and what's on deck Monday.
+anthropic-kwp	sales/win-loss-review	8	Analyze recently closed opportunities to find patterns in what wins and what loses - stage of loss, common objections from transcripts, deal characteristics.
+anthropic-kwp	zoom-plugin/build-zoom-bot	1	Build a Zoom meeting bot, recorder, or real-time media workflow.
+anthropic-kwp	zoom-plugin/build-zoom-meeting-app	1	Build or embed a Zoom meeting flow.
+anthropic-kwp	zoom-plugin/choose-zoom-approach	1	Choose the right Zoom architecture for a use case.
+anthropic-kwp	zoom-plugin/debug-zoom-integration	1	Debug broken Zoom implementations quickly.
+anthropic-kwp	zoom-plugin/debug-zoom	1	Debug a broken Zoom integration by isolating the failure point and routing into the right Zoom references.
+anthropic-kwp	zoom-plugin/design-mcp-workflow	1	Design a Zoom MCP workflow for Claude.
+anthropic-kwp	zoom-plugin/plan-zoom-integration	1	Turn a Zoom integration idea into an implementation plan with architecture, auth, and delivery milestones.
+anthropic-kwp	zoom-plugin/plan-zoom-product	1	Choose the right Zoom building surface for a use case and explain the tradeoffs clearly.
+anthropic-kwp	zoom-plugin/setup-zoom-mcp	1	Decide when Zoom MCP is the right fit and produce a safe setup plan for Claude.
+anthropic-kwp	zoom-plugin/setup-zoom-oauth	1	Implement Zoom authentication correctly.
+anthropic-kwp	zoom-plugin/start	1	Start here for any Zoom integration or app idea.
+obra	brainstorming	13	You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in soft
+obra	diagnosing-superpowers	6	Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't f
+obra	dispatching-parallel-agents	5	Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
+obra	executing-plans	17	Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is
+obra	finishing-a-development-branch	7	Use when implementation is complete, all tests pass, and you need to decide how to integrate the work
+obra	receiving-code-review	6	Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical 
+obra	requesting-code-review	2	Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+obra	subagent-driven-development	19	Use when executing implementation plans with independent tasks in the current session
+obra	systematic-debugging	9	Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+obra	test-driven-development	9	Use when implementing any feature or bugfix, before writing implementation code
+obra	using-git-worktrees	6	Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via n
+obra	using-superpowers	3	Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
+obra	verification-before-completion	3	Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output be
+obra	writing-plans	10	Use when you have a spec or requirements for a multi-step task, before touching code
+obra	writing-skills	16	Use when creating new skills, editing existing skills, or verifying skills work before deployment
