@@ -1,0 +1,72 @@
+{
+ "rows_after_cleaning": {
+  "Cleveland": 303,
+  "Hungary": 293,
+  "VA": 144
+ },
+ "by_anchor": {
+  "EX": {
+   "one_minus": 0.3342,
+   "n_eff_ratio": 0.1381,
+   "ba_src": 0.6369,
+   "ba_catt": 0.646,
+   "ba_oracle": 0.6794,
+   "shift_obs": 0.5705,
+   "shift_pred": 0.2649
+  },
+  "EX-LR": {
+   "one_minus": 0.42,
+   "n_eff_ratio": 0.2032,
+   "ba_src": 0.6369,
+   "ba_catt": 0.6577,
+   "ba_oracle": 0.6794,
+   "shift_obs": 0.3106,
+   "shift_pred": 0.2903
+  },
+  "LR-same": {
+   "one_minus": 0.3139,
+   "n_eff_ratio": 0.1324,
+   "ba_src": 0.6369,
+   "ba_catt": 0.6521,
+   "ba_oracle": 0.6794,
+   "shift_obs": -0.1803,
+   "shift_pred": -0.8471
+  },
+  "RF-same": {
+   "one_minus": 0.3424,
+   "n_eff_ratio": 0.147,
+   "ba_src": 0.6369,
+   "ba_catt": 0.6534,
+   "ba_oracle": 0.6794,
+   "shift_obs": 0.0094,
+   "shift_pred": -2.949
+  }
+ },
+ "shift_pred_vs_obs": {
+  "pearson": 0.4256909515697622,
+  "spearman": 0.5181467181467182,
+  "slope_intercept": [
+   0.04315063227972827,
+   0.2125035518740003
+  ],
+  "n_points": 36
+ },
+ "neff_independent": {
+  "median_obs_over_pred": 1.6097844278395759,
+  "iqr": [
+   1.18378655293989,
+   2.3454183843428864
+  ],
+  "spearman": 0.7702777164224046,
+  "n": 45
+ },
+ "neff_dependent": {
+  "median_obs_over_pred": 3.7416112385294786,
+  "iqr": [
+   2.195324893750569,
+   6.246955047361042
+  ],
+  "n": 50
+ },
+ "neff_points_at_grid_edge": 13
+}

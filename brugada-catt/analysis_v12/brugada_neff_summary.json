@@ -1,0 +1,59 @@
+{
+ "concept": {
+  "median_obs_over_pred": 1.590784832033445,
+  "iqr": [
+   0.9292522412856092,
+   2.855231608268305
+  ],
+  "spearman_pred_obs": 0.012672048094994625,
+  "n": 80,
+  "median_ratio_obs": 0.30896801094516824,
+  "median_ratio_pred": 0.20647552749884848
+ },
+ "blackbox": {
+  "median_obs_over_pred": 1.6103107710405973,
+  "iqr": [
+   1.122477772976352,
+   2.5690198280681025
+  ],
+  "n": 69
+ },
+ "points_at_grid_edge": 40,
+ "by_anchor": {
+  "CBM": {
+   "ratio_pred": 0.223,
+   "ratio_obs": 0.324,
+   "r": 1.412
+  },
+  "CBM-sd15": {
+   "ratio_pred": 0.175,
+   "ratio_obs": 0.291,
+   "r": 1.604
+  },
+  "CNN9": {
+   "ratio_pred": 0.117,
+   "ratio_obs": 0.161,
+   "r": 1.468
+  },
+  "CNNalt": {
+   "ratio_pred": 0.392,
+   "ratio_obs": 0.626,
+   "r": 1.55
+  },
+  "LogReg9": {
+   "ratio_pred": 0.127,
+   "ratio_obs": 0.22,
+   "r": 1.937
+  },
+  "ResNet": {
+   "ratio_pred": 0.402,
+   "ratio_obs": 0.68,
+   "r": 1.649
+  },
+  "ST_V2": {
+   "ratio_pred": 0.211,
+   "ratio_obs": 0.356,
+   "r": 1.643
+  }
+ }
+}
