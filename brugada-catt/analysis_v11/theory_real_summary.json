@@ -1,0 +1,40 @@
+{
+ "n_points": 63,
+ "shift_pred_vs_obs_spearman": 0.9747023809523809,
+ "shift_pred_vs_obs_pearson": 0.9388931787358527,
+ "shift_obs_on_pred_slope_intercept": [
+  0.6984415440399177,
+  0.13726267119620966
+ ],
+ "gap_concept_vs_sampling_pred": {
+  "gap": 0.023059963220551104,
+  "sampling": 0.014246835139503962
+ },
+ "gap_blackbox_vs_sampling_pred": {
+  "gap": 0.0753433620012604,
+  "sampling": 0.02905348689312843
+ },
+ "gamma_abs_vs_gap_spearman": 0.8349654377880185,
+ "gap_vs_loss_pred_spearman": 0.9248271889400923,
+ "gap_vs_loss_pred_pearson": 0.8232111464022842,
+ "r2_gap_on_samp_and_bias": [
+  0.6901467378137409,
+  [
+   0.022908871758916854,
+   0.5107639462089242,
+   0.1471607221251276
+  ]
+ ],
+ "r2_gap_on_loss_pred": [
+  0.6776765915609633,
+  [
+   0.027788585351065948,
+   0.1699871944998431
+  ]
+ ],
+ "gap_vs_abs_slope_spearman": 0.4251632104454685,
+ "abs_slope_concept_vs_blackbox": {
+  "concept": 0.13413240348597358,
+  "blackbox": 0.13069126440152304
+ }
+}

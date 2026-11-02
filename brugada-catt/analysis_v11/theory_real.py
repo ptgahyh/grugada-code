@@ -10,6 +10,7 @@ For every setting (9) x validation seed (3) x pseudo-labeller (7), on the target
   diagnostic label-free anchor-threshold invariance (Proposition 4): the anchor's threshold is moved by
              d * SD(anchor, source validation), d in [-0.5, 0.5]; slope of the fraction of target ECGs the CNN
              flags at the CATT threshold, per unit d (no target labels used)
+Gamma'(t*) is estimated by a central difference of the kernel estimates (step h/2).
 Target labels are used only for the "observed" and "dependence" columns, never for the diagnostic.
 
 Run: python analysis_v11/theory_real.py analysis_v11
@@ -86,12 +87,20 @@ for i, (src, tgt) in enumerate(SETTINGS):
                 continue
             t_c = youden(pl, ft)
             a = pl[yt == 0].mean(); b = 1 - pl[yt == 1].mean(); om = 1 - a - b; q = pl.mean()
-            a_loc = np.sum(w * pl * (yt == 0)) / np.sum(w * (yt == 0))
-            b_loc = 1 - np.sum(w * pl * (yt == 1)) / np.sum(w * (yt == 1))
+            def local(t):
+                wt = np.exp(-0.5 * ((ft - t) / h) ** 2)
+                return (np.sum(wt * pl * (yt == 0)) / np.sum(wt * (yt == 0)),
+                        1 - np.sum(wt * pl * (yt == 1)) / np.sum(wt * (yt == 1)))
+
+            def gam(t):
+                al, bl = local(t)
+                return ((bl - b) / p0 - (al - a) / p1) / om
+            a_loc, b_loc = local(t_or)
             n_eff = n * p0 * p1 * om ** 2 / (q * (1 - q)) if om > 0 else np.nan
             samp = 0.25 * j2 * VAR_Z * (4 * phi / (j2 ** 2 * p0 * p1 * n_eff)) ** (2 / 3) if om > 0 else np.nan
-            gamma = ((b_loc - b) / p0 - (a_loc - a) / p1) / om if om > 0 else np.nan
-            shift_pred = gamma / dlog
+            gamma = gam(t_or) if om > 0 else np.nan
+            dgam = (gam(t_or + 0.5 * h) - gam(t_or - 0.5 * h)) / h if om > 0 else np.nan
+            shift_pred = gamma / (dlog - dgam)
             bias_pred = 0.25 * j2 * shift_pred ** 2
             # label-free diagnostic: move the anchor's threshold, record the fraction the CNN flags
             sdv = gv.std(ddof=1)
@@ -137,6 +146,12 @@ summary = dict(
     n_points=len(ok),
     shift_pred_vs_obs_spearman=float(spearmanr(ok.shift_pred, ok.shift_obs)[0]),
     shift_pred_vs_obs_pearson=float(np.corrcoef(ok.shift_pred, ok.shift_obs)[0, 1]),
+    shift_obs_on_pred_slope_intercept=np.polyfit(ok.shift_pred, ok.shift_obs, 1).tolist(),
+    gap_concept_vs_sampling_pred=dict(gap=float(ok[ok.labeller.isin(["CBM-sd15", "CBM", "ST_V2"])].gap.mean()),
+                                      sampling=float(ok[ok.labeller.isin(["CBM-sd15", "CBM", "ST_V2"])].loss_samp_pred.mean())),
+    gap_blackbox_vs_sampling_pred=dict(gap=float(ok[~ok.labeller.isin(["CBM-sd15", "CBM", "ST_V2"])].gap.mean()),
+                                       sampling=float(ok[~ok.labeller.isin(["CBM-sd15", "CBM", "ST_V2"])].loss_samp_pred.mean())),
+    gamma_abs_vs_gap_spearman=float(spearmanr(ok.gamma.abs(), ok.gap)[0]),
     gap_vs_loss_pred_spearman=float(spearmanr(ok.loss_pred, ok.gap)[0]),
     gap_vs_loss_pred_pearson=float(np.corrcoef(ok.loss_pred, ok.gap)[0, 1]),
     r2_gap_on_samp_and_bias=r2(ok.gap.values, [ok.loss_samp_pred.values, ok.loss_bias_pred.values]),
