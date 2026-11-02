@@ -126,6 +126,73 @@ Mỗi kịch bản có 16 ô (ρ ∈ {0, 0.6}, độ lệch mỏ neo ∈ {0, −
 
 **Điểm nên đặt làm đóng góp chính:** Hệ quả 5c, tức một nguồn mới biết được ngưỡng CATT chắc chắn đến đâu và cần bao nhiêu ECG không nhãn, mà không cần nhãn nào. Luật n_eff không làm được việc này.
 
+## 8. Đánh giá thứ hai: quy tắc dừng, độ cong đa thức cục bộ, UCI Heart
+
+### 8a. Định lý 5a trên bộ dữ liệu thứ hai (`heart_unified.py`)
+
+UCI Heart Disease: 9 thiết lập × 3 seed × 4 mỏ neo × 3 cỡ mẫu = 318 điểm. Cỡ mẫu nhỏ, n từ 29 đến 152.
+
+| Ước lượng | Dự đoán/quan sát | Khoảng tứ phân vị của tỉ số | Spearman |
+|---|---|---|---|
+| a, KDE trên cả nguồn đích | 1.12 | 0.93–1.35 | 0.87 |
+| a, độ cong đa thức cục bộ (LQ) | 1.26 | 0.99–2.12 | 0.88 |
+| **Không cần nhãn, 1 mẫu con** | **1.04** | 0.89–1.25 | **0.89** |
+
+**Theo mỏ neo (KDE):**
+
+| Mỏ neo | EX | EX-LR | LR-same | RF-same |
+|---|---|---|---|---|
+| Dự đoán/quan sát | 1.12 | 1.03 | 1.08 | 1.21 |
+
+Định lý 5a và Hệ quả 5c đúng trên một bộ dữ liệu thứ hai, khác loại hoàn toàn: dữ liệu lâm sàng, không phải ECG.
+
+### 8b. Độ cong bằng đa thức cục bộ (LQ)
+
+LQ khớp đa thức bậc hai vào đường Youden nhãn giả **thực nghiệm**, trong cửa sổ ±3·a·SD(Z).
+
+| | Brugada (n vài trăm) | UCI Heart (n 29–152) |
+|---|---|---|
+| KDE | 1.09 | 1.12 |
+| LQ | **1.05** (Spearman 0.93) | 1.26 |
+
+- LQ tốt hơn khi n lớn.
+- LQ kém hơn khi n nhỏ, vì đường thực nghiệm lởm chởm.
+- **Giữ KDE (Scott) làm ước lượng chính**, đã định trước; LQ chỉ là phân tích độ nhạy.
+
+### 8c. Kiểm trực tiếp quy tắc dừng (`stopping_rule.py`)
+
+**Thiết kế:**
+1. Lấy một mẫu thử không nhãn gồm m = 50 hoặc 100 ECG.
+2. Từ mẫu thử, tính số ECG cần thu để SD(t̂) ≤ ε, với ε = 0.2 hoặc 0.3 trên thang logit.
+3. Thu đúng số đó (120 lần lặp) và đo SD thực tế đạt được.
+
+6 mẫu thử cho mỗi cấu hình (thiết lập × seed × mỏ neo).
+
+| Mẫu thử, ước lượng độ cong | ε | SD đạt/ε (trung vị) | Khoảng tứ phân vị | Tỉ lệ đạt ε | Tỉ lệ ≤ 1.2ε | Số ECG kế hoạch (trung vị) |
+|---|---|---|---|---|---|---|
+| 50, KDE | 0.2 | 0.91 | 0.62–1.24 | 59% | 71% | 263 |
+| 50, KDE | 0.3 | 0.90 | 0.63–1.18 | 60% | 76% | 180 |
+| 100, KDE | 0.2 | 0.89 | 0.59–1.20 | 62% | 75% | 266 |
+| 100, KDE | 0.3 | 0.86 | 0.63–1.12 | 65% | 81% | 180 |
+| 100, LQ | 0.3 | 0.93 | 0.70–1.23 | 55% | 73% | 140 |
+
+**Đọc kết quả:**
+- **Trung bình, quy tắc dừng đúng và hơi thận trọng.** Với KDE, SD đạt được bằng khoảng 0.86–0.91 lần mục tiêu.
+- **Từng lần riêng lẻ thì phân tán rộng,** vì mẫu thử 50–100 ECG chỉ có khoảng 5–20 ca nhãn giả dương, nên ước lượng Ṽ, Ã còn nhiễu.
+  - Muốn 80% lần thu đạt mục tiêu, phải nhân số ECG kế hoạch với hệ số an toàn: **×1.8** (mẫu thử 100, KDE) hoặc **×2.2** (mẫu thử 50, KDE).
+  - Hệ số này lớn đúng như phản biện dự đoán: a sai 20–30% thì n sai khoảng 2 lần, vì n ∝ a⁻³.
+- **LQ không hợp với mẫu thử nhỏ:** dự đoán thiếu (trung vị 1.05–1.20), hệ số an toàn cần ×2.8–4.4.
+- 148/2.096 mẫu thử 50–100 ECG có dưới 5 ca nhãn giả dương, không lập được kế hoạch. Với các mục tiêu chặt, 10–34% kế hoạch vượt 80% cohort.
+- **Đề xuất cho bài:** dùng quy tắc **hai giai đoạn**: lập kế hoạch từ mẫu thử, thu một nửa, ước lượng lại, rồi thu nốt. Hoặc báo cáo kèm hệ số an toàn. Quy tắc hai giai đoạn chưa được kiểm.
+
+### 8d. Những giới hạn đã ghi nhận (đồng ý với phản biện)
+
+- **Chỉ cho ngưỡng Youden.** Ngưỡng theo độ nhạy cố định là ước lượng phân vị, tốc độ n^{−1/2}, cần một công thức khác.
+- **Cần điểm số liên tục.** Điểm số rời rạc sai khi n lớn.
+- **Băng thông.** Nhạy ±20–30% với a, tức khoảng 2 lần với n.
+- **Cần mỏ neo có cấu trúc khác mô hình đích.**
+- **Bằng chứng ECG thật vẫn chỉ có một bài toán (Brugada).** UCI Heart là dữ liệu lâm sàng, không phải ECG.
+
 ## Script
 
 | Script | Việc làm | Đầu ra |
@@ -135,6 +202,8 @@ Mỗi kịch bản có 16 ô (ρ ∈ {0, 0.6}, độ lệch mỏ neo ∈ {0, −
 | `nongauss_sim.py` | Mô phỏng ngoài Gauss | `nongauss_sim.csv`, `nongauss_sim_summary.json` |
 | `brugada_unified.py` | Bản 1, đã thay thế (giữ để đối chiếu) | `brugada_unified.csv`, `brugada_unified_summary.json` |
 | `brugada_unified_v2.py` | Bản sửa: độ phân tán, plug-in, băng thông | `brugada_unified_v2.csv`, `brugada_unified_v2_summary.json` |
+| `stopping_rule.py` | Kiểm quy tắc dừng, độ cong LQ trên Brugada | `stopping_rule.csv/_summary.json`, `curvature_lq_spread.csv` |
+| `heart_unified.py` | Định lý 5a, Hệ quả 5c trên UCI Heart | `heart_unified.csv/_summary.json` |
 | `make_fig_v13.py`, `make_fig_v13b.py` | Hình | `fig_v13.png`, `fig_v13b.png` |
 
 Chạy lại:

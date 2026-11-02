@@ -1,0 +1,34 @@
+{
+ "sd_kde": {
+  "median_pred_over_obs": 1.1216148923431666,
+  "spearman": 0.8723456340018572,
+  "iqr_of_ratio": [
+   0.93043534172274,
+   1.3459802460724044
+  ]
+ },
+ "sd_lq": {
+  "median_pred_over_obs": 1.2612244606174403,
+  "spearman": 0.8840974348630913,
+  "iqr_of_ratio": [
+   0.9905343038030853,
+   2.120711645801197
+  ]
+ },
+ "sd_plugin": {
+  "median_pred_over_obs": 1.0435516508969125,
+  "spearman": 0.8861026958160266,
+  "iqr_of_ratio": [
+   0.8875465269856866,
+   1.2514728815214657
+  ]
+ },
+ "n_points": 318,
+ "by_anchor_kde": {
+  "EX": 1.124,
+  "EX-LR": 1.027,
+  "LR-same": 1.081,
+  "RF-same": 1.208
+ },
+ "median_distinct_score_share": 0.9861111111111112
+}
