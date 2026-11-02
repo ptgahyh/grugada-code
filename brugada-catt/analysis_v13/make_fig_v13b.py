@@ -23,7 +23,7 @@ a.scatter(B.sd_obs, B.sd_plugin, s=8, facecolors="none", edgecolors="#555555", l
 lo, hi = B.sd_obs.min() * 0.6, B.sd_obs.max() * 1.8
 a.plot([lo, hi], [lo, hi], "k--", lw=0.8)
 a.set_xscale("log"); a.set_yscale("log"); a.set_xlim(lo, hi); a.set_ylim(lo, hi)
-r1 = np.exp(np.median(np.log(B["sd_pred_1.0"] / B.sd_obs))); r2 = np.exp(np.median(np.log(B.sd_plugin / B.sd_obs)))
+r1 = np.exp(np.median(np.log(B["sd_pred_1.0"] / B.sd_obs))); Bp = B.dropna(subset=["sd_plugin"]); r2 = np.exp(np.median(np.log(Bp.sd_plugin / Bp.sd_obs)))
 a.set_title(f"A. Brugada: spread of the CATT threshold ({len(B)} points)\nmedian pred/obs {r1:.2f}; label-free {r2:.2f}",
             fontsize=9.5)
 a.set_xlabel("Observed SD of t_hat over 300 subsamples (logit)"); a.set_ylabel("Predicted a * SD(Z)")

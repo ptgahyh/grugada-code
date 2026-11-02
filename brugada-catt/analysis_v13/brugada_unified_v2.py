@@ -13,7 +13,7 @@ Changes from brugada_unified.py (v1):
   * Chernoff samples from chernoff.py (40,000 draws, Var 0.261 vs 0.26355 theory).
   * All 3 validation seeds (27 score files), 7 anchors, n = 20/35/50% of the target cohort.
   * Finite population: sampling without replacement, n replaced by n / (1 - n/N) (heuristic correction).
-Run: python analysis_v13/brugada_unified_v2.py analysis_v11 analysis_v13
+Run: python analysis_v13/brugada_unified_v2.py analysis_v11 analysis_v13 [--summary]   (about 40 min; --summary re-reads the CSV)
 """
 import json
 import os
@@ -62,8 +62,9 @@ def smooth_ba(f, y, m, g):
     return lambda t: np.interp(t, g, ba), float(ba.max())
 
 
+SUMMARY_ONLY = len(sys.argv) > 3 and sys.argv[3] == "--summary"
 rows = []
-for i in range(9):
+for i in (range(0) if SUMMARY_ONLY else range(9)):
     for vs in range(3):
         Z = np.load(os.path.join(V11, "scores", f"lab_{i}_{vs}.npz"))
         yv, yt = Z["y_val"], Z["y_tgt"]; ft = logit(Z["f_tgt"]); N = len(yt)
@@ -108,8 +109,11 @@ for i in range(9):
                     row[f"loss_obs_{m}"] = float(np.mean(best - ba(th)))
                 rows.append(row)
         print("setting", i, "seed", vs, flush=True)
-D = pd.DataFrame(rows)
-D.round(6).to_csv(os.path.join(OUT, "brugada_unified_v2.csv"), index=False)
+if SUMMARY_ONLY:
+    D = pd.read_csv(os.path.join(OUT, "brugada_unified_v2.csv"))
+else:
+    D = pd.DataFrame(rows)
+    D.round(6).to_csv(os.path.join(OUT, "brugada_unified_v2.csv"), index=False)
 
 
 def med_ratio(p, o):
@@ -123,9 +127,10 @@ def block(d):
                             spearman=float(spearmanr(d["sd_pred_1.0"], d.sd_obs)[0]))
     out["spread_robust_iqr"] = dict(median_pred_over_obs=med_ratio(d["sd_pred_1.0"], d.iqr_sd_obs),
                                     spearman=float(spearmanr(d["sd_pred_1.0"], d.iqr_sd_obs)[0]))
-    out["spread_label_free_plugin"] = dict(median_pred_over_obs=med_ratio(d.sd_plugin, d.sd_obs),
-                                           iqr_of_ratio=np.exp(np.percentile(np.log(d.sd_plugin / d.sd_obs), [25, 75])).tolist(),
-                                           spearman=float(spearmanr(d.sd_plugin, d.sd_obs)[0]))
+    p = d.dropna(subset=["sd_plugin"])
+    out["spread_label_free_plugin"] = dict(median_pred_over_obs=med_ratio(p.sd_plugin, p.sd_obs),
+                                           iqr_of_ratio=np.exp(np.percentile(np.log(p.sd_plugin / p.sd_obs), [25, 75])).tolist(),
+                                           spearman=float(spearmanr(p.sd_plugin, p.sd_obs)[0]), n=len(p))
     for m in (0.5, 1.0, 2.0):
         lo, lp, b = d[f"loss_obs_{m}"], d[f"loss_pred_{m}"], d[f"bias_{m}"]
         ok = lo > 1e-4
@@ -136,7 +141,9 @@ def block(d):
             loss_spearman=float(spearmanr(lp, lo)[0]),
             bias_share_of_observed_loss_median=float(np.median((b / lo)[ok])),
             sampling_term_spearman=float(spearmanr(samp_p, samp_o)[0]),
-            negative_predicted_sampling_terms=int((samp_p < 0).sum()))
+            negative_predicted_sampling_terms=int((samp_p < 0).sum()),
+            negative_observed_sampling_terms=int((samp_o < 0).sum()),
+            sampling_term_spearman_when_bias_share_below_half=float(spearmanr(samp_p[(b / lo) < 0.5], samp_o[(b / lo) < 0.5])[0]))
     out["centre"] = dict(median_abs_mean_that_minus_t_kde=float(np.median(abs(d.mean_that - d["t_kde_1.0"]))),
                          median_abs_mean_that_minus_t_emp=float(np.median(abs(d.mean_that - d.t_emp))),
                          median_sd_obs=float(d.sd_obs.median()))
@@ -147,7 +154,7 @@ summary = {"all": block(D), "concept": block(D[D.concept]), "blackbox": block(D[
            "by_anchor_spread_pred_over_obs": D.groupby("anchor").apply(
                lambda d: med_ratio(d["sd_pred_1.0"], d.sd_obs)).round(3).to_dict(),
            "by_anchor_plugin_over_obs": D.groupby("anchor").apply(
-               lambda d: med_ratio(d.sd_plugin, d.sd_obs)).round(3).to_dict(),
+               lambda d: med_ratio(d.dropna(subset=["sd_plugin"]).sd_plugin, d.dropna(subset=["sd_plugin"]).sd_obs)).round(3).to_dict(),
            "by_fraction_spread_pred_over_obs": D.assign(fr=(D.n / D.N).round(2)).groupby("fr").apply(
                lambda d: med_ratio(d["sd_pred_1.0"], d.sd_obs)).round(3).to_dict()}
 json.dump(summary, open(os.path.join(OUT, "brugada_unified_v2_summary.json"), "w"), indent=1, default=float)
