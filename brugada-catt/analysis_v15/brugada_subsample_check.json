@@ -1,0 +1,70 @@
+{
+ "sd_pred_1.0": {
+  "median_pred_over_obs": 1.091,
+  "iqr": [
+   0.955,
+   1.262
+  ],
+  "spearman": 0.915,
+  "median_abs_log_err": 0.134,
+  "n": 561
+ },
+ "sd_plugin": {
+  "median_pred_over_obs": 1.081,
+  "iqr": [
+   0.927,
+   1.313
+  ],
+  "spearman": 0.862,
+  "median_abs_log_err": 0.168,
+  "n": 560
+ },
+ "sd_sub": {
+  "median_pred_over_obs": 0.981,
+  "iqr": [
+   0.888,
+   1.112
+  ],
+  "spearman": 0.927,
+  "median_abs_log_err": 0.114,
+  "n": 561,
+  "criterion_met": true
+ },
+ "by_anchor": {
+  "CBM": {
+   "sd_pred_1.0": 1.069,
+   "sd_plugin": 1.068,
+   "sd_sub": 0.981
+  },
+  "CBM-sd15": {
+   "sd_pred_1.0": 1.055,
+   "sd_plugin": 1.032,
+   "sd_sub": 0.965
+  },
+  "CNN9": {
+   "sd_pred_1.0": 1.112,
+   "sd_plugin": 1.072,
+   "sd_sub": 1.003
+  },
+  "CNNalt": {
+   "sd_pred_1.0": 1.115,
+   "sd_plugin": 1.092,
+   "sd_sub": 0.967
+  },
+  "LogReg9": {
+   "sd_pred_1.0": 1.082,
+   "sd_plugin": 1.038,
+   "sd_sub": 0.984
+  },
+  "ResNet": {
+   "sd_pred_1.0": 1.044,
+   "sd_plugin": 1.048,
+   "sd_sub": 0.944
+  },
+  "ST_V2": {
+   "sd_pred_1.0": 1.174,
+   "sd_plugin": 1.225,
+   "sd_sub": 1.067
+  }
+ }
+}

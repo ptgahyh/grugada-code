@@ -78,7 +78,7 @@ Mỏ neo phụ thuộc A4 có khoảng cách tới oracle **nhỏ hơn** các m�
 |---|---|---|---|
 | Định lý 5a (Ṽ, Ã trên cả đích) | 1,09 | 0,80 | 1,06 |
 | Hệ quả 5c, KDE | 1,08 | 0,78 | 1,11 |
-| Hệ quả 5c, mẫu con (F1) | chờ chạy `brugada_subsample_check.py` | 0,95 (phát triển) | **1,00 (xác nhận)** |
+| Hệ quả 5c, mẫu con (F1) | **0,98 (xác nhận, F1-B)** | 0,95 (phát triển) | **1,00 (xác nhận)** |
 | Dừng 2 giai đoạn KDE, % đạt SD ≤ 1,2ε | chưa kiểm | 54–58% | 89–90% |
 | Dừng 2 giai đoạn mẫu con, % đạt | chưa kiểm | 61–72% | 76–79% |
 
@@ -89,3 +89,24 @@ Kết luận:
 - Quy tắc dừng: chưa bản nào đạt 80% ở cả hai bộ. Bản KDE hai giai đoạn đạt trên LVH nhưng không đạt trên RBBB. Nên trình bày
   là quy tắc lập kế hoạch kèm tỉ lệ đạt thực nghiệm, không phải bảo đảm.
 - Giả thuyết chính (CATT sửa ngưỡng hỏng theo BA) vẫn chỉ có bằng chứng từ Brugada.
+
+## F1-B: F1 trên Brugada (kiểm ngoài mẫu thứ hai, chạy 03/11/2026)
+
+`brugada_subsample_check.py`, code cố định từ commit kế hoạch. 561 điểm (9 thiết lập × 3 seed × 7 mỏ neo × 3 cỡ mẫu).
+
+| Ước lượng SD(t̂) | Dự đoán/quan sát (trung vị) | Khoảng tứ phân vị | Spearman | Trung vị \|log sai số\| |
+|---|---|---|---|---|
+| Định lý 5a, Ṽ và Ã trên cả cohort | 1,09 | 0,96–1,26 | 0,92 | 0,134 |
+| Hệ quả 5c, KDE, không nhãn | 1,08 | 0,93–1,31 | 0,86 | 0,168 |
+| **F1, mẫu con, không nhãn** | **0,98** | 0,89–1,11 | **0,93** | **0,114** |
+
+**Tiêu chí F1 đạt** (trung vị trong [0,8; 1,25], Spearman ≥ 0,7). F1 cũng tốt hơn KDE theo so sánh định trước (0,114 < 0,168).
+
+**Theo mỏ neo (F1):**
+
+| Mỏ neo | CBM | CBM-sd15 | CNN9 | CNNalt | LogReg9 | ResNet | ST_V2 |
+|---|---|---|---|---|---|---|---|
+| Dự đoán/quan sát | 0,98 | 0,97 | 1,00 | 0,97 | 0,98 | 0,94 | 1,07 |
+
+- **ST_V2:** KDE dự đoán dư 1,17–1,23; F1 giảm còn 1,07, nằm trong dải chung.
+- Như vậy phần dư ở ST_V2 nằm ở việc ước lượng hằng số (Ṽ, Ã), không nằm ở tốc độ n^{−1/3} của Định lý 5a.
