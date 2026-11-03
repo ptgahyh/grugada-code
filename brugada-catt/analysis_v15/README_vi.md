@@ -83,7 +83,8 @@ Mỏ neo phụ thuộc A4 có khoảng cách tới oracle **nhỏ hơn** các m�
 | Dừng 2 giai đoạn mẫu con, % đạt | chưa kiểm | 61–72% | 76–79% |
 
 Kết luận:
-- Định lý 5a cho thứ hạng rất tốt ở cả ba bài toán. Hằng số sai từ −20% (RBBB, nhóm dương rất nhỏ ở n = 500) đến +10%.
+- Định lý 5a cho thứ hạng rất tốt ở cả ba bài toán. Hằng số sai từ −20% (RBBB) đến +10%. Cách giải thích "nhóm nhãn giả
+  dương quá nhỏ" cho RBBB là chẩn đoán sau khi có kết quả, nên chỉ được nêu như giả thuyết.
 - Bản mẫu con F1 là cách ước lượng không nhãn tốt nhất ở cả hai bộ đã chạy, và đạt tiêu chí trên LVH, nơi nó được kiểm
   định xác nhận. Nên đưa F1 vào bài làm ước lượng chính.
 - Quy tắc dừng: chưa bản nào đạt 80% ở cả hai bộ. Bản KDE hai giai đoạn đạt trên LVH nhưng không đạt trên RBBB. Nên trình bày
@@ -110,3 +111,30 @@ Kết luận:
 
 - **ST_V2:** KDE dự đoán dư 1,17–1,23; F1 giảm còn 1,07, nằm trong dải chung.
 - Như vậy phần dư ở ST_V2 nằm ở việc ước lượng hằng số (Ṽ, Ã), không nằm ở tốc độ n^{−1/3} của Định lý 5a.
+
+## Định vị khi viết bài (rà soát sau F1-B)
+
+**F1 không phải phương pháp mới.** Mẫu con m-out-of-n là cách suy luận chuẩn cho ước lượng hội tụ tốc độ căn bậc ba, vì bootstrap
+thông thường không nhất quán với loại ước lượng này. Cần trích dẫn:
+- Kim & Pollard (1990), *Ann. Statist.* 18:191–219 (tiệm cận căn bậc ba);
+- Politis, Romano & Wolf (1999), *Subsampling*, Springer;
+- Delgado, Rodríguez-Poo & Wolf (2001), *Economics Letters* 73:241–250 (mẫu con cho ước lượng maximum score);
+- Abrevaya & Huang (2005), *Econometrica* 73:1175–1204 (bootstrap thất bại với maximum score).
+
+Lý thuyết mẫu con đòi b/n → 0. Ở đây b = n/2, và bước quy đổi dùng dạng quần thể hữu hạn (1 − b/n)/b của Định lý 5a.
+Bước này là **heuristic**, chỉ được bảo đảm bằng thực nghiệm (LVH 1,00; Brugada 0,98; RBBB 0,95 ở dữ liệu phát triển).
+
+**Vai trò còn lại của hằng số 4Ṽ/Ã².** F1 chỉ dùng tốc độ n^{−1/3} và hệ số quần thể hữu hạn, không dùng hằng số.
+Nhưng hằng số vẫn cần ở **giai đoạn lập kế hoạch**: khi mới có mẫu thử 300 bản ghi, quá ít để lấy mẫu con.
+Trên LVH, bản lập kế hoạch dùng hằng số (KDE, hai giai đoạn) đạt 89–90%, còn bản thay bằng mẫu con chỉ đạt 76–79%.
+Cách phân vai đề xuất: hằng số dùng để **lập kế hoạch** cỡ mẫu; F1 dùng để **báo cáo độ chính xác** của ngưỡng đã tính.
+
+**Đóng góp lý thuyết, viết khiêm tốn:** áp dụng Kim–Pollard cho ngưỡng Youden theo nhãn giả; nhận diện hằng số Ṽ/Ã² theo
+các đại lượng của bài toán (mật độ hai lớp nhãn giả tại t̃, hệ số quần thể hữu hạn); chỉ ra n_eff là trường hợp riêng.
+
+**Điều kiện về số ca nhãn giả dương** (RBBB dự đoán thiếu khi mỗi mẫu có khoảng 15–25 ca) là giả thuyết sinh ra sau khi có
+kết quả, chưa được chứng minh hay kiểm định.
+
+**Không dùng tiêu chí độ nhạy để cứu phần phương pháp trong bài này.** Ngưỡng theo độ nhạy cố định là ước lượng phân vị, hội tụ
+tốc độ n^{−1/2}, nên Định lý 5a không áp dụng được. Quan sát về độ nhạy ở cn→PTB (mục "Quan sát sau") chỉ ghi lại làm gợi ý
+cho một nghiên cứu riêng, có kế hoạch riêng.
