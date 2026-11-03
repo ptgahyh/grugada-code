@@ -279,7 +279,6 @@ if __name__ == "__main__":
                 for lab, sets in (("hỏng", broken), ("tất cả", list(pt.index))):
                     if not sets:
                         continue
-                    pool = bt[bt.setting.isin(sets)].groupby(level=0) if False else None
                     v = np.mean([bt[bt.setting == s][c].to_numpy() - bt[bt.setting == s][m].to_numpy() for s in sets], 0)
                     p0 = np.mean([pt.loc[s, c] - pt.loc[s, m] for s in sets])
                     diffs[f"{c} − {m} ({lab})"] = [round(float(p0), 4), round(float(np.percentile(v, 2.5)), 4),
