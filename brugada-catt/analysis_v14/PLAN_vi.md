@@ -74,4 +74,9 @@ Mọi tiêu chí ở mục 4, đạt hay không đạt; số bản ghi bị lo�
 
 ## 6. Sai lệch so với kế hoạch
 
-(trống tại thời điểm commit)
+**SL1 (03/11/2026, trước khi huấn luyện mô hình; chỉ dựa trên metadata nhãn).**
+Kế hoạch ghi nhãn dương của D3 là SNOMED 59118001, dựa trên tệp `ConditionNames_SNOMED-CT.csv` của bộ dữ liệu.
+Khi đếm mã trong dòng `#Dx` (1/5 số header), bộ dữ liệu thực tế còn dùng 713427006 (RBBB hoàn toàn, ~2,5%) và
+713426002 (RBBB không hoàn toàn, ~0,6%); 59118001 chỉ ~1,4%. Tệp danh mục mã không liệt kê hai mã này.
+Sửa cho khớp định nghĩa của PTB-XL: dương = 713427006 hoặc 59118001; **loại** bản ghi có 713426002 mà không có mã dương.
+Lý do: giữ cùng một định nghĩa "block nhánh phải hoàn toàn" ở cả ba miền. Thay đổi được làm trước khi xem bất kỳ kết quả mô hình nào.
