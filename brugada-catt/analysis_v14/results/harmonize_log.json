@@ -1,0 +1,23 @@
+{
+ "ptb_total": 21799,
+ "ptb_excluded_other_device": 0,
+ "ptb_excluded_irbbb_only": 1117,
+ "ptb_cs": {
+  "n": 12403,
+  "n_pos": 297,
+  "excluded_few_beats": 0
+ },
+ "ptb_at": {
+  "n": 8278,
+  "n_pos": 244,
+  "excluded_few_beats": 1
+ },
+ "cn_excluded_irbbb_only": 246,
+ "cn_excluded_malformed_header": 2,
+ "cn": {
+  "n_headers": 45152,
+  "n": 43403,
+  "n_pos": 1734,
+  "excluded_few_beats": 1501
+ }
+}

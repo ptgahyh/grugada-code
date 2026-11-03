@@ -1,0 +1,1297 @@
+setting,vseed,anchor,eps,rep,N,rule,status,n_plan,sd
+0,0,A1 QRS_rms,0.15,0,8278,1 giai đoạn,ok,2873.0,0.108476
+0,0,A1 QRS_rms,0.15,0,8278,2 giai đoạn,ok,2440.0,0.112382
+0,0,A1 QRS_rms,0.15,1,8278,1 giai đoạn,ok,2864.0,0.098593
+0,0,A1 QRS_rms,0.15,1,8278,2 giai đoạn,ok,3058.0,0.093498
+0,0,A1 QRS_rms,0.15,2,8278,1 giai đoạn,ok,3423.0,0.098772
+0,0,A1 QRS_rms,0.15,2,8278,2 giai đoạn,ok,3037.0,0.09929
+0,0,A1 QRS_rms,0.15,3,8278,1 giai đoạn,ok,3318.0,0.098769
+0,0,A1 QRS_rms,0.15,3,8278,2 giai đoạn,ok,3075.0,0.093131
+0,0,A1 QRS_rms,0.15,4,8278,1 giai đoạn,ok,4489.0,0.085481
+0,0,A1 QRS_rms,0.15,4,8278,2 giai đoạn,ok,3221.0,0.101875
+0,0,A1 QRS_rms,0.15,5,8278,1 giai đoạn,ok,3761.0,0.086164
+0,0,A1 QRS_rms,0.15,5,8278,2 giai đoạn,ok,4003.0,0.088444
+0,0,A1 QRS_rms,0.3,0,8278,1 giai đoạn,ok,418.0,0.292493
+0,0,A1 QRS_rms,0.3,0,8278,2 giai đoạn,ok,418.0,0.307515
+0,0,A1 QRS_rms,0.3,1,8278,1 giai đoạn,ok,587.0,0.236663
+0,0,A1 QRS_rms,0.3,1,8278,2 giai đoạn,ok,587.0,0.281761
+0,0,A1 QRS_rms,0.3,2,8278,1 giai đoạn,ok,2369.0,0.134854
+0,0,A1 QRS_rms,0.3,2,8278,2 giai đoạn,ok,1185.0,0.180358
+0,0,A1 QRS_rms,0.3,3,8278,1 giai đoạn,ok,1186.0,0.171388
+0,0,A1 QRS_rms,0.3,3,8278,2 giai đoạn,ok,891.0,0.213201
+0,0,A1 QRS_rms,0.3,4,8278,1 giai đoạn,ok,849.0,0.215776
+0,0,A1 QRS_rms,0.3,4,8278,2 giai đoạn,ok,829.0,0.212713
+0,0,A1 QRS_rms,0.3,5,8278,1 giai đoạn,ok,665.0,0.235655
+0,0,A1 QRS_rms,0.3,5,8278,2 giai đoạn,ok,734.0,0.267755
+0,0,A2 RBBB-LR,0.15,0,8278,1 giai đoạn,không khả thi,7410.0,
+0,0,A2 RBBB-LR,0.15,0,8278,2 giai đoạn,không khả thi,7650.0,
+0,0,A2 RBBB-LR,0.15,1,8278,1 giai đoạn,không khả thi,8243.0,
+0,0,A2 RBBB-LR,0.15,1,8278,2 giai đoạn,không khả thi,8063.0,
+0,0,A2 RBBB-LR,0.15,2,8278,1 giai đoạn,không khả thi,8089.0,
+0,0,A2 RBBB-LR,0.15,2,8278,2 giai đoạn,không khả thi,8206.0,
+0,0,A2 RBBB-LR,0.15,3,8278,1 giai đoạn,không khả thi,8144.0,
+0,0,A2 RBBB-LR,0.15,3,8278,2 giai đoạn,không khả thi,8260.0,
+0,0,A2 RBBB-LR,0.15,4,8278,1 giai đoạn,không khả thi,8278.0,
+0,0,A2 RBBB-LR,0.15,4,8278,2 giai đoạn,không khả thi,8116.0,
+0,0,A2 RBBB-LR,0.15,5,8278,1 giai đoạn,không khả thi,8172.0,
+0,0,A2 RBBB-LR,0.15,5,8278,2 giai đoạn,không khả thi,7924.0,
+0,0,A2 RBBB-LR,0.3,0,8278,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,0,A2 RBBB-LR,0.3,0,8278,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,0,A2 RBBB-LR,0.3,1,8278,1 giai đoạn,không khả thi,8141.0,
+0,0,A2 RBBB-LR,0.3,1,8278,2 giai đoạn,không khả thi,7933.0,
+0,0,A2 RBBB-LR,0.3,2,8278,1 giai đoạn,ok,3775.0,0.586969
+0,0,A2 RBBB-LR,0.3,2,8278,2 giai đoạn,ok,4472.0,0.496363
+0,0,A2 RBBB-LR,0.3,3,8278,1 giai đoạn,không khả thi,8278.0,
+0,0,A2 RBBB-LR,0.3,3,8278,2 giai đoạn,không khả thi,7298.0,
+0,0,A2 RBBB-LR,0.3,4,8278,1 giai đoạn,không khả thi,7980.0,
+0,0,A2 RBBB-LR,0.3,4,8278,2 giai đoạn,không khả thi,7288.0,
+0,0,A2 RBBB-LR,0.3,5,8278,1 giai đoạn,ok,6610.0,0.307118
+0,0,A2 RBBB-LR,0.3,5,8278,2 giai đoạn,ok,6186.0,0.367746
+0,0,A3 CNNalt,0.15,0,8278,1 giai đoạn,không khả thi,8153.0,
+0,0,A3 CNNalt,0.15,0,8278,2 giai đoạn,không khả thi,7948.0,
+0,0,A3 CNNalt,0.15,1,8278,1 giai đoạn,không khả thi,8249.0,
+0,0,A3 CNNalt,0.15,1,8278,2 giai đoạn,không khả thi,8204.0,
+0,0,A3 CNNalt,0.15,2,8278,1 giai đoạn,không khả thi,8176.0,
+0,0,A3 CNNalt,0.15,2,8278,2 giai đoạn,không khả thi,7948.0,
+0,0,A3 CNNalt,0.15,3,8278,1 giai đoạn,không khả thi,7707.0,
+0,0,A3 CNNalt,0.15,3,8278,2 giai đoạn,không khả thi,7701.0,
+0,0,A3 CNNalt,0.15,4,8278,1 giai đoạn,không khả thi,7656.0,
+0,0,A3 CNNalt,0.15,4,8278,2 giai đoạn,không khả thi,7888.0,
+0,0,A3 CNNalt,0.15,5,8278,1 giai đoạn,không khả thi,8270.0,
+0,0,A3 CNNalt,0.15,5,8278,2 giai đoạn,không khả thi,8089.0,
+0,0,A3 CNNalt,0.3,0,8278,1 giai đoạn,không khả thi,7968.0,
+0,0,A3 CNNalt,0.3,0,8278,2 giai đoạn,không khả thi,7950.0,
+0,0,A3 CNNalt,0.3,1,8278,1 giai đoạn,không khả thi,8278.0,
+0,0,A3 CNNalt,0.3,1,8278,2 giai đoạn,ok,5086.0,0.309217
+0,0,A3 CNNalt,0.3,2,8278,1 giai đoạn,ok,5272.0,0.289101
+0,0,A3 CNNalt,0.3,2,8278,2 giai đoạn,ok,6243.0,0.147107
+0,0,A3 CNNalt,0.3,3,8278,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,0,A3 CNNalt,0.3,3,8278,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,0,A3 CNNalt,0.3,4,8278,1 giai đoạn,ok,5881.0,0.237956
+0,0,A3 CNNalt,0.3,4,8278,2 giai đoạn,không khả thi,6961.0,
+0,0,A3 CNNalt,0.3,5,8278,1 giai đoạn,ok,3144.0,0.442146
+0,0,A3 CNNalt,0.3,5,8278,2 giai đoạn,không khả thi,7766.0,
+0,1,A1 QRS_rms,0.15,0,8278,1 giai đoạn,ok,5122.0,0.073677
+0,1,A1 QRS_rms,0.15,0,8278,2 giai đoạn,ok,4735.0,0.077543
+0,1,A1 QRS_rms,0.15,1,8278,1 giai đoạn,ok,5003.0,0.061272
+0,1,A1 QRS_rms,0.15,1,8278,2 giai đoạn,ok,4891.0,0.056156
+0,1,A1 QRS_rms,0.15,2,8278,1 giai đoạn,ok,3463.0,0.157935
+0,1,A1 QRS_rms,0.15,2,8278,2 giai đoạn,ok,3430.0,0.138219
+0,1,A1 QRS_rms,0.15,3,8278,1 giai đoạn,ok,4130.0,0.045213
+0,1,A1 QRS_rms,0.15,3,8278,2 giai đoạn,ok,4371.0,0.069437
+0,1,A1 QRS_rms,0.15,4,8278,1 giai đoạn,ok,5213.0,0.048906
+0,1,A1 QRS_rms,0.15,4,8278,2 giai đoạn,ok,4695.0,0.064147
+0,1,A1 QRS_rms,0.15,5,8278,1 giai đoạn,ok,5526.0,0.049557
+0,1,A1 QRS_rms,0.15,5,8278,2 giai đoạn,ok,4775.0,0.07626
+0,1,A1 QRS_rms,0.3,0,8278,1 giai đoạn,ok,448.0,0.438059
+0,1,A1 QRS_rms,0.3,0,8278,2 giai đoạn,ok,448.0,0.473737
+0,1,A1 QRS_rms,0.3,1,8278,1 giai đoạn,ok,1215.0,0.362417
+0,1,A1 QRS_rms,0.3,1,8278,2 giai đoạn,ok,1460.0,0.257713
+0,1,A1 QRS_rms,0.3,2,8278,1 giai đoạn,ok,845.0,0.381796
+0,1,A1 QRS_rms,0.3,2,8278,2 giai đoạn,ok,1009.0,0.383886
+0,1,A1 QRS_rms,0.3,3,8278,1 giai đoạn,ok,1112.0,0.339619
+0,1,A1 QRS_rms,0.3,3,8278,2 giai đoạn,ok,1381.0,0.312453
+0,1,A1 QRS_rms,0.3,4,8278,1 giai đoạn,ok,1231.0,0.339607
+0,1,A1 QRS_rms,0.3,4,8278,2 giai đoạn,ok,1470.0,0.281596
+0,1,A1 QRS_rms,0.3,5,8278,1 giai đoạn,ok,2264.0,0.22127
+0,1,A1 QRS_rms,0.3,5,8278,2 giai đoạn,ok,1132.0,0.342408
+0,1,A2 RBBB-LR,0.15,0,8278,1 giai đoạn,không khả thi,8277.0,
+0,1,A2 RBBB-LR,0.15,0,8278,2 giai đoạn,không khả thi,7945.0,
+0,1,A2 RBBB-LR,0.15,1,8278,1 giai đoạn,không khả thi,8278.0,
+0,1,A2 RBBB-LR,0.15,1,8278,2 giai đoạn,không khả thi,8190.0,
+0,1,A2 RBBB-LR,0.15,2,8278,1 giai đoạn,không khả thi,8131.0,
+0,1,A2 RBBB-LR,0.15,2,8278,2 giai đoạn,không khả thi,7817.0,
+0,1,A2 RBBB-LR,0.15,3,8278,1 giai đoạn,không khả thi,8253.0,
+0,1,A2 RBBB-LR,0.15,3,8278,2 giai đoạn,không khả thi,8238.0,
+0,1,A2 RBBB-LR,0.15,4,8278,1 giai đoạn,không khả thi,7972.0,
+0,1,A2 RBBB-LR,0.15,4,8278,2 giai đoạn,không khả thi,7970.0,
+0,1,A2 RBBB-LR,0.15,5,8278,1 giai đoạn,không khả thi,8027.0,
+0,1,A2 RBBB-LR,0.15,5,8278,2 giai đoạn,không khả thi,8170.0,
+0,1,A2 RBBB-LR,0.3,0,8278,1 giai đoạn,ok,4358.0,1.327064
+0,1,A2 RBBB-LR,0.3,0,8278,2 giai đoạn,không khả thi,7035.0,
+0,1,A2 RBBB-LR,0.3,1,8278,1 giai đoạn,không khả thi,8278.0,
+0,1,A2 RBBB-LR,0.3,1,8278,2 giai đoạn,ok,6607.0,0.21007
+0,1,A2 RBBB-LR,0.3,2,8278,1 giai đoạn,ok,5885.0,0.248057
+0,1,A2 RBBB-LR,0.3,2,8278,2 giai đoạn,không khả thi,6635.0,
+0,1,A2 RBBB-LR,0.3,3,8278,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,1,A2 RBBB-LR,0.3,3,8278,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,1,A2 RBBB-LR,0.3,4,8278,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,1,A2 RBBB-LR,0.3,4,8278,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,1,A2 RBBB-LR,0.3,5,8278,1 giai đoạn,ok,5179.0,0.434876
+0,1,A2 RBBB-LR,0.3,5,8278,2 giai đoạn,không khả thi,6793.0,
+0,1,A3 CNNalt,0.15,0,8278,1 giai đoạn,không khả thi,8278.0,
+0,1,A3 CNNalt,0.15,0,8278,2 giai đoạn,không khả thi,8073.0,
+0,1,A3 CNNalt,0.15,1,8278,1 giai đoạn,không khả thi,7784.0,
+0,1,A3 CNNalt,0.15,1,8278,2 giai đoạn,không khả thi,8211.0,
+0,1,A3 CNNalt,0.15,2,8278,1 giai đoạn,không khả thi,8278.0,
+0,1,A3 CNNalt,0.15,2,8278,2 giai đoạn,không khả thi,7890.0,
+0,1,A3 CNNalt,0.15,3,8278,1 giai đoạn,không khả thi,8278.0,
+0,1,A3 CNNalt,0.15,3,8278,2 giai đoạn,không khả thi,8167.0,
+0,1,A3 CNNalt,0.15,4,8278,1 giai đoạn,không khả thi,8267.0,
+0,1,A3 CNNalt,0.15,4,8278,2 giai đoạn,không khả thi,8016.0,
+0,1,A3 CNNalt,0.15,5,8278,1 giai đoạn,không khả thi,7859.0,
+0,1,A3 CNNalt,0.15,5,8278,2 giai đoạn,không khả thi,8232.0,
+0,1,A3 CNNalt,0.3,0,8278,1 giai đoạn,ok,6159.0,0.284385
+0,1,A3 CNNalt,0.3,0,8278,2 giai đoạn,không khả thi,6731.0,
+0,1,A3 CNNalt,0.3,1,8278,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,1,A3 CNNalt,0.3,1,8278,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,1,A3 CNNalt,0.3,2,8278,1 giai đoạn,không khả thi,6836.0,
+0,1,A3 CNNalt,0.3,2,8278,2 giai đoạn,không khả thi,7431.0,
+0,1,A3 CNNalt,0.3,3,8278,1 giai đoạn,không khả thi,8278.0,
+0,1,A3 CNNalt,0.3,3,8278,2 giai đoạn,không khả thi,7865.0,
+0,1,A3 CNNalt,0.3,4,8278,1 giai đoạn,không khả thi,8278.0,
+0,1,A3 CNNalt,0.3,4,8278,2 giai đoạn,không khả thi,6844.0,
+0,1,A3 CNNalt,0.3,5,8278,1 giai đoạn,không khả thi,7536.0,
+0,1,A3 CNNalt,0.3,5,8278,2 giai đoạn,không khả thi,6841.0,
+0,2,A1 QRS_rms,0.15,0,8278,1 giai đoạn,ok,5229.0,0.133106
+0,2,A1 QRS_rms,0.15,0,8278,2 giai đoạn,ok,4920.0,0.143957
+0,2,A1 QRS_rms,0.15,1,8278,1 giai đoạn,ok,4771.0,0.163613
+0,2,A1 QRS_rms,0.15,1,8278,2 giai đoạn,ok,3543.0,0.194564
+0,2,A1 QRS_rms,0.15,2,8278,1 giai đoạn,ok,3507.0,0.198523
+0,2,A1 QRS_rms,0.15,2,8278,2 giai đoạn,ok,3436.0,0.204222
+0,2,A1 QRS_rms,0.15,3,8278,1 giai đoạn,ok,3303.0,0.201289
+0,2,A1 QRS_rms,0.15,3,8278,2 giai đoạn,ok,3868.0,0.198908
+0,2,A1 QRS_rms,0.15,4,8278,1 giai đoạn,ok,3917.0,0.162506
+0,2,A1 QRS_rms,0.15,4,8278,2 giai đoạn,ok,2994.0,0.242417
+0,2,A1 QRS_rms,0.15,5,8278,1 giai đoạn,ok,4119.0,0.173831
+0,2,A1 QRS_rms,0.15,5,8278,2 giai đoạn,ok,3921.0,0.188737
+0,2,A1 QRS_rms,0.3,0,8278,1 giai đoạn,ok,537.0,0.490445
+0,2,A1 QRS_rms,0.3,0,8278,2 giai đoạn,ok,537.0,0.588285
+0,2,A1 QRS_rms,0.3,1,8278,1 giai đoạn,ok,608.0,0.639172
+0,2,A1 QRS_rms,0.3,1,8278,2 giai đoạn,ok,622.0,0.677253
+0,2,A1 QRS_rms,0.3,2,8278,1 giai đoạn,ok,484.0,1.17052
+0,2,A1 QRS_rms,0.3,2,8278,2 giai đoạn,ok,484.0,0.758854
+0,2,A1 QRS_rms,0.3,3,8278,1 giai đoạn,ok,721.0,0.473425
+0,2,A1 QRS_rms,0.3,3,8278,2 giai đoạn,ok,757.0,0.875753
+0,2,A1 QRS_rms,0.3,4,8278,1 giai đoạn,ok,681.0,0.518583
+0,2,A1 QRS_rms,0.3,4,8278,2 giai đoạn,ok,630.0,0.469969
+0,2,A1 QRS_rms,0.3,5,8278,1 giai đoạn,ok,698.0,0.719493
+0,2,A1 QRS_rms,0.3,5,8278,2 giai đoạn,ok,614.0,0.552046
+0,2,A2 RBBB-LR,0.15,0,8278,1 giai đoạn,không khả thi,7646.0,
+0,2,A2 RBBB-LR,0.15,0,8278,2 giai đoạn,không khả thi,8208.0,
+0,2,A2 RBBB-LR,0.15,1,8278,1 giai đoạn,không khả thi,7748.0,
+0,2,A2 RBBB-LR,0.15,1,8278,2 giai đoạn,không khả thi,8196.0,
+0,2,A2 RBBB-LR,0.15,2,8278,1 giai đoạn,không khả thi,7374.0,
+0,2,A2 RBBB-LR,0.15,2,8278,2 giai đoạn,không khả thi,8184.0,
+0,2,A2 RBBB-LR,0.15,3,8278,1 giai đoạn,không khả thi,7853.0,
+0,2,A2 RBBB-LR,0.15,3,8278,2 giai đoạn,không khả thi,8092.0,
+0,2,A2 RBBB-LR,0.15,4,8278,1 giai đoạn,không khả thi,7947.0,
+0,2,A2 RBBB-LR,0.15,4,8278,2 giai đoạn,không khả thi,7947.0,
+0,2,A2 RBBB-LR,0.15,5,8278,1 giai đoạn,không khả thi,8192.0,
+0,2,A2 RBBB-LR,0.15,5,8278,2 giai đoạn,không khả thi,8074.0,
+0,2,A2 RBBB-LR,0.3,0,8278,1 giai đoạn,ok,6004.0,0.596706
+0,2,A2 RBBB-LR,0.3,0,8278,2 giai đoạn,ok,5760.0,0.614724
+0,2,A2 RBBB-LR,0.3,1,8278,1 giai đoạn,ok,6178.0,0.624811
+0,2,A2 RBBB-LR,0.3,1,8278,2 giai đoạn,ok,6287.0,0.503885
+0,2,A2 RBBB-LR,0.3,2,8278,1 giai đoạn,ok,3576.0,0.831176
+0,2,A2 RBBB-LR,0.3,2,8278,2 giai đoạn,ok,5934.0,0.57774
+0,2,A2 RBBB-LR,0.3,3,8278,1 giai đoạn,không khả thi,8246.0,
+0,2,A2 RBBB-LR,0.3,3,8278,2 giai đoạn,không khả thi,7067.0,
+0,2,A2 RBBB-LR,0.3,4,8278,1 giai đoạn,không khả thi,7259.0,
+0,2,A2 RBBB-LR,0.3,4,8278,2 giai đoạn,không khả thi,7324.0,
+0,2,A2 RBBB-LR,0.3,5,8278,1 giai đoạn,ok,3381.0,0.778709
+0,2,A2 RBBB-LR,0.3,5,8278,2 giai đoạn,ok,5167.0,0.590864
+0,2,A3 CNNalt,0.15,0,8278,1 giai đoạn,không khả thi,7600.0,
+0,2,A3 CNNalt,0.15,0,8278,2 giai đoạn,không khả thi,8027.0,
+0,2,A3 CNNalt,0.15,1,8278,1 giai đoạn,không khả thi,8064.0,
+0,2,A3 CNNalt,0.15,1,8278,2 giai đoạn,không khả thi,7982.0,
+0,2,A3 CNNalt,0.15,2,8278,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,2,A3 CNNalt,0.15,2,8278,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,2,A3 CNNalt,0.15,3,8278,1 giai đoạn,không khả thi,8219.0,
+0,2,A3 CNNalt,0.15,3,8278,2 giai đoạn,không khả thi,7701.0,
+0,2,A3 CNNalt,0.15,4,8278,1 giai đoạn,không khả thi,8268.0,
+0,2,A3 CNNalt,0.15,4,8278,2 giai đoạn,không khả thi,8002.0,
+0,2,A3 CNNalt,0.15,5,8278,1 giai đoạn,không khả thi,7784.0,
+0,2,A3 CNNalt,0.15,5,8278,2 giai đoạn,không khả thi,7609.0,
+0,2,A3 CNNalt,0.3,0,8278,1 giai đoạn,ok,5049.0,0.35304
+0,2,A3 CNNalt,0.3,0,8278,2 giai đoạn,ok,4914.0,0.435918
+0,2,A3 CNNalt,0.3,1,8278,1 giai đoạn,không khả thi,6808.0,
+0,2,A3 CNNalt,0.3,1,8278,2 giai đoạn,ok,5699.0,0.331262
+0,2,A3 CNNalt,0.3,2,8278,1 giai đoạn,ok,4438.0,0.510703
+0,2,A3 CNNalt,0.3,2,8278,2 giai đoạn,không khả thi,7943.0,
+0,2,A3 CNNalt,0.3,3,8278,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,2,A3 CNNalt,0.3,3,8278,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+0,2,A3 CNNalt,0.3,4,8278,1 giai đoạn,ok,2740.0,0.644765
+0,2,A3 CNNalt,0.3,4,8278,2 giai đoạn,ok,5186.0,0.418333
+0,2,A3 CNNalt,0.3,5,8278,1 giai đoạn,không khả thi,7672.0,
+0,2,A3 CNNalt,0.3,5,8278,2 giai đoạn,ok,5877.0,0.329363
+1,0,A1 QRS_rms,0.15,0,43403,1 giai đoạn,ok,19364.0,0.09079
+1,0,A1 QRS_rms,0.15,0,43403,2 giai đoạn,ok,10920.0,0.131989
+1,0,A1 QRS_rms,0.15,1,43403,1 giai đoạn,ok,20611.0,0.065956
+1,0,A1 QRS_rms,0.15,1,43403,2 giai đoạn,ok,11155.0,0.130422
+1,0,A1 QRS_rms,0.15,2,43403,1 giai đoạn,ok,12978.0,0.113358
+1,0,A1 QRS_rms,0.15,2,43403,2 giai đoạn,ok,12254.0,0.095551
+1,0,A1 QRS_rms,0.15,3,43403,1 giai đoạn,ok,14699.0,0.116991
+1,0,A1 QRS_rms,0.15,3,43403,2 giai đoạn,ok,13379.0,0.100193
+1,0,A1 QRS_rms,0.15,4,43403,1 giai đoạn,ok,12231.0,0.123238
+1,0,A1 QRS_rms,0.15,4,43403,2 giai đoạn,ok,10135.0,0.140924
+1,0,A1 QRS_rms,0.15,5,43403,1 giai đoạn,ok,10471.0,0.146744
+1,0,A1 QRS_rms,0.15,5,43403,2 giai đoạn,ok,12056.0,0.110882
+1,0,A1 QRS_rms,0.3,0,43403,1 giai đoạn,ok,2908.0,0.263363
+1,0,A1 QRS_rms,0.3,0,43403,2 giai đoạn,ok,1768.0,0.367403
+1,0,A1 QRS_rms,0.3,1,43403,1 giai đoạn,ok,4309.0,0.27048
+1,0,A1 QRS_rms,0.3,1,43403,2 giai đoạn,ok,3644.0,0.271668
+1,0,A1 QRS_rms,0.3,2,43403,1 giai đoạn,ok,2054.0,0.283084
+1,0,A1 QRS_rms,0.3,2,43403,2 giai đoạn,ok,2346.0,0.333108
+1,0,A1 QRS_rms,0.3,3,43403,1 giai đoạn,ok,1534.0,0.426932
+1,0,A1 QRS_rms,0.3,3,43403,2 giai đoạn,ok,1315.0,0.376607
+1,0,A1 QRS_rms,0.3,4,43403,1 giai đoạn,ok,2365.0,0.315215
+1,0,A1 QRS_rms,0.3,4,43403,2 giai đoạn,ok,4046.0,0.266716
+1,0,A1 QRS_rms,0.3,5,43403,1 giai đoạn,ok,2799.0,0.285559
+1,0,A1 QRS_rms,0.3,5,43403,2 giai đoạn,ok,1791.0,0.385712
+1,0,A2 RBBB-LR,0.15,0,43403,1 giai đoạn,ok,31910.0,0.134749
+1,0,A2 RBBB-LR,0.15,0,43403,2 giai đoạn,không khả thi,39851.0,
+1,0,A2 RBBB-LR,0.15,1,43403,1 giai đoạn,ok,33168.0,0.233458
+1,0,A2 RBBB-LR,0.15,1,43403,2 giai đoạn,không khả thi,37789.0,
+1,0,A2 RBBB-LR,0.15,2,43403,1 giai đoạn,ok,15572.0,0.483421
+1,0,A2 RBBB-LR,0.15,2,43403,2 giai đoạn,không khả thi,34981.0,
+1,0,A2 RBBB-LR,0.15,3,43403,1 giai đoạn,ok,28449.0,0.220339
+1,0,A2 RBBB-LR,0.15,3,43403,2 giai đoạn,không khả thi,35117.0,
+1,0,A2 RBBB-LR,0.15,4,43403,1 giai đoạn,ok,22072.0,0.37024
+1,0,A2 RBBB-LR,0.15,4,43403,2 giai đoạn,không khả thi,37148.0,
+1,0,A2 RBBB-LR,0.15,5,43403,1 giai đoạn,ok,27198.0,0.339551
+1,0,A2 RBBB-LR,0.15,5,43403,2 giai đoạn,ok,33748.0,0.161002
+1,0,A2 RBBB-LR,0.3,0,43403,1 giai đoạn,ok,3795.0,0.837263
+1,0,A2 RBBB-LR,0.3,0,43403,2 giai đoạn,ok,17888.0,0.43249
+1,0,A2 RBBB-LR,0.3,1,43403,1 giai đoạn,ok,20343.0,0.393709
+1,0,A2 RBBB-LR,0.3,1,43403,2 giai đoạn,ok,27032.0,0.323256
+1,0,A2 RBBB-LR,0.3,2,43403,1 giai đoạn,ok,25964.0,0.309716
+1,0,A2 RBBB-LR,0.3,2,43403,2 giai đoạn,ok,23192.0,0.343701
+1,0,A2 RBBB-LR,0.3,3,43403,1 giai đoạn,ok,22694.0,0.357951
+1,0,A2 RBBB-LR,0.3,3,43403,2 giai đoạn,ok,22533.0,0.280359
+1,0,A2 RBBB-LR,0.3,4,43403,1 giai đoạn,ok,15139.0,0.535812
+1,0,A2 RBBB-LR,0.3,4,43403,2 giai đoạn,ok,27201.0,0.243299
+1,0,A2 RBBB-LR,0.3,5,43403,1 giai đoạn,ok,11655.0,0.585714
+1,0,A2 RBBB-LR,0.3,5,43403,2 giai đoạn,ok,9754.0,0.573236
+1,0,A3 CNNalt,0.15,0,43403,1 giai đoạn,ok,26977.0,0.155763
+1,0,A3 CNNalt,0.15,0,43403,2 giai đoạn,ok,29026.0,0.128117
+1,0,A3 CNNalt,0.15,1,43403,1 giai đoạn,ok,25019.0,0.162339
+1,0,A3 CNNalt,0.15,1,43403,2 giai đoạn,không khả thi,38404.0,
+1,0,A3 CNNalt,0.15,2,43403,1 giai đoạn,ok,27225.0,0.172041
+1,0,A3 CNNalt,0.15,2,43403,2 giai đoạn,ok,31605.0,0.131802
+1,0,A3 CNNalt,0.15,3,43403,1 giai đoạn,không khả thi,40356.0,
+1,0,A3 CNNalt,0.15,3,43403,2 giai đoạn,không khả thi,40298.0,
+1,0,A3 CNNalt,0.15,4,43403,1 giai đoạn,không khả thi,34995.0,
+1,0,A3 CNNalt,0.15,4,43403,2 giai đoạn,ok,30417.0,0.118082
+1,0,A3 CNNalt,0.15,5,43403,1 giai đoạn,không khả thi,41330.0,
+1,0,A3 CNNalt,0.15,5,43403,2 giai đoạn,ok,33334.0,0.1212
+1,0,A3 CNNalt,0.3,0,43403,1 giai đoạn,ok,10215.0,0.288467
+1,0,A3 CNNalt,0.3,0,43403,2 giai đoạn,ok,17038.0,0.227902
+1,0,A3 CNNalt,0.3,1,43403,1 giai đoạn,ok,15015.0,0.235875
+1,0,A3 CNNalt,0.3,1,43403,2 giai đoạn,ok,10240.0,0.2922
+1,0,A3 CNNalt,0.3,2,43403,1 giai đoạn,ok,10964.0,0.283598
+1,0,A3 CNNalt,0.3,2,43403,2 giai đoạn,ok,12196.0,0.266986
+1,0,A3 CNNalt,0.3,3,43403,1 giai đoạn,ok,6269.0,0.371248
+1,0,A3 CNNalt,0.3,3,43403,2 giai đoạn,ok,23555.0,0.188434
+1,0,A3 CNNalt,0.3,4,43403,1 giai đoạn,ok,9882.0,0.291839
+1,0,A3 CNNalt,0.3,4,43403,2 giai đoạn,ok,13324.0,0.242808
+1,0,A3 CNNalt,0.3,5,43403,1 giai đoạn,ok,9527.0,0.293962
+1,0,A3 CNNalt,0.3,5,43403,2 giai đoạn,ok,28798.0,0.137662
+1,1,A1 QRS_rms,0.15,0,43403,1 giai đoạn,ok,19521.0,0.256823
+1,1,A1 QRS_rms,0.15,0,43403,2 giai đoạn,ok,26540.0,0.212088
+1,1,A1 QRS_rms,0.15,1,43403,1 giai đoạn,ok,17821.0,0.286928
+1,1,A1 QRS_rms,0.15,1,43403,2 giai đoạn,ok,24294.0,0.223172
+1,1,A1 QRS_rms,0.15,2,43403,1 giai đoạn,ok,25160.0,0.22951
+1,1,A1 QRS_rms,0.15,2,43403,2 giai đoạn,ok,20625.0,0.229968
+1,1,A1 QRS_rms,0.15,3,43403,1 giai đoạn,ok,16515.0,0.250363
+1,1,A1 QRS_rms,0.15,3,43403,2 giai đoạn,ok,21576.0,0.225038
+1,1,A1 QRS_rms,0.15,4,43403,1 giai đoạn,ok,20073.0,0.247031
+1,1,A1 QRS_rms,0.15,4,43403,2 giai đoạn,ok,22408.0,0.248895
+1,1,A1 QRS_rms,0.15,5,43403,1 giai đoạn,ok,16588.0,0.283727
+1,1,A1 QRS_rms,0.15,5,43403,2 giai đoạn,ok,23353.0,0.247498
+1,1,A1 QRS_rms,0.3,0,43403,1 giai đoạn,ok,9173.0,0.321734
+1,1,A1 QRS_rms,0.3,0,43403,2 giai đoạn,ok,9019.0,0.358821
+1,1,A1 QRS_rms,0.3,1,43403,1 giai đoạn,ok,12992.0,0.284069
+1,1,A1 QRS_rms,0.3,1,43403,2 giai đoạn,ok,6496.0,0.392234
+1,1,A1 QRS_rms,0.3,2,43403,1 giai đoạn,ok,3912.0,0.477536
+1,1,A1 QRS_rms,0.3,2,43403,2 giai đoạn,ok,4127.0,0.431589
+1,1,A1 QRS_rms,0.3,3,43403,1 giai đoạn,ok,7398.0,0.366239
+1,1,A1 QRS_rms,0.3,3,43403,2 giai đoạn,ok,4733.0,0.4207
+1,1,A1 QRS_rms,0.3,4,43403,1 giai đoạn,ok,2652.0,0.45506
+1,1,A1 QRS_rms,0.3,4,43403,2 giai đoạn,ok,7349.0,0.350934
+1,1,A1 QRS_rms,0.3,5,43403,1 giai đoạn,ok,4371.0,0.43387
+1,1,A1 QRS_rms,0.3,5,43403,2 giai đoạn,ok,2290.0,0.499656
+1,1,A2 RBBB-LR,0.15,0,43403,1 giai đoạn,ok,28279.0,0.241301
+1,1,A2 RBBB-LR,0.15,0,43403,2 giai đoạn,không khả thi,35576.0,
+1,1,A2 RBBB-LR,0.15,1,43403,1 giai đoạn,ok,23330.0,0.364629
+1,1,A2 RBBB-LR,0.15,1,43403,2 giai đoạn,ok,34048.0,0.132221
+1,1,A2 RBBB-LR,0.15,2,43403,1 giai đoạn,không khả thi,39434.0,
+1,1,A2 RBBB-LR,0.15,2,43403,2 giai đoạn,không khả thi,36760.0,
+1,1,A2 RBBB-LR,0.15,3,43403,1 giai đoạn,ok,29918.0,0.235155
+1,1,A2 RBBB-LR,0.15,3,43403,2 giai đoạn,không khả thi,36489.0,
+1,1,A2 RBBB-LR,0.15,4,43403,1 giai đoạn,không khả thi,42915.0,
+1,1,A2 RBBB-LR,0.15,4,43403,2 giai đoạn,không khả thi,40682.0,
+1,1,A2 RBBB-LR,0.15,5,43403,1 giai đoạn,không khả thi,40019.0,
+1,1,A2 RBBB-LR,0.15,5,43403,2 giai đoạn,không khả thi,38622.0,
+1,1,A2 RBBB-LR,0.3,0,43403,1 giai đoạn,ok,17910.0,0.395233
+1,1,A2 RBBB-LR,0.3,0,43403,2 giai đoạn,ok,14332.0,0.497863
+1,1,A2 RBBB-LR,0.3,1,43403,1 giai đoạn,ok,12061.0,0.463069
+1,1,A2 RBBB-LR,0.3,1,43403,2 giai đoạn,không khả thi,35034.0,
+1,1,A2 RBBB-LR,0.3,2,43403,1 giai đoạn,ok,13910.0,0.403274
+1,1,A2 RBBB-LR,0.3,2,43403,2 giai đoạn,ok,17014.0,0.419351
+1,1,A2 RBBB-LR,0.3,3,43403,1 giai đoạn,ok,14627.0,0.409628
+1,1,A2 RBBB-LR,0.3,3,43403,2 giai đoạn,ok,22640.0,0.31247
+1,1,A2 RBBB-LR,0.3,4,43403,1 giai đoạn,ok,25306.0,0.264802
+1,1,A2 RBBB-LR,0.3,4,43403,2 giai đoạn,ok,14816.0,0.497455
+1,1,A2 RBBB-LR,0.3,5,43403,1 giai đoạn,ok,12758.0,0.473917
+1,1,A2 RBBB-LR,0.3,5,43403,2 giai đoạn,ok,16664.0,0.503414
+1,1,A3 CNNalt,0.15,0,43403,1 giai đoạn,ok,29454.0,0.066606
+1,1,A3 CNNalt,0.15,0,43403,2 giai đoạn,không khả thi,37094.0,
+1,1,A3 CNNalt,0.15,1,43403,1 giai đoạn,ok,28844.0,0.080047
+1,1,A3 CNNalt,0.15,1,43403,2 giai đoạn,không khả thi,38562.0,
+1,1,A3 CNNalt,0.15,2,43403,1 giai đoạn,không khả thi,37115.0,
+1,1,A3 CNNalt,0.15,2,43403,2 giai đoạn,không khả thi,37733.0,
+1,1,A3 CNNalt,0.15,3,43403,1 giai đoạn,không khả thi,43095.0,
+1,1,A3 CNNalt,0.15,3,43403,2 giai đoạn,ok,33990.0,0.024915
+1,1,A3 CNNalt,0.15,4,43403,1 giai đoạn,ok,32844.0,0.034863
+1,1,A3 CNNalt,0.15,4,43403,2 giai đoạn,không khả thi,34908.0,
+1,1,A3 CNNalt,0.15,5,43403,1 giai đoạn,không khả thi,34811.0,
+1,1,A3 CNNalt,0.15,5,43403,2 giai đoạn,không khả thi,37888.0,
+1,1,A3 CNNalt,0.3,0,43403,1 giai đoạn,ok,14780.0,0.292346
+1,1,A3 CNNalt,0.3,0,43403,2 giai đoạn,ok,12875.0,0.283287
+1,1,A3 CNNalt,0.3,1,43403,1 giai đoạn,ok,32941.0,0.030349
+1,1,A3 CNNalt,0.3,1,43403,2 giai đoạn,ok,16471.0,0.288221
+1,1,A3 CNNalt,0.3,2,43403,1 giai đoạn,ok,9915.0,0.3482
+1,1,A3 CNNalt,0.3,2,43403,2 giai đoạn,ok,14531.0,0.300434
+1,1,A3 CNNalt,0.3,3,43403,1 giai đoạn,ok,23144.0,0.206584
+1,1,A3 CNNalt,0.3,3,43403,2 giai đoạn,ok,13407.0,0.307462
+1,1,A3 CNNalt,0.3,4,43403,1 giai đoạn,ok,11125.0,0.338769
+1,1,A3 CNNalt,0.3,4,43403,2 giai đoạn,ok,11605.0,0.322578
+1,1,A3 CNNalt,0.3,5,43403,1 giai đoạn,ok,13046.0,0.309487
+1,1,A3 CNNalt,0.3,5,43403,2 giai đoạn,ok,23836.0,0.188885
+1,2,A1 QRS_rms,0.15,0,43403,1 giai đoạn,ok,13922.0,0.294808
+1,2,A1 QRS_rms,0.15,0,43403,2 giai đoạn,ok,13559.0,0.287496
+1,2,A1 QRS_rms,0.15,1,43403,1 giai đoạn,ok,11195.0,0.346805
+1,2,A1 QRS_rms,0.15,1,43403,2 giai đoạn,ok,10623.0,0.369774
+1,2,A1 QRS_rms,0.15,2,43403,1 giai đoạn,ok,12333.0,0.337879
+1,2,A1 QRS_rms,0.15,2,43403,2 giai đoạn,ok,21045.0,0.282497
+1,2,A1 QRS_rms,0.15,3,43403,1 giai đoạn,ok,8232.0,0.394221
+1,2,A1 QRS_rms,0.15,3,43403,2 giai đoạn,ok,11200.0,0.32781
+1,2,A1 QRS_rms,0.15,4,43403,1 giai đoạn,ok,4608.0,0.451617
+1,2,A1 QRS_rms,0.15,4,43403,2 giai đoạn,ok,12404.0,0.299606
+1,2,A1 QRS_rms,0.15,5,43403,1 giai đoạn,ok,4941.0,0.450017
+1,2,A1 QRS_rms,0.15,5,43403,2 giai đoạn,ok,10761.0,0.334988
+1,2,A1 QRS_rms,0.3,0,43403,1 giai đoạn,ok,2991.0,0.549174
+1,2,A1 QRS_rms,0.3,0,43403,2 giai đoạn,ok,2601.0,0.597248
+1,2,A1 QRS_rms,0.3,1,43403,1 giai đoạn,ok,2086.0,0.70957
+1,2,A1 QRS_rms,0.3,1,43403,2 giai đoạn,ok,4493.0,0.47103
+1,2,A1 QRS_rms,0.3,2,43403,1 giai đoạn,ok,718.0,1.071051
+1,2,A1 QRS_rms,0.3,2,43403,2 giai đoạn,ok,1053.0,0.88492
+1,2,A1 QRS_rms,0.3,3,43403,1 giai đoạn,ok,2420.0,0.572094
+1,2,A1 QRS_rms,0.3,3,43403,2 giai đoạn,ok,1780.0,0.674851
+1,2,A1 QRS_rms,0.3,4,43403,1 giai đoạn,ok,1670.0,0.678517
+1,2,A1 QRS_rms,0.3,4,43403,2 giai đoạn,ok,1556.0,0.758837
+1,2,A1 QRS_rms,0.3,5,43403,1 giai đoạn,ok,999.0,1.047687
+1,2,A1 QRS_rms,0.3,5,43403,2 giai đoạn,ok,840.0,0.96419
+1,2,A2 RBBB-LR,0.15,0,43403,1 giai đoạn,không khả thi,43128.0,
+1,2,A2 RBBB-LR,0.15,0,43403,2 giai đoạn,không khả thi,35723.0,
+1,2,A2 RBBB-LR,0.15,1,43403,1 giai đoạn,ok,28208.0,0.222941
+1,2,A2 RBBB-LR,0.15,1,43403,2 giai đoạn,không khả thi,38909.0,
+1,2,A2 RBBB-LR,0.15,2,43403,1 giai đoạn,ok,32200.0,0.096921
+1,2,A2 RBBB-LR,0.15,2,43403,2 giai đoạn,không khả thi,37141.0,
+1,2,A2 RBBB-LR,0.15,3,43403,1 giai đoạn,ok,27824.0,0.19638
+1,2,A2 RBBB-LR,0.15,3,43403,2 giai đoạn,không khả thi,34834.0,
+1,2,A2 RBBB-LR,0.15,4,43403,1 giai đoạn,không khả thi,43073.0,
+1,2,A2 RBBB-LR,0.15,4,43403,2 giai đoạn,không khả thi,34950.0,
+1,2,A2 RBBB-LR,0.15,5,43403,1 giai đoạn,ok,21294.0,0.283841
+1,2,A2 RBBB-LR,0.15,5,43403,2 giai đoạn,không khả thi,38436.0,
+1,2,A2 RBBB-LR,0.3,0,43403,1 giai đoạn,ok,30016.0,0.158204
+1,2,A2 RBBB-LR,0.3,0,43403,2 giai đoạn,ok,17392.0,0.373931
+1,2,A2 RBBB-LR,0.3,1,43403,1 giai đoạn,ok,8390.0,0.575171
+1,2,A2 RBBB-LR,0.3,1,43403,2 giai đoạn,ok,11208.0,0.490061
+1,2,A2 RBBB-LR,0.3,2,43403,1 giai đoạn,ok,18655.0,0.330289
+1,2,A2 RBBB-LR,0.3,2,43403,2 giai đoạn,ok,21727.0,0.317465
+1,2,A2 RBBB-LR,0.3,3,43403,1 giai đoạn,ok,16549.0,0.365398
+1,2,A2 RBBB-LR,0.3,3,43403,2 giai đoạn,ok,16757.0,0.340852
+1,2,A2 RBBB-LR,0.3,4,43403,1 giai đoạn,ok,11932.0,0.489778
+1,2,A2 RBBB-LR,0.3,4,43403,2 giai đoạn,ok,32865.0,0.081455
+1,2,A2 RBBB-LR,0.3,5,43403,1 giai đoạn,ok,10860.0,0.566169
+1,2,A2 RBBB-LR,0.3,5,43403,2 giai đoạn,ok,15935.0,0.422678
+1,2,A3 CNNalt,0.15,0,43403,1 giai đoạn,không khả thi,38949.0,
+1,2,A3 CNNalt,0.15,0,43403,2 giai đoạn,không khả thi,39015.0,
+1,2,A3 CNNalt,0.15,1,43403,1 giai đoạn,không khả thi,39281.0,
+1,2,A3 CNNalt,0.15,1,43403,2 giai đoạn,không khả thi,36188.0,
+1,2,A3 CNNalt,0.15,2,43403,1 giai đoạn,không khả thi,43389.0,
+1,2,A3 CNNalt,0.15,2,43403,2 giai đoạn,không khả thi,39782.0,
+1,2,A3 CNNalt,0.15,3,43403,1 giai đoạn,không khả thi,37160.0,
+1,2,A3 CNNalt,0.15,3,43403,2 giai đoạn,không khả thi,42069.0,
+1,2,A3 CNNalt,0.15,4,43403,1 giai đoạn,không khả thi,43322.0,
+1,2,A3 CNNalt,0.15,4,43403,2 giai đoạn,ok,34600.0,0.117011
+1,2,A3 CNNalt,0.15,5,43403,1 giai đoạn,ok,26267.0,0.326273
+1,2,A3 CNNalt,0.15,5,43403,2 giai đoạn,không khả thi,41377.0,
+1,2,A3 CNNalt,0.3,0,43403,1 giai đoạn,ok,11128.0,0.607602
+1,2,A3 CNNalt,0.3,0,43403,2 giai đoạn,ok,9870.0,0.617379
+1,2,A3 CNNalt,0.3,1,43403,1 giai đoạn,ok,27279.0,0.245915
+1,2,A3 CNNalt,0.3,1,43403,2 giai đoạn,ok,28642.0,0.248474
+1,2,A3 CNNalt,0.3,2,43403,1 giai đoạn,ok,5023.0,0.843773
+1,2,A3 CNNalt,0.3,2,43403,2 giai đoạn,ok,14619.0,0.615882
+1,2,A3 CNNalt,0.3,3,43403,1 giai đoạn,ok,14620.0,0.582866
+1,2,A3 CNNalt,0.3,3,43403,2 giai đoạn,ok,12074.0,0.643868
+1,2,A3 CNNalt,0.3,4,43403,1 giai đoạn,không khả thi,43384.0,
+1,2,A3 CNNalt,0.3,4,43403,2 giai đoạn,ok,21692.0,0.306066
+1,2,A3 CNNalt,0.3,5,43403,1 giai đoạn,ok,15075.0,0.524244
+1,2,A3 CNNalt,0.3,5,43403,2 giai đoạn,ok,13079.0,0.645918
+2,0,A1 QRS_rms,0.15,0,12403,1 giai đoạn,ok,2160.0,0.24761
+2,0,A1 QRS_rms,0.15,0,12403,2 giai đoạn,ok,2081.0,0.288242
+2,0,A1 QRS_rms,0.15,1,12403,1 giai đoạn,ok,1179.0,0.41571
+2,0,A1 QRS_rms,0.15,1,12403,2 giai đoạn,ok,1071.0,0.40834
+2,0,A1 QRS_rms,0.15,2,12403,1 giai đoạn,ok,806.0,0.443051
+2,0,A1 QRS_rms,0.15,2,12403,2 giai đoạn,ok,979.0,0.356482
+2,0,A1 QRS_rms,0.15,3,12403,1 giai đoạn,ok,1545.0,0.298602
+2,0,A1 QRS_rms,0.15,3,12403,2 giai đoạn,ok,1134.0,0.320776
+2,0,A1 QRS_rms,0.15,4,12403,1 giai đoạn,ok,2989.0,0.21098
+2,0,A1 QRS_rms,0.15,4,12403,2 giai đoạn,ok,1651.0,0.250401
+2,0,A1 QRS_rms,0.15,5,12403,1 giai đoạn,ok,1981.0,0.290652
+2,0,A1 QRS_rms,0.15,5,12403,2 giai đoạn,ok,1258.0,0.355555
+2,0,A1 QRS_rms,0.3,0,12403,1 giai đoạn,ok,300.0,1.474653
+2,0,A1 QRS_rms,0.3,0,12403,2 giai đoạn,ok,300.0,0.821733
+2,0,A1 QRS_rms,0.3,1,12403,1 giai đoạn,ok,393.0,0.711761
+2,0,A1 QRS_rms,0.3,1,12403,2 giai đoạn,ok,393.0,0.694915
+2,0,A1 QRS_rms,0.3,2,12403,1 giai đoạn,ok,300.0,0.855802
+2,0,A1 QRS_rms,0.3,2,12403,2 giai đoạn,ok,300.0,0.95832
+2,0,A1 QRS_rms,0.3,3,12403,1 giai đoạn,ok,300.0,0.682336
+2,0,A1 QRS_rms,0.3,3,12403,2 giai đoạn,ok,300.0,0.65345
+2,0,A1 QRS_rms,0.3,4,12403,1 giai đoạn,ok,300.0,0.784848
+2,0,A1 QRS_rms,0.3,4,12403,2 giai đoạn,ok,300.0,0.725816
+2,0,A1 QRS_rms,0.3,5,12403,1 giai đoạn,ok,300.0,0.917419
+2,0,A1 QRS_rms,0.3,5,12403,2 giai đoạn,ok,300.0,0.718497
+2,0,A2 RBBB-LR,0.15,0,12403,1 giai đoạn,không khả thi,10694.0,
+2,0,A2 RBBB-LR,0.15,0,12403,2 giai đoạn,ok,8518.0,0.088383
+2,0,A2 RBBB-LR,0.15,1,12403,1 giai đoạn,không khả thi,10997.0,
+2,0,A2 RBBB-LR,0.15,1,12403,2 giai đoạn,ok,9136.0,0.101168
+2,0,A2 RBBB-LR,0.15,2,12403,1 giai đoạn,ok,7604.0,0.159366
+2,0,A2 RBBB-LR,0.15,2,12403,2 giai đoạn,ok,9111.0,0.020967
+2,0,A2 RBBB-LR,0.15,3,12403,1 giai đoạn,không khả thi,10226.0,
+2,0,A2 RBBB-LR,0.15,3,12403,2 giai đoạn,không khả thi,10974.0,
+2,0,A2 RBBB-LR,0.15,4,12403,1 giai đoạn,ok,4689.0,0.331304
+2,0,A2 RBBB-LR,0.15,4,12403,2 giai đoạn,ok,7446.0,0.152824
+2,0,A2 RBBB-LR,0.15,5,12403,1 giai đoạn,ok,6846.0,0.250974
+2,0,A2 RBBB-LR,0.15,5,12403,2 giai đoạn,ok,9418.0,0.05291
+2,0,A2 RBBB-LR,0.3,0,12403,1 giai đoạn,ok,4575.0,0.375401
+2,0,A2 RBBB-LR,0.3,0,12403,2 giai đoạn,ok,3094.0,0.501143
+2,0,A2 RBBB-LR,0.3,1,12403,1 giai đoạn,ok,4548.0,0.280922
+2,0,A2 RBBB-LR,0.3,1,12403,2 giai đoạn,ok,3092.0,0.389231
+2,0,A2 RBBB-LR,0.3,2,12403,1 giai đoạn,ok,4118.0,0.323213
+2,0,A2 RBBB-LR,0.3,2,12403,2 giai đoạn,ok,5143.0,0.287492
+2,0,A2 RBBB-LR,0.3,3,12403,1 giai đoạn,ok,1838.0,0.665924
+2,0,A2 RBBB-LR,0.3,3,12403,2 giai đoạn,ok,1505.0,0.671289
+2,0,A2 RBBB-LR,0.3,4,12403,1 giai đoạn,ok,3656.0,0.447429
+2,0,A2 RBBB-LR,0.3,4,12403,2 giai đoạn,ok,3800.0,0.378039
+2,0,A2 RBBB-LR,0.3,5,12403,1 giai đoạn,ok,2247.0,0.479165
+2,0,A2 RBBB-LR,0.3,5,12403,2 giai đoạn,ok,2652.0,0.444376
+2,0,A3 CNNalt,0.15,0,12403,1 giai đoạn,không khả thi,11430.0,
+2,0,A3 CNNalt,0.15,0,12403,2 giai đoạn,không khả thi,10883.0,
+2,0,A3 CNNalt,0.15,1,12403,1 giai đoạn,không khả thi,12403.0,
+2,0,A3 CNNalt,0.15,1,12403,2 giai đoạn,không khả thi,11404.0,
+2,0,A3 CNNalt,0.15,2,12403,1 giai đoạn,không khả thi,10260.0,
+2,0,A3 CNNalt,0.15,2,12403,2 giai đoạn,không khả thi,11740.0,
+2,0,A3 CNNalt,0.15,3,12403,1 giai đoạn,không khả thi,12403.0,
+2,0,A3 CNNalt,0.15,3,12403,2 giai đoạn,không khả thi,11919.0,
+2,0,A3 CNNalt,0.15,4,12403,1 giai đoạn,không khả thi,12403.0,
+2,0,A3 CNNalt,0.15,4,12403,2 giai đoạn,không khả thi,12049.0,
+2,0,A3 CNNalt,0.15,5,12403,1 giai đoạn,không khả thi,10508.0,
+2,0,A3 CNNalt,0.15,5,12403,2 giai đoạn,không khả thi,12220.0,
+2,0,A3 CNNalt,0.3,0,12403,1 giai đoạn,ok,5617.0,0.550958
+2,0,A3 CNNalt,0.3,0,12403,2 giai đoạn,không khả thi,9999.0,
+2,0,A3 CNNalt,0.3,1,12403,1 giai đoạn,không khả thi,12403.0,
+2,0,A3 CNNalt,0.3,1,12403,2 giai đoạn,ok,6208.0,0.572118
+2,0,A3 CNNalt,0.3,2,12403,1 giai đoạn,ok,6967.0,0.390252
+2,0,A3 CNNalt,0.3,2,12403,2 giai đoạn,không khả thi,10985.0,
+2,0,A3 CNNalt,0.3,3,12403,1 giai đoạn,ok,8012.0,0.314863
+2,0,A3 CNNalt,0.3,3,12403,2 giai đoạn,ok,4419.0,0.699482
+2,0,A3 CNNalt,0.3,4,12403,1 giai đoạn,không khả thi,11244.0,
+2,0,A3 CNNalt,0.3,4,12403,2 giai đoạn,ok,8814.0,0.179682
+2,0,A3 CNNalt,0.3,5,12403,1 giai đoạn,ok,2838.0,0.938533
+2,0,A3 CNNalt,0.3,5,12403,2 giai đoạn,ok,5047.0,0.603289
+2,1,A1 QRS_rms,0.15,0,12403,1 giai đoạn,ok,1263.0,0.18049
+2,1,A1 QRS_rms,0.15,0,12403,2 giai đoạn,ok,1246.0,0.192688
+2,1,A1 QRS_rms,0.15,1,12403,1 giai đoạn,ok,2490.0,0.140712
+2,1,A1 QRS_rms,0.15,1,12403,2 giai đoạn,ok,1872.0,0.148313
+2,1,A1 QRS_rms,0.15,2,12403,1 giai đoạn,ok,2100.0,0.152798
+2,1,A1 QRS_rms,0.15,2,12403,2 giai đoạn,ok,1857.0,0.155407
+2,1,A1 QRS_rms,0.15,3,12403,1 giai đoạn,ok,1555.0,0.161793
+2,1,A1 QRS_rms,0.15,3,12403,2 giai đoạn,ok,1020.0,0.177317
+2,1,A1 QRS_rms,0.15,4,12403,1 giai đoạn,ok,1162.0,0.173971
+2,1,A1 QRS_rms,0.15,4,12403,2 giai đoạn,ok,1363.0,0.170809
+2,1,A1 QRS_rms,0.15,5,12403,1 giai đoạn,ok,1334.0,0.168019
+2,1,A1 QRS_rms,0.15,5,12403,2 giai đoạn,ok,1392.0,0.173618
+2,1,A1 QRS_rms,0.3,0,12403,1 giai đoạn,ok,300.0,0.304321
+2,1,A1 QRS_rms,0.3,0,12403,2 giai đoạn,ok,300.0,0.287047
+2,1,A1 QRS_rms,0.3,1,12403,1 giai đoạn,ok,300.0,0.3067
+2,1,A1 QRS_rms,0.3,1,12403,2 giai đoạn,ok,300.0,0.300848
+2,1,A1 QRS_rms,0.3,2,12403,1 giai đoạn,ok,300.0,0.276336
+2,1,A1 QRS_rms,0.3,2,12403,2 giai đoạn,ok,300.0,0.281006
+2,1,A1 QRS_rms,0.3,3,12403,1 giai đoạn,ok,300.0,0.328086
+2,1,A1 QRS_rms,0.3,3,12403,2 giai đoạn,ok,300.0,0.361196
+2,1,A1 QRS_rms,0.3,4,12403,1 giai đoạn,ok,300.0,0.28217
+2,1,A1 QRS_rms,0.3,4,12403,2 giai đoạn,ok,300.0,0.306805
+2,1,A1 QRS_rms,0.3,5,12403,1 giai đoạn,ok,300.0,0.282115
+2,1,A1 QRS_rms,0.3,5,12403,2 giai đoạn,ok,300.0,0.295882
+2,1,A2 RBBB-LR,0.15,0,12403,1 giai đoạn,ok,9285.0,0.195096
+2,1,A2 RBBB-LR,0.15,0,12403,2 giai đoạn,không khả thi,11485.0,
+2,1,A2 RBBB-LR,0.15,1,12403,1 giai đoạn,không khả thi,10746.0,
+2,1,A2 RBBB-LR,0.15,1,12403,2 giai đoạn,không khả thi,11735.0,
+2,1,A2 RBBB-LR,0.15,2,12403,1 giai đoạn,không khả thi,11754.0,
+2,1,A2 RBBB-LR,0.15,2,12403,2 giai đoạn,không khả thi,11197.0,
+2,1,A2 RBBB-LR,0.15,3,12403,1 giai đoạn,không khả thi,11938.0,
+2,1,A2 RBBB-LR,0.15,3,12403,2 giai đoạn,không khả thi,11078.0,
+2,1,A2 RBBB-LR,0.15,4,12403,1 giai đoạn,không khả thi,10377.0,
+2,1,A2 RBBB-LR,0.15,4,12403,2 giai đoạn,không khả thi,10463.0,
+2,1,A2 RBBB-LR,0.15,5,12403,1 giai đoạn,không khả thi,12277.0,
+2,1,A2 RBBB-LR,0.15,5,12403,2 giai đoạn,không khả thi,11126.0,
+2,1,A2 RBBB-LR,0.3,0,12403,1 giai đoạn,ok,4354.0,0.634991
+2,1,A2 RBBB-LR,0.3,0,12403,2 giai đoạn,ok,8563.0,0.252152
+2,1,A2 RBBB-LR,0.3,1,12403,1 giai đoạn,ok,8726.0,0.187323
+2,1,A2 RBBB-LR,0.3,1,12403,2 giai đoạn,ok,7205.0,0.335164
+2,1,A2 RBBB-LR,0.3,2,12403,1 giai đoạn,ok,5723.0,0.329829
+2,1,A2 RBBB-LR,0.3,2,12403,2 giai đoạn,không khả thi,10079.0,
+2,1,A2 RBBB-LR,0.3,3,12403,1 giai đoạn,ok,4285.0,0.590763
+2,1,A2 RBBB-LR,0.3,3,12403,2 giai đoạn,ok,6992.0,0.29372
+2,1,A2 RBBB-LR,0.3,4,12403,1 giai đoạn,không khả thi,12388.0,
+2,1,A2 RBBB-LR,0.3,4,12403,2 giai đoạn,ok,6583.0,0.312822
+2,1,A2 RBBB-LR,0.3,5,12403,1 giai đoạn,ok,9586.0,0.209295
+2,1,A2 RBBB-LR,0.3,5,12403,2 giai đoạn,ok,7924.0,0.254495
+2,1,A3 CNNalt,0.15,0,12403,1 giai đoạn,không khả thi,12403.0,
+2,1,A3 CNNalt,0.15,0,12403,2 giai đoạn,không khả thi,11375.0,
+2,1,A3 CNNalt,0.15,1,12403,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+2,1,A3 CNNalt,0.15,1,12403,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+2,1,A3 CNNalt,0.15,2,12403,1 giai đoạn,ok,9102.0,0.280266
+2,1,A3 CNNalt,0.15,2,12403,2 giai đoạn,không khả thi,11189.0,
+2,1,A3 CNNalt,0.15,3,12403,1 giai đoạn,không khả thi,10391.0,
+2,1,A3 CNNalt,0.15,3,12403,2 giai đoạn,không khả thi,11312.0,
+2,1,A3 CNNalt,0.15,4,12403,1 giai đoạn,không khả thi,12182.0,
+2,1,A3 CNNalt,0.15,4,12403,2 giai đoạn,không khả thi,11137.0,
+2,1,A3 CNNalt,0.15,5,12403,1 giai đoạn,không khả thi,11441.0,
+2,1,A3 CNNalt,0.15,5,12403,2 giai đoạn,không khả thi,11780.0,
+2,1,A3 CNNalt,0.3,0,12403,1 giai đoạn,ok,4381.0,0.545412
+2,1,A3 CNNalt,0.3,0,12403,2 giai đoạn,ok,8313.0,0.32882
+2,1,A3 CNNalt,0.3,1,12403,1 giai đoạn,không khả thi,9973.0,
+2,1,A3 CNNalt,0.3,1,12403,2 giai đoạn,ok,5885.0,0.442857
+2,1,A3 CNNalt,0.3,2,12403,1 giai đoạn,không khả thi,10941.0,
+2,1,A3 CNNalt,0.3,2,12403,2 giai đoạn,ok,6791.0,0.412738
+2,1,A3 CNNalt,0.3,3,12403,1 giai đoạn,ok,8702.0,0.266017
+2,1,A3 CNNalt,0.3,3,12403,2 giai đoạn,ok,8792.0,0.261006
+2,1,A3 CNNalt,0.3,4,12403,1 giai đoạn,ok,6290.0,0.401271
+2,1,A3 CNNalt,0.3,4,12403,2 giai đoạn,không khả thi,10277.0,
+2,1,A3 CNNalt,0.3,5,12403,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+2,1,A3 CNNalt,0.3,5,12403,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+2,2,A1 QRS_rms,0.15,0,12403,1 giai đoạn,ok,1503.0,0.130076
+2,2,A1 QRS_rms,0.15,0,12403,2 giai đoạn,ok,985.0,0.124143
+2,2,A1 QRS_rms,0.15,1,12403,1 giai đoạn,ok,1457.0,0.115089
+2,2,A1 QRS_rms,0.15,1,12403,2 giai đoạn,ok,1382.0,0.123628
+2,2,A1 QRS_rms,0.15,2,12403,1 giai đoạn,ok,770.0,0.271374
+2,2,A1 QRS_rms,0.15,2,12403,2 giai đoạn,ok,1064.0,0.157619
+2,2,A1 QRS_rms,0.15,3,12403,1 giai đoạn,ok,1093.0,0.12666
+2,2,A1 QRS_rms,0.15,3,12403,2 giai đoạn,ok,973.0,0.225176
+2,2,A1 QRS_rms,0.15,4,12403,1 giai đoạn,ok,1091.0,0.155414
+2,2,A1 QRS_rms,0.15,4,12403,2 giai đoạn,ok,1425.0,0.127185
+2,2,A1 QRS_rms,0.15,5,12403,1 giai đoạn,ok,1273.0,0.151244
+2,2,A1 QRS_rms,0.15,5,12403,2 giai đoạn,ok,1284.0,0.125888
+2,2,A1 QRS_rms,0.3,0,12403,1 giai đoạn,ok,300.0,0.382044
+2,2,A1 QRS_rms,0.3,0,12403,2 giai đoạn,ok,300.0,0.572865
+2,2,A1 QRS_rms,0.3,1,12403,1 giai đoạn,ok,300.0,0.302876
+2,2,A1 QRS_rms,0.3,1,12403,2 giai đoạn,ok,300.0,0.492045
+2,2,A1 QRS_rms,0.3,2,12403,1 giai đoạn,ok,300.0,0.918468
+2,2,A1 QRS_rms,0.3,2,12403,2 giai đoạn,ok,300.0,0.586322
+2,2,A1 QRS_rms,0.3,3,12403,1 giai đoạn,ok,300.0,0.439848
+2,2,A1 QRS_rms,0.3,3,12403,2 giai đoạn,ok,300.0,0.367074
+2,2,A1 QRS_rms,0.3,4,12403,1 giai đoạn,ok,300.0,0.48727
+2,2,A1 QRS_rms,0.3,4,12403,2 giai đoạn,ok,300.0,0.557772
+2,2,A1 QRS_rms,0.3,5,12403,1 giai đoạn,ok,300.0,0.575545
+2,2,A1 QRS_rms,0.3,5,12403,2 giai đoạn,ok,300.0,0.728189
+2,2,A2 RBBB-LR,0.15,0,12403,1 giai đoạn,ok,6972.0,0.349513
+2,2,A2 RBBB-LR,0.15,0,12403,2 giai đoạn,ok,8737.0,0.210289
+2,2,A2 RBBB-LR,0.15,1,12403,1 giai đoạn,không khả thi,10741.0,
+2,2,A2 RBBB-LR,0.15,1,12403,2 giai đoạn,không khả thi,11045.0,
+2,2,A2 RBBB-LR,0.15,2,12403,1 giai đoạn,ok,9919.0,0.196014
+2,2,A2 RBBB-LR,0.15,2,12403,2 giai đoạn,không khả thi,11724.0,
+2,2,A2 RBBB-LR,0.15,3,12403,1 giai đoạn,không khả thi,11372.0,
+2,2,A2 RBBB-LR,0.15,3,12403,2 giai đoạn,không khả thi,11321.0,
+2,2,A2 RBBB-LR,0.15,4,12403,1 giai đoạn,ok,9696.0,0.153526
+2,2,A2 RBBB-LR,0.15,4,12403,2 giai đoạn,không khả thi,10681.0,
+2,2,A2 RBBB-LR,0.15,5,12403,1 giai đoạn,không khả thi,12403.0,
+2,2,A2 RBBB-LR,0.15,5,12403,2 giai đoạn,không khả thi,11227.0,
+2,2,A2 RBBB-LR,0.3,0,12403,1 giai đoạn,ok,5038.0,0.538724
+2,2,A2 RBBB-LR,0.3,0,12403,2 giai đoạn,ok,2519.0,1.029734
+2,2,A2 RBBB-LR,0.3,1,12403,1 giai đoạn,ok,6007.0,0.434484
+2,2,A2 RBBB-LR,0.3,1,12403,2 giai đoạn,ok,3004.0,0.807607
+2,2,A2 RBBB-LR,0.3,2,12403,1 giai đoạn,ok,9918.0,0.152478
+2,2,A2 RBBB-LR,0.3,2,12403,2 giai đoạn,ok,7065.0,0.269662
+2,2,A2 RBBB-LR,0.3,3,12403,1 giai đoạn,không khả thi,12403.0,
+2,2,A2 RBBB-LR,0.3,3,12403,2 giai đoạn,không khả thi,11394.0,
+2,2,A2 RBBB-LR,0.3,4,12403,1 giai đoạn,ok,1659.0,1.206947
+2,2,A2 RBBB-LR,0.3,4,12403,2 giai đoạn,ok,1910.0,1.264357
+2,2,A2 RBBB-LR,0.3,5,12403,1 giai đoạn,ok,5115.0,0.568366
+2,2,A2 RBBB-LR,0.3,5,12403,2 giai đoạn,ok,8163.0,0.22021
+2,2,A3 CNNalt,0.15,0,12403,1 giai đoạn,ok,9653.0,0.088949
+2,2,A3 CNNalt,0.15,0,12403,2 giai đoạn,không khả thi,11557.0,
+2,2,A3 CNNalt,0.15,1,12403,1 giai đoạn,không khả thi,10099.0,
+2,2,A3 CNNalt,0.15,1,12403,2 giai đoạn,không khả thi,11648.0,
+2,2,A3 CNNalt,0.15,2,12403,1 giai đoạn,ok,8658.0,0.096041
+2,2,A3 CNNalt,0.15,2,12403,2 giai đoạn,không khả thi,10002.0,
+2,2,A3 CNNalt,0.15,3,12403,1 giai đoạn,ok,9380.0,0.094731
+2,2,A3 CNNalt,0.15,3,12403,2 giai đoạn,không khả thi,10930.0,
+2,2,A3 CNNalt,0.15,4,12403,1 giai đoạn,không khả thi,12341.0,
+2,2,A3 CNNalt,0.15,4,12403,2 giai đoạn,ok,9312.0,0.092932
+2,2,A3 CNNalt,0.15,5,12403,1 giai đoạn,không khả thi,12033.0,
+2,2,A3 CNNalt,0.15,5,12403,2 giai đoạn,không khả thi,10327.0,
+2,2,A3 CNNalt,0.3,0,12403,1 giai đoạn,không khả thi,12372.0,
+2,2,A3 CNNalt,0.3,0,12403,2 giai đoạn,ok,6186.0,0.107696
+2,2,A3 CNNalt,0.3,1,12403,1 giai đoạn,ok,2517.0,0.240833
+2,2,A3 CNNalt,0.3,1,12403,2 giai đoạn,ok,4537.0,0.143953
+2,2,A3 CNNalt,0.3,2,12403,1 giai đoạn,không khả thi,11869.0,
+2,2,A3 CNNalt,0.3,2,12403,2 giai đoạn,ok,9226.0,0.095356
+2,2,A3 CNNalt,0.3,3,12403,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+2,2,A3 CNNalt,0.3,3,12403,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+2,2,A3 CNNalt,0.3,4,12403,1 giai đoạn,ok,3352.0,0.164329
+2,2,A3 CNNalt,0.3,4,12403,2 giai đoạn,ok,4725.0,0.145023
+2,2,A3 CNNalt,0.3,5,12403,1 giai đoạn,không khả thi,12374.0,
+2,2,A3 CNNalt,0.3,5,12403,2 giai đoạn,ok,6609.0,0.115695
+3,0,A1 QRS_rms,0.15,0,43403,1 giai đoạn,ok,4920.0,0.304927
+3,0,A1 QRS_rms,0.15,0,43403,2 giai đoạn,ok,3448.0,0.287872
+3,0,A1 QRS_rms,0.15,1,43403,1 giai đoạn,ok,3143.0,0.298319
+3,0,A1 QRS_rms,0.15,1,43403,2 giai đoạn,ok,3235.0,0.335119
+3,0,A1 QRS_rms,0.15,2,43403,1 giai đoạn,ok,7261.0,0.235784
+3,0,A1 QRS_rms,0.15,2,43403,2 giai đoạn,ok,3631.0,0.363486
+3,0,A1 QRS_rms,0.15,3,43403,1 giai đoạn,ok,3967.0,0.368232
+3,0,A1 QRS_rms,0.15,3,43403,2 giai đoạn,ok,4020.0,0.292991
+3,0,A1 QRS_rms,0.15,4,43403,1 giai đoạn,ok,4244.0,0.295586
+3,0,A1 QRS_rms,0.15,4,43403,2 giai đoạn,ok,4696.0,0.345752
+3,0,A1 QRS_rms,0.15,5,43403,1 giai đoạn,ok,3060.0,0.348521
+3,0,A1 QRS_rms,0.15,5,43403,2 giai đoạn,ok,3901.0,0.317572
+3,0,A1 QRS_rms,0.3,0,43403,1 giai đoạn,ok,583.0,0.643118
+3,0,A1 QRS_rms,0.3,0,43403,2 giai đoạn,ok,583.0,0.748276
+3,0,A1 QRS_rms,0.3,1,43403,1 giai đoạn,ok,300.0,1.134383
+3,0,A1 QRS_rms,0.3,1,43403,2 giai đoạn,ok,300.0,1.057738
+3,0,A1 QRS_rms,0.3,2,43403,1 giai đoạn,ok,446.0,1.02307
+3,0,A1 QRS_rms,0.3,2,43403,2 giai đoạn,ok,446.0,0.752775
+3,0,A1 QRS_rms,0.3,3,43403,1 giai đoạn,ok,654.0,0.694919
+3,0,A1 QRS_rms,0.3,3,43403,2 giai đoạn,ok,579.0,0.801049
+3,0,A1 QRS_rms,0.3,4,43403,1 giai đoạn,ok,367.0,1.102084
+3,0,A1 QRS_rms,0.3,4,43403,2 giai đoạn,ok,367.0,1.250037
+3,0,A1 QRS_rms,0.3,5,43403,1 giai đoạn,ok,300.0,1.142492
+3,0,A1 QRS_rms,0.3,5,43403,2 giai đoạn,ok,300.0,1.088357
+3,0,A2 RBBB-LR,0.15,0,43403,1 giai đoạn,ok,7921.0,0.397451
+3,0,A2 RBBB-LR,0.15,0,43403,2 giai đoạn,ok,22948.0,0.149432
+3,0,A2 RBBB-LR,0.15,1,43403,1 giai đoạn,ok,20427.0,0.230352
+3,0,A2 RBBB-LR,0.15,1,43403,2 giai đoạn,ok,28502.0,0.15022
+3,0,A2 RBBB-LR,0.15,2,43403,1 giai đoạn,không khả thi,42231.0,
+3,0,A2 RBBB-LR,0.15,2,43403,2 giai đoạn,ok,29408.0,0.077111
+3,0,A2 RBBB-LR,0.15,3,43403,1 giai đoạn,ok,17018.0,0.223955
+3,0,A2 RBBB-LR,0.15,3,43403,2 giai đoạn,ok,20680.0,0.209849
+3,0,A2 RBBB-LR,0.15,4,43403,1 giai đoạn,ok,17057.0,0.19729
+3,0,A2 RBBB-LR,0.15,4,43403,2 giai đoạn,ok,30274.0,0.123127
+3,0,A2 RBBB-LR,0.15,5,43403,1 giai đoạn,ok,18205.0,0.270945
+3,0,A2 RBBB-LR,0.15,5,43403,2 giai đoạn,ok,25523.0,0.158617
+3,0,A2 RBBB-LR,0.3,0,43403,1 giai đoạn,ok,7056.0,0.367625
+3,0,A2 RBBB-LR,0.3,0,43403,2 giai đoạn,ok,6606.0,0.432173
+3,0,A2 RBBB-LR,0.3,1,43403,1 giai đoạn,ok,7400.0,0.346159
+3,0,A2 RBBB-LR,0.3,1,43403,2 giai đoạn,ok,3700.0,0.434861
+3,0,A2 RBBB-LR,0.3,2,43403,1 giai đoạn,ok,3026.0,0.532916
+3,0,A2 RBBB-LR,0.3,2,43403,2 giai đoạn,ok,12229.0,0.305514
+3,0,A2 RBBB-LR,0.3,3,43403,1 giai đoạn,ok,3457.0,0.504778
+3,0,A2 RBBB-LR,0.3,3,43403,2 giai đoạn,ok,4850.0,0.482391
+3,0,A2 RBBB-LR,0.3,4,43403,1 giai đoạn,ok,3951.0,0.482914
+3,0,A2 RBBB-LR,0.3,4,43403,2 giai đoạn,ok,8204.0,0.310697
+3,0,A2 RBBB-LR,0.3,5,43403,1 giai đoạn,ok,1710.0,0.685371
+3,0,A2 RBBB-LR,0.3,5,43403,2 giai đoạn,ok,3098.0,0.497571
+3,0,A3 CNNalt,0.15,0,43403,1 giai đoạn,không khả thi,38808.0,
+3,0,A3 CNNalt,0.15,0,43403,2 giai đoạn,ok,32565.0,0.174915
+3,0,A3 CNNalt,0.15,1,43403,1 giai đoạn,ok,28194.0,0.20912
+3,0,A3 CNNalt,0.15,1,43403,2 giai đoạn,ok,29480.0,0.196422
+3,0,A3 CNNalt,0.15,2,43403,1 giai đoạn,ok,25741.0,0.232668
+3,0,A3 CNNalt,0.15,2,43403,2 giai đoạn,ok,27423.0,0.221803
+3,0,A3 CNNalt,0.15,3,43403,1 giai đoạn,không khả thi,36815.0,
+3,0,A3 CNNalt,0.15,3,43403,2 giai đoạn,không khả thi,35819.0,
+3,0,A3 CNNalt,0.15,4,43403,1 giai đoạn,ok,20338.0,0.289641
+3,0,A3 CNNalt,0.15,4,43403,2 giai đoạn,ok,28385.0,0.19701
+3,0,A3 CNNalt,0.15,5,43403,1 giai đoạn,ok,25861.0,0.218859
+3,0,A3 CNNalt,0.15,5,43403,2 giai đoạn,ok,29519.0,0.201398
+3,0,A3 CNNalt,0.3,0,43403,1 giai đoạn,ok,4189.0,0.452514
+3,0,A3 CNNalt,0.3,0,43403,2 giai đoạn,ok,11720.0,0.318782
+3,0,A3 CNNalt,0.3,1,43403,1 giai đoạn,ok,4879.0,0.426352
+3,0,A3 CNNalt,0.3,1,43403,2 giai đoạn,ok,20305.0,0.233062
+3,0,A3 CNNalt,0.3,2,43403,1 giai đoạn,ok,4434.0,0.445926
+3,0,A3 CNNalt,0.3,2,43403,2 giai đoạn,ok,12612.0,0.292579
+3,0,A3 CNNalt,0.3,3,43403,1 giai đoạn,ok,7473.0,0.353391
+3,0,A3 CNNalt,0.3,3,43403,2 giai đoạn,ok,4875.0,0.408316
+3,0,A3 CNNalt,0.3,4,43403,1 giai đoạn,ok,8474.0,0.357597
+3,0,A3 CNNalt,0.3,4,43403,2 giai đoạn,ok,9605.0,0.301231
+3,0,A3 CNNalt,0.3,5,43403,1 giai đoạn,ok,7536.0,0.353281
+3,0,A3 CNNalt,0.3,5,43403,2 giai đoạn,ok,10044.0,0.354491
+3,1,A1 QRS_rms,0.15,0,43403,1 giai đoạn,ok,5116.0,0.222264
+3,1,A1 QRS_rms,0.15,0,43403,2 giai đoạn,ok,3973.0,0.234927
+3,1,A1 QRS_rms,0.15,1,43403,1 giai đoạn,ok,8900.0,0.179497
+3,1,A1 QRS_rms,0.15,1,43403,2 giai đoạn,ok,4450.0,0.221502
+3,1,A1 QRS_rms,0.15,2,43403,1 giai đoạn,ok,7948.0,0.155688
+3,1,A1 QRS_rms,0.15,2,43403,2 giai đoạn,ok,5334.0,0.1976
+3,1,A1 QRS_rms,0.15,3,43403,1 giai đoạn,ok,3346.0,0.251006
+3,1,A1 QRS_rms,0.15,3,43403,2 giai đoạn,ok,4120.0,0.21825
+3,1,A1 QRS_rms,0.15,4,43403,1 giai đoạn,ok,5544.0,0.213267
+3,1,A1 QRS_rms,0.15,4,43403,2 giai đoạn,ok,3539.0,0.22683
+3,1,A1 QRS_rms,0.15,5,43403,1 giai đoạn,ok,4952.0,0.201911
+3,1,A1 QRS_rms,0.15,5,43403,2 giai đoạn,ok,3037.0,0.236928
+3,1,A1 QRS_rms,0.3,0,43403,1 giai đoạn,ok,571.0,0.578592
+3,1,A1 QRS_rms,0.3,0,43403,2 giai đoạn,ok,571.0,0.473736
+3,1,A1 QRS_rms,0.3,1,43403,1 giai đoạn,ok,582.0,0.376384
+3,1,A1 QRS_rms,0.3,1,43403,2 giai đoạn,ok,582.0,0.414662
+3,1,A1 QRS_rms,0.3,2,43403,1 giai đoạn,ok,1127.0,0.348571
+3,1,A1 QRS_rms,0.3,2,43403,2 giai đoạn,ok,564.0,0.457019
+3,1,A1 QRS_rms,0.3,3,43403,1 giai đoạn,ok,524.0,0.809714
+3,1,A1 QRS_rms,0.3,3,43403,2 giai đoạn,ok,524.0,0.409647
+3,1,A1 QRS_rms,0.3,4,43403,1 giai đoạn,ok,563.0,0.574134
+3,1,A1 QRS_rms,0.3,4,43403,2 giai đoạn,ok,563.0,0.471571
+3,1,A1 QRS_rms,0.3,5,43403,1 giai đoạn,ok,678.0,0.383325
+3,1,A1 QRS_rms,0.3,5,43403,2 giai đoạn,ok,643.0,0.369269
+3,1,A2 RBBB-LR,0.15,0,43403,1 giai đoạn,không khả thi,43034.0,
+3,1,A2 RBBB-LR,0.15,0,43403,2 giai đoạn,không khả thi,37174.0,
+3,1,A2 RBBB-LR,0.15,1,43403,1 giai đoạn,ok,22478.0,0.413371
+3,1,A2 RBBB-LR,0.15,1,43403,2 giai đoạn,không khả thi,41342.0,
+3,1,A2 RBBB-LR,0.15,2,43403,1 giai đoạn,không khả thi,39806.0,
+3,1,A2 RBBB-LR,0.15,2,43403,2 giai đoạn,không khả thi,36359.0,
+3,1,A2 RBBB-LR,0.15,3,43403,1 giai đoạn,ok,22577.0,0.425177
+3,1,A2 RBBB-LR,0.15,3,43403,2 giai đoạn,ok,33981.0,0.248986
+3,1,A2 RBBB-LR,0.15,4,43403,1 giai đoạn,ok,32599.0,0.285078
+3,1,A2 RBBB-LR,0.15,4,43403,2 giai đoạn,không khả thi,39975.0,
+3,1,A2 RBBB-LR,0.15,5,43403,1 giai đoạn,ok,31539.0,0.277266
+3,1,A2 RBBB-LR,0.15,5,43403,2 giai đoạn,không khả thi,39112.0,
+3,1,A2 RBBB-LR,0.3,0,43403,1 giai đoạn,không khả thi,43131.0,
+3,1,A2 RBBB-LR,0.3,0,43403,2 giai đoạn,ok,21566.0,0.420194
+3,1,A2 RBBB-LR,0.3,1,43403,1 giai đoạn,ok,23696.0,0.469168
+3,1,A2 RBBB-LR,0.3,1,43403,2 giai đoạn,ok,25972.0,0.373707
+3,1,A2 RBBB-LR,0.3,2,43403,1 giai đoạn,ok,20787.0,0.440249
+3,1,A2 RBBB-LR,0.3,2,43403,2 giai đoạn,ok,20186.0,0.377728
+3,1,A2 RBBB-LR,0.3,3,43403,1 giai đoạn,ok,4337.0,0.928592
+3,1,A2 RBBB-LR,0.3,3,43403,2 giai đoạn,ok,17742.0,0.48282
+3,1,A2 RBBB-LR,0.3,4,43403,1 giai đoạn,ok,31584.0,0.272853
+3,1,A2 RBBB-LR,0.3,4,43403,2 giai đoạn,ok,26042.0,0.333285
+3,1,A2 RBBB-LR,0.3,5,43403,1 giai đoạn,ok,14553.0,0.51522
+3,1,A2 RBBB-LR,0.3,5,43403,2 giai đoạn,ok,18480.0,0.484003
+3,1,A3 CNNalt,0.15,0,43403,1 giai đoạn,ok,27773.0,0.142657
+3,1,A3 CNNalt,0.15,0,43403,2 giai đoạn,ok,31819.0,0.149248
+3,1,A3 CNNalt,0.15,1,43403,1 giai đoạn,ok,15903.0,0.188192
+3,1,A3 CNNalt,0.15,1,43403,2 giai đoạn,ok,30953.0,0.141137
+3,1,A3 CNNalt,0.15,2,43403,1 giai đoạn,ok,31549.0,0.14512
+3,1,A3 CNNalt,0.15,2,43403,2 giai đoạn,ok,21705.0,0.155795
+3,1,A3 CNNalt,0.15,3,43403,1 giai đoạn,ok,30241.0,0.148722
+3,1,A3 CNNalt,0.15,3,43403,2 giai đoạn,ok,24683.0,0.137431
+3,1,A3 CNNalt,0.15,4,43403,1 giai đoạn,ok,20590.0,0.155348
+3,1,A3 CNNalt,0.15,4,43403,2 giai đoạn,ok,26732.0,0.1442
+3,1,A3 CNNalt,0.15,5,43403,1 giai đoạn,ok,19405.0,0.154886
+3,1,A3 CNNalt,0.15,5,43403,2 giai đoạn,ok,22771.0,0.15792
+3,1,A3 CNNalt,0.3,0,43403,1 giai đoạn,ok,4551.0,0.288533
+3,1,A3 CNNalt,0.3,0,43403,2 giai đoạn,ok,11573.0,0.182202
+3,1,A3 CNNalt,0.3,1,43403,1 giai đoạn,ok,8629.0,0.244785
+3,1,A3 CNNalt,0.3,1,43403,2 giai đoạn,ok,4315.0,0.298813
+3,1,A3 CNNalt,0.3,2,43403,1 giai đoạn,ok,3344.0,0.310059
+3,1,A3 CNNalt,0.3,2,43403,2 giai đoạn,ok,7963.0,0.242081
+3,1,A3 CNNalt,0.3,3,43403,1 giai đoạn,ok,2847.0,0.376476
+3,1,A3 CNNalt,0.3,3,43403,2 giai đoạn,ok,6458.0,0.217682
+3,1,A3 CNNalt,0.3,4,43403,1 giai đoạn,ok,5171.0,0.288252
+3,1,A3 CNNalt,0.3,4,43403,2 giai đoạn,ok,7197.0,0.255949
+3,1,A3 CNNalt,0.3,5,43403,1 giai đoạn,ok,9552.0,0.205491
+3,1,A3 CNNalt,0.3,5,43403,2 giai đoạn,ok,12953.0,0.176302
+3,2,A1 QRS_rms,0.15,0,43403,1 giai đoạn,ok,25958.0,0.255758
+3,2,A1 QRS_rms,0.15,0,43403,2 giai đoạn,ok,12979.0,0.375659
+3,2,A1 QRS_rms,0.15,1,43403,1 giai đoạn,ok,6022.0,0.516555
+3,2,A1 QRS_rms,0.15,1,43403,2 giai đoạn,ok,5144.0,0.461246
+3,2,A1 QRS_rms,0.15,2,43403,1 giai đoạn,ok,6671.0,0.438765
+3,2,A1 QRS_rms,0.15,2,43403,2 giai đoạn,ok,5050.0,0.543153
+3,2,A1 QRS_rms,0.15,3,43403,1 giai đoạn,ok,5668.0,0.480266
+3,2,A1 QRS_rms,0.15,3,43403,2 giai đoạn,ok,5345.0,0.510528
+3,2,A1 QRS_rms,0.15,4,43403,1 giai đoạn,ok,6438.0,0.555284
+3,2,A1 QRS_rms,0.15,4,43403,2 giai đoạn,ok,4406.0,0.484741
+3,2,A1 QRS_rms,0.15,5,43403,1 giai đoạn,ok,8337.0,0.382549
+3,2,A1 QRS_rms,0.15,5,43403,2 giai đoạn,ok,7829.0,0.399833
+3,2,A1 QRS_rms,0.3,0,43403,1 giai đoạn,ok,562.0,1.175281
+3,2,A1 QRS_rms,0.3,0,43403,2 giai đoạn,ok,562.0,1.137457
+3,2,A1 QRS_rms,0.3,1,43403,1 giai đoạn,ok,1007.0,0.83379
+3,2,A1 QRS_rms,0.3,1,43403,2 giai đoạn,ok,1160.0,0.823381
+3,2,A1 QRS_rms,0.3,2,43403,1 giai đoạn,ok,879.0,0.776506
+3,2,A1 QRS_rms,0.3,2,43403,2 giai đoạn,ok,910.0,1.05171
+3,2,A1 QRS_rms,0.3,3,43403,1 giai đoạn,ok,565.0,0.982471
+3,2,A1 QRS_rms,0.3,3,43403,2 giai đoạn,ok,565.0,1.118753
+3,2,A1 QRS_rms,0.3,4,43403,1 giai đoạn,ok,2785.0,0.644507
+3,2,A1 QRS_rms,0.3,4,43403,2 giai đoạn,ok,1393.0,0.649444
+3,2,A1 QRS_rms,0.3,5,43403,1 giai đoạn,ok,300.0,1.050597
+3,2,A1 QRS_rms,0.3,5,43403,2 giai đoạn,ok,300.0,1.355067
+3,2,A2 RBBB-LR,0.15,0,43403,1 giai đoạn,ok,18957.0,0.334797
+3,2,A2 RBBB-LR,0.15,0,43403,2 giai đoạn,không khả thi,34930.0,
+3,2,A2 RBBB-LR,0.15,1,43403,1 giai đoạn,ok,22985.0,0.316201
+3,2,A2 RBBB-LR,0.15,1,43403,2 giai đoạn,không khả thi,39532.0,
+3,2,A2 RBBB-LR,0.15,2,43403,1 giai đoạn,ok,20479.0,0.336444
+3,2,A2 RBBB-LR,0.15,2,43403,2 giai đoạn,ok,33991.0,0.259373
+3,2,A2 RBBB-LR,0.15,3,43403,1 giai đoạn,ok,22099.0,0.348784
+3,2,A2 RBBB-LR,0.15,3,43403,2 giai đoạn,không khả thi,39372.0,
+3,2,A2 RBBB-LR,0.15,4,43403,1 giai đoạn,không khả thi,36344.0,
+3,2,A2 RBBB-LR,0.15,4,43403,2 giai đoạn,không khả thi,35669.0,
+3,2,A2 RBBB-LR,0.15,5,43403,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+3,2,A2 RBBB-LR,0.15,5,43403,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+3,2,A2 RBBB-LR,0.3,0,43403,1 giai đoạn,ok,1607.0,1.203709
+3,2,A2 RBBB-LR,0.3,0,43403,2 giai đoạn,ok,22383.0,0.341919
+3,2,A2 RBBB-LR,0.3,1,43403,1 giai đoạn,ok,9510.0,0.523637
+3,2,A2 RBBB-LR,0.3,1,43403,2 giai đoạn,ok,27223.0,0.309463
+3,2,A2 RBBB-LR,0.3,2,43403,1 giai đoạn,ok,11501.0,0.461029
+3,2,A2 RBBB-LR,0.3,2,43403,2 giai đoạn,ok,6446.0,0.569683
+3,2,A2 RBBB-LR,0.3,3,43403,1 giai đoạn,ok,4453.0,0.641036
+3,2,A2 RBBB-LR,0.3,3,43403,2 giai đoạn,ok,5641.0,0.605927
+3,2,A2 RBBB-LR,0.3,4,43403,1 giai đoạn,không khả thi,37129.0,
+3,2,A2 RBBB-LR,0.3,4,43403,2 giai đoạn,ok,18565.0,0.399616
+3,2,A2 RBBB-LR,0.3,5,43403,1 giai đoạn,ok,2211.0,0.994662
+3,2,A2 RBBB-LR,0.3,5,43403,2 giai đoạn,ok,4057.0,0.639467
+3,2,A3 CNNalt,0.15,0,43403,1 giai đoạn,ok,30595.0,0.321661
+3,2,A3 CNNalt,0.15,0,43403,2 giai đoạn,ok,26980.0,0.347904
+3,2,A3 CNNalt,0.15,1,43403,1 giai đoạn,không khả thi,41818.0,
+3,2,A3 CNNalt,0.15,1,43403,2 giai đoạn,không khả thi,38600.0,
+3,2,A3 CNNalt,0.15,2,43403,1 giai đoạn,không khả thi,43363.0,
+3,2,A3 CNNalt,0.15,2,43403,2 giai đoạn,ok,33199.0,0.344382
+3,2,A3 CNNalt,0.15,3,43403,1 giai đoạn,không khả thi,42306.0,
+3,2,A3 CNNalt,0.15,3,43403,2 giai đoạn,ok,34653.0,0.275236
+3,2,A3 CNNalt,0.15,4,43403,1 giai đoạn,ok,23632.0,0.329552
+3,2,A3 CNNalt,0.15,4,43403,2 giai đoạn,ok,19507.0,0.354832
+3,2,A3 CNNalt,0.15,5,43403,1 giai đoạn,ok,26593.0,0.329883
+3,2,A3 CNNalt,0.15,5,43403,2 giai đoạn,không khả thi,37185.0,
+3,2,A3 CNNalt,0.3,0,43403,1 giai đoạn,ok,3539.0,0.525875
+3,2,A3 CNNalt,0.3,0,43403,2 giai đoạn,ok,11427.0,0.368872
+3,2,A3 CNNalt,0.3,1,43403,1 giai đoạn,ok,4640.0,0.415281
+3,2,A3 CNNalt,0.3,1,43403,2 giai đoạn,ok,3034.0,0.472177
+3,2,A3 CNNalt,0.3,2,43403,1 giai đoạn,ok,4469.0,0.431347
+3,2,A3 CNNalt,0.3,2,43403,2 giai đoạn,ok,5255.0,0.458408
+3,2,A3 CNNalt,0.3,3,43403,1 giai đoạn,ok,8746.0,0.417292
+3,2,A3 CNNalt,0.3,3,43403,2 giai đoạn,ok,5187.0,0.427106
+3,2,A3 CNNalt,0.3,4,43403,1 giai đoạn,ok,4850.0,0.456048
+3,2,A3 CNNalt,0.3,4,43403,2 giai đoạn,ok,4747.0,0.460091
+3,2,A3 CNNalt,0.3,5,43403,1 giai đoạn,ok,5401.0,0.472088
+3,2,A3 CNNalt,0.3,5,43403,2 giai đoạn,ok,7125.0,0.446504
+4,0,A1 QRS_rms,0.15,0,12403,1 giai đoạn,ok,5986.0,0.16483
+4,0,A1 QRS_rms,0.15,0,12403,2 giai đoạn,ok,6050.0,0.155791
+4,0,A1 QRS_rms,0.15,1,12403,1 giai đoạn,ok,5175.0,0.185824
+4,0,A1 QRS_rms,0.15,1,12403,2 giai đoạn,ok,7987.0,0.143417
+4,0,A1 QRS_rms,0.15,2,12403,1 giai đoạn,ok,9793.0,0.114778
+4,0,A1 QRS_rms,0.15,2,12403,2 giai đoạn,ok,9329.0,0.121187
+4,0,A1 QRS_rms,0.15,3,12403,1 giai đoạn,ok,4645.0,0.208149
+4,0,A1 QRS_rms,0.15,3,12403,2 giai đoạn,ok,6799.0,0.158139
+4,0,A1 QRS_rms,0.15,4,12403,1 giai đoạn,ok,4129.0,0.21572
+4,0,A1 QRS_rms,0.15,4,12403,2 giai đoạn,ok,6426.0,0.159385
+4,0,A1 QRS_rms,0.15,5,12403,1 giai đoạn,ok,8295.0,0.147276
+4,0,A1 QRS_rms,0.15,5,12403,2 giai đoạn,ok,7789.0,0.160306
+4,0,A1 QRS_rms,0.3,0,12403,1 giai đoạn,ok,936.0,0.491219
+4,0,A1 QRS_rms,0.3,0,12403,2 giai đoạn,ok,1672.0,0.380013
+4,0,A1 QRS_rms,0.3,1,12403,1 giai đoạn,ok,1034.0,0.459407
+4,0,A1 QRS_rms,0.3,1,12403,2 giai đoạn,ok,628.0,0.679824
+4,0,A1 QRS_rms,0.3,2,12403,1 giai đoạn,ok,971.0,0.475979
+4,0,A1 QRS_rms,0.3,2,12403,2 giai đoạn,ok,1732.0,0.332671
+4,0,A1 QRS_rms,0.3,3,12403,1 giai đoạn,ok,1242.0,0.45275
+4,0,A1 QRS_rms,0.3,3,12403,2 giai đoạn,ok,1362.0,0.409046
+4,0,A1 QRS_rms,0.3,4,12403,1 giai đoạn,ok,1502.0,0.37517
+4,0,A1 QRS_rms,0.3,4,12403,2 giai đoạn,ok,1223.0,0.406465
+4,0,A1 QRS_rms,0.3,5,12403,1 giai đoạn,ok,656.0,0.639376
+4,0,A1 QRS_rms,0.3,5,12403,2 giai đoạn,ok,594.0,0.52051
+4,0,A2 RBBB-LR,0.15,0,12403,1 giai đoạn,ok,5116.0,0.118128
+4,0,A2 RBBB-LR,0.15,0,12403,2 giai đoạn,ok,6459.0,0.104602
+4,0,A2 RBBB-LR,0.15,1,12403,1 giai đoạn,ok,8014.0,0.087999
+4,0,A2 RBBB-LR,0.15,1,12403,2 giai đoạn,ok,6522.0,0.100106
+4,0,A2 RBBB-LR,0.15,2,12403,1 giai đoạn,ok,5943.0,0.107771
+4,0,A2 RBBB-LR,0.15,2,12403,2 giai đoạn,ok,6271.0,0.099016
+4,0,A2 RBBB-LR,0.15,3,12403,1 giai đoạn,ok,3397.0,0.139319
+4,0,A2 RBBB-LR,0.15,3,12403,2 giai đoạn,ok,6747.0,0.097369
+4,0,A2 RBBB-LR,0.15,4,12403,1 giai đoạn,ok,7222.0,0.098813
+4,0,A2 RBBB-LR,0.15,4,12403,2 giai đoạn,ok,4872.0,0.13877
+4,0,A2 RBBB-LR,0.15,5,12403,1 giai đoạn,ok,8992.0,0.085067
+4,0,A2 RBBB-LR,0.15,5,12403,2 giai đoạn,ok,6574.0,0.105864
+4,0,A2 RBBB-LR,0.3,0,12403,1 giai đoạn,ok,1355.0,0.231536
+4,0,A2 RBBB-LR,0.3,0,12403,2 giai đoạn,ok,2326.0,0.171591
+4,0,A2 RBBB-LR,0.3,1,12403,1 giai đoạn,ok,1653.0,0.215469
+4,0,A2 RBBB-LR,0.3,1,12403,2 giai đoạn,ok,932.0,0.251671
+4,0,A2 RBBB-LR,0.3,2,12403,1 giai đoạn,ok,661.0,0.336066
+4,0,A2 RBBB-LR,0.3,2,12403,2 giai đoạn,ok,684.0,0.328431
+4,0,A2 RBBB-LR,0.3,3,12403,1 giai đoạn,ok,1798.0,0.214691
+4,0,A2 RBBB-LR,0.3,3,12403,2 giai đoạn,ok,2319.0,0.166442
+4,0,A2 RBBB-LR,0.3,4,12403,1 giai đoạn,ok,988.0,0.258333
+4,0,A2 RBBB-LR,0.3,4,12403,2 giai đoạn,ok,847.0,0.284225
+4,0,A2 RBBB-LR,0.3,5,12403,1 giai đoạn,ok,659.0,0.312975
+4,0,A2 RBBB-LR,0.3,5,12403,2 giai đoạn,ok,582.0,0.322641
+4,0,A3 CNNalt,0.15,0,12403,1 giai đoạn,không khả thi,10819.0,
+4,0,A3 CNNalt,0.15,0,12403,2 giai đoạn,ok,9809.0,0.262794
+4,0,A3 CNNalt,0.15,1,12403,1 giai đoạn,không khả thi,11837.0,
+4,0,A3 CNNalt,0.15,1,12403,2 giai đoạn,ok,8956.0,0.262745
+4,0,A3 CNNalt,0.15,2,12403,1 giai đoạn,không khả thi,11238.0,
+4,0,A3 CNNalt,0.15,2,12403,2 giai đoạn,ok,8447.0,0.261242
+4,0,A3 CNNalt,0.15,3,12403,1 giai đoạn,không khả thi,12194.0,
+4,0,A3 CNNalt,0.15,3,12403,2 giai đoạn,ok,8721.0,0.267682
+4,0,A3 CNNalt,0.15,4,12403,1 giai đoạn,không khả thi,11585.0,
+4,0,A3 CNNalt,0.15,4,12403,2 giai đoạn,ok,8797.0,0.267537
+4,0,A3 CNNalt,0.15,5,12403,1 giai đoạn,ok,9914.0,0.25644
+4,0,A3 CNNalt,0.15,5,12403,2 giai đoạn,ok,8943.0,0.266835
+4,0,A3 CNNalt,0.3,0,12403,1 giai đoạn,không khả thi,11272.0,
+4,0,A3 CNNalt,0.3,0,12403,2 giai đoạn,ok,5636.0,0.296506
+4,0,A3 CNNalt,0.3,1,12403,1 giai đoạn,ok,3024.0,0.39563
+4,0,A3 CNNalt,0.3,1,12403,2 giai đoạn,ok,2645.0,0.353458
+4,0,A3 CNNalt,0.3,2,12403,1 giai đoạn,ok,9146.0,0.267734
+4,0,A3 CNNalt,0.3,2,12403,2 giai đoạn,ok,4573.0,0.29431
+4,0,A3 CNNalt,0.3,3,12403,1 giai đoạn,không khả thi,12395.0,
+4,0,A3 CNNalt,0.3,3,12403,2 giai đoạn,ok,6198.0,0.270908
+4,0,A3 CNNalt,0.3,4,12403,1 giai đoạn,ok,5510.0,0.270994
+4,0,A3 CNNalt,0.3,4,12403,2 giai đoạn,ok,2865.0,0.377615
+4,0,A3 CNNalt,0.3,5,12403,1 giai đoạn,ok,3519.0,0.332394
+4,0,A3 CNNalt,0.3,5,12403,2 giai đoạn,ok,2712.0,0.345152
+4,1,A1 QRS_rms,0.15,0,12403,1 giai đoạn,ok,3552.0,0.182062
+4,1,A1 QRS_rms,0.15,0,12403,2 giai đoạn,ok,5943.0,0.109847
+4,1,A1 QRS_rms,0.15,1,12403,1 giai đoạn,ok,2753.0,0.187606
+4,1,A1 QRS_rms,0.15,1,12403,2 giai đoạn,ok,3656.0,0.163362
+4,1,A1 QRS_rms,0.15,2,12403,1 giai đoạn,ok,4182.0,0.160064
+4,1,A1 QRS_rms,0.15,2,12403,2 giai đoạn,ok,3187.0,0.174214
+4,1,A1 QRS_rms,0.15,3,12403,1 giai đoạn,ok,3847.0,0.167917
+4,1,A1 QRS_rms,0.15,3,12403,2 giai đoạn,ok,3991.0,0.151839
+4,1,A1 QRS_rms,0.15,4,12403,1 giai đoạn,ok,2793.0,0.168562
+4,1,A1 QRS_rms,0.15,4,12403,2 giai đoạn,ok,3973.0,0.1643
+4,1,A1 QRS_rms,0.15,5,12403,1 giai đoạn,ok,2992.0,0.189207
+4,1,A1 QRS_rms,0.15,5,12403,2 giai đoạn,ok,4234.0,0.16922
+4,1,A1 QRS_rms,0.3,0,12403,1 giai đoạn,ok,626.0,0.328191
+4,1,A1 QRS_rms,0.3,0,12403,2 giai đoạn,ok,716.0,0.311038
+4,1,A1 QRS_rms,0.3,1,12403,1 giai đoạn,ok,450.0,0.360628
+4,1,A1 QRS_rms,0.3,1,12403,2 giai đoạn,ok,450.0,0.397033
+4,1,A1 QRS_rms,0.3,2,12403,1 giai đoạn,ok,300.0,0.466122
+4,1,A1 QRS_rms,0.3,2,12403,2 giai đoạn,ok,300.0,0.399238
+4,1,A1 QRS_rms,0.3,3,12403,1 giai đoạn,ok,953.0,0.245294
+4,1,A1 QRS_rms,0.3,3,12403,2 giai đoạn,ok,500.0,0.375424
+4,1,A1 QRS_rms,0.3,4,12403,1 giai đoạn,ok,1561.0,0.240479
+4,1,A1 QRS_rms,0.3,4,12403,2 giai đoạn,ok,781.0,0.290227
+4,1,A1 QRS_rms,0.3,5,12403,1 giai đoạn,ok,449.0,0.375509
+4,1,A1 QRS_rms,0.3,5,12403,2 giai đoạn,ok,449.0,0.352256
+4,1,A2 RBBB-LR,0.15,0,12403,1 giai đoạn,ok,6966.0,0.109493
+4,1,A2 RBBB-LR,0.15,0,12403,2 giai đoạn,ok,5021.0,0.117619
+4,1,A2 RBBB-LR,0.15,1,12403,1 giai đoạn,ok,4706.0,0.116926
+4,1,A2 RBBB-LR,0.15,1,12403,2 giai đoạn,ok,4079.0,0.131168
+4,1,A2 RBBB-LR,0.15,2,12403,1 giai đoạn,ok,7900.0,0.104846
+4,1,A2 RBBB-LR,0.15,2,12403,2 giai đoạn,ok,4144.0,0.126808
+4,1,A2 RBBB-LR,0.15,3,12403,1 giai đoạn,ok,4822.0,0.121753
+4,1,A2 RBBB-LR,0.15,3,12403,2 giai đoạn,ok,5332.0,0.122003
+4,1,A2 RBBB-LR,0.15,4,12403,1 giai đoạn,ok,3563.0,0.130749
+4,1,A2 RBBB-LR,0.15,4,12403,2 giai đoạn,ok,5467.0,0.112405
+4,1,A2 RBBB-LR,0.15,5,12403,1 giai đoạn,ok,5345.0,0.116532
+4,1,A2 RBBB-LR,0.15,5,12403,2 giai đoạn,ok,5348.0,0.116637
+4,1,A2 RBBB-LR,0.3,0,12403,1 giai đoạn,ok,509.0,0.271258
+4,1,A2 RBBB-LR,0.3,0,12403,2 giai đoạn,ok,509.0,0.266325
+4,1,A2 RBBB-LR,0.3,1,12403,1 giai đoạn,ok,1892.0,0.17531
+4,1,A2 RBBB-LR,0.3,1,12403,2 giai đoạn,ok,1997.0,0.172793
+4,1,A2 RBBB-LR,0.3,2,12403,1 giai đoạn,ok,1401.0,0.19301
+4,1,A2 RBBB-LR,0.3,2,12403,2 giai đoạn,ok,1844.0,0.174555
+4,1,A2 RBBB-LR,0.3,3,12403,1 giai đoạn,ok,1158.0,0.205037
+4,1,A2 RBBB-LR,0.3,3,12403,2 giai đoạn,ok,1923.0,0.17572
+4,1,A2 RBBB-LR,0.3,4,12403,1 giai đoạn,ok,2757.0,0.153387
+4,1,A2 RBBB-LR,0.3,4,12403,2 giai đoạn,ok,1379.0,0.209043
+4,1,A2 RBBB-LR,0.3,5,12403,1 giai đoạn,ok,961.0,0.233331
+4,1,A2 RBBB-LR,0.3,5,12403,2 giai đoạn,ok,1807.0,0.160395
+4,1,A3 CNNalt,0.15,0,12403,1 giai đoạn,không khả thi,12127.0,
+4,1,A3 CNNalt,0.15,0,12403,2 giai đoạn,ok,9520.0,0.142679
+4,1,A3 CNNalt,0.15,1,12403,1 giai đoạn,không khả thi,11342.0,
+4,1,A3 CNNalt,0.15,1,12403,2 giai đoạn,ok,9356.0,0.128823
+4,1,A3 CNNalt,0.15,2,12403,1 giai đoạn,ok,9881.0,0.132752
+4,1,A3 CNNalt,0.15,2,12403,2 giai đoạn,ok,8704.0,0.154712
+4,1,A3 CNNalt,0.15,3,12403,1 giai đoạn,ok,9677.0,0.141321
+4,1,A3 CNNalt,0.15,3,12403,2 giai đoạn,ok,9883.0,0.143593
+4,1,A3 CNNalt,0.15,4,12403,1 giai đoạn,không khả thi,11793.0,
+4,1,A3 CNNalt,0.15,4,12403,2 giai đoạn,ok,9693.0,0.132546
+4,1,A3 CNNalt,0.15,5,12403,1 giai đoạn,không khả thi,10324.0,
+4,1,A3 CNNalt,0.15,5,12403,2 giai đoạn,ok,9667.0,0.135074
+4,1,A3 CNNalt,0.3,0,12403,1 giai đoạn,ok,8801.0,0.142031
+4,1,A3 CNNalt,0.3,0,12403,2 giai đoạn,ok,4401.0,0.205424
+4,1,A3 CNNalt,0.3,1,12403,1 giai đoạn,ok,5308.0,0.20453
+4,1,A3 CNNalt,0.3,1,12403,2 giai đoạn,ok,4501.0,0.194444
+4,1,A3 CNNalt,0.3,2,12403,1 giai đoạn,ok,5728.0,0.18279
+4,1,A3 CNNalt,0.3,2,12403,2 giai đoạn,ok,4394.0,0.199641
+4,1,A3 CNNalt,0.3,3,12403,1 giai đoạn,ok,7046.0,0.178449
+4,1,A3 CNNalt,0.3,3,12403,2 giai đoạn,ok,5190.0,0.193916
+4,1,A3 CNNalt,0.3,4,12403,1 giai đoạn,ok,4900.0,0.197935
+4,1,A3 CNNalt,0.3,4,12403,2 giai đoạn,ok,6109.0,0.178386
+4,1,A3 CNNalt,0.3,5,12403,1 giai đoạn,không khả thi,10531.0,
+4,1,A3 CNNalt,0.3,5,12403,2 giai đoạn,ok,5266.0,0.191394
+4,2,A1 QRS_rms,0.15,0,12403,1 giai đoạn,ok,4664.0,0.257668
+4,2,A1 QRS_rms,0.15,0,12403,2 giai đoạn,ok,6022.0,0.228074
+4,2,A1 QRS_rms,0.15,1,12403,1 giai đoạn,ok,3822.0,0.256247
+4,2,A1 QRS_rms,0.15,1,12403,2 giai đoạn,ok,6460.0,0.222543
+4,2,A1 QRS_rms,0.15,2,12403,1 giai đoạn,ok,4334.0,0.259483
+4,2,A1 QRS_rms,0.15,2,12403,2 giai đoạn,ok,7566.0,0.229237
+4,2,A1 QRS_rms,0.15,3,12403,1 giai đoạn,ok,6373.0,0.234159
+4,2,A1 QRS_rms,0.15,3,12403,2 giai đoạn,ok,8736.0,0.214791
+4,2,A1 QRS_rms,0.15,4,12403,1 giai đoạn,ok,3850.0,0.259546
+4,2,A1 QRS_rms,0.15,4,12403,2 giai đoạn,ok,5718.0,0.243858
+4,2,A1 QRS_rms,0.15,5,12403,1 giai đoạn,ok,4712.0,0.230564
+4,2,A1 QRS_rms,0.15,5,12403,2 giai đoạn,ok,6960.0,0.238193
+4,2,A1 QRS_rms,0.3,0,12403,1 giai đoạn,ok,1251.0,0.327148
+4,2,A1 QRS_rms,0.3,0,12403,2 giai đoạn,ok,1733.0,0.339016
+4,2,A1 QRS_rms,0.3,1,12403,1 giai đoạn,ok,1102.0,0.322593
+4,2,A1 QRS_rms,0.3,1,12403,2 giai đoạn,ok,1063.0,0.327625
+4,2,A1 QRS_rms,0.3,2,12403,1 giai đoạn,ok,2896.0,0.274403
+4,2,A1 QRS_rms,0.3,2,12403,2 giai đoạn,ok,3583.0,0.27854
+4,2,A1 QRS_rms,0.3,3,12403,1 giai đoạn,ok,1949.0,0.309788
+4,2,A1 QRS_rms,0.3,3,12403,2 giai đoạn,ok,1888.0,0.28295
+4,2,A1 QRS_rms,0.3,4,12403,1 giai đoạn,ok,1385.0,0.300122
+4,2,A1 QRS_rms,0.3,4,12403,2 giai đoạn,ok,987.0,0.371479
+4,2,A1 QRS_rms,0.3,5,12403,1 giai đoạn,ok,1333.0,0.299859
+4,2,A1 QRS_rms,0.3,5,12403,2 giai đoạn,ok,1283.0,0.310095
+4,2,A2 RBBB-LR,0.15,0,12403,1 giai đoạn,ok,5853.0,0.117194
+4,2,A2 RBBB-LR,0.15,0,12403,2 giai đoạn,ok,4200.0,0.133007
+4,2,A2 RBBB-LR,0.15,1,12403,1 giai đoạn,ok,9360.0,0.069014
+4,2,A2 RBBB-LR,0.15,1,12403,2 giai đoạn,ok,4680.0,0.126603
+4,2,A2 RBBB-LR,0.15,2,12403,1 giai đoạn,ok,5664.0,0.097319
+4,2,A2 RBBB-LR,0.15,2,12403,2 giai đoạn,ok,4615.0,0.131253
+4,2,A2 RBBB-LR,0.15,3,12403,1 giai đoạn,ok,3803.0,0.15391
+4,2,A2 RBBB-LR,0.15,3,12403,2 giai đoạn,ok,5242.0,0.110157
+4,2,A2 RBBB-LR,0.15,4,12403,1 giai đoạn,ok,3449.0,0.159922
+4,2,A2 RBBB-LR,0.15,4,12403,2 giai đoạn,ok,5078.0,0.111886
+4,2,A2 RBBB-LR,0.15,5,12403,1 giai đoạn,ok,3796.0,0.135717
+4,2,A2 RBBB-LR,0.15,5,12403,2 giai đoạn,ok,5190.0,0.107924
+4,2,A2 RBBB-LR,0.3,0,12403,1 giai đoạn,ok,1732.0,0.226651
+4,2,A2 RBBB-LR,0.3,0,12403,2 giai đoạn,ok,1731.0,0.2078
+4,2,A2 RBBB-LR,0.3,1,12403,1 giai đoạn,ok,357.0,0.34181
+4,2,A2 RBBB-LR,0.3,1,12403,2 giai đoạn,ok,357.0,0.338377
+4,2,A2 RBBB-LR,0.3,2,12403,1 giai đoạn,ok,946.0,0.252456
+4,2,A2 RBBB-LR,0.3,2,12403,2 giai đoạn,ok,2061.0,0.198693
+4,2,A2 RBBB-LR,0.3,3,12403,1 giai đoạn,ok,1606.0,0.208673
+4,2,A2 RBBB-LR,0.3,3,12403,2 giai đoạn,ok,933.0,0.249602
+4,2,A2 RBBB-LR,0.3,4,12403,1 giai đoạn,ok,1790.0,0.196161
+4,2,A2 RBBB-LR,0.3,4,12403,2 giai đoạn,ok,1017.0,0.229734
+4,2,A2 RBBB-LR,0.3,5,12403,1 giai đoạn,ok,895.0,0.268211
+4,2,A2 RBBB-LR,0.3,5,12403,2 giai đoạn,ok,854.0,0.257088
+4,2,A3 CNNalt,0.15,0,12403,1 giai đoạn,ok,6169.0,0.137918
+4,2,A3 CNNalt,0.15,0,12403,2 giai đoạn,ok,6524.0,0.134058
+4,2,A3 CNNalt,0.15,1,12403,1 giai đoạn,ok,5177.0,0.1435
+4,2,A3 CNNalt,0.15,1,12403,2 giai đoạn,ok,7084.0,0.137536
+4,2,A3 CNNalt,0.15,2,12403,1 giai đoạn,ok,7778.0,0.129236
+4,2,A3 CNNalt,0.15,2,12403,2 giai đoạn,ok,6572.0,0.138447
+4,2,A3 CNNalt,0.15,3,12403,1 giai đoạn,ok,8476.0,0.128587
+4,2,A3 CNNalt,0.15,3,12403,2 giai đoạn,ok,5196.0,0.156148
+4,2,A3 CNNalt,0.15,4,12403,1 giai đoạn,ok,6736.0,0.133138
+4,2,A3 CNNalt,0.15,4,12403,2 giai đoạn,ok,7031.0,0.135712
+4,2,A3 CNNalt,0.15,5,12403,1 giai đoạn,ok,8355.0,0.130388
+4,2,A3 CNNalt,0.15,5,12403,2 giai đoạn,ok,6505.0,0.136178
+4,2,A3 CNNalt,0.3,0,12403,1 giai đoạn,ok,1451.0,0.248615
+4,2,A3 CNNalt,0.3,0,12403,2 giai đoạn,ok,1607.0,0.220932
+4,2,A3 CNNalt,0.3,1,12403,1 giai đoạn,ok,3673.0,0.16911
+4,2,A3 CNNalt,0.3,1,12403,2 giai đoạn,ok,2793.0,0.170868
+4,2,A3 CNNalt,0.3,2,12403,1 giai đoạn,ok,2156.0,0.213002
+4,2,A3 CNNalt,0.3,2,12403,2 giai đoạn,ok,2202.0,0.204584
+4,2,A3 CNNalt,0.3,3,12403,1 giai đoạn,ok,1223.0,0.242246
+4,2,A3 CNNalt,0.3,3,12403,2 giai đoạn,ok,1322.0,0.250945
+4,2,A3 CNNalt,0.3,4,12403,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+4,2,A3 CNNalt,0.3,4,12403,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+4,2,A3 CNNalt,0.3,5,12403,1 giai đoạn,ok,2504.0,0.191172
+4,2,A3 CNNalt,0.3,5,12403,2 giai đoạn,ok,2206.0,0.198115
+5,0,A1 QRS_rms,0.15,0,8278,1 giai đoạn,ok,4882.0,0.2752
+5,0,A1 QRS_rms,0.15,0,8278,2 giai đoạn,ok,4589.0,0.302023
+5,0,A1 QRS_rms,0.15,1,8278,1 giai đoạn,ok,4023.0,0.294358
+5,0,A1 QRS_rms,0.15,1,8278,2 giai đoạn,ok,5954.0,0.227732
+5,0,A1 QRS_rms,0.15,2,8278,1 giai đoạn,ok,4557.0,0.259054
+5,0,A1 QRS_rms,0.15,2,8278,2 giai đoạn,ok,4865.0,0.269259
+5,0,A1 QRS_rms,0.15,3,8278,1 giai đoạn,ok,5542.0,0.256666
+5,0,A1 QRS_rms,0.15,3,8278,2 giai đoạn,ok,5606.0,0.270845
+5,0,A1 QRS_rms,0.15,4,8278,1 giai đoạn,ok,4384.0,0.272175
+5,0,A1 QRS_rms,0.15,4,8278,2 giai đoạn,ok,5033.0,0.267117
+5,0,A1 QRS_rms,0.15,5,8278,1 giai đoạn,ok,3943.0,0.304993
+5,0,A1 QRS_rms,0.15,5,8278,2 giai đoạn,ok,4525.0,0.30123
+5,0,A1 QRS_rms,0.3,0,8278,1 giai đoạn,ok,6086.0,0.235966
+5,0,A1 QRS_rms,0.3,0,8278,2 giai đoạn,ok,3043.0,0.32975
+5,0,A1 QRS_rms,0.3,1,8278,1 giai đoạn,ok,885.0,0.612857
+5,0,A1 QRS_rms,0.3,1,8278,2 giai đoạn,ok,1468.0,0.452137
+5,0,A1 QRS_rms,0.3,2,8278,1 giai đoạn,ok,1500.0,0.524772
+5,0,A1 QRS_rms,0.3,2,8278,2 giai đoạn,ok,750.0,0.599956
+5,0,A1 QRS_rms,0.3,3,8278,1 giai đoạn,ok,910.0,0.573628
+5,0,A1 QRS_rms,0.3,3,8278,2 giai đoạn,ok,588.0,0.669216
+5,0,A1 QRS_rms,0.3,4,8278,1 giai đoạn,ok,2586.0,0.309347
+5,0,A1 QRS_rms,0.3,4,8278,2 giai đoạn,ok,1454.0,0.523059
+5,0,A1 QRS_rms,0.3,5,8278,1 giai đoạn,ok,989.0,0.562378
+5,0,A1 QRS_rms,0.3,5,8278,2 giai đoạn,ok,536.0,0.737075
+5,0,A2 RBBB-LR,0.15,0,8278,1 giai đoạn,ok,4890.0,0.082504
+5,0,A2 RBBB-LR,0.15,0,8278,2 giai đoạn,ok,4067.0,0.145903
+5,0,A2 RBBB-LR,0.15,1,8278,1 giai đoạn,ok,5510.0,0.058725
+5,0,A2 RBBB-LR,0.15,1,8278,2 giai đoạn,ok,4399.0,0.087621
+5,0,A2 RBBB-LR,0.15,2,8278,1 giai đoạn,ok,5190.0,0.075521
+5,0,A2 RBBB-LR,0.15,2,8278,2 giai đoạn,ok,4005.0,0.144383
+5,0,A2 RBBB-LR,0.15,3,8278,1 giai đoạn,không khả thi,6992.0,
+5,0,A2 RBBB-LR,0.15,3,8278,2 giai đoạn,ok,4201.0,0.086394
+5,0,A2 RBBB-LR,0.15,4,8278,1 giai đoạn,ok,4099.0,0.11907
+5,0,A2 RBBB-LR,0.15,4,8278,2 giai đoạn,ok,3629.0,0.131727
+5,0,A2 RBBB-LR,0.15,5,8278,1 giai đoạn,ok,4693.0,0.084082
+5,0,A2 RBBB-LR,0.15,5,8278,2 giai đoạn,ok,4037.0,0.109474
+5,0,A2 RBBB-LR,0.3,0,8278,1 giai đoạn,ok,806.0,0.289808
+5,0,A2 RBBB-LR,0.3,0,8278,2 giai đoạn,ok,779.0,0.320102
+5,0,A2 RBBB-LR,0.3,1,8278,1 giai đoạn,ok,2840.0,0.158247
+5,0,A2 RBBB-LR,0.3,1,8278,2 giai đoạn,ok,1837.0,0.254677
+5,0,A2 RBBB-LR,0.3,2,8278,1 giai đoạn,ok,1173.0,0.320164
+5,0,A2 RBBB-LR,0.3,2,8278,2 giai đoạn,ok,1007.0,0.308834
+5,0,A2 RBBB-LR,0.3,3,8278,1 giai đoạn,ok,1573.0,0.246751
+5,0,A2 RBBB-LR,0.3,3,8278,2 giai đoạn,ok,1837.0,0.229069
+5,0,A2 RBBB-LR,0.3,4,8278,1 giai đoạn,ok,1417.0,0.24697
+5,0,A2 RBBB-LR,0.3,4,8278,2 giai đoạn,ok,1110.0,0.312183
+5,0,A2 RBBB-LR,0.3,5,8278,1 giai đoạn,ok,928.0,0.326758
+5,0,A2 RBBB-LR,0.3,5,8278,2 giai đoạn,ok,890.0,0.287027
+5,0,A3 CNNalt,0.15,0,8278,1 giai đoạn,ok,6251.0,0.136225
+5,0,A3 CNNalt,0.15,0,8278,2 giai đoạn,không khả thi,6730.0,
+5,0,A3 CNNalt,0.15,1,8278,1 giai đoạn,không khả thi,6939.0,
+5,0,A3 CNNalt,0.15,1,8278,2 giai đoạn,không khả thi,6821.0,
+5,0,A3 CNNalt,0.15,2,8278,1 giai đoạn,không khả thi,7316.0,
+5,0,A3 CNNalt,0.15,2,8278,2 giai đoạn,ok,6301.0,0.190563
+5,0,A3 CNNalt,0.15,3,8278,1 giai đoạn,không khả thi,8278.0,
+5,0,A3 CNNalt,0.15,3,8278,2 giai đoạn,không khả thi,7042.0,
+5,0,A3 CNNalt,0.15,4,8278,1 giai đoạn,không khả thi,7270.0,
+5,0,A3 CNNalt,0.15,4,8278,2 giai đoạn,không khả thi,7479.0,
+5,0,A3 CNNalt,0.15,5,8278,1 giai đoạn,không khả thi,7511.0,
+5,0,A3 CNNalt,0.15,5,8278,2 giai đoạn,ok,6460.0,0.154708
+5,0,A3 CNNalt,0.3,0,8278,1 giai đoạn,không khả thi,7690.0,
+5,0,A3 CNNalt,0.3,0,8278,2 giai đoạn,ok,4139.0,0.252595
+5,0,A3 CNNalt,0.3,1,8278,1 giai đoạn,ok,3461.0,0.306498
+5,0,A3 CNNalt,0.3,1,8278,2 giai đoạn,ok,6010.0,0.123966
+5,0,A3 CNNalt,0.3,2,8278,1 giai đoạn,ok,3560.0,0.316739
+5,0,A3 CNNalt,0.3,2,8278,2 giai đoạn,ok,1780.0,0.475737
+5,0,A3 CNNalt,0.3,3,8278,1 giai đoạn,ok,2228.0,0.376069
+5,0,A3 CNNalt,0.3,3,8278,2 giai đoạn,ok,1575.0,0.470408
+5,0,A3 CNNalt,0.3,4,8278,1 giai đoạn,ok,4615.0,0.221523
+5,0,A3 CNNalt,0.3,4,8278,2 giai đoạn,ok,2906.0,0.362024
+5,0,A3 CNNalt,0.3,5,8278,1 giai đoạn,ok,3296.0,0.335806
+5,0,A3 CNNalt,0.3,5,8278,2 giai đoạn,ok,5661.0,0.196797
+5,1,A1 QRS_rms,0.15,0,8278,1 giai đoạn,ok,5217.0,0.085758
+5,1,A1 QRS_rms,0.15,0,8278,2 giai đoạn,ok,2619.0,0.159155
+5,1,A1 QRS_rms,0.15,1,8278,1 giai đoạn,ok,3800.0,0.128695
+5,1,A1 QRS_rms,0.15,1,8278,2 giai đoạn,ok,4956.0,0.084311
+5,1,A1 QRS_rms,0.15,2,8278,1 giai đoạn,ok,2143.0,0.19476
+5,1,A1 QRS_rms,0.15,2,8278,2 giai đoạn,ok,2755.0,0.120829
+5,1,A1 QRS_rms,0.15,3,8278,1 giai đoạn,ok,3274.0,0.150134
+5,1,A1 QRS_rms,0.15,3,8278,2 giai đoạn,ok,2421.0,0.152402
+5,1,A1 QRS_rms,0.15,4,8278,1 giai đoạn,ok,3654.0,0.135335
+5,1,A1 QRS_rms,0.15,4,8278,2 giai đoạn,ok,3057.0,0.168398
+5,1,A1 QRS_rms,0.15,5,8278,1 giai đoạn,ok,4165.0,0.098658
+5,1,A1 QRS_rms,0.15,5,8278,2 giai đoạn,ok,2923.0,0.162166
+5,1,A1 QRS_rms,0.3,0,8278,1 giai đoạn,ok,888.0,0.298485
+5,1,A1 QRS_rms,0.3,0,8278,2 giai đoạn,ok,1115.0,0.275191
+5,1,A1 QRS_rms,0.3,1,8278,1 giai đoạn,ok,1114.0,0.228192
+5,1,A1 QRS_rms,0.3,1,8278,2 giai đoạn,ok,1531.0,0.200331
+5,1,A1 QRS_rms,0.3,2,8278,1 giai đoạn,ok,692.0,0.340988
+5,1,A1 QRS_rms,0.3,2,8278,2 giai đoạn,ok,699.0,0.262877
+5,1,A1 QRS_rms,0.3,3,8278,1 giai đoạn,ok,340.0,0.39504
+5,1,A1 QRS_rms,0.3,3,8278,2 giai đoạn,ok,340.0,0.403366
+5,1,A1 QRS_rms,0.3,4,8278,1 giai đoạn,ok,865.0,0.238871
+5,1,A1 QRS_rms,0.3,4,8278,2 giai đoạn,ok,631.0,0.326762
+5,1,A1 QRS_rms,0.3,5,8278,1 giai đoạn,ok,414.0,0.378418
+5,1,A1 QRS_rms,0.3,5,8278,2 giai đoạn,ok,414.0,0.36575
+5,1,A2 RBBB-LR,0.15,0,8278,1 giai đoạn,ok,3500.0,0.106799
+5,1,A2 RBBB-LR,0.15,0,8278,2 giai đoạn,ok,3021.0,0.129624
+5,1,A2 RBBB-LR,0.15,1,8278,1 giai đoạn,ok,4553.0,0.077644
+5,1,A2 RBBB-LR,0.15,1,8278,2 giai đoạn,ok,3667.0,0.11449
+5,1,A2 RBBB-LR,0.15,2,8278,1 giai đoạn,ok,3776.0,0.09159
+5,1,A2 RBBB-LR,0.15,2,8278,2 giai đoạn,ok,4517.0,0.093497
+5,1,A2 RBBB-LR,0.15,3,8278,1 giai đoạn,ok,4226.0,0.088264
+5,1,A2 RBBB-LR,0.15,3,8278,2 giai đoạn,ok,4913.0,0.074476
+5,1,A2 RBBB-LR,0.15,4,8278,1 giai đoạn,ok,4895.0,0.072911
+5,1,A2 RBBB-LR,0.15,4,8278,2 giai đoạn,ok,4926.0,0.060463
+5,1,A2 RBBB-LR,0.15,5,8278,1 giai đoạn,ok,4971.0,0.068576
+5,1,A2 RBBB-LR,0.15,5,8278,2 giai đoạn,ok,2902.0,0.121254
+5,1,A2 RBBB-LR,0.3,0,8278,1 giai đoạn,ok,817.0,0.24834
+5,1,A2 RBBB-LR,0.3,0,8278,2 giai đoạn,ok,993.0,0.193482
+5,1,A2 RBBB-LR,0.3,1,8278,1 giai đoạn,ok,1169.0,0.184938
+5,1,A2 RBBB-LR,0.3,1,8278,2 giai đoạn,ok,1656.0,0.173966
+5,1,A2 RBBB-LR,0.3,2,8278,1 giai đoạn,ok,954.0,0.216968
+5,1,A2 RBBB-LR,0.3,2,8278,2 giai đoạn,ok,652.0,0.264559
+5,1,A2 RBBB-LR,0.3,3,8278,1 giai đoạn,ok,4361.0,0.113025
+5,1,A2 RBBB-LR,0.3,3,8278,2 giai đoạn,ok,2181.0,0.127431
+5,1,A2 RBBB-LR,0.3,4,8278,1 giai đoạn,ok,2540.0,0.129141
+5,1,A2 RBBB-LR,0.3,4,8278,2 giai đoạn,ok,1270.0,0.187876
+5,1,A2 RBBB-LR,0.3,5,8278,1 giai đoạn,ok,3520.0,0.107711
+5,1,A2 RBBB-LR,0.3,5,8278,2 giai đoạn,ok,1760.0,0.17957
+5,1,A3 CNNalt,0.15,0,8278,1 giai đoạn,không khả thi,7134.0,
+5,1,A3 CNNalt,0.15,0,8278,2 giai đoạn,ok,6465.0,0.055413
+5,1,A3 CNNalt,0.15,1,8278,1 giai đoạn,không khả thi,7722.0,
+5,1,A3 CNNalt,0.15,1,8278,2 giai đoạn,không khả thi,7267.0,
+5,1,A3 CNNalt,0.15,2,8278,1 giai đoạn,ok,6012.0,0.087036
+5,1,A3 CNNalt,0.15,2,8278,2 giai đoạn,không khả thi,7440.0,
+5,1,A3 CNNalt,0.15,3,8278,1 giai đoạn,không khả thi,7865.0,
+5,1,A3 CNNalt,0.15,3,8278,2 giai đoạn,không khả thi,7216.0,
+5,1,A3 CNNalt,0.15,4,8278,1 giai đoạn,không khả thi,7410.0,
+5,1,A3 CNNalt,0.15,4,8278,2 giai đoạn,không khả thi,6719.0,
+5,1,A3 CNNalt,0.15,5,8278,1 giai đoạn,ok,5961.0,0.074334
+5,1,A3 CNNalt,0.15,5,8278,2 giai đoạn,ok,6173.0,0.07953
+5,1,A3 CNNalt,0.3,0,8278,1 giai đoạn,ok,3118.0,0.224578
+5,1,A3 CNNalt,0.3,0,8278,2 giai đoạn,ok,4155.0,0.146124
+5,1,A3 CNNalt,0.3,1,8278,1 giai đoạn,ok,4214.0,0.135804
+5,1,A3 CNNalt,0.3,1,8278,2 giai đoạn,ok,2107.0,0.275382
+5,1,A3 CNNalt,0.3,2,8278,1 giai đoạn,không khả thi,8272.0,
+5,1,A3 CNNalt,0.3,2,8278,2 giai đoạn,ok,4136.0,0.109058
+5,1,A3 CNNalt,0.3,3,8278,1 giai đoạn,ok,2226.0,0.290468
+5,1,A3 CNNalt,0.3,3,8278,2 giai đoạn,ok,3948.0,0.19069
+5,1,A3 CNNalt,0.3,4,8278,1 giai đoạn,ok,4140.0,0.155428
+5,1,A3 CNNalt,0.3,4,8278,2 giai đoạn,ok,2695.0,0.267194
+5,1,A3 CNNalt,0.3,5,8278,1 giai đoạn,ok,5503.0,0.094184
+5,1,A3 CNNalt,0.3,5,8278,2 giai đoạn,ok,2752.0,0.24598
+5,2,A1 QRS_rms,0.15,0,8278,1 giai đoạn,ok,4387.0,0.223647
+5,2,A1 QRS_rms,0.15,0,8278,2 giai đoạn,ok,6071.0,0.117382
+5,2,A1 QRS_rms,0.15,1,8278,1 giai đoạn,ok,6001.0,0.148366
+5,2,A1 QRS_rms,0.15,1,8278,2 giai đoạn,ok,4181.0,0.237496
+5,2,A1 QRS_rms,0.15,2,8278,1 giai đoạn,ok,3133.0,0.303423
+5,2,A1 QRS_rms,0.15,2,8278,2 giai đoạn,ok,4768.0,0.191146
+5,2,A1 QRS_rms,0.15,3,8278,1 giai đoạn,ok,3855.0,0.253528
+5,2,A1 QRS_rms,0.15,3,8278,2 giai đoạn,ok,3970.0,0.257072
+5,2,A1 QRS_rms,0.15,4,8278,1 giai đoạn,ok,5994.0,0.124111
+5,2,A1 QRS_rms,0.15,4,8278,2 giai đoạn,ok,5331.0,0.195101
+5,2,A1 QRS_rms,0.15,5,8278,1 giai đoạn,ok,2529.0,0.329178
+5,2,A1 QRS_rms,0.15,5,8278,2 giai đoạn,ok,4607.0,0.232958
+5,2,A1 QRS_rms,0.3,0,8278,1 giai đoạn,ok,1351.0,0.412756
+5,2,A1 QRS_rms,0.3,0,8278,2 giai đoạn,ok,1408.0,0.442556
+5,2,A1 QRS_rms,0.3,1,8278,1 giai đoạn,ok,2526.0,0.349398
+5,2,A1 QRS_rms,0.3,1,8278,2 giai đoạn,ok,1263.0,0.448936
+5,2,A1 QRS_rms,0.3,2,8278,1 giai đoạn,ok,2001.0,0.35579
+5,2,A1 QRS_rms,0.3,2,8278,2 giai đoạn,ok,1041.0,0.43941
+5,2,A1 QRS_rms,0.3,3,8278,1 giai đoạn,ok,752.0,0.574858
+5,2,A1 QRS_rms,0.3,3,8278,2 giai đoạn,ok,1134.0,0.478713
+5,2,A1 QRS_rms,0.3,4,8278,1 giai đoạn,ok,797.0,0.445511
+5,2,A1 QRS_rms,0.3,4,8278,2 giai đoạn,ok,1293.0,0.397239
+5,2,A1 QRS_rms,0.3,5,8278,1 giai đoạn,ok,948.0,0.441498
+5,2,A1 QRS_rms,0.3,5,8278,2 giai đoạn,ok,1294.0,0.428443
+5,2,A2 RBBB-LR,0.15,0,8278,1 giai đoạn,ok,3812.0,0.215163
+5,2,A2 RBBB-LR,0.15,0,8278,2 giai đoạn,ok,3172.0,0.225894
+5,2,A2 RBBB-LR,0.15,1,8278,1 giai đoạn,ok,3860.0,0.222296
+5,2,A2 RBBB-LR,0.15,1,8278,2 giai đoạn,ok,2361.0,0.257785
+5,2,A2 RBBB-LR,0.15,2,8278,1 giai đoạn,ok,5463.0,0.20044
+5,2,A2 RBBB-LR,0.15,2,8278,2 giai đoạn,ok,3408.0,0.21892
+5,2,A2 RBBB-LR,0.15,3,8278,1 giai đoạn,ok,5109.0,0.204186
+5,2,A2 RBBB-LR,0.15,3,8278,2 giai đoạn,ok,3279.0,0.228546
+5,2,A2 RBBB-LR,0.15,4,8278,1 giai đoạn,ok,5692.0,0.181599
+5,2,A2 RBBB-LR,0.15,4,8278,2 giai đoạn,ok,4046.0,0.218312
+5,2,A2 RBBB-LR,0.15,5,8278,1 giai đoạn,ok,4580.0,0.204714
+5,2,A2 RBBB-LR,0.15,5,8278,2 giai đoạn,ok,3788.0,0.228439
+5,2,A2 RBBB-LR,0.3,0,8278,1 giai đoạn,ok,310.0,0.406661
+5,2,A2 RBBB-LR,0.3,0,8278,2 giai đoạn,ok,310.0,0.390451
+5,2,A2 RBBB-LR,0.3,1,8278,1 giai đoạn,ok,1257.0,0.272406
+5,2,A2 RBBB-LR,0.3,1,8278,2 giai đoạn,ok,791.0,0.301251
+5,2,A2 RBBB-LR,0.3,2,8278,1 giai đoạn,ok,879.0,0.281497
+5,2,A2 RBBB-LR,0.3,2,8278,2 giai đoạn,ok,600.0,0.303207
+5,2,A2 RBBB-LR,0.3,3,8278,1 giai đoạn,ok,616.0,0.327551
+5,2,A2 RBBB-LR,0.3,3,8278,2 giai đoạn,ok,629.0,0.306387
+5,2,A2 RBBB-LR,0.3,4,8278,1 giai đoạn,ok,593.0,0.350205
+5,2,A2 RBBB-LR,0.3,4,8278,2 giai đoạn,ok,593.0,0.326229
+5,2,A2 RBBB-LR,0.3,5,8278,1 giai đoạn,ok,963.0,0.290614
+5,2,A2 RBBB-LR,0.3,5,8278,2 giai đoạn,ok,620.0,0.289342
+5,2,A3 CNNalt,0.15,0,8278,1 giai đoạn,ok,5708.0,0.22288
+5,2,A3 CNNalt,0.15,0,8278,2 giai đoạn,ok,5954.0,0.212714
+5,2,A3 CNNalt,0.15,1,8278,1 giai đoạn,không khả thi,6963.0,
+5,2,A3 CNNalt,0.15,1,8278,2 giai đoạn,không khả thi,6748.0,
+5,2,A3 CNNalt,0.15,2,8278,1 giai đoạn,ok,4775.0,0.197351
+5,2,A3 CNNalt,0.15,2,8278,2 giai đoạn,ok,5650.0,0.213413
+5,2,A3 CNNalt,0.15,3,8278,1 giai đoạn,ok,5981.0,0.209314
+5,2,A3 CNNalt,0.15,3,8278,2 giai đoạn,không khả thi,7094.0,
+5,2,A3 CNNalt,0.15,4,8278,1 giai đoạn,không khả thi,7334.0,
+5,2,A3 CNNalt,0.15,4,8278,2 giai đoạn,ok,6309.0,0.165112
+5,2,A3 CNNalt,0.15,5,8278,1 giai đoạn,không khả thi,6801.0,
+5,2,A3 CNNalt,0.15,5,8278,2 giai đoạn,ok,6077.0,0.210853
+5,2,A3 CNNalt,0.3,0,8278,1 giai đoạn,ok,2638.0,0.250709
+5,2,A3 CNNalt,0.3,0,8278,2 giai đoạn,ok,3012.0,0.234202
+5,2,A3 CNNalt,0.3,1,8278,1 giai đoạn,ok,3749.0,0.221516
+5,2,A3 CNNalt,0.3,1,8278,2 giai đoạn,ok,2227.0,0.293275
+5,2,A3 CNNalt,0.3,2,8278,1 giai đoạn,ok,2855.0,0.25592
+5,2,A3 CNNalt,0.3,2,8278,2 giai đoạn,ok,2255.0,0.265176
+5,2,A3 CNNalt,0.3,3,8278,1 giai đoạn,ok,1679.0,0.285511
+5,2,A3 CNNalt,0.3,3,8278,2 giai đoạn,ok,3939.0,0.219754
+5,2,A3 CNNalt,0.3,4,8278,1 giai đoạn,ok,2813.0,0.254479
+5,2,A3 CNNalt,0.3,4,8278,2 giai đoạn,ok,2239.0,0.271781
+5,2,A3 CNNalt,0.3,5,8278,1 giai đoạn,ok,1739.0,0.319765
+5,2,A3 CNNalt,0.3,5,8278,2 giai đoạn,ok,1740.0,0.303073
