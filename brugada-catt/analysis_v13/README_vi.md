@@ -68,6 +68,13 @@ Kết quả Brugada của bản 1 (`brugada_unified.py`: tỉ số 1.07, Spearma
 - **Lõi của Mệnh đề 5 đúng trên dữ liệu thật**, cho cả mỏ neo phụ thuộc lẫn mỏ neo khái niệm. Công thức dự đoán dư khoảng 9%, cùng chiều với mô phỏng ở n nhỏ.
 - **Hệ quả 5c dùng được:** chỉ với f và nhãn giả của một mẫu không nhãn, độ bất định của ngưỡng được ước lượng sai số trung vị 8%.
 - **ST_V2:** dự đoán dư nhiều nhất (1.17). Nguyên nhân chưa xác định; giải thích "biến rời rạc" của bản trước là sai và đã rút lại.
+  - **Giả thuyết "J̃ có hai đỉnh" (vi phạm C1) bị bác.** `anchor_diagnostic.py`, 35% cohort, 27 cấu hình:
+    - J̃ của ST_V2 chỉ có một đỉnh ở cả 27/27 cấu hình.
+    - Hệ số hai đỉnh của phân phối t̂ là 0.44, như các mỏ neo khác và dưới ngưỡng 0.555.
+    - Spearman giữa tỉ số dự đoán/quan sát và độ cao đỉnh phụ bằng 0.00.
+  - **Phân phối t̂ của ST_V2 có đuôi dày hơn** (SD/IQR chuẩn hóa = 1.17, các mỏ neo khác 0.89–1.06). Nhưng đuôi dày làm SD quan sát **tăng**, nên không giải thích được việc dự đoán **dư**.
+  - **Làm phẳng độ cong do KDE cũng chỉ giải thích một phần nhỏ:** dùng độ cong đa thức cục bộ thì tỉ số vẫn là 1.13.
+  - Đây vẫn là một giới hạn mở, cần ghi trong bài.
 
 ## 4. Tổn thất trên Brugada (cùng tâm, đường BA làm trơn)
 
