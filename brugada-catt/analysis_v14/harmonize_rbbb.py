@@ -70,6 +70,13 @@ _Z = None
 
 
 def cn_one(name):
+    try:
+        return _cn_one(name)
+    except (IndexError, ValueError, AssertionError):    # header sai định dạng (2 bản ghi trong bản 1.0.0)
+        return os.path.basename(name), -2, None
+
+
+def _cn_one(name):
     global _Z
     if _Z is None:                       # mỗi tiến trình con mở zip một lần
         _Z = zipfile.ZipFile(ZIP)
@@ -105,9 +112,13 @@ if __name__ == "__main__":
     log["ptb_excluded_other_device"] = int((d.dom == "other").sum())
     log["ptb_excluded_irbbb_only"] = int(((d.dom != "other") & d.irbbb_only).sum())
     d = d[(d.dom != "other") & ~d.irbbb_only]
+    if os.path.exists(os.path.join(OUT, "ptb_at.npz")) and os.path.exists(os.path.join(OUT, "harmonize_log_ptb.json")):
+        log.update(json.load(open(os.path.join(OUT, "harmonize_log_ptb.json")))); d = d.iloc[:0]
     with Pool(4) as p:
         beats = dict(p.map(ptb_one, list(zip(d.ecg_id, d.filename_lr)), chunksize=64))
     for dom in ("ptb_cs", "ptb_at"):
+        if d.empty:
+            break
         s = d[d.dom == dom]
         ok = [i for i in s.ecg_id if beats[i] is not None]
         yy = s.set_index("ecg_id").loc[ok, "y"].to_numpy()
@@ -115,15 +126,19 @@ if __name__ == "__main__":
                             ids=np.array(ok))
         log[dom] = dict(n=len(ok), n_pos=int(yy.sum()), excluded_few_beats=int(len(s) - len(ok)))
         print(dom, log[dom], flush=True)
+    if not d.empty:
+        json.dump(log, open(os.path.join(OUT, "harmonize_log_ptb.json"), "w"), indent=1)
     # ---------------------------------------------------------------- ecg-arrhythmia
     with zipfile.ZipFile(ZIP) as z:
         names = sorted(n[:-4] for n in z.namelist() if n.endswith(".hea") and "WFDBRecords" in n)
     with Pool(4) as p:
         res = p.map(cn_one, names, chunksize=128)
     log["cn_excluded_irbbb_only"] = sum(r[1] == -1 for r in res)
+    log["cn_excluded_malformed_header"] = sum(r[1] == -2 for r in res)
     ok = [r for r in res if r[2] is not None]
     yy = np.array([r[1] for r in ok], np.int8)
     np.savez_compressed(os.path.join(OUT, "cn.npz"), X=np.stack([r[2] for r in ok]), y=yy, ids=np.array([r[0] for r in ok]))
-    log["cn"] = dict(n_headers=len(names), n=len(ok), n_pos=int(yy.sum()), excluded_few_beats=len(names) - len(ok) - log["cn_excluded_irbbb_only"])
+    log["cn"] = dict(n_headers=len(names), n=len(ok), n_pos=int(yy.sum()), excluded_few_beats=len(names) - len(ok) - log["cn_excluded_irbbb_only"]
+                    - log["cn_excluded_malformed_header"])
     print("cn", log["cn"], flush=True)
     json.dump(log, open(os.path.join(OUT, "harmonize_log.json"), "w"), indent=1)
