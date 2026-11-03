@@ -1,0 +1,25 @@
+{
+ "ptb_total": 21799,
+ "ptb_excluded_other_device": 0,
+ "ptb_excluded_lvh_likelihood_lt50": 381,
+ "ptb_excluded_vclvh_only": 222,
+ "ptb_cs": {
+  "n": 12843,
+  "n_pos": 941,
+  "excluded_few_beats": 0
+ },
+ "ptb_at": {
+  "n": 8352,
+  "n_pos": 810,
+  "excluded_few_beats": 1
+ },
+ "cn_headers": 45152,
+ "cn_excluded_lvhv_only": 5399,
+ "cn_excluded_malformed_header": 2,
+ "cn_excluded_sex_unknown": 22,
+ "cn": {
+  "n": 38242,
+  "n_pos": 637,
+  "excluded_few_beats": 1487
+ }
+}
