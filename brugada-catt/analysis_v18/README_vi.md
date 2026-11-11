@@ -36,7 +36,7 @@ python analysis_v18/est_brugada_single.py <analysis_v8/scores> analysis_v18  # ~
 - Công thức của bài dự đoán độ dao động **thấp hơn** thực tế: 4% ở n/N = 0,35, 7% ở 0,5, 16% ở 0,8.
 - Kết quả giống nhau ở N = 400, 1200, 4000 và ở cả bốn cấu hình mỏ neo, nên không phải hiệu ứng mẫu nhỏ.
 - Hệ quả cho bài: ở Brugada và UCI (n/N tới 0,5) tỉ số dự đoán/quan sát thật ra cao hơn con số đã báo cáo vài phần trăm.
-  Ở RBBB và LVH (n/N ≤ 0,25, phần lớn dưới 0,1) ảnh hưởng dưới 2%.
+  Ở RBBB và LVH (n/N nhỏ, cao nhất khoảng 0,25) ảnh hưởng khoảng 2% trở xuống.
 - Số mũ 0,24 là kết quả thực nghiệm trong một mô hình mô phỏng; chưa có chứng minh.
 
 ## 18b: F1 trong mô phỏng biết SD thật (3200 mẫu)
@@ -62,9 +62,9 @@ python analysis_v18/est_brugada_single.py <analysis_v8/scores> analysis_v18  # ~
 | E0 plug-in KDE | 1,08 (0,90–1,38) | 0,201 | 1,08 | 0,128 |
 | **E1 F1** | 0,99 (0,78–1,24) | 0,231 | 1,01 | 0,109 |
 | E2 | 0,91 (0,77–1,15) | 0,229 | 0,88 | 0,207 |
-| E3 | 0,95 (0,79–1,20) | 0,214 | — | — |
+| E3 | 0,95 (0,79–1,20) | 0,214 | 0,93 | 0,158 |
 | E4, ε = n^(−1/3) | 0,97 (0,82–1,25) | 0,207 | 0,94 | 0,168 |
-| E5 | 0,97 (0,77–1,22) | 0,228 | — | — |
+| E5 | 0,97 (0,77–1,22) | 0,228 | 0,97 | 0,107 |
 
 - Cột "trung vị 20 mẫu" tái lập bước 15c (F1: 0,98 và 0,114 ở đó; 1,01 và 0,109 ở đây, khác bộ điểm số).
 - **Sai số của một mẫu đơn lớn gấp đôi con số trong bài** (0,23 so với 0,11). Bài viết "từ một mẫu con" nhưng code bước 13–15
