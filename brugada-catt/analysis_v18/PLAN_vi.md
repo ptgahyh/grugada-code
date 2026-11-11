@@ -90,3 +90,20 @@ Không huấn luyện lại mô hình, không đụng tới RBBB/LVH, không đ�
 
 `fpc_sim.py`, `fpc_sim.csv`, `est_sim.py`, `est_sim.csv`, `est_brugada.py`, `est_brugada.csv` (chỉ số tổng hợp theo
 thiết lập, không có dữ liệu từng bệnh nhân), `summary_v18.json`, `README_vi.md`.
+
+## Bổ sung 18c (viết 11/11/2026, SAU khi đã xem kết quả 18a và 18b, TRƯỚC khi chạy 18c)
+
+Lý do: 18b cho thấy F1 có sai số từng mẫu lớn (không giảm theo n), giống bootstrap thường. Khi đọc lại code bước 15
+(`analyze_lvh.py`, `brugada_subsample_check.py`) thì thấy "dự đoán F1" ở đó là **trung vị của 20 mẫu con**, không phải một
+mẫu. Một bệnh viện thật chỉ có một mẫu. 18c đo độ chính xác **từng mẫu đơn** trên dữ liệu thật.
+
+**Thiết kế.** Điểm số bước 8, mỏ neo CBM-sd15, 9 thiết lập × 3 seed × n ∈ {20%, 35%, 50%} của cohort đích N.
+SD quan sát = SD của t̂ qua 300 mẫu con cỡ n không hoàn lại (đúng cách của bài). Với 20 mẫu con cỡ n, tính E0–E5 trên
+từng mẫu rồi nhân (1 − n/N)^(1/3) (hệ số của bài; lặp lại với số mũ thực nghiệm của 18a làm độ nhạy). Hạt giống 1804.
+
+**Thước đo.** (i) từng mẫu đơn: trung vị và khoảng tứ phân vị của tỉ số dự đoán/quan sát, trung vị |log tỉ số|;
+(ii) trung vị của 20 mẫu (để so với bước 15c).
+
+**Tiêu chí.** C1: như B2 nhưng trên dữ liệu thật, từng mẫu đơn: trung vị |log tỉ số| của F1 ≤ (nhỏ nhất trong E2, E3, E4) + 0,03.
+Dự đoán trước khi chạy (từ 18b): C1 không đạt. Vì kế hoạch này viết sau khi thấy 18b, kết quả 18c là xác nhận trên dữ liệu
+thật của một quan sát mô phỏng, không phải kiểm định độc lập hoàn toàn.
