@@ -1,0 +1,6 @@
+cluster,n_huca,share_neg_huca,share_pos_huca,brugada_rate_huca,n_claris,share_neg_claris,share_pos_claris,brugada_rate_claris,n_mortara,share_neg_mortara,share_pos_mortara,brugada_rate_mortara,huca_basal_rate
+0,170,0.512,0.342,0.147,18,0.025,0.007,0.222,27,0.082,0.058,0.296,0.082
+1,59,0.17,0.151,0.186,517,0.566,0.337,0.389,150,0.498,0.248,0.227,0.119
+2,81,0.198,0.342,0.309,86,0.084,0.065,0.453,79,0.197,0.241,0.418,0.185
+3,41,0.11,0.137,0.244,58,0.039,0.06,0.621,50,0.112,0.175,0.48,0.171
+4,5,0.011,0.027,0.4,475,0.285,0.53,0.665,64,0.112,0.277,0.594,0.2

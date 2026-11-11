@@ -1,0 +1,13 @@
+{
+ "nadir_V1_ms_median": {
+  "huca": 0.0,
+  "claris": 20.0,
+  "mortara": 20.0
+ },
+ "tv_neg": {
+  "huca_claris": 0.384,
+  "huca_mortara": 0.345,
+  "claris_mortara": 0.047
+ },
+ "within_share_broken_neg": 0.974
+}
