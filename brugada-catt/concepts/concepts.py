@@ -22,7 +22,7 @@
      slope    = a1 / QRSpp,  curv = a2 / QRSpp  từ khớp bậc hai bình phương tối thiểu trên [J, J+120ms]
      r_prime  = softmax(x − nền) trên 60 ms cuối QRS / QRSpp
      tri_w    = độ rộng (ms) của phức bộ r'–ST tại độ cao tương đối h·đỉnh  (h học được)
-     T        = trung bình (x − nền) ở [J+140, J+280] ms / QRSpp
+     T        = trung bình (x − nền) ở [Jl+120, Jl+240] ms / QRSpp  (Jl = điểm cất cánh của chuyển đạo; khớp với k_T trong code)
    Toàn cục: QRS_w = độ rộng (ms) của năng lượng QRS chuẩn hóa trên ngưỡng 0.3
 3. Đầu phân loại tuyến tính trên khái niệm đã chuẩn hóa → hệ số đọc được như y văn lâm sàng.
 """

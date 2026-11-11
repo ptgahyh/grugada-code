@@ -70,7 +70,7 @@ for pid, lab in zip(meta.patient_id, meta.brugada):
     if pid in HUCA_DUP_DROP or pid in HUCA_FLAT_DROP:
         continue
     raw = np.fromfile(os.path.join(HUCA_DIR, "files", str(pid), f"{pid}.dat"), dtype="<i2")
-    sig = raw.reshape(-1, 12)[:, HUCA_IDX].astype(float).T / 1000.0     # (9, 1200) mV
+    sig = raw.reshape(-1, 12)[:, HUCA_IDX].astype(float).T / 1000.0     # (9, 1200) mV; mọi bản ghi HUCA có gain = 1000 đơn vị/mV trong .hea (xem_ecg.py đọc gain từ .hea, cho cùng kết quả)
     sig = filtfilt(b, a, sig, axis=1)
     env = np.abs(np.diff(sig, axis=1)).sum(0)
     peaks, _ = find_peaks(env, distance=int(0.33 * FS), height=0.35 * np.percentile(env, 99))
