@@ -82,7 +82,7 @@ if os.path.exists(fn):
         for x, y in (("huca", "claris"), ("huca", "mortara"), ("claris", "mortara")):
             r2[f"{b}:{x}~{y}"] = round(float(pearsonr(P[x], P[y])[0]), 3)
     mx = C.assign(a=C.mean_dlogit.abs()).groupby("pert").a.max().round(2).to_dict()
-    ext = C.loc[C.groupby(["pert", "model"]).level.transform(lambda s: s == s.abs().max() if s.min() < 0 else s == s.max())]
+    top = C[C.level == C.groupby("pert")["level"].transform("max")]
     S["21c"] = dict(R1_spearman=r1, R1_met=bool(min(r1.values()) >= 0.9), R2_model_agreement=r2, R3_max_abs_mean_dlogit=mx,
-                    response_at_max_level=ext.groupby(["pert", "model"]).mean_dlogit.mean().round(2).unstack().to_dict())
+                    response_at_max_level=top.groupby(["pert", "model"]).mean_dlogit.mean().round(2).unstack().to_dict())
 json.dump(S, open(os.path.join(OUT, "summary_v21.json"), "w"), indent=1); print(json.dumps(S, indent=1))
