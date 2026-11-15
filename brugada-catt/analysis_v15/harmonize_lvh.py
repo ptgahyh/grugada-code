@@ -74,7 +74,7 @@ _Z = None
 def cn_one(name):
     try:
         return _cn_one(name)
-    except (IndexError, ValueError, AssertionError):
+    except (IndexError, ValueError, AssertionError, KeyError, OSError, EOFError, zipfile.BadZipFile, __import__('zlib').error):
         return os.path.basename(name), -2, None, None
 
 
@@ -134,7 +134,11 @@ if __name__ == "__main__":
         log[dom] = dict(n=len(ok), n_pos=int(s.loc[ok, "y"].sum()), excluded_few_beats=int(len(s) - len(ok)))
         print(dom, log[dom], flush=True)
     with zipfile.ZipFile(ZIP) as z:
-        names = sorted(n[:-4] for n in z.namelist() if n.endswith(".hea") and "WFDBRecords" in n)
+        allnames = set(z.namelist())
+        heads = sorted(n[:-4] for n in allnames if n.endswith(".hea") and "WFDBRecords" in n)
+        names = [n for n in heads if n + ".mat" in allnames]      # bản sao zip có thể thiếu .mat của vài bản ghi: bỏ và đếm
+        log["cn_headers_without_mat"] = len(heads) - len(names)
+        print("cn: số header", len(heads), "thiếu .mat", len(heads) - len(names), flush=True)
     with Pool(4) as p:
         res = p.map(cn_one, names, chunksize=128)
     log["cn_headers"] = len(names)

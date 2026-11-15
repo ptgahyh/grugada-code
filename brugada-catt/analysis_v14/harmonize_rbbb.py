@@ -72,7 +72,7 @@ _Z = None
 def cn_one(name):
     try:
         return _cn_one(name)
-    except (IndexError, ValueError, AssertionError):    # header sai định dạng (2 bản ghi trong bản 1.0.0)
+    except (IndexError, ValueError, AssertionError, KeyError, OSError, EOFError, zipfile.BadZipFile, __import__('zlib').error):    # header sai định dạng (2 bản ghi trong bản 1.0.0)
         return os.path.basename(name), -2, None
 
 
@@ -130,7 +130,11 @@ if __name__ == "__main__":
         json.dump(log, open(os.path.join(OUT, "harmonize_log_ptb.json"), "w"), indent=1)
     # ---------------------------------------------------------------- ecg-arrhythmia
     with zipfile.ZipFile(ZIP) as z:
-        names = sorted(n[:-4] for n in z.namelist() if n.endswith(".hea") and "WFDBRecords" in n)
+        allnames = set(z.namelist())
+        heads = sorted(n[:-4] for n in allnames if n.endswith(".hea") and "WFDBRecords" in n)
+        names = [n for n in heads if n + ".mat" in allnames]      # bản sao zip có thể thiếu .mat của vài bản ghi: bỏ và đếm
+        log["cn_headers_without_mat"] = len(heads) - len(names)
+        print("cn: số header", len(heads), "thiếu .mat", len(heads) - len(names), flush=True)
     with Pool(4) as p:
         res = p.map(cn_one, names, chunksize=128)
     log["cn_excluded_irbbb_only"] = sum(r[1] == -1 for r in res)
