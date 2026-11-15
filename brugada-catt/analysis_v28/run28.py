@@ -11,11 +11,12 @@ from multiprocessing import Pool
 
 import numpy as np
 import pandas as pd
+from scipy.stats import norm
 from sklearn.metrics import roc_curve
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "analysis_v24"))
-from lib24 import c_const, estimators, kde_terms, n_needed_smooth, smooth_thr  # noqa: E402
+from lib24 import bandwidth, c_const, estimators, kde_terms, n_needed_smooth, smooth_thr  # noqa: E402
 
 SC, OUT, PROB, STAGE = sys.argv[1:5]
 os.makedirs(OUT, exist_ok=True)
@@ -57,8 +58,18 @@ def ok_pl(pl):
     return MIN_PL <= s <= len(pl) - MIN_PL
 
 
+def smooth_g2(f, pl):
+    """(t̂_h, G2) đúng công thức `lib24.estimators` (G2_sandwich), bỏ phần KDE không dùng tới để chạy nhanh trên N lớn."""
+    n = len(f); q = pl.mean(); h = bandwidth(f, pl); t = smooth_thr(f, pl, h=h)
+    u = (f - t) / h; ph = norm.pdf(u) / h
+    m1, m0 = ph[pl == 1].mean(), ph[pl == 0].mean()
+    psi = np.where(pl == 1, (ph - m1) / q, -(ph - m0) / (1 - q))
+    dD = (ph * u / h)[pl == 1].mean() - (ph * u / h)[pl == 0].mean()
+    return t, psi.std() / np.sqrt(n) / abs(dD)
+
+
 def g2(f, pl):
-    return estimators(f, pl, None, boot=False)["G2_sandwich"]
+    return smooth_g2(f, pl)[1]
 
 
 # ---------------------------------------------------------------- 28a
@@ -125,13 +136,12 @@ def job_b(fn):
 # ---------------------------------------------------------------- 28c + 28e
 def thresholds(f, pl, with_raw_sd):
     """(t_c, σ̂ thường hoặc nan, t_h, σ̂ G2) trên một lô không nhãn."""
-    tc = youden(pl.astype(int), f); e = estimators(f, pl, None, boot=False) if not with_raw_sd else None
+    tc = youden(pl.astype(int), f); th, sh = smooth_g2(f, pl)
     if with_raw_sd:
         o = np.argsort(f); V, A = kde_terms(f[o], pl[o]); sc = 0.5134 * (4 * V / (A ** 2 * len(f))) ** (1 / 3)
-        e = estimators(f, pl, None, boot=False)
     else:
         sc = np.nan
-    return tc, sc, e["t"], e["G2_sandwich"]
+    return tc, sc, th, sh
 
 
 def gate_row(y, f, pl, t_src, with_raw_sd):
@@ -153,7 +163,7 @@ def job_c(fn):
     # 28e: n = 500 không nhãn, mỏ neo chính
     pl = pls[PRIMARY]; br, bh = [], []
     for _ in range(300):
-        k = rng.choice(N, 500, replace=False)
+        k = rng.choice(N, min(500, N), replace=False)
         if not ok_pl(pl[k]):
             br.append(bacc(y, f, t_src)); bh.append(bacc(y, f, t_src)); continue
         br.append(bacc(y, f, youden(pl[k].astype(int), f[k]))); bh.append(bacc(y, f, smooth_thr(f[k], pl[k])))
