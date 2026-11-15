@@ -1,0 +1,115 @@
+{
+ "population_spread": {
+  "kde": {
+   "median_pred_over_obs": 1.094850818632415,
+   "spearman": 0.9157964625080534
+  },
+  "lq": {
+   "median_pred_over_obs": 1.0676733493871593,
+   "spearman": 0.9333976384131533,
+   "iqr_of_ratio": [
+    0.9439598652638116,
+    1.2369132446031952
+   ]
+  }
+ },
+ "stopping_rule": {
+  "pilot50_kde_eps0.2": {
+   "plans": 1032,
+   "feasible": 680,
+   "median_achieved_over_target": 0.9426533717186657,
+   "iqr_achieved_over_target": [
+    0.6703505452781541,
+    1.2614905007213228
+   ],
+   "share_meeting_target": 0.5558823529411765,
+   "share_within_20pct": 0.7073529411764706,
+   "median_n_plan": 255.85326561441167
+  },
+  "pilot50_kde_eps0.3": {
+   "plans": 1032,
+   "feasible": 915,
+   "median_achieved_over_target": 0.9093380544632295,
+   "iqr_achieved_over_target": [
+    0.6610028548787289,
+    1.167751498383339
+   ],
+   "share_meeting_target": 0.5890710382513661,
+   "share_within_20pct": 0.7715846994535519,
+   "median_n_plan": 170.6624135615259
+  },
+  "pilot50_lq_eps0.2": {
+   "plans": 1032,
+   "feasible": 725,
+   "median_achieved_over_target": 1.1984001905285409,
+   "iqr_achieved_over_target": [
+    0.8351452338197657,
+    1.6628830659041918
+   ],
+   "share_meeting_target": 0.3779310344827586,
+   "share_within_20pct": 0.5006896551724138,
+   "median_n_plan": 185.2889494638405
+  },
+  "pilot50_lq_eps0.3": {
+   "plans": 1032,
+   "feasible": 902,
+   "median_achieved_over_target": 1.0612276971928067,
+   "iqr_achieved_over_target": [
+    0.7488622457689582,
+    1.3844922354774694
+   ],
+   "share_meeting_target": 0.4312638580931264,
+   "share_within_20pct": 0.6252771618625277,
+   "median_n_plan": 112.71466219418667
+  },
+  "pilot100_kde_eps0.2": {
+   "plans": 1087,
+   "feasible": 705,
+   "median_achieved_over_target": 0.8921923525719129,
+   "iqr_achieved_over_target": [
+    0.6355288512956371,
+    1.1391778941642323
+   ],
+   "share_meeting_target": 0.601418439716312,
+   "share_within_20pct": 0.7929078014184398,
+   "median_n_plan": 261.49621017215657
+  },
+  "pilot100_kde_eps0.3": {
+   "plans": 1087,
+   "feasible": 988,
+   "median_achieved_over_target": 0.8331257639153791,
+   "iqr_achieved_over_target": [
+    0.6119840537374636,
+    1.0711868833773133
+   ],
+   "share_meeting_target": 0.6933198380566802,
+   "share_within_20pct": 0.8431174089068826,
+   "median_n_plan": 178.3639802982271
+  },
+  "pilot100_lq_eps0.2": {
+   "plans": 1087,
+   "feasible": 812,
+   "median_achieved_over_target": 1.0510943384685083,
+   "iqr_achieved_over_target": [
+    0.7292951701821877,
+    1.3455311769548974
+   ],
+   "share_meeting_target": 0.4408866995073892,
+   "share_within_20pct": 0.6268472906403941,
+   "median_n_plan": 220.77333832085662
+  },
+  "pilot100_lq_eps0.3": {
+   "plans": 1087,
+   "feasible": 999,
+   "median_achieved_over_target": 0.9010088922002454,
+   "iqr_achieved_over_target": [
+    0.6973128249163769,
+    1.1889548569258348
+   ],
+   "share_meeting_target": 0.6036036036036037,
+   "share_within_20pct": 0.7567567567567568,
+   "median_n_plan": 139.65186458286172
+  }
+ },
+ "pilot_failures": 113
+}

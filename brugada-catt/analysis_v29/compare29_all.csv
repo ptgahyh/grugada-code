@@ -1,0 +1,581 @@
+step,key,old,new,changed,flip
+18c,E0_plugin: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.248,0.311,True,False
+18c,E0_plugin: trung vị tỉ số,1.252,1.362,True,False
+18c,E1_half: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.259,0.266,True,False
+18c,E1_half: trung vị tỉ số,1.151,1.183,True,False
+18c,E2_sub23: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.191,0.226,True,False
+18c,E2_sub23: trung vị tỉ số,1.057,1.157,True,False
+18c,E5_boot: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.253,0.261,True,False
+18c,E5_boot: trung vị tỉ số,1.129,1.157,True,False
+18c,E3_reshape: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.209,0.253,True,False
+18c,E3_reshape: trung vị tỉ số,1.104,1.219,True,False
+18c,E4_num_0.33: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.206,0.245,True,False
+18c,E4_num_0.33: trung vị tỉ số,1.119,1.232,True,False
+18c,E4_num_0.25: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.196,0.257,True,False
+18c,E4_num_0.25: trung vị tỉ số,1.094,1.226,True,False
+18c,E4_num_0.40: trung vị |log(ước lượng/SD quan sát)| từng mẫu đơn,0.213,0.231,True,False
+18c,E4_num_0.40: trung vị tỉ số,1.133,1.194,True,False
+20,"S2a trung vị SD làm trơn/thường (đạt ≤ 0,85)",0.544,0.561,True,False
+20,"S2b n=50: BA làm trơn − thường (đạt ≥ −0,005)",0.0071,0.0067,True,False
+20,"S2b n=100: BA làm trơn − thường (đạt ≥ −0,005)",0.0022,0.004,True,False
+20,"S2c toàn cohort: BA làm trơn − thường (đạt |.| ≤ 0,010)",-0.0037,0.0005,True,False
+20,BA n=50 thường,0.7824,0.7888,True,False
+20,BA n=50 làm trơn,0.7895,0.7955,True,False
+20,P10 n=50 thường,0.7412,0.7506,True,False
+20,P10 n=50 làm trơn,0.7697,0.7741,True,False
+20,BA toàn cohort thường,0.7993,0.8003,True,False
+20,BA toàn cohort làm trơn,0.7956,0.8008,True,False
+13,all/n_points,561,558,True,False
+13,all/spread_sd/median_pred_over_obs,1.0912817709756764,1.094299987735283,True,False
+13,all/spread_sd/iqr_of_ratio,"[0.9551937790611749, 1.2622706051091719]","[0.9693583156246677, 1.2609255559800858]",True,False
+13,all/spread_sd/spearman,0.9148499030799636,0.915843067934502,True,False
+13,all/spread_robust_iqr/median_pred_over_obs,1.149140094788111,1.1737827728919221,True,False
+13,all/spread_robust_iqr/spearman,0.7330870389857197,0.7277790591907497,True,False
+13,all/spread_label_free_plugin/median_pred_over_obs,1.0805840119654317,1.1009012940514808,True,False
+13,all/spread_label_free_plugin/iqr_of_ratio,"[0.9273384288560532, 1.3126975861176162]","[0.9444501866796823, 1.3325643259780338]",True,False
+13,all/spread_label_free_plugin/spearman,0.8621224876354836,0.8759369444626037,True,False
+13,all/spread_label_free_plugin/n,560,558,True,False
+13,all/bandwidth_0.5/spread_median_pred_over_obs,0.9081094667663899,0.909872360062804,True,False
+13,all/bandwidth_0.5/loss_median_pred_over_obs,0.9114737024822079,0.91899321237504,True,False
+13,all/bandwidth_0.5/loss_spearman,0.967496138405895,0.9613983733469619,True,False
+13,all/bandwidth_0.5/bias_share_of_observed_loss_median,0.6917844060701204,0.6909646830196374,True,False
+13,all/bandwidth_0.5/sampling_term_spearman,0.3151207758157306,0.31572970580029347,True,False
+13,all/bandwidth_0.5/negative_predicted_sampling_terms,97,72,True,False
+13,all/bandwidth_0.5/negative_observed_sampling_terms,79,68,True,False
+13,all/bandwidth_0.5/sampling_term_spearman_when_bias_share_below_half,0.6664057465600243,0.8278572484114083,True,False
+13,all/bandwidth_1.0/spread_median_pred_over_obs,1.0912817709756764,1.094299987735283,True,False
+13,all/bandwidth_1.0/loss_median_pred_over_obs,0.9010319917440661,0.8880564962850088,True,False
+13,all/bandwidth_1.0/loss_spearman,0.9579381110123618,0.9609070200156034,True,False
+13,all/bandwidth_1.0/bias_share_of_observed_loss_median,0.5968030650378419,0.5647920159232175,True,False
+13,all/bandwidth_1.0/sampling_term_spearman,0.18630353910752756,0.29363006405516584,True,False
+13,all/bandwidth_1.0/negative_predicted_sampling_terms,77,43,True,False
+13,all/bandwidth_1.0/negative_observed_sampling_terms,33,25,True,False
+13,all/bandwidth_1.0/sampling_term_spearman_when_bias_share_below_half,0.7169290529026731,0.8150081121297938,True,False
+13,all/bandwidth_2.0/spread_median_pred_over_obs,1.3019632272848156,1.3106024625030082,True,False
+13,all/bandwidth_2.0/loss_median_pred_over_obs,0.9050966608084358,0.8809078219303129,True,False
+13,all/bandwidth_2.0/loss_spearman,0.8737428281246143,0.8801797535421695,True,False
+13,all/bandwidth_2.0/bias_share_of_observed_loss_median,0.48055518602279274,0.4672101007963084,True,False
+13,all/bandwidth_2.0/sampling_term_spearman,0.05988853650589493,0.16702846475325503,True,False
+13,all/bandwidth_2.0/negative_predicted_sampling_terms,35,20,True,False
+13,all/bandwidth_2.0/negative_observed_sampling_terms,43,29,True,False
+13,all/bandwidth_2.0/sampling_term_spearman_when_bias_share_below_half,0.4156929817324488,0.49373303117643186,True,False
+13,all/centre/median_abs_mean_that_minus_t_kde,0.07151400000000008,0.07877784818949696,True,False
+13,all/centre/median_abs_mean_that_minus_t_emp,0.10294399999999992,0.10741523112433443,True,False
+13,all/centre/median_sd_obs,0.296099,0.28794078629745035,True,False
+13,concept/n_points,243,240,True,False
+13,concept/spread_sd/median_pred_over_obs,1.0983560344938048,1.1237648510009284,True,False
+13,concept/spread_sd/iqr_of_ratio,"[0.9513256322751001, 1.3031770184678502]","[0.9883959222235204, 1.2676224601134667]",True,False
+13,concept/spread_sd/spearman,0.8848963220547919,0.9179603812566189,True,False
+13,concept/spread_robust_iqr/median_pred_over_obs,1.219446872236789,1.2481434529125621,True,False
+13,concept/spread_robust_iqr/spearman,0.6802795219039496,0.7294885992864618,True,False
+13,concept/spread_label_free_plugin/median_pred_over_obs,1.1019143763383727,1.1345150095310519,True,False
+13,concept/spread_label_free_plugin/iqr_of_ratio,"[0.9273381526433278, 1.3484034618141225]","[0.9715344186792113, 1.3719460806215176]",True,False
+13,concept/spread_label_free_plugin/spearman,0.833308243889466,0.8728328616816262,True,False
+13,concept/spread_label_free_plugin/n,243,240,True,False
+13,concept/bandwidth_0.5/spread_median_pred_over_obs,0.9229342444738861,0.9025284005336239,True,False
+13,concept/bandwidth_0.5/loss_median_pred_over_obs,0.9238980905739282,0.9346456470979774,True,False
+13,concept/bandwidth_0.5/loss_spearman,0.8944147947495243,0.9246731714092258,True,False
+13,concept/bandwidth_0.5/bias_share_of_observed_loss_median,0.5544637696390101,0.4846461113514228,True,False
+13,concept/bandwidth_0.5/sampling_term_spearman,0.610232817591722,0.7338799284709802,True,False
+13,concept/bandwidth_0.5/negative_predicted_sampling_terms,9,12,True,False
+13,concept/bandwidth_0.5/negative_observed_sampling_terms,35,33,True,False
+13,concept/bandwidth_0.5/sampling_term_spearman_when_bias_share_below_half,0.5992365742365742,0.8088235780068137,True,False
+13,concept/bandwidth_1.0/spread_median_pred_over_obs,1.0983560344938048,1.1237648510009284,True,False
+13,concept/bandwidth_1.0/loss_median_pred_over_obs,0.9836881868131867,0.9182981519107078,True,False
+13,concept/bandwidth_1.0/loss_spearman,0.8847290590956761,0.8976874598517335,True,False
+13,concept/bandwidth_1.0/bias_share_of_observed_loss_median,0.4639129795678377,0.3826639034616847,True,False
+13,concept/bandwidth_1.0/sampling_term_spearman,0.6751892737587301,0.6978081216687788,True,False
+13,concept/bandwidth_1.0/negative_predicted_sampling_terms,0,0,False,False
+13,concept/bandwidth_1.0/negative_observed_sampling_terms,21,8,True,False
+13,concept/bandwidth_1.0/sampling_term_spearman_when_bias_share_below_half,0.7178611359570662,0.7836185709817238,True,False
+13,concept/bandwidth_2.0/spread_median_pred_over_obs,1.2952232746510153,1.312462321110861,True,False
+13,concept/bandwidth_2.0/loss_median_pred_over_obs,1.1688325521942906,1.0172802525742757,True,False
+13,concept/bandwidth_2.0/loss_spearman,0.6717909110906982,0.6580921543776801,True,False
+13,concept/bandwidth_2.0/bias_share_of_observed_loss_median,0.3875383526079773,0.338563241057358,True,False
+13,concept/bandwidth_2.0/sampling_term_spearman,0.45167968705089606,0.48149447039011084,True,False
+13,concept/bandwidth_2.0/negative_predicted_sampling_terms,0,0,False,False
+13,concept/bandwidth_2.0/negative_observed_sampling_terms,24,17,True,False
+13,concept/bandwidth_2.0/sampling_term_spearman_when_bias_share_below_half,0.2960647895998893,0.31297734069473204,True,False
+13,concept/centre/median_abs_mean_that_minus_t_kde,0.05811199999999994,0.07205018229717348,True,False
+13,concept/centre/median_abs_mean_that_minus_t_emp,0.11335099999999998,0.10591447342087565,True,False
+13,concept/centre/median_sd_obs,0.32442,0.29865925733517795,True,False
+13,blackbox/n_points,318,318,False,False
+13,blackbox/spread_sd/median_pred_over_obs,1.086426390996335,1.0784086933702273,True,False
+13,blackbox/spread_sd/iqr_of_ratio,"[0.9558078236126135, 1.2173846247936337]","[0.9475394734644041, 1.248585095287024]",True,False
+13,blackbox/spread_sd/spearman,0.9278860658950925,0.9118723154074089,True,False
+13,blackbox/spread_robust_iqr/median_pred_over_obs,1.0530518255206447,1.1247921137513575,True,False
+13,blackbox/spread_robust_iqr/spearman,0.7675312169346388,0.7309316916674786,True,False
+13,blackbox/spread_label_free_plugin/median_pred_over_obs,1.0673699891784523,1.0736652338176167,True,False
+13,blackbox/spread_label_free_plugin/iqr_of_ratio,"[0.928435397961087, 1.2826433558744297]","[0.9348869312566797, 1.310012623703349]",True,False
+13,blackbox/spread_label_free_plugin/spearman,0.8743613814427862,0.8780722673060773,True,False
+13,blackbox/spread_label_free_plugin/n,317,318,True,False
+13,blackbox/bandwidth_0.5/spread_median_pred_over_obs,0.9001078192233408,0.9181369077400632,True,False
+13,blackbox/bandwidth_0.5/loss_median_pred_over_obs,0.9001926172406683,0.9161727400562166,True,False
+13,blackbox/bandwidth_0.5/loss_spearman,0.9858871663669819,0.9755492983605433,True,False
+13,blackbox/bandwidth_0.5/bias_share_of_observed_loss_median,0.7780220978873553,0.810652710562267,True,False
+13,blackbox/bandwidth_0.5/sampling_term_spearman,0.1820949027417303,0.10402071529180137,True,False
+13,blackbox/bandwidth_0.5/negative_predicted_sampling_terms,88,60,True,False
+13,blackbox/bandwidth_0.5/negative_observed_sampling_terms,44,35,True,False
+13,blackbox/bandwidth_0.5/sampling_term_spearman_when_bias_share_below_half,0.7306775268419102,0.8609055501460566,True,False
+13,blackbox/bandwidth_1.0/spread_median_pred_over_obs,1.086426390996335,1.0784086933702273,True,False
+13,blackbox/bandwidth_1.0/loss_median_pred_over_obs,0.8804269500129677,0.8759427644818629,True,False
+13,blackbox/bandwidth_1.0/loss_spearman,0.9836700815567712,0.9824443200966355,True,False
+13,blackbox/bandwidth_1.0/bias_share_of_observed_loss_median,0.6994035423817506,0.6858158136077133,True,False
+13,blackbox/bandwidth_1.0/sampling_term_spearman,-0.027008028241348337,0.09262155801668022,True,False
+13,blackbox/bandwidth_1.0/negative_predicted_sampling_terms,77,43,True,False
+13,blackbox/bandwidth_1.0/negative_observed_sampling_terms,12,17,True,False
+13,blackbox/bandwidth_1.0/sampling_term_spearman_when_bias_share_below_half,0.7409900778832819,0.8380923130923131,True,False
+13,blackbox/bandwidth_2.0/spread_median_pred_over_obs,1.308089760901056,1.3055659012119918,True,False
+13,blackbox/bandwidth_2.0/loss_median_pred_over_obs,0.8193728551151828,0.8269157184004953,True,False
+13,blackbox/bandwidth_2.0/loss_spearman,0.9568881980722751,0.9607405067506991,True,False
+13,blackbox/bandwidth_2.0/bias_share_of_observed_loss_median,0.5293495495616583,0.5573229699562783,True,False
+13,blackbox/bandwidth_2.0/sampling_term_spearman,-0.09804930219471228,0.04108036560743605,True,False
+13,blackbox/bandwidth_2.0/negative_predicted_sampling_terms,35,20,True,False
+13,blackbox/bandwidth_2.0/negative_observed_sampling_terms,19,12,True,False
+13,blackbox/bandwidth_2.0/sampling_term_spearman_when_bias_share_below_half,0.5339987919441174,0.6617174345629879,True,False
+13,blackbox/centre/median_abs_mean_that_minus_t_kde,0.08759499999999998,0.08752152499977006,True,False
+13,blackbox/centre/median_abs_mean_that_minus_t_emp,0.09810250000000004,0.11053845682233376,True,False
+13,blackbox/centre/median_sd_obs,0.2734375,0.2747760488438797,True,False
+13,by_anchor_spread_pred_over_obs/CBM,1.069,1.141,True,False
+13,by_anchor_spread_pred_over_obs/CBM-sd15,1.055,1.122,True,False
+13,by_anchor_spread_pred_over_obs/CNN9,1.112,1.093,True,False
+13,by_anchor_spread_pred_over_obs/CNNalt,1.115,1.035,True,False
+13,by_anchor_spread_pred_over_obs/LogReg9,1.082,1.078,True,False
+13,by_anchor_spread_pred_over_obs/ResNet,1.044,1.132,True,False
+13,by_anchor_spread_pred_over_obs/ST_V2,1.174,1.1,True,False
+13,by_anchor_plugin_over_obs/CBM,1.068,1.16,True,False
+13,by_anchor_plugin_over_obs/CBM-sd15,1.032,1.131,True,False
+13,by_anchor_plugin_over_obs/CNN9,1.072,1.116,True,False
+13,by_anchor_plugin_over_obs/CNNalt,1.092,1.055,True,False
+13,by_anchor_plugin_over_obs/LogReg9,1.038,1.001,True,False
+13,by_anchor_plugin_over_obs/ResNet,1.048,1.155,True,False
+13,by_anchor_plugin_over_obs/ST_V2,1.225,1.109,True,False
+13,by_fraction_spread_pred_over_obs/0.2,1.083,1.083,False,False
+13,by_fraction_spread_pred_over_obs/0.35,1.093,1.1,True,False
+13,by_fraction_spread_pred_over_obs/0.5,1.099,1.127,True,False
+13 (quy tắc dừng),population_spread/kde/median_pred_over_obs,1.091375244722434,1.094850818632415,True,False
+13 (quy tắc dừng),population_spread/kde/spearman,0.9149836608859007,0.9157964625080534,True,False
+13 (quy tắc dừng),population_spread/lq/median_pred_over_obs,1.0507501393963383,1.0676733493871593,True,False
+13 (quy tắc dừng),population_spread/lq/spearman,0.9323410470626295,0.9333976384131533,True,False
+13 (quy tắc dừng),population_spread/lq/iqr_of_ratio,"[0.9286798041929697, 1.2111278003012957]","[0.9439598652638116, 1.2369132446031952]",True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.2/plans,1008,1032,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.2/feasible,666,680,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.2/median_achieved_over_target,0.905152182681293,0.9426533717186657,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.2/iqr_achieved_over_target,"[0.6216510096344641, 1.244480602879769]","[0.6703505452781541, 1.2614905007213228]",True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.2/share_meeting_target,0.5885885885885885,0.5558823529411765,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.2/share_within_20pct,0.7117117117117117,0.7073529411764706,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.2/median_n_plan,263.325189082253,255.85326561441167,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.3/plans,1008,1032,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.3/feasible,907,915,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.3/median_achieved_over_target,0.8978547474877635,0.9093380544632295,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.3/iqr_achieved_over_target,"[0.6341431420109682, 1.181000107727065]","[0.6610028548787289, 1.167751498383339]",True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.3/share_meeting_target,0.5953693495038589,0.5890710382513661,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.3/share_within_20pct,0.7618522601984564,0.7715846994535519,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_kde_eps0.3/median_n_plan,179.62092803807448,170.6624135615259,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.2/plans,1008,1032,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.2/feasible,741,725,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.2/median_achieved_over_target,1.2029236661669833,1.1984001905285409,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.2/iqr_achieved_over_target,"[0.7442116747686023, 1.7491373547585998]","[0.8351452338197657, 1.6628830659041918]",True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.2/share_meeting_target,0.38866396761133604,0.3779310344827586,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.2/share_within_20pct,0.49527665317139,0.5006896551724138,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.2/median_n_plan,189.55104903241264,185.2889494638405,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.3/plans,1008,1032,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.3/feasible,905,902,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.3/median_achieved_over_target,1.0535453748039325,1.0612276971928067,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.3/iqr_achieved_over_target,"[0.7589515771639924, 1.4037881599530388]","[0.7488622457689582, 1.3844922354774694]",True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.3/share_meeting_target,0.43867403314917125,0.4312638580931264,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.3/share_within_20pct,0.6154696132596685,0.6252771618625277,True,False
+13 (quy tắc dừng),stopping_rule/pilot50_lq_eps0.3/median_n_plan,119.30238268602947,112.71466219418667,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.2/plans,1088,1087,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.2/feasible,731,705,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.2/median_achieved_over_target,0.8862022246488804,0.8921923525719129,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.2/iqr_achieved_over_target,"[0.5921408540945118, 1.2042373379496205]","[0.6355288512956371, 1.1391778941642323]",True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.2/share_meeting_target,0.6169630642954856,0.601418439716312,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.2/share_within_20pct,0.7455540355677155,0.7929078014184398,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.2/median_n_plan,266.47120685511953,261.49621017215657,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.3/plans,1088,1087,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.3/feasible,1005,988,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.3/median_achieved_over_target,0.8622902537173655,0.8331257639153791,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.3/iqr_achieved_over_target,"[0.6294568560987233, 1.123942021927541]","[0.6119840537374636, 1.0711868833773133]",True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.3/share_meeting_target,0.6527363184079602,0.6933198380566802,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.3/share_within_20pct,0.8069651741293532,0.8431174089068826,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_kde_eps0.3/median_n_plan,180.2439166823291,178.3639802982271,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.2/plans,1088,1087,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.2/feasible,793,812,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.2/median_achieved_over_target,1.083101650948385,1.0510943384685083,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.2/iqr_achieved_over_target,"[0.7387520739509108, 1.4623756554323575]","[0.7292951701821877, 1.3455311769548974]",True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.2/share_meeting_target,0.4489281210592686,0.4408866995073892,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.2/share_within_20pct,0.5725094577553594,0.6268472906403941,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.2/median_n_plan,211.90787962109627,220.77333832085662,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.3/plans,1088,1087,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.3/feasible,1009,999,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.3/median_achieved_over_target,0.930807678308319,0.9010088922002454,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.3/iqr_achieved_over_target,"[0.6953108829876438, 1.22821954624]","[0.6973128249163769, 1.1889548569258348]",True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.3/share_meeting_target,0.5530227948463825,0.6036036036036037,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.3/share_within_20pct,0.7254707631318137,0.7567567567567568,True,False
+13 (quy tắc dừng),stopping_rule/pilot100_lq_eps0.3/median_n_plan,139.83399871560044,139.65186458286172,True,False
+13 (quy tắc dừng),pilot_failures,148,113,True,False
+16,S1a_S1b_concept/n,243,243,False,False
+16,S1a_S1b_concept/median_abs_err,0.13592206327552958,0.1409331188545636,True,False
+16,S1a_S1b_concept/median_abs_err_semp,0.13463581728843466,0.13792713524798383,True,False
+16,S1a_S1b_concept/spearman_overshoot,0.5608376946715016,0.5289116965930922,True,False
+16,S1a_S1b_concept/frac_tpr_ge_s_minus_002,0.5555555555555556,0.6296296296296297,True,False
+16,S1a_S1b_concept/median_overshoot_obs,0.013503649635036585,0.014765100671141007,True,False
+16,S1a_S1b_concept/median_overshoot_pred,0.10898166189571257,0.11228190701321539,True,False
+16,S1a_S1b_concept/src_frac_tpr_ge_s_minus_002,0.4074074074074074,0.43209876543209874,True,False
+16,S1a_S1b_concept/median_spec_catt,0.5286738351254481,0.5376344086021505,True,False
+16,S1a_S1b_concept/median_spec_src,0.6995708154506437,0.7381974248927039,True,False
+16,S1c_blackbox/n,312,312,False,False
+16,S1c_blackbox/median_abs_err,0.16131958649178268,0.176696936888381,True,False
+16,S1c_blackbox/median_abs_err_semp,0.1563015595531166,0.1754695157776967,True,False
+16,S1c_blackbox/spearman_overshoot,0.736354603429793,0.7636246618066054,True,False
+16,S1c_blackbox/frac_tpr_ge_s_minus_002,0.5224358974358975,0.5192307692307693,True,False
+16,S1c_blackbox/median_overshoot_obs,-0.008394160583941601,-0.00948905109489051,True,False
+16,S1c_blackbox/median_overshoot_pred,0.10763086493049989,0.11412520354449268,True,False
+16,S1c_blackbox/src_frac_tpr_ge_s_minus_002,0.4230769230769231,0.44871794871794873,True,False
+16,S1c_blackbox/median_spec_catt,0.6587982832618026,0.6747234913163198,True,False
+16,S1c_blackbox/median_spec_src,0.6888412017167382,0.7167381974248928,True,False
+16,S1a_met,False,False,False,False
+16,S1b_met,False,False,False,False
+16,by_anchor_c1/CBM/abs_err,0.121,0.145,True,False
+16,by_anchor_c1/CBM/frac_ok,0.63,0.63,False,False
+16,by_anchor_c1/CBM/overshoot_obs,0.023,0.01,True,False
+16,by_anchor_c1/CBM/fdr_anchor,0.32,0.259,True,False
+16,by_anchor_c1/CBM-sd15/abs_err,0.114,0.133,True,False
+16,by_anchor_c1/CBM-sd15/frac_ok,0.617,0.63,True,False
+16,by_anchor_c1/CBM-sd15/overshoot_obs,0.028,0.018,True,False
+16,by_anchor_c1/CBM-sd15/fdr_anchor,0.324,0.333,True,False
+16,by_anchor_c1/CNN9/abs_err,0.14,0.153,True,False
+16,by_anchor_c1/CNN9/frac_ok,0.564,0.526,True,False
+16,by_anchor_c1/CNN9/overshoot_obs,0.016,-0.006,True,False
+16,by_anchor_c1/CNN9/fdr_anchor,0.311,0.29,True,False
+16,by_anchor_c1/CNNalt/abs_err,0.262,0.276,True,False
+16,by_anchor_c1/CNNalt/frac_ok,0.372,0.385,True,False
+16,by_anchor_c1/CNNalt/overshoot_obs,-0.148,-0.161,True,False
+16,by_anchor_c1/CNNalt/fdr_anchor,0.193,0.189,True,False
+16,by_anchor_c1/LogReg9/abs_err,0.092,0.092,False,False
+16,by_anchor_c1/LogReg9/frac_ok,0.778,0.79,True,False
+16,by_anchor_c1/LogReg9/overshoot_obs,0.024,0.025,True,False
+16,by_anchor_c1/LogReg9/fdr_anchor,0.295,0.316,True,False
+16,by_anchor_c1/ResNet/abs_err,0.259,0.264,True,False
+16,by_anchor_c1/ResNet/frac_ok,0.36,0.36,False,False
+16,by_anchor_c1/ResNet/overshoot_obs,-0.172,-0.119,True,False
+16,by_anchor_c1/ResNet/fdr_anchor,0.183,0.222,True,False
+16,by_anchor_c1/ST_V2/abs_err,0.178,0.152,True,False
+16,by_anchor_c1/ST_V2/frac_ok,0.42,0.63,True,False
+16,by_anchor_c1/ST_V2/overshoot_obs,-0.038,0.018,True,False
+16,by_anchor_c1/ST_V2/fdr_anchor,0.265,0.281,True,False
+16,by_target_c1/0.8/n,81,81,False,False
+16,by_target_c1/0.8/median_abs_err,0.1831824709166303,0.19487532222120907,True,False
+16,by_target_c1/0.8/median_abs_err_semp,0.1831824709166303,0.19598029459689947,True,False
+16,by_target_c1/0.8/spearman_overshoot,0.8253053102309909,0.8215698549610182,True,False
+16,by_target_c1/0.8/frac_tpr_ge_s_minus_002,0.5061728395061729,0.5679012345679012,True,False
+16,by_target_c1/0.8/median_overshoot_obs,-0.004379562043795637,0.02481751824817513,True,False
+16,by_target_c1/0.8/median_overshoot_pred,0.17299670878658158,0.17074119634702933,True,False
+16,by_target_c1/0.8/src_frac_tpr_ge_s_minus_002,0.4074074074074074,0.4444444444444444,True,False
+16,by_target_c1/0.8/median_spec_catt,0.7896995708154506,0.7939914163090129,True,False
+16,by_target_c1/0.8/median_spec_src,0.8870967741935484,0.8906810035842294,True,False
+16,by_target_c1/0.9/n,81,81,False,False
+16,by_target_c1/0.9/median_abs_err,0.1471220025073673,0.1412857942454433,True,False
+16,by_target_c1/0.9/median_abs_err_semp,0.14497654983188335,0.14025486641039175,True,False
+16,by_target_c1/0.9/spearman_overshoot,0.5153883484256385,0.46071178849656075,True,False
+16,by_target_c1/0.9/frac_tpr_ge_s_minus_002,0.5432098765432098,0.6296296296296297,True,False
+16,by_target_c1/0.9/median_overshoot_obs,0.02700729927007295,0.02700729927007295,False,False
+16,by_target_c1/0.9/median_overshoot_pred,0.1110756886947003,0.11442230017915656,True,False
+16,by_target_c1/0.9/src_frac_tpr_ge_s_minus_002,0.48148148148148145,0.5185185185185185,True,False
+16,by_target_c1/0.9/median_spec_catt,0.5286738351254481,0.5412186379928315,True,False
+16,by_target_c1/0.9/median_spec_src,0.7725321888412018,0.7544802867383512,True,False
+16,by_target_c1/0.95/n,81,81,False,False
+16,by_target_c1/0.95/median_abs_err,0.09115159724370137,0.09282211958657072,True,False
+16,by_target_c1/0.95/median_abs_err_semp,0.08914614107837737,0.09266907148567749,True,False
+16,by_target_c1/0.95/spearman_overshoot,0.16520782559045546,-0.00860233166412959,True,False
+16,by_target_c1/0.95/frac_tpr_ge_s_minus_002,0.6172839506172839,0.691358024691358,True,False
+16,by_target_c1/0.95/median_overshoot_obs,0.013503649635036585,0.008904109589041087,True,False
+16,by_target_c1/0.95/median_overshoot_pred,0.06771570209511046,0.07284605454122661,True,False
+16,by_target_c1/0.95/src_frac_tpr_ge_s_minus_002,0.3333333333333333,0.3333333333333333,False,False
+16,by_target_c1/0.95/median_spec_catt,0.28755364806866957,0.34408602150537637,True,False
+16,by_target_c1/0.95/median_spec_src,0.5665236051502146,0.6129032258064516,True,False
+16,S2_tpr_spread/median_pred_over_obs,0.9666529643382922,0.9700817360480797,True,False
+16,S2_tpr_spread/iqr,"[0.8364887280739549, 1.1096360626253718]","[0.8214320963228923, 1.1233317845653097]",True,False
+16,S2_tpr_spread/spearman,0.9684777460965102,0.9677414907147983,True,False
+16,S2_tpr_spread/n,1645,1655,True,False
+16,S2_threshold_spread_known/median_pred_over_obs,1.025567238459115,1.0256445553981013,True,False
+16,S2_threshold_spread_known/iqr,"[0.9406857221412184, 1.1288469015333555]","[0.9303823858361855, 1.1319958168472888]",True,False
+16,S2_threshold_spread_known/spearman,0.9716875107631411,0.9664779217300227,True,False
+16,S2_threshold_spread_known/n,1665,1665,False,False
+16,S3_threshold_spread_bootstrap/median_pred_over_obs,0.9916149929794582,0.9914526968080525,True,False
+16,S3_threshold_spread_bootstrap/iqr,"[0.9244288855972379, 1.0753442099005845]","[0.9211121111884442, 1.072680594237234]",True,False
+16,S3_threshold_spread_bootstrap/spearman,0.980933246479465,0.9817928184787428,True,False
+16,S3_threshold_spread_bootstrap/n,1665,1665,False,False
+16,S2_met,True,True,False,False
+16,S3_met,True,True,False,False
+16,S2_by_anchor/CBM,0.948,0.95,True,False
+16,S2_by_anchor/CBM-sd15,0.946,0.934,True,False
+16,S2_by_anchor/CNN9,0.988,0.967,True,False
+16,S2_by_anchor/CNNalt,1.027,1.069,True,False
+16,S2_by_anchor/LogReg9,0.954,0.925,True,False
+16,S2_by_anchor/ResNet,1.032,1.032,False,False
+16,S2_by_anchor/ST_V2,0.91,0.919,True,False
+16,S2_by_target/0.8,1.022,1.028,True,False
+16,S2_by_target/0.9,0.96,0.957,True,False
+16,S2_by_target/0.95,0.904,0.904,False,False
+19,K5/pca_explained,0.916,0.924,True,False
+19,K5/D1_neg/within_share_broken,0.968,0.978,True,False
+19,K5/D1_neg/ci95,"[0.926, 1.028]","[0.935, 1.024]",True,False
+19,K5/D1_neg/within_share_intact,0.665,0.681,True,False
+19,K5/D1_neg/mean_abs_delta_broken,2.277,2.182,True,False
+19,K5/D1_neg/mean_abs_delta_intact,0.262,0.212,True,False
+19,K5/D1_neg/max_missing_target_weight,0.285,0.495,True,False
+19,K5/D1_pos/within_share_broken,1.005,0.977,True,False
+19,K5/D1_pos/ci95,"[0.951, 1.067]","[0.929, 1.054]",True,False
+19,K5/D1_pos/within_share_intact,1.037,0.805,True,False
+19,K5/D1_pos/mean_abs_delta_broken,2.568,2.608,True,False
+19,K5/D1_pos/mean_abs_delta_intact,0.29,0.239,True,False
+19,K5/D1_pos/max_missing_target_weight,0.53,0.712,True,False
+19,K5/D2/gap_closed_comp,0.036,0.104,True,False
+19,K5/D2/gap_closed_catt,0.911,0.895,True,False
+19,K5/D2/ba_broken/ba_src,0.567,0.573,True,False
+19,K5/D2/ba_broken/ba_comp,0.575,0.592,True,False
+19,K5/D2/ba_broken/ba_catt,0.774,0.775,True,False
+19,K5/D2/ba_broken/ba_oracle,0.796,0.801,True,False
+19,K5/D2/per_setting_gap_closed_comp/0,0.0,0.227,True,False
+19,K5/D2/per_setting_gap_closed_comp/1,0.0,0.196,True,False
+19,K5/D2/per_setting_gap_closed_comp/2,-0.047,-0.045,True,False
+19,K5/D2/per_setting_gap_closed_comp/4,0.231,0.098,True,False
+19,K5/D2/per_setting_gap_closed_comp/6,-0.002,0.043,True,False
+19,K5/D3/neg_huca_claris/tv,0.671,0.7,True,False
+19,K5/D3/neg_huca_claris/ci95,"[0.616, 0.721]","[0.645, 0.748]",True,False
+19,K5/D3/neg_huca_mortara/tv,0.431,0.542,True,False
+19,K5/D3/neg_huca_mortara/ci95,"[0.393, 0.515]","[0.485, 0.62]",True,False
+19,K5/D3/neg_claris_mortara/tv,0.242,0.157,True,False
+19,K5/D3/neg_claris_mortara/ci95,"[0.176, 0.313]","[0.113, 0.223]",True,False
+19,K5/D3/pos_huca_claris/tv,0.689,0.721,True,False
+19,K5/D3/pos_huca_claris/ci95,"[0.598, 0.782]","[0.629, 0.817]",True,False
+19,K5/D3/pos_huca_mortara/tv,0.386,0.486,True,False
+19,K5/D3/pos_huca_mortara/ci95,"[0.283, 0.51]","[0.382, 0.612]",True,False
+19,K5/D3/pos_claris_mortara/tv,0.342,0.286,True,False
+19,K5/D3/pos_claris_mortara/ci95,"[0.253, 0.427]","[0.201, 0.373]",True,False
+19,K5/D3/criterion_met_neg,True,True,False,False
+19,K3/pca_explained,0.916,0.924,True,False
+19,K3/D1_neg/within_share_broken,1.001,0.937,True,False
+19,K3/D1_neg/ci95,"[0.947, 1.057]","[0.871, 1.008]",True,False
+19,K3/D1_neg/within_share_intact,0.788,0.841,True,False
+19,K3/D1_neg/mean_abs_delta_broken,2.277,2.182,True,False
+19,K3/D1_neg/mean_abs_delta_intact,0.262,0.212,True,False
+19,K3/D1_neg/max_missing_target_weight,0.0,0.0,False,False
+19,K3/D1_pos/within_share_broken,0.889,0.925,True,False
+19,K3/D1_pos/ci95,"[0.845, 0.988]","[0.847, 1.016]",True,False
+19,K3/D1_pos/within_share_intact,0.245,0.251,True,False
+19,K3/D1_pos/mean_abs_delta_broken,2.568,2.608,True,False
+19,K3/D1_pos/mean_abs_delta_intact,0.29,0.239,True,False
+19,K3/D1_pos/max_missing_target_weight,0.0,0.534,True,False
+19,K3/D2/gap_closed_comp,0.035,0.069,True,False
+19,K3/D2/gap_closed_catt,0.911,0.895,True,False
+19,K3/D2/ba_broken/ba_src,0.567,0.573,True,False
+19,K3/D2/ba_broken/ba_comp,0.575,0.589,True,False
+19,K3/D2/ba_broken/ba_catt,0.774,0.775,True,False
+19,K3/D2/ba_broken/ba_oracle,0.796,0.801,True,False
+19,K3/D2/per_setting_gap_closed_comp/0,0.0,0.0,False,False
+19,K3/D2/per_setting_gap_closed_comp/1,0.0,0.0,False,False
+19,K3/D2/per_setting_gap_closed_comp/2,0.021,0.094,True,False
+19,K3/D2/per_setting_gap_closed_comp/4,0.124,0.237,True,False
+19,K3/D2/per_setting_gap_closed_comp/6,0.029,0.015,True,False
+19,K3/D3/neg_huca_claris/tv,0.685,0.714,True,False
+19,K3/D3/neg_huca_claris/ci95,"[0.632, 0.74]","[0.663, 0.765]",True,False
+19,K3/D3/neg_huca_mortara/tv,0.458,0.564,True,False
+19,K3/D3/neg_huca_mortara/ci95,"[0.378, 0.53]","[0.489, 0.631]",True,False
+19,K3/D3/neg_claris_mortara/tv,0.227,0.15,True,False
+19,K3/D3/neg_claris_mortara/ci95,"[0.153, 0.3]","[0.088, 0.212]",True,False
+19,K3/D3/pos_huca_claris/tv,0.705,0.708,True,False
+19,K3/D3/pos_huca_claris/ci95,"[0.616, 0.789]","[0.611, 0.796]",True,False
+19,K3/D3/pos_huca_mortara/tv,0.331,0.385,True,False
+19,K3/D3/pos_huca_mortara/ci95,"[0.217, 0.455]","[0.269, 0.517]",True,False
+19,K3/D3/pos_claris_mortara/tv,0.374,0.323,True,False
+19,K3/D3/pos_claris_mortara/ci95,"[0.28, 0.465]","[0.234, 0.41]",True,False
+19,K3/D3/criterion_met_neg,True,True,False,False
+19,K8/pca_explained,0.916,0.924,True,False
+19,K8/D1_neg/within_share_broken,0.973,1.011,True,False
+19,K8/D1_neg/ci95,"[0.922, 1.028]","[0.96, 1.056]",True,False
+19,K8/D1_neg/within_share_intact,0.707,0.707,False,False
+19,K8/D1_neg/mean_abs_delta_broken,2.277,2.182,True,False
+19,K8/D1_neg/mean_abs_delta_intact,0.262,0.212,True,False
+19,K8/D1_neg/max_missing_target_weight,0.392,0.399,True,False
+19,K8/D1_pos/within_share_broken,0.998,1.031,True,False
+19,K8/D1_pos/ci95,"[0.957, 1.051]","[0.974, 1.078]",True,False
+19,K8/D1_pos/within_share_intact,0.881,0.655,True,False
+19,K8/D1_pos/mean_abs_delta_broken,2.568,2.608,True,False
+19,K8/D1_pos/mean_abs_delta_intact,0.29,0.239,True,False
+19,K8/D1_pos/max_missing_target_weight,0.622,0.644,True,False
+19,K8/D2/gap_closed_comp,0.01,0.046,True,False
+19,K8/D2/gap_closed_catt,0.911,0.895,True,False
+19,K8/D2/ba_broken/ba_src,0.567,0.573,True,False
+19,K8/D2/ba_broken/ba_comp,0.569,0.582,True,False
+19,K8/D2/ba_broken/ba_catt,0.774,0.775,True,False
+19,K8/D2/ba_broken/ba_oracle,0.796,0.801,True,False
+19,K8/D2/per_setting_gap_closed_comp/0,0.0,0.0,False,False
+19,K8/D2/per_setting_gap_closed_comp/1,0.0,0.114,True,False
+19,K8/D2/per_setting_gap_closed_comp/2,-0.045,0.006,True,False
+19,K8/D2/per_setting_gap_closed_comp/4,0.067,0.098,True,False
+19,K8/D2/per_setting_gap_closed_comp/6,0.027,0.011,True,False
+19,K8/D3/neg_huca_claris/tv,0.707,0.731,True,False
+19,K8/D3/neg_huca_claris/ci95,"[0.651, 0.758]","[0.684, 0.783]",True,False
+19,K8/D3/neg_huca_mortara/tv,0.498,0.591,True,False
+19,K8/D3/neg_huca_mortara/ci95,"[0.441, 0.576]","[0.522, 0.658]",True,False
+19,K8/D3/neg_claris_mortara/tv,0.255,0.17,True,False
+19,K8/D3/neg_claris_mortara/ci95,"[0.204, 0.335]","[0.121, 0.236]",True,False
+19,K8/D3/pos_huca_claris/tv,0.742,0.756,True,False
+19,K8/D3/pos_huca_claris/ci95,"[0.653, 0.816]","[0.675, 0.85]",True,False
+19,K8/D3/pos_huca_mortara/tv,0.434,0.51,True,False
+19,K8/D3/pos_huca_mortara/ci95,"[0.359, 0.573]","[0.429, 0.636]",True,False
+19,K8/D3/pos_claris_mortara/tv,0.369,0.353,True,False
+19,K8/D3/pos_claris_mortara/ci95,"[0.294, 0.462]","[0.286, 0.445]",True,False
+19,K8/D3/criterion_met_neg,True,True,False,False
+"19 (căn lại, quan sát sau)",nadir_V1_ms_median/huca,0.0,0.0,False,False
+"19 (căn lại, quan sát sau)",nadir_V1_ms_median/claris,20.0,20.0,False,False
+"19 (căn lại, quan sát sau)",nadir_V1_ms_median/mortara,20.0,20.0,False,False
+"19 (căn lại, quan sát sau)",tv_neg/huca_claris,0.384,0.389,True,False
+"19 (căn lại, quan sát sau)",tv_neg/huca_mortara,0.345,0.342,True,False
+"19 (căn lại, quan sát sau)",tv_neg/claris_mortara,0.047,0.052,True,False
+"19 (căn lại, quan sát sau)",within_share_broken_neg,0.974,0.979,True,False
+24,T5/estimators/G1_closed/median,1.09,1.076,True,False
+24,T5/estimators/G1_closed/iqr,"[0.924, 1.329]","[0.904, 1.276]",True,False
+24,T5/estimators/G1_closed/abs_log,0.188,0.187,True,False
+24,T5/estimators/G1_closed/ok,True,True,False,False
+24,T5/estimators/G2_sandwich/median,0.915,0.903,True,False
+24,T5/estimators/G2_sandwich/iqr,"[0.791, 1.05]","[0.783, 1.036]",True,False
+24,T5/estimators/G2_sandwich/abs_log,0.158,0.155,True,False
+24,T5/estimators/G2_sandwich/ok,True,True,False,False
+24,T5/estimators/G3_hybrid/median,0.844,0.828,True,False
+24,T5/estimators/G3_hybrid/iqr,"[0.7, 1.033]","[0.686, 0.988]",True,False
+24,T5/estimators/G3_hybrid/abs_log,0.234,0.235,True,False
+24,T5/estimators/G3_hybrid/ok,False,False,False,False
+24,T5/met,True,True,False,False
+24,T5/points,1620,1620,False,False
+24,T6/n_smooth_0.15,399,389,True,False
+24,T6/n_smooth_0.3,70,69,True,False
+24,T6/n_raw_0.15,3449,3290,True,False
+24,T6/n_raw_0.3,431,411,True,False
+24,T6/ratio_raw_over_smooth_median/0.15,7.36,7.98,True,False
+24,T6/ratio_raw_over_smooth_median/0.3,5.21,5.65,True,False
+25,25b/M1_met,True,True,False,False
+25,25b/M2_met,True,True,False,False
+25,25b/M3_met,True,True,False,False
+25,25b/M4_met,True,True,False,False
+26,26a/raw_z1/kept_share_broken,1.0,1.0,False,False
+26,26a/raw_z1/opened_intact,7,9,True,False
+26,26a/raw_z1/opened_broken,15,15,False,False
+26,26a/raw_z1/ba_heldout,0.7978,0.7995,True,False
+26,26a/raw_z2/kept_share_broken,1.0,1.0,False,False
+26,26a/raw_z2/opened_intact,3,4,True,False
+26,26a/raw_z2/opened_broken,15,15,False,False
+26,26a/raw_z2/ba_heldout,0.7975,0.801,True,False
+26,26a/raw_z3/kept_share_broken,1.0,1.0,False,False
+26,26a/raw_z3/opened_intact,0,2,True,False
+26,26a/raw_z3/opened_broken,15,15,False,False
+26,26a/raw_z3/ba_heldout,0.7996,0.8012,True,False
+26,26a/smooth_z1/kept_share_broken,1.0,1.0,False,False
+26,26a/smooth_z1/opened_intact,10,9,True,False
+26,26a/smooth_z1/opened_broken,15,15,False,False
+26,26a/smooth_z1/ba_heldout,0.7953,0.8008,True,False
+26,26a/smooth_z2/kept_share_broken,1.0,1.0,False,False
+26,26a/smooth_z2/opened_intact,8,7,True,False
+26,26a/smooth_z2/opened_broken,15,15,False,False
+26,26a/smooth_z2/ba_heldout,0.795,0.8015,True,False
+26,26a/smooth_z3/kept_share_broken,1.0,1.0,False,False
+26,26a/smooth_z3/opened_intact,5,5,False,False
+26,26a/smooth_z3/opened_broken,15,15,False,False
+26,26a/smooth_z3/ba_heldout,0.7958,0.802,True,False
+26,26a/G1_met,True,True,False,False
+26,26a/ref_heldout/ba_src,0.7013,0.7033,True,False
+26,26a/ref_heldout/ba_catt,0.7993,0.8003,True,False
+26,26a/ref_heldout/ba_catt_h,0.7956,0.8008,True,False
+26,26a/ref_heldout/ba_oracle,0.8199,0.8226,True,False
+26,26a/gap_over_sd_median/raw/0,23.99,20.95,True,False
+26,26a/gap_over_sd_median/raw/1,13.1,11.69,True,False
+26,26a/gap_over_sd_median/raw/2,7.23,7.76,True,False
+26,26a/gap_over_sd_median/raw/3,1.32,1.45,True,False
+26,26a/gap_over_sd_median/raw/4,6.62,4.49,True,False
+26,26a/gap_over_sd_median/raw/5,1.26,1.88,True,False
+26,26a/gap_over_sd_median/raw/6,8.28,8.47,True,False
+26,26a/gap_over_sd_median/raw/7,1.17,1.85,True,False
+26,26a/gap_over_sd_median/raw/8,1.65,1.88,True,False
+26,26a/gap_over_sd_median/smooth/0,59.32,51.5,True,False
+26,26a/gap_over_sd_median/smooth/1,23.36,24.06,True,False
+26,26a/gap_over_sd_median/smooth/2,16.76,20.08,True,False
+26,26a/gap_over_sd_median/smooth/3,3.77,3.17,True,False
+26,26a/gap_over_sd_median/smooth/4,11.86,8.12,True,False
+26,26a/gap_over_sd_median/smooth/5,2.22,4.71,True,False
+26,26a/gap_over_sd_median/smooth/6,18.12,21.11,True,False
+26,26a/gap_over_sd_median/smooth/7,3.63,1.87,True,False
+26,26a/gap_over_sd_median/smooth/8,2.36,2.16,True,False
+26,26b/5pct/ba_catt,0.7904,0.8033,True,False
+26,26b/5pct/ba_catt_h,0.7967,0.7992,True,False
+26,26b/5pct/ba_src,0.7016,0.7037,True,False
+26,26b/5pct/k_star_raw,100,100,False,False
+26,26b/5pct/k_star_smooth,100,100,False,False
+26,26b/5pct/by_k/10/ba_lab,0.705,0.7074,True,False
+26,26b/5pct/by_k/10/p10_lab,0.5902,0.5925,True,False
+26,26b/5pct/by_k/10/ba_lab_h,0.7071,0.7094,True,False
+26,26b/5pct/by_k/10/p10_lab_h,0.5948,0.5954,True,False
+26,26b/5pct/by_k/10/exp_pos,0.5,0.5,False,False
+26,26b/5pct/by_k/20/ba_lab,0.7175,0.7194,True,False
+26,26b/5pct/by_k/20/p10_lab,0.581,0.5808,True,False
+26,26b/5pct/by_k/20/ba_lab_h,0.7237,0.7262,True,False
+26,26b/5pct/by_k/20/p10_lab_h,0.5858,0.5849,True,False
+26,26b/5pct/by_k/20/exp_pos,1.0,1.0,False,False
+26,26b/5pct/by_k/30/ba_lab,0.7339,0.7356,True,False
+26,26b/5pct/by_k/30/p10_lab,0.5842,0.5907,True,False
+26,26b/5pct/by_k/30/ba_lab_h,0.7409,0.7431,True,False
+26,26b/5pct/by_k/30/p10_lab_h,0.5889,0.5946,True,False
+26,26b/5pct/by_k/30/exp_pos,1.5,1.5,False,False
+26,26b/5pct/by_k/50/ba_lab,0.7611,0.7634,True,False
+26,26b/5pct/by_k/50/p10_lab,0.6255,0.6246,True,False
+26,26b/5pct/by_k/50/ba_lab_h,0.7722,0.7748,True,False
+26,26b/5pct/by_k/50/p10_lab_h,0.6457,0.6434,True,False
+26,26b/5pct/by_k/50/exp_pos,2.5,2.5,False,False
+26,26b/5pct/by_k/100/ba_lab,0.8,0.8025,True,False
+26,26b/5pct/by_k/100/p10_lab,0.7204,0.721,True,False
+26,26b/5pct/by_k/100/ba_lab_h,0.8023,0.8038,True,False
+26,26b/5pct/by_k/100/p10_lab_h,0.7329,0.7354,True,False
+26,26b/5pct/by_k/100/exp_pos,5.0,5.0,False,False
+26,26b/5pct/by_k/200/ba_lab,0.8283,0.8304,True,False
+26,26b/5pct/by_k/200/p10_lab,0.7686,0.7714,True,False
+26,26b/5pct/by_k/200/ba_lab_h,0.814,0.8158,True,False
+26,26b/5pct/by_k/200/p10_lab_h,0.7531,0.7547,True,False
+26,26b/5pct/by_k/200/exp_pos,10.0,10.0,False,False
+26,26b/5pct/p10_catt_h,0.7414,0.7424,True,False
+26,26b/natural/ba_catt,0.7993,0.8003,True,False
+26,26b/natural/ba_catt_h,0.7956,0.8008,True,False
+26,26b/natural/ba_src,0.7013,0.7033,True,False
+26,26b/natural/k_star_raw,50,50,False,False
+26,26b/natural/k_star_smooth,30,50,True,False
+26,26b/natural/by_k/10/ba_lab,0.743,0.7444,True,False
+26,26b/natural/by_k/10/p10_lab,0.6247,0.6262,True,False
+26,26b/natural/by_k/10/ba_lab_h,0.7623,0.7647,True,False
+26,26b/natural/by_k/10/p10_lab_h,0.6595,0.6612,True,False
+26,26b/natural/by_k/10/exp_pos,3.4,3.4,False,False
+26,26b/natural/by_k/20/ba_lab,0.7762,0.7782,True,False
+26,26b/natural/by_k/20/p10_lab,0.7103,0.7124,True,False
+26,26b/natural/by_k/20/ba_lab_h,0.7904,0.7932,True,False
+26,26b/natural/by_k/20/p10_lab_h,0.7573,0.7657,True,False
+26,26b/natural/by_k/20/exp_pos,6.8,6.8,False,False
+26,26b/natural/by_k/30/ba_lab,0.7887,0.7909,True,False
+26,26b/natural/by_k/30/p10_lab,0.7425,0.7473,True,False
+26,26b/natural/by_k/30/ba_lab_h,0.7983,0.8005,True,False
+26,26b/natural/by_k/30/p10_lab_h,0.7786,0.7821,True,False
+26,26b/natural/by_k/30/exp_pos,10.2,10.2,False,False
+26,26b/natural/by_k/50/ba_lab,0.7993,0.8009,True,False
+26,26b/natural/by_k/50/p10_lab,0.7711,0.7739,True,False
+26,26b/natural/by_k/50/ba_lab_h,0.8033,0.8045,True,False
+26,26b/natural/by_k/50/p10_lab_h,0.7886,0.791,True,False
+26,26b/natural/by_k/50/exp_pos,17.1,17.1,False,False
+26,26b/natural/by_k/100/ba_lab,0.8075,0.809,True,False
+26,26b/natural/by_k/100/p10_lab,0.7909,0.7938,True,False
+26,26b/natural/by_k/100/ba_lab_h,0.8068,0.8076,True,False
+26,26b/natural/by_k/100/p10_lab_h,0.7961,0.7976,True,False
+26,26b/natural/by_k/100/exp_pos,34.1,34.1,False,False
+26,26b/natural/by_k/200/ba_lab,0.814,0.8157,True,False
+26,26b/natural/by_k/200/p10_lab,0.8049,0.8057,True,False
+26,26b/natural/by_k/200/ba_lab_h,0.8092,0.8098,True,False
+26,26b/natural/by_k/200/p10_lab_h,0.8015,0.8018,True,False
+26,26b/natural/by_k/200/exp_pos,68.2,68.2,False,False

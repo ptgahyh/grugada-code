@@ -1,0 +1,263 @@
+{
+ "K5": {
+  "pca_explained": 0.924,
+  "D1_neg": {
+   "within_share_broken": 0.978,
+   "ci95": [
+    0.935,
+    1.024
+   ],
+   "within_share_intact": 0.681,
+   "mean_abs_delta_broken": 2.182,
+   "mean_abs_delta_intact": 0.212,
+   "max_missing_target_weight": 0.495
+  },
+  "D1_pos": {
+   "within_share_broken": 0.977,
+   "ci95": [
+    0.929,
+    1.054
+   ],
+   "within_share_intact": 0.805,
+   "mean_abs_delta_broken": 2.608,
+   "mean_abs_delta_intact": 0.239,
+   "max_missing_target_weight": 0.712
+  },
+  "D2": {
+   "gap_closed_comp": 0.104,
+   "gap_closed_catt": 0.895,
+   "ba_broken": {
+    "ba_src": 0.573,
+    "ba_comp": 0.592,
+    "ba_catt": 0.775,
+    "ba_oracle": 0.801
+   },
+   "per_setting_gap_closed_comp": {
+    "0": 0.227,
+    "1": 0.196,
+    "2": -0.045,
+    "4": 0.098,
+    "6": 0.043
+   }
+  },
+  "D3": {
+   "neg_huca_claris": {
+    "tv": 0.7,
+    "ci95": [
+     0.645,
+     0.748
+    ]
+   },
+   "neg_huca_mortara": {
+    "tv": 0.542,
+    "ci95": [
+     0.485,
+     0.62
+    ]
+   },
+   "neg_claris_mortara": {
+    "tv": 0.157,
+    "ci95": [
+     0.113,
+     0.223
+    ]
+   },
+   "pos_huca_claris": {
+    "tv": 0.721,
+    "ci95": [
+     0.629,
+     0.817
+    ]
+   },
+   "pos_huca_mortara": {
+    "tv": 0.486,
+    "ci95": [
+     0.382,
+     0.612
+    ]
+   },
+   "pos_claris_mortara": {
+    "tv": 0.286,
+    "ci95": [
+     0.201,
+     0.373
+    ]
+   },
+   "criterion_met_neg": true
+  }
+ },
+ "K3": {
+  "pca_explained": 0.924,
+  "D1_neg": {
+   "within_share_broken": 0.937,
+   "ci95": [
+    0.871,
+    1.008
+   ],
+   "within_share_intact": 0.841,
+   "mean_abs_delta_broken": 2.182,
+   "mean_abs_delta_intact": 0.212,
+   "max_missing_target_weight": 0.0
+  },
+  "D1_pos": {
+   "within_share_broken": 0.925,
+   "ci95": [
+    0.847,
+    1.016
+   ],
+   "within_share_intact": 0.251,
+   "mean_abs_delta_broken": 2.608,
+   "mean_abs_delta_intact": 0.239,
+   "max_missing_target_weight": 0.534
+  },
+  "D2": {
+   "gap_closed_comp": 0.069,
+   "gap_closed_catt": 0.895,
+   "ba_broken": {
+    "ba_src": 0.573,
+    "ba_comp": 0.589,
+    "ba_catt": 0.775,
+    "ba_oracle": 0.801
+   },
+   "per_setting_gap_closed_comp": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.094,
+    "4": 0.237,
+    "6": 0.015
+   }
+  },
+  "D3": {
+   "neg_huca_claris": {
+    "tv": 0.714,
+    "ci95": [
+     0.663,
+     0.765
+    ]
+   },
+   "neg_huca_mortara": {
+    "tv": 0.564,
+    "ci95": [
+     0.489,
+     0.631
+    ]
+   },
+   "neg_claris_mortara": {
+    "tv": 0.15,
+    "ci95": [
+     0.088,
+     0.212
+    ]
+   },
+   "pos_huca_claris": {
+    "tv": 0.708,
+    "ci95": [
+     0.611,
+     0.796
+    ]
+   },
+   "pos_huca_mortara": {
+    "tv": 0.385,
+    "ci95": [
+     0.269,
+     0.517
+    ]
+   },
+   "pos_claris_mortara": {
+    "tv": 0.323,
+    "ci95": [
+     0.234,
+     0.41
+    ]
+   },
+   "criterion_met_neg": true
+  }
+ },
+ "K8": {
+  "pca_explained": 0.924,
+  "D1_neg": {
+   "within_share_broken": 1.011,
+   "ci95": [
+    0.96,
+    1.056
+   ],
+   "within_share_intact": 0.707,
+   "mean_abs_delta_broken": 2.182,
+   "mean_abs_delta_intact": 0.212,
+   "max_missing_target_weight": 0.399
+  },
+  "D1_pos": {
+   "within_share_broken": 1.031,
+   "ci95": [
+    0.974,
+    1.078
+   ],
+   "within_share_intact": 0.655,
+   "mean_abs_delta_broken": 2.608,
+   "mean_abs_delta_intact": 0.239,
+   "max_missing_target_weight": 0.644
+  },
+  "D2": {
+   "gap_closed_comp": 0.046,
+   "gap_closed_catt": 0.895,
+   "ba_broken": {
+    "ba_src": 0.573,
+    "ba_comp": 0.582,
+    "ba_catt": 0.775,
+    "ba_oracle": 0.801
+   },
+   "per_setting_gap_closed_comp": {
+    "0": 0.0,
+    "1": 0.114,
+    "2": 0.006,
+    "4": 0.098,
+    "6": 0.011
+   }
+  },
+  "D3": {
+   "neg_huca_claris": {
+    "tv": 0.731,
+    "ci95": [
+     0.684,
+     0.783
+    ]
+   },
+   "neg_huca_mortara": {
+    "tv": 0.591,
+    "ci95": [
+     0.522,
+     0.658
+    ]
+   },
+   "neg_claris_mortara": {
+    "tv": 0.17,
+    "ci95": [
+     0.121,
+     0.236
+    ]
+   },
+   "pos_huca_claris": {
+    "tv": 0.756,
+    "ci95": [
+     0.675,
+     0.85
+    ]
+   },
+   "pos_huca_mortara": {
+    "tv": 0.51,
+    "ci95": [
+     0.429,
+     0.636
+    ]
+   },
+   "pos_claris_mortara": {
+    "tv": 0.353,
+    "ci95": [
+     0.286,
+     0.445
+    ]
+   },
+   "criterion_met_neg": true
+  }
+ }
+}
