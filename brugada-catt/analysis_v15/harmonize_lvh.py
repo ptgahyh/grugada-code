@@ -134,11 +134,18 @@ if __name__ == "__main__":
         log[dom] = dict(n=len(ok), n_pos=int(s.loc[ok, "y"].sum()), excluded_few_beats=int(len(s) - len(ok)))
         print(dom, log[dom], flush=True)
     with zipfile.ZipFile(ZIP) as z:
-        allnames = set(z.namelist())
-        heads = sorted(n[:-4] for n in allnames if n.endswith(".hea") and "WFDBRecords" in n)
-        names = [n for n in heads if n + ".mat" in allnames]      # bản sao zip có thể thiếu .mat của vài bản ghi: bỏ và đếm
-        log["cn_headers_without_mat"] = len(heads) - len(names)
-        print("cn: số header", len(heads), "thiếu .mat", len(heads) - len(names), flush=True)
+        info = {i.filename: i.file_size for i in z.infolist()}
+        heads = sorted(n[:-4] for n in info if n.endswith(".hea") and "WFDBRecords" in n)
+        best = {}                      # bản sao zip có thể lặp bản ghi hoặc thiếu/cụt .mat: mỗi mã bản ghi lấy MỘT bản, .mat lớn nhất
+        for n in heads:
+            sz, b = info.get(n + ".mat", -1), os.path.basename(n)
+            if b not in best or sz > best[b][1]:
+                best[b] = (n, sz)
+        names = sorted(v[0] for v in best.values() if v[1] > 0)
+        log["cn_header_entries"] = len(heads); log["cn_unique_records"] = len(best)
+        log["cn_duplicate_header_entries"] = len(heads) - len(best); log["cn_headers_without_mat"] = len(best) - len(names)
+        log["cn_mat_smaller_than_120024_bytes"] = int(sum(0 < v[1] < 120024 for v in best.values()))
+        print("cn: header", len(heads), "mã bản ghi", len(best), "không có .mat", len(best) - len(names), flush=True)
     with Pool(4) as p:
         res = p.map(cn_one, names, chunksize=128)
     log["cn_headers"] = len(names)

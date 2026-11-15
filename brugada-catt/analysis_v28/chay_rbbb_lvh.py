@@ -220,6 +220,13 @@ def main():
     with zipfile.ZipFile(codezip) as z:
         z.extractall(CODE)
     say("đã giải nén code")
+    # ---- 2b. phiên bản dữ liệu: bản 2 (15/11 tối) bỏ bản ghi Chapman lặp; kết quả của bản trước phải bỏ
+    ver = os.path.join(WORK, "_phien_ban_2.txt")
+    if not os.path.exists(ver):
+        for d in (NPZ14, NPZ15, SC14, SC15, SC22, *(os.path.join(RES, x) for x in ("v14_rbbb", "v15_lvh", "v22_lvh_mv", "v28"))):
+            if os.path.exists(d):
+                shutil.rmtree(d); say("xóa kết quả của bản script cũ: " + d)
+        open(ver, "w").write("2")
     # ---- 3. PTB-XL
     prepare_ptb()
     # ---- 4. chuẩn hóa (đọc thẳng zip Chapman)
