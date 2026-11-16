@@ -29,7 +29,26 @@ CN_ZIP = os.path.join(BASE, "physionet-ecg-arrhythmia-1.0.0.zip")
 NPZ14, NPZ15 = os.path.join(WORK, "npz_rbbb"), os.path.join(WORK, "npz_lvh")
 SC14, SC15, SC22 = (os.path.join(WORK, d) for d in ("scores_rbbb", "scores_lvh", "scores_lvh_mv"))
 LOG = os.path.join(RES, "log.txt")
-NPROC = int(os.environ.get("NPROC", max(2, min(4, (os.cpu_count() or 4) // 2))))
+def _ram_gb():
+    try:
+        import ctypes
+
+        class MS(ctypes.Structure):
+            _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong), ("ullTotalPhys", ctypes.c_ulonglong),
+                        ("ullAvailPhys", ctypes.c_ulonglong), ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
+                        ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong), ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+        m = MS(); m.dwLength = ctypes.sizeof(MS); ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m))
+        return m.ullTotalPhys / 2 ** 30
+    except Exception:
+        try:
+            return os.sysconf("SC_PAGE_SIZE") * os.sysconf("SC_PHYS_PAGES") / 2 ** 30
+        except Exception:
+            return 8.0
+
+
+RAM_GB = _ram_gb()
+# mỗi tiến trình huấn luyện dùng 1 luồng CPU và tối đa khoảng 1,5 GB RAM
+NPROC = int(os.environ.get("NPROC", max(2, min(8, (os.cpu_count() or 4) // 2, int(RAM_GB // 2)))))
 ENV = dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8", NPROC=str(NPROC), OMP_NUM_THREADS="1", MKL_NUM_THREADS="1")
 PY = sys.executable
 for _s in (sys.stdout, sys.stderr):          # tránh lỗi mã hóa khi in tiếng Việt ra cửa sổ lệnh Windows
@@ -38,6 +57,52 @@ for _s in (sys.stdout, sys.stderr):          # tránh lỗi mã hóa khi in ti�
     except Exception:
         pass
 T0 = time.time()
+WIN = os.name == "nt"
+CHILDREN = []          # mọi tiến trình con đang chạy, để dừng sạch khi cần
+_LAST_INT = [0.0]
+
+
+def keep_awake(on=True):
+    """Không cho Windows tự ngủ khi đang chạy (gập máy hay tắt máy thì vẫn dừng)."""
+    if WIN:
+        try:
+            import ctypes
+            ES_CONTINUOUS, ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001
+            ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | (ES_SYSTEM_REQUIRED if on else 0))
+        except Exception:
+            pass
+
+
+def start(args, logf):
+    """Tiến trình con ở nhóm riêng: Ctrl+C trong cửa sổ lệnh không giết nó (chỉ chương trình chính quyết định dừng)."""
+    kw = dict(creationflags=subprocess.CREATE_NEW_PROCESS_GROUP) if WIN else dict(start_new_session=True)
+    p = subprocess.Popen([PY] + args, cwd=CODE, env=ENV, stdout=logf, stderr=subprocess.STDOUT, **kw)
+    CHILDREN.append(p)
+    return p
+
+
+def kill_children():
+    for p in CHILDREN:
+        if p.poll() is None:
+            try:
+                p.kill()
+            except Exception:
+                pass
+
+
+def on_ctrl_c(signum, frame):
+    now = time.time()
+    if now - _LAST_INT[0] < 15:
+        say("Nhận Ctrl+C lần hai: dừng theo yêu cầu. Chạy lại đúng lệnh cũ để làm tiếp từ chỗ dừng.")
+        kill_children(); keep_awake(False); os._exit(2)
+    _LAST_INT[0] = now
+    say("Nhận Ctrl+C (có thể do bấm nhầm, ví dụ khi sao chép chữ). VẪN TIẾP TỤC CHẠY. Muốn dừng thật: bấm Ctrl+C lần nữa trong 15 giây.")
+
+
+def wait_all(procs):
+    """Chờ các tiến trình con bằng cách hỏi định kỳ (để Ctrl+C được xử lý ngay)."""
+    while any(p.poll() is None for p in procs):
+        time.sleep(2)
 
 
 def say(msg):
@@ -68,7 +133,8 @@ def run(name, args_list, done):
     for k, a in enumerate(args_list):
         lf = os.path.join(RES, "logs", f"{name}_{k}.log".replace(" ", "_"))
         f = open(lf, "w", encoding="utf-8")
-        procs.append((subprocess.Popen([PY] + a, cwd=CODE, env=ENV, stdout=f, stderr=subprocess.STDOUT), f, lf))
+        procs.append((start(a, f), f, lf))
+    wait_all([p for p, _, _ in procs])
     for p, f, lf in procs:
         rc = p.wait(); f.close()
         if rc != 0:
@@ -171,17 +237,26 @@ def train(name, script, npz, sc):
     marker = os.path.join(sc, "_XONG.txt")
     if not os.path.exists(marker):
         os.makedirs(sc, exist_ok=True)
+        import numpy as np
+        for fn in glob.glob(os.path.join(sc, "scores_*_*.npz")):      # tệp ghi dở khi bị ngắt: xóa để chạy lại lượt đó
+            try:
+                with np.load(fn) as z:
+                    _ = [z[k].shape for k in z.files]
+            except Exception:
+                os.remove(fn); say(f"  xóa tệp điểm ghi dở: {os.path.basename(fn)}")
         say(f"bắt đầu: {name} ({n_scores(sc)}/18 lượt đã có, {NPROC} tiến trình)")
         procs = []
         for k, a in enumerate(chunks(script, npz, sc)):
             lf = os.path.join(RES, "logs", f"{name}_{k}.log".replace(" ", "_"))
             f = open(lf, "a", encoding="utf-8")
-            procs.append((subprocess.Popen([PY] + a, cwd=CODE, env=ENV, stdout=f, stderr=subprocess.STDOUT), f, lf))
-        last = -1
+            procs.append((start(a, f), f, lf))
+        last, t = -1, 0
         while any(p.poll() is None for p, _, _ in procs):
-            time.sleep(60); k = n_scores(sc)
-            if k != last:
-                say(f"  {name}: {k}/18 lượt"); last = k
+            time.sleep(2); t += 2
+            if t % 60 == 0:
+                k = n_scores(sc)
+                if k != last:
+                    say(f"  {name}: {k}/18 lượt"); last = k
         for p, f, lf in procs:
             f.close()
             if p.returncode != 0:
@@ -196,7 +271,8 @@ def train(name, script, npz, sc):
 
 def main():
     os.makedirs(os.path.join(RES, "logs"), exist_ok=True); os.makedirs(WORK, exist_ok=True)
-    say(f"Python {sys.version.split()[0]}, {os.cpu_count()} nhân, dùng {NPROC} tiến trình. Thư mục: {BASE}")
+    say(f"Python {sys.version.split()[0]}, {os.cpu_count()} nhân, RAM {RAM_GB:.0f} GB, dùng {NPROC} tiến trình. Thư mục: {BASE}")
+    say("Đang giữ máy không tự ngủ. Đừng gập máy/tắt máy. Ctrl+C một lần sẽ bị bỏ qua; muốn dừng thì bấm hai lần.")
     free = shutil.disk_usage(BASE).free / 1e9
     say(f"Ổ đĩa còn trống {free:.1f} GB (cần khoảng 4 GB)")
     if free < 4:
@@ -229,6 +305,32 @@ def main():
         open(ver, "w").write("2")
     # ---- 3. PTB-XL
     prepare_ptb()
+    # ---- 3b. bản 3 (16/11): khi một bản sao của bản ghi Chapman hỏng thì thử bản sao khác.
+    #      Chuẩn hóa lại vào thư mục tạm; chỉ khi số bản ghi đổi mới bỏ kết quả huấn luyện cũ.
+    ver3 = os.path.join(WORK, "_phien_ban_3.txt")
+    if not os.path.exists(ver3):
+        old14, old15 = os.path.join(NPZ14, "harmonize_log.json"), os.path.join(NPZ15, "harmonize_log.json")
+        if os.path.exists(old14) and os.path.exists(old15):
+            import json
+            t14, t15 = NPZ14 + "_v3", NPZ15 + "_v3"
+            run("chuan_hoa_rbbb_v3", [["analysis_v14/harmonize_rbbb.py", PTB, CN_ZIP, t14]], os.path.join(t14, "harmonize_log.json"))
+            run("chuan_hoa_lvh_v3", [["analysis_v15/harmonize_lvh.py", PTB, CN_ZIP, t15]], os.path.join(t15, "harmonize_log.json"))
+            same = True
+            for old, new, lab in ((old14, t14, "RBBB"), (old15, t15, "LVH")):
+                a, b = json.load(open(old))["cn"], json.load(open(os.path.join(new, "harmonize_log.json")))
+                say(f"  {lab} Chapman/Ningbo: trước {a['n']} bản ghi ({a['n_pos']} dương tính), nay {b['cn']['n']} ({b['cn']['n_pos']}); "
+                    f"cứu được từ bản sao khác {b.get('cn_read_other_copy')}, hỏng mọi bản {b.get('cn_unreadable_all_copies')}")
+                same &= (a["n"], a["n_pos"]) == (b["cn"]["n"], b["cn"]["n_pos"])
+            if same:
+                shutil.copy(os.path.join(t14, "harmonize_log.json"), old14); shutil.copy(os.path.join(t15, "harmonize_log.json"), old15)
+                shutil.rmtree(t14); shutil.rmtree(t15)
+                say("  số bản ghi không đổi: giữ kết quả huấn luyện đã có")
+            else:
+                for d in (SC14, SC15, SC22, *(os.path.join(RES, x) for x in ("v14_rbbb", "v15_lvh", "v22_lvh_mv", "v28"))):
+                    if os.path.exists(d):
+                        shutil.rmtree(d); say("  có thêm bản ghi đọc được: xóa kết quả cũ " + d)
+                shutil.rmtree(NPZ14); shutil.rmtree(NPZ15); os.rename(t14, NPZ14); os.rename(t15, NPZ15)
+        open(ver3, "w").write("3")
     # ---- 4. chuẩn hóa (đọc thẳng zip Chapman)
     run("chuan_hoa_rbbb", [["analysis_v14/harmonize_rbbb.py", PTB, CN_ZIP, NPZ14]], os.path.join(NPZ14, "harmonize_log.json"))
     run("chuan_hoa_lvh", [["analysis_v15/harmonize_lvh.py", PTB, CN_ZIP, NPZ15]], os.path.join(NPZ15, "harmonize_log.json"))
@@ -261,4 +363,18 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import atexit
+    import signal
+    atexit.register(kill_children)
+    signal.signal(signal.SIGINT, on_ctrl_c)
+    if hasattr(signal, "SIGBREAK"):
+        signal.signal(signal.SIGBREAK, on_ctrl_c)
+    keep_awake(True)
+    try:
+        main()
+    except SystemExit:
+        kill_children(); keep_awake(False); raise
+    except BaseException as e:
+        say(f"LỖI không lường trước: {type(e).__name__}: {e}")
+        kill_children(); keep_awake(False); raise
+    keep_awake(False)

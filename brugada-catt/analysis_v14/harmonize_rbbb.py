@@ -69,11 +69,22 @@ def ptb_one(args):
 _Z = None
 
 
-def cn_one(name):
-    try:
-        return _cn_one(name)
-    except (IndexError, ValueError, AssertionError, KeyError, OSError, EOFError, zipfile.BadZipFile, __import__('zlib').error):    # header sai định dạng (2 bản ghi trong bản 1.0.0)
-        return os.path.basename(name), -2, None
+FORMAT_ERR = (IndexError, ValueError, AssertionError)                 # header sai định dạng (2 bản ghi trong bản 1.0.0)
+READ_ERR = (KeyError, OSError, EOFError, zipfile.BadZipFile, __import__("zlib").error)   # tệp hỏng trong bản sao zip
+
+
+def cn_one(cands):
+    """cands: các đường dẫn của CÙNG một mã bản ghi trong zip (bản sao HF có thể lặp). Thử lần lượt tới khi đọc được.
+    Phần tử cuối của kết quả: 'ok0' (bản đầu đọc được), 'okK' (phải dùng bản thứ K), 'fmt' (header sai định dạng), 'read' (mọi bản hỏng)."""
+    last = "read"
+    for k, name in enumerate(cands):
+        try:
+            return (*_cn_one(name), f"ok{k}")
+        except FORMAT_ERR:             # có thể do .mat hỏng mà vẫn đủ dung lượng: thử bản sao tiếp
+            last = "fmt"
+        except READ_ERR:
+            last = "read"
+    return os.path.basename(cands[0]), -2, None, last
 
 
 def _cn_one(name):
@@ -132,18 +143,24 @@ if __name__ == "__main__":
     with zipfile.ZipFile(ZIP) as z:
         info = {i.filename: i.file_size for i in z.infolist()}
         heads = sorted(n[:-4] for n in info if n.endswith(".hea") and "WFDBRecords" in n)
-        best = {}                      # bản sao zip có thể lặp bản ghi hoặc thiếu/cụt .mat: mỗi mã bản ghi lấy MỘT bản, .mat lớn nhất
+        cand = {}                      # bản sao zip có thể lặp bản ghi hoặc thiếu/cụt .mat: gom mọi bản của cùng một mã bản ghi
         for n in heads:
-            sz, b = info.get(n + ".mat", -1), os.path.basename(n)
-            if b not in best or sz > best[b][1]:
-                best[b] = (n, sz)
-        names = sorted(v[0] for v in best.values() if v[1] > 0)
+            cand.setdefault(os.path.basename(n), []).append((info.get(n + ".mat", -1), n))
+        best = {b: max(v) for b, v in cand.items()}
+        names = [[n for sz, n in sorted(v, key=lambda t: (-t[0], t[1])) if sz > 0] for b, v in sorted(cand.items())]
+        names = [c for c in names if c]
         log["cn_header_entries"] = len(heads); log["cn_unique_records"] = len(best)
         log["cn_duplicate_header_entries"] = len(heads) - len(best); log["cn_headers_without_mat"] = len(best) - len(names)
-        log["cn_mat_smaller_than_120024_bytes"] = int(sum(0 < v[1] < 120024 for v in best.values()))
+        log["cn_records_with_2plus_copies"] = int(sum(len(c) > 1 for c in names))
+        log["cn_mat_smaller_than_120024_bytes"] = int(sum(0 < v[0] < 120024 for v in best.values()))
         print("cn: header", len(heads), "mã bản ghi", len(best), "không có .mat", len(best) - len(names), flush=True)
     with Pool(4) as p:
         res = p.map(cn_one, names, chunksize=128)
+    st = [r[-1] for r in res]
+    log["cn_read_first_copy"] = st.count("ok0"); log["cn_read_other_copy"] = sum(x.startswith("ok") and x != "ok0" for x in st)
+    log["cn_unreadable_all_copies"] = st.count("read"); log["cn_bad_header_format"] = st.count("fmt")
+    print("cn: đọc bản đầu", log["cn_read_first_copy"], "phải dùng bản khác", log["cn_read_other_copy"],
+          "hỏng mọi bản", log["cn_unreadable_all_copies"], flush=True)
     log["cn_excluded_irbbb_only"] = sum(r[1] == -1 for r in res)
     log["cn_excluded_malformed_header"] = sum(r[1] == -2 for r in res)
     ok = [r for r in res if r[2] is not None]
