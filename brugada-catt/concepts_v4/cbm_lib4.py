@@ -14,6 +14,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from sklearn.metrics import roc_auc_score, roc_curve
 from sklearn.model_selection import StratifiedShuffleSplit
+SEED_OFFSET = int(__import__("os").environ.get("SEED_OFFSET", "0"))
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "concepts_v2"))
@@ -66,6 +67,7 @@ class Net(nn.Module):
 
 def train_cnn(xtr, ytr, xva, yva, seed, epochs=60, patience=12):
     TG = torch.Generator()
+    seed = seed + SEED_OFFSET                     # bước 30: lần huấn luyện r dùng SEED_OFFSET = 1000·r (mặc định 0 = như cũ)
     torch.manual_seed(seed); TG.manual_seed(seed); g = np.random.default_rng(seed)
     net = Net(xtr.shape[1]); opt = torch.optim.Adam(net.parameters(), 1e-3, weight_decay=1e-3)
     lossf = nn.BCEWithLogitsLoss(pos_weight=torch.tensor((ytr == 0).sum() / max(1, (ytr == 1).sum()), dtype=torch.float32))
@@ -159,6 +161,7 @@ class CBM2(nn.Module):
 
 
 def train_cbm2(xtr, ytr, dtr, xva, yva, dva, seed, ada, signs, robust=False, vrex=0.0, epochs=300, patience=40, l1=1e-3, cv="v2"):
+    seed = seed + SEED_OFFSET
     torch.manual_seed(seed); g = np.random.default_rng(seed)
     model = CBM2(signs, robust, cv)
     opt = torch.optim.Adam(model.parameters(), lr=2e-2)

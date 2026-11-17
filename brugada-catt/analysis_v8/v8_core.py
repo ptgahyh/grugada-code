@@ -95,6 +95,7 @@ def coral(fs, ft):
 def train_uda(xtr, ytr, xva, yva, xtg, seed, mode, epochs=60, patience=12):
     """Như L.train_cnn, thêm nhánh thích nghi miền. mode ∈ {'dann', 'coral'}."""
     TG = torch.Generator()
+    seed = seed + L.SEED_OFFSET                   # bước 30
     torch.manual_seed(seed); TG.manual_seed(seed); g = np.random.default_rng(seed)
     net = L.Net(xtr.shape[1])
     disc = nn.Sequential(nn.Linear(64, 32), nn.ReLU(), nn.Linear(32, 1))
