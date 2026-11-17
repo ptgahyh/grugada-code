@@ -80,12 +80,20 @@ for (prob, scope, m), g in R.groupby(["problem", "scope", "vs"], sort=False):
                else ("CATT tốt hơn" if mean > 0 else "CATT kém hơn"))
     summ.append(dict(problem=prob, scope=scope, vs=m, n_reps=k, deltas=" ".join(f"{x:+.4f}" for x in g.delta), mean=mean, sd_between=s,
                      boot_halfwidth_median=h, ratio_sd_to_bootSE=s / (h / 1.96) if h > 0 else np.nan,
-                     same_sign=f"{same}/{k}", t_lo=lo_t, t_hi=hi_t, V2=verdict))
-S = pd.DataFrame(summ); S.round(4).to_csv(os.path.join(OUT, "summary_table.csv"), index=False)
+                     same_sign=f"{same}/{k}", t_lo=lo_t, t_hi=hi_t, V2=verdict,
+                     # BỔ SUNG SAU (không thuộc kế hoạch): khoảng t của V2 chỉ tính dao động huấn luyện, bỏ sót dao động do mẫu
+                     # bệnh nhân (mọi lần dùng cùng bệnh nhân, nên lấy trung bình không làm nó nhỏ đi). Gộp cả hai:
+                     # SE² ≈ (h/1,96)² + s²/k.
+                     comb_lo=mean - 1.96 * np.sqrt((h / 1.96) ** 2 + (s ** 2 / k if k > 1 else 0)),
+                     comb_hi=mean + 1.96 * np.sqrt((h / 1.96) ** 2 + (s ** 2 / k if k > 1 else 0))))
+S = pd.DataFrame(summ)
+S["verdict_combined_posthoc"] = np.where((S.comb_lo > 0), "CATT tốt hơn", np.where(S.comb_hi < 0, "CATT kém hơn", "không phân biệt được"))
+S.round(4).to_csv(os.path.join(OUT, "summary_table.csv"), index=False)
 out = {"V1_bootstrap_understates": {f"{r.problem} / {r.scope}": bool(r.ratio_sd_to_bootSE > 1)
                                     for r in S[S.vs == "SRC"].itertuples()},
        "V2": {f"{r.problem} / {r.scope} / CATT − {r.vs}": r.V2 for r in S.itertuples()},
        "V3_brugada_main_holds": bool(((S.problem == "brugada") & (S.scope == "held-out") & (S.vs == "SRC") & (S.V2 == "CATT tốt hơn")).any()),
+       "posthoc_combined": {f"{r.problem} / {r.scope} / CATT − {r.vs}": r.verdict_combined_posthoc for r in S.itertuples()},
        "V4_broken_counts": {p: g.n_broken.tolist() for p, g in pd.DataFrame(broken_rows).groupby("problem")}}
 json.dump(out, open(os.path.join(H, "summary_v30.json"), "w"), indent=1, ensure_ascii=False)
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 60)

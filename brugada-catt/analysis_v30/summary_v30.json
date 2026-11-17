@@ -1,0 +1,32 @@
+{
+ "V1_bootstrap_understates": {
+  "brugada / held-out": false,
+  "brugada / tỉ lệ 5%": false
+ },
+ "V2": {
+  "brugada / held-out / CATT − SRC": "CATT tốt hơn",
+  "brugada / held-out / CATT − GMM-2": "CATT tốt hơn",
+  "brugada / held-out / CATT − Otsu": "CATT tốt hơn",
+  "brugada / tỉ lệ 5% / CATT − SRC": "CATT tốt hơn",
+  "brugada / tỉ lệ 5% / CATT − GMM-2": "CATT tốt hơn",
+  "brugada / tỉ lệ 5% / CATT − Otsu": "CATT tốt hơn"
+ },
+ "V3_brugada_main_holds": true,
+ "posthoc_combined": {
+  "brugada / held-out / CATT − SRC": "CATT tốt hơn",
+  "brugada / held-out / CATT − GMM-2": "không phân biệt được",
+  "brugada / held-out / CATT − Otsu": "không phân biệt được",
+  "brugada / tỉ lệ 5% / CATT − SRC": "CATT tốt hơn",
+  "brugada / tỉ lệ 5% / CATT − GMM-2": "CATT tốt hơn",
+  "brugada / tỉ lệ 5% / CATT − Otsu": "CATT tốt hơn"
+ },
+ "V4_broken_counts": {
+  "brugada": [
+   5,
+   5,
+   5,
+   5,
+   5
+  ]
+ }
+}

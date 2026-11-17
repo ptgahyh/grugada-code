@@ -1,0 +1,7 @@
+problem,scope,vs,n_reps,deltas,mean,sd_between,boot_halfwidth_median,ratio_sd_to_bootSE,same_sign,t_lo,t_hi,V2,comb_lo,comb_hi,verdict_combined_posthoc
+brugada,held-out,SRC,5,+0.0970 +0.0981 +0.0926 +0.0937 +0.0827,0.0928,0.0061,0.012,0.9914,5/5,0.0853,0.1004,CATT tốt hơn,0.0796,0.106,CATT tốt hơn
+brugada,held-out,GMM-2,5,+0.0056 +0.0089 +0.0092 +0.0191 +0.0029,0.0091,0.0061,0.0096,1.2533,5/5,0.0015,0.0168,CATT tốt hơn,-0.0019,0.0201,không phân biệt được
+brugada,held-out,Otsu,5,+0.0042 +0.0090 +0.0088 +0.0164 +0.0030,0.0083,0.0053,0.0094,1.0996,5/5,0.0017,0.0148,CATT tốt hơn,-0.0022,0.0188,không phân biệt được
+brugada,tỉ lệ 5%,SRC,5,+0.0994 +0.0982 +0.0870 +0.0913 +0.0854,0.0923,0.0064,0.019,0.6563,5/5,0.0844,0.1002,CATT tốt hơn,0.0725,0.1121,CATT tốt hơn
+brugada,tỉ lệ 5%,GMM-2,5,+0.0183 +0.0196 +0.0190 +0.0216 +0.0218,0.0201,0.0016,0.014,0.2195,5/5,0.0181,0.022,CATT tốt hơn,0.006,0.0341,CATT tốt hơn
+brugada,tỉ lệ 5%,Otsu,5,+0.0210 +0.0230 +0.0238 +0.0238 +0.0258,0.0235,0.0017,0.0147,0.2306,5/5,0.0213,0.0256,CATT tốt hơn,0.0087,0.0383,CATT tốt hơn

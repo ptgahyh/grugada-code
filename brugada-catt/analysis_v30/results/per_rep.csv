@@ -1,0 +1,31 @@
+problem,catt,scope,vs,rep,delta,lo,hi
+brugada,CATT,held-out,SRC,0,0.097,0.0851,0.111
+brugada,CATT,held-out,SRC,1,0.0981,0.0871,0.1109
+brugada,CATT,held-out,SRC,2,0.0926,0.0811,0.1039
+brugada,CATT,held-out,SRC,3,0.0937,0.0796,0.1042
+brugada,CATT,held-out,SRC,4,0.0827,0.0734,0.0975
+brugada,CATT,held-out,GMM-2,0,0.0056,-0.0039,0.0153
+brugada,CATT,held-out,GMM-2,1,0.0089,-0.001,0.02
+brugada,CATT,held-out,GMM-2,2,0.0092,0.0009,0.0193
+brugada,CATT,held-out,GMM-2,3,0.0191,0.0055,0.0247
+brugada,CATT,held-out,GMM-2,4,0.0029,-0.002,0.0157
+brugada,CATT,held-out,Otsu,0,0.0042,-0.0036,0.0152
+brugada,CATT,held-out,Otsu,1,0.009,-0.0004,0.0204
+brugada,CATT,held-out,Otsu,2,0.0088,0.0004,0.0184
+brugada,CATT,held-out,Otsu,3,0.0164,0.0047,0.0237
+brugada,CATT,held-out,Otsu,4,0.003,-0.0031,0.0142
+brugada,CATT,tỉ lệ 5%,SRC,0,0.0994,0.0795,0.1178
+brugada,CATT,tỉ lệ 5%,SRC,1,0.0982,0.0788,0.1165
+brugada,CATT,tỉ lệ 5%,SRC,2,0.087,0.0678,0.1036
+brugada,CATT,tỉ lệ 5%,SRC,3,0.0913,0.0709,0.1089
+brugada,CATT,tỉ lệ 5%,SRC,4,0.0854,0.0644,0.1044
+brugada,CATT,tỉ lệ 5%,GMM-2,0,0.0183,0.0037,0.0317
+brugada,CATT,tỉ lệ 5%,GMM-2,1,0.0196,0.0046,0.0317
+brugada,CATT,tỉ lệ 5%,GMM-2,2,0.019,0.0041,0.0323
+brugada,CATT,tỉ lệ 5%,GMM-2,3,0.0216,0.0069,0.0349
+brugada,CATT,tỉ lệ 5%,GMM-2,4,0.0218,0.0088,0.0338
+brugada,CATT,tỉ lệ 5%,Otsu,0,0.021,0.0058,0.0351
+brugada,CATT,tỉ lệ 5%,Otsu,1,0.023,0.0061,0.0355
+brugada,CATT,tỉ lệ 5%,Otsu,2,0.0238,0.0065,0.0364
+brugada,CATT,tỉ lệ 5%,Otsu,3,0.0238,0.0085,0.0375
+brugada,CATT,tỉ lệ 5%,Otsu,4,0.0258,0.0107,0.0401
