@@ -1,0 +1,248 @@
+{
+ "P1": {
+  "all": {
+   "median_pred_over_obs": 0.8061434463275773,
+   "iqr": [
+    0.5890278361130582,
+    1.0203962853971655
+   ],
+   "spearman": 0.7950917422776584,
+   "n": 162
+  },
+  "anchor A1 QRS_rms": {
+   "median_pred_over_obs": 0.7765726943639579,
+   "iqr": [
+    0.5405180995699701,
+    0.9396696350603376
+   ],
+   "spearman": 0.6846197827329902,
+   "n": 54
+  },
+  "anchor A2 RBBB-LR": {
+   "median_pred_over_obs": 0.6699883734718535,
+   "iqr": [
+    0.5475601127798533,
+    0.9100638355706444
+   ],
+   "spearman": 0.8021726700971983,
+   "n": 54
+  },
+  "anchor A3 CNNalt": {
+   "median_pred_over_obs": 1.003805603983308,
+   "iqr": [
+    0.7986740027132333,
+    1.2567819773545277
+   ],
+   "spearman": 0.643072231751477,
+   "n": 54
+  },
+  "bandwidth x0.5": {
+   "median_pred_over_obs": 0.687237053416239,
+   "iqr": [
+    0.48112858690516164,
+    0.8728023961009997
+   ],
+   "spearman": 0.740617956675572,
+   "n": 162
+  },
+  "bandwidth x2.0": {
+   "median_pred_over_obs": 0.878432399476804,
+   "iqr": [
+    0.6488534418956343,
+    1.1780908620463442
+   ],
+   "spearman": 0.7435421932621187,
+   "n": 162
+  },
+  "skipped": [],
+  "r2_log_formula": 0.6801954061208348,
+  "r2_log_n_only": 0.12454809414551027,
+  "criterion_met": true
+ },
+ "P2": {
+  "median_pred_over_obs": 0.7949940699780758,
+  "iqr": [
+   0.5306781655602533,
+   1.0175929724664128
+  ],
+  "spearman": 0.7663828520056847,
+  "n": 162,
+  "criterion_met": false
+ },
+ "P3": {
+  "1 giai đoạn, eps=0.15": {
+   "n_plans": 324,
+   "feasible": 178,
+   "median_sd_over_eps": 1.25671,
+   "frac_le_eps": 0.3258426966292135,
+   "frac_le_1_2eps": 0.47752808988764045,
+   "median_n_plan": 7907.5,
+   "safety_factor_80pct": 8.301024423275438
+  },
+  "1 giai đoạn, eps=0.3": {
+   "n_plans": 324,
+   "feasible": 274,
+   "median_sd_over_eps": 1.1831466666666666,
+   "frac_le_eps": 0.38686131386861317,
+   "frac_le_1_2eps": 0.5072992700729927,
+   "median_n_plan": 3748.5,
+   "safety_factor_80pct": 9.344472244012827
+  },
+  "2 giai đoạn, eps=0.15": {
+   "n_plans": 324,
+   "feasible": 167,
+   "median_sd_over_eps": 1.0869266666666666,
+   "frac_le_eps": 0.39520958083832336,
+   "frac_le_1_2eps": 0.6167664670658682,
+   "median_n_plan": 6505.0,
+   "safety_factor_80pct": 4.729228308201813
+  },
+  "2 giai đoạn, eps=0.3": {
+   "n_plans": 324,
+   "feasible": 300,
+   "median_sd_over_eps": 1.080955,
+   "frac_le_eps": 0.44,
+   "frac_le_1_2eps": 0.5666666666666667,
+   "median_n_plan": 4491.5,
+   "safety_factor_80pct": 6.852578715352785
+  },
+  "criterion_met_two_stage": false
+ },
+ "P4": {
+  "point": {
+   "ptb_cs→ptb_at": {
+    "SRC": 0.9656,
+    "MED": 0.8142,
+    "UPA": 0.9039,
+    "GMM-2": 0.9871,
+    "Otsu": 0.9895,
+    "CATT(A1)": 0.9492,
+    "CATT(A2)": 0.9921,
+    "CATT(A3)": 0.9804,
+    "ORACLE": 0.9932
+   },
+   "ptb_cs→cn": {
+    "SRC": 0.938,
+    "MED": 0.7986,
+    "UPA": 0.8057,
+    "GMM-2": 0.9666,
+    "Otsu": 0.967,
+    "CATT(A1)": 0.9518,
+    "CATT(A2)": 0.9703,
+    "CATT(A3)": 0.9532,
+    "ORACLE": 0.9707
+   },
+   "ptb_at→ptb_cs": {
+    "SRC": 0.9796,
+    "MED": 0.6617,
+    "UPA": 0.9942,
+    "GMM-2": 0.9779,
+    "Otsu": 0.9949,
+    "CATT(A1)": 0.8864,
+    "CATT(A2)": 0.9878,
+    "CATT(A3)": 0.9948,
+    "ORACLE": 0.9958
+   },
+   "ptb_at→cn": {
+    "SRC": 0.9519,
+    "MED": 0.7931,
+    "UPA": 0.8817,
+    "GMM-2": 0.9481,
+    "Otsu": 0.9682,
+    "CATT(A1)": 0.9179,
+    "CATT(A2)": 0.9673,
+    "CATT(A3)": 0.9653,
+    "ORACLE": 0.9701
+   },
+   "cn→ptb_cs": {
+    "SRC": 0.9862,
+    "MED": 0.9871,
+    "UPA": 0.9759,
+    "GMM-2": 0.9608,
+    "Otsu": 0.9734,
+    "CATT(A1)": 0.888,
+    "CATT(A2)": 0.9641,
+    "CATT(A3)": 0.9785,
+    "ORACLE": 0.9959
+   },
+   "cn→ptb_at": {
+    "SRC": 0.9858,
+    "MED": 0.9858,
+    "UPA": 0.9778,
+    "GMM-2": 0.977,
+    "Otsu": 0.9909,
+    "CATT(A1)": 0.8924,
+    "CATT(A2)": 0.9681,
+    "CATT(A3)": 0.982,
+    "ORACLE": 0.9926
+   }
+  },
+  "broken_settings": [],
+  "negative_control_settings": [
+   "ptb_cs→ptb_at",
+   "ptb_at→ptb_cs"
+  ],
+  "pooled_differences_point_ci95": {
+   "CATT(A1) − SRC (tất cả)": [
+    -0.0536,
+    -0.063,
+    -0.049
+   ],
+   "CATT(A1) − MED (tất cả)": [
+    0.0742,
+    0.0431,
+    0.0989
+   ],
+   "CATT(A1) − UPA (tất cả)": [
+    -0.0089,
+    -0.0174,
+    -0.0044
+   ],
+   "CATT(A1) − GMM-2 (tất cả)": [
+    -0.0553,
+    -0.0642,
+    -0.0507
+   ],
+   "CATT(A1) − Otsu (tất cả)": [
+    -0.0664,
+    -0.0747,
+    -0.0611
+   ],
+   "CATT(A1) − CATT(A3) (tất cả)": [
+    -0.0614,
+    -0.0698,
+    -0.0559
+   ],
+   "CATT(A2) − SRC (tất cả)": [
+    0.0071,
+    0.0041,
+    0.0104
+   ],
+   "CATT(A2) − MED (tất cả)": [
+    0.1349,
+    0.1074,
+    0.1595
+   ],
+   "CATT(A2) − UPA (tất cả)": [
+    0.0517,
+    0.0491,
+    0.0547
+   ],
+   "CATT(A2) − GMM-2 (tất cả)": [
+    0.0054,
+    0.0027,
+    0.0074
+   ],
+   "CATT(A2) − Otsu (tất cả)": [
+    -0.0057,
+    -0.0075,
+    -0.0028
+   ],
+   "CATT(A2) − CATT(A3) (tất cả)": [
+    -0.0008,
+    -0.0025,
+    0.0031
+   ]
+  }
+ }
+}

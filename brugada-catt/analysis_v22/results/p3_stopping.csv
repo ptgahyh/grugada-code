@@ -1,0 +1,2593 @@
+setting,vseed,anchor,eps,rep,N,rule,status,n_plan,sd
+0,0,A1 Sokolow,0.15,0,8352,1 giai đoạn,ok,4851.0,0.133036
+0,0,A1 Sokolow,0.15,0,8352,2 giai đoạn,ok,4823.0,0.122193
+0,0,A1 Sokolow,0.15,0,8352,2 giai đoạn (mẫu con),ok,5769.0,0.092398
+0,0,A1 Sokolow,0.15,1,8352,1 giai đoạn,ok,3637.0,0.188235
+0,0,A1 Sokolow,0.15,1,8352,2 giai đoạn,ok,5675.0,0.113213
+0,0,A1 Sokolow,0.15,1,8352,2 giai đoạn (mẫu con),ok,4544.0,0.158346
+0,0,A1 Sokolow,0.15,2,8352,1 giai đoạn,ok,5012.0,0.144727
+0,0,A1 Sokolow,0.15,2,8352,2 giai đoạn,ok,4250.0,0.151848
+0,0,A1 Sokolow,0.15,2,8352,2 giai đoạn (mẫu con),ok,4145.0,0.185544
+0,0,A1 Sokolow,0.15,3,8352,1 giai đoạn,ok,5568.0,0.118965
+0,0,A1 Sokolow,0.15,3,8352,2 giai đoạn,ok,4425.0,0.178287
+0,0,A1 Sokolow,0.15,3,8352,2 giai đoạn (mẫu con),ok,4863.0,0.131333
+0,0,A1 Sokolow,0.15,4,8352,1 giai đoạn,ok,5481.0,0.11525
+0,0,A1 Sokolow,0.15,4,8352,2 giai đoạn,ok,4648.0,0.15957
+0,0,A1 Sokolow,0.15,4,8352,2 giai đoạn (mẫu con),ok,3578.0,0.219807
+0,0,A1 Sokolow,0.15,5,8352,1 giai đoạn,ok,5526.0,0.136132
+0,0,A1 Sokolow,0.15,5,8352,2 giai đoạn,ok,5896.0,0.097654
+0,0,A1 Sokolow,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,7386.0,
+0,0,A1 Sokolow,0.3,0,8352,1 giai đoạn,ok,605.0,0.349669
+0,0,A1 Sokolow,0.3,0,8352,2 giai đoạn,ok,573.0,0.339635
+0,0,A1 Sokolow,0.3,0,8352,2 giai đoạn (mẫu con),ok,678.0,0.29337
+0,0,A1 Sokolow,0.3,1,8352,1 giai đoạn,ok,1250.0,0.268809
+0,0,A1 Sokolow,0.3,1,8352,2 giai đoạn,ok,1317.0,0.272315
+0,0,A1 Sokolow,0.3,1,8352,2 giai đoạn (mẫu con),ok,1048.0,0.262582
+0,0,A1 Sokolow,0.3,2,8352,1 giai đoạn,ok,929.0,0.291034
+0,0,A1 Sokolow,0.3,2,8352,2 giai đoạn,ok,1028.0,0.293243
+0,0,A1 Sokolow,0.3,2,8352,2 giai đoạn (mẫu con),ok,465.0,0.372756
+0,0,A1 Sokolow,0.3,3,8352,1 giai đoạn,ok,1136.0,0.301844
+0,0,A1 Sokolow,0.3,3,8352,2 giai đoạn,ok,1081.0,0.303728
+0,0,A1 Sokolow,0.3,3,8352,2 giai đoạn (mẫu con),ok,627.0,0.334031
+0,0,A1 Sokolow,0.3,4,8352,1 giai đoạn,ok,1343.0,0.270727
+0,0,A1 Sokolow,0.3,4,8352,2 giai đoạn,ok,1486.0,0.277592
+0,0,A1 Sokolow,0.3,4,8352,2 giai đoạn (mẫu con),ok,1934.0,0.246605
+0,0,A1 Sokolow,0.3,5,8352,1 giai đoạn,ok,1625.0,0.249875
+0,0,A1 Sokolow,0.3,5,8352,2 giai đoạn,ok,1667.0,0.279269
+0,0,A1 Sokolow,0.3,5,8352,2 giai đoạn (mẫu con),ok,1669.0,0.240796
+0,0,A2 Cornell,0.15,0,8352,1 giai đoạn,không khả thi,6890.0,
+0,0,A2 Cornell,0.15,0,8352,2 giai đoạn,không khả thi,7221.0,
+0,0,A2 Cornell,0.15,0,8352,2 giai đoạn (mẫu con),không khả thi,7542.0,
+0,0,A2 Cornell,0.15,1,8352,1 giai đoạn,không khả thi,7841.0,
+0,0,A2 Cornell,0.15,1,8352,2 giai đoạn,không khả thi,6719.0,
+0,0,A2 Cornell,0.15,1,8352,2 giai đoạn (mẫu con),ok,5920.0,0.113774
+0,0,A2 Cornell,0.15,2,8352,1 giai đoạn,không khả thi,7881.0,
+0,0,A2 Cornell,0.15,2,8352,2 giai đoạn,không khả thi,7777.0,
+0,0,A2 Cornell,0.15,2,8352,2 giai đoạn (mẫu con),không khả thi,7913.0,
+0,0,A2 Cornell,0.15,3,8352,1 giai đoạn,ok,6516.0,0.070784
+0,0,A2 Cornell,0.15,3,8352,2 giai đoạn,không khả thi,7215.0,
+0,0,A2 Cornell,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,7777.0,
+0,0,A2 Cornell,0.15,4,8352,1 giai đoạn,không khả thi,7716.0,
+0,0,A2 Cornell,0.15,4,8352,2 giai đoạn,không khả thi,8087.0,
+0,0,A2 Cornell,0.15,4,8352,2 giai đoạn (mẫu con),không khả thi,8192.0,
+0,0,A2 Cornell,0.15,5,8352,1 giai đoạn,không khả thi,7363.0,
+0,0,A2 Cornell,0.15,5,8352,2 giai đoạn,không khả thi,7124.0,
+0,0,A2 Cornell,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,6728.0,
+0,0,A2 Cornell,0.3,0,8352,1 giai đoạn,ok,4398.0,0.266901
+0,0,A2 Cornell,0.3,0,8352,2 giai đoạn,ok,4072.0,0.272367
+0,0,A2 Cornell,0.3,0,8352,2 giai đoạn (mẫu con),ok,2940.0,0.328423
+0,0,A2 Cornell,0.3,1,8352,1 giai đoạn,ok,3299.0,0.351972
+0,0,A2 Cornell,0.3,1,8352,2 giai đoạn,ok,5445.0,0.123142
+0,0,A2 Cornell,0.3,1,8352,2 giai đoạn (mẫu con),ok,6251.0,0.105891
+0,0,A2 Cornell,0.3,2,8352,1 giai đoạn,không khả thi,6914.0,
+0,0,A2 Cornell,0.3,2,8352,2 giai đoạn,ok,3530.0,0.285105
+0,0,A2 Cornell,0.3,2,8352,2 giai đoạn (mẫu con),ok,3457.0,0.282854
+0,0,A2 Cornell,0.3,3,8352,1 giai đoạn,ok,3721.0,0.319104
+0,0,A2 Cornell,0.3,3,8352,2 giai đoạn,ok,3768.0,0.294899
+0,0,A2 Cornell,0.3,3,8352,2 giai đoạn (mẫu con),ok,2035.0,0.39748
+0,0,A2 Cornell,0.3,4,8352,1 giai đoạn,ok,3458.0,0.304444
+0,0,A2 Cornell,0.3,4,8352,2 giai đoạn,ok,4179.0,0.264991
+0,0,A2 Cornell,0.3,4,8352,2 giai đoạn (mẫu con),ok,4893.0,0.199959
+0,0,A2 Cornell,0.3,5,8352,1 giai đoạn,ok,2086.0,0.451597
+0,0,A2 Cornell,0.3,5,8352,2 giai đoạn,ok,2374.0,0.400489
+0,0,A2 Cornell,0.3,5,8352,2 giai đoạn (mẫu con),ok,1796.0,0.497274
+0,0,A3 LVH-LR,0.15,0,8352,1 giai đoạn,ok,4533.0,0.184976
+0,0,A3 LVH-LR,0.15,0,8352,2 giai đoạn,ok,4521.0,0.185957
+0,0,A3 LVH-LR,0.15,0,8352,2 giai đoạn (mẫu con),ok,2542.0,0.214179
+0,0,A3 LVH-LR,0.15,1,8352,1 giai đoạn,ok,5162.0,0.162859
+0,0,A3 LVH-LR,0.15,1,8352,2 giai đoạn,ok,3385.0,0.212814
+0,0,A3 LVH-LR,0.15,1,8352,2 giai đoạn (mẫu con),ok,4389.0,0.196682
+0,0,A3 LVH-LR,0.15,2,8352,1 giai đoạn,ok,4806.0,0.194376
+0,0,A3 LVH-LR,0.15,2,8352,2 giai đoạn,ok,3946.0,0.221714
+0,0,A3 LVH-LR,0.15,2,8352,2 giai đoạn (mẫu con),ok,3669.0,0.223365
+0,0,A3 LVH-LR,0.15,3,8352,1 giai đoạn,ok,3768.0,0.186692
+0,0,A3 LVH-LR,0.15,3,8352,2 giai đoạn,ok,4300.0,0.189228
+0,0,A3 LVH-LR,0.15,3,8352,2 giai đoạn (mẫu con),ok,1992.0,0.22422
+0,0,A3 LVH-LR,0.15,4,8352,1 giai đoạn,ok,4583.0,0.189482
+0,0,A3 LVH-LR,0.15,4,8352,2 giai đoạn,ok,3824.0,0.195537
+0,0,A3 LVH-LR,0.15,4,8352,2 giai đoạn (mẫu con),ok,3318.0,0.206608
+0,0,A3 LVH-LR,0.15,5,8352,1 giai đoạn,ok,5695.0,0.183993
+0,0,A3 LVH-LR,0.15,5,8352,2 giai đoạn,ok,3945.0,0.186453
+0,0,A3 LVH-LR,0.15,5,8352,2 giai đoạn (mẫu con),ok,4473.0,0.17032
+0,0,A3 LVH-LR,0.3,0,8352,1 giai đoạn,ok,1158.0,0.268122
+0,0,A3 LVH-LR,0.3,0,8352,2 giai đoạn,ok,964.0,0.267056
+0,0,A3 LVH-LR,0.3,0,8352,2 giai đoạn (mẫu con),ok,920.0,0.299151
+0,0,A3 LVH-LR,0.3,1,8352,1 giai đoạn,ok,736.0,0.291769
+0,0,A3 LVH-LR,0.3,1,8352,2 giai đoạn,ok,686.0,0.314518
+0,0,A3 LVH-LR,0.3,1,8352,2 giai đoạn (mẫu con),ok,377.0,0.338099
+0,0,A3 LVH-LR,0.3,2,8352,1 giai đoạn,ok,1118.0,0.256584
+0,0,A3 LVH-LR,0.3,2,8352,2 giai đoạn,ok,1282.0,0.255438
+0,0,A3 LVH-LR,0.3,2,8352,2 giai đoạn (mẫu con),ok,2039.0,0.22403
+0,0,A3 LVH-LR,0.3,3,8352,1 giai đoạn,ok,745.0,0.313168
+0,0,A3 LVH-LR,0.3,3,8352,2 giai đoạn,ok,696.0,0.329717
+0,0,A3 LVH-LR,0.3,3,8352,2 giai đoạn (mẫu con),ok,373.0,0.352008
+0,0,A3 LVH-LR,0.3,4,8352,1 giai đoạn,ok,932.0,0.291558
+0,0,A3 LVH-LR,0.3,4,8352,2 giai đoạn,ok,1045.0,0.289686
+0,0,A3 LVH-LR,0.3,4,8352,2 giai đoạn (mẫu con),ok,466.0,0.316552
+0,0,A3 LVH-LR,0.3,5,8352,1 giai đoạn,ok,1074.0,0.264666
+0,0,A3 LVH-LR,0.3,5,8352,2 giai đoạn,ok,1199.0,0.244734
+0,0,A3 LVH-LR,0.3,5,8352,2 giai đoạn (mẫu con),ok,1457.0,0.250586
+0,0,A4 CNNalt,0.15,0,8352,1 giai đoạn,ok,2911.0,0.10288
+0,0,A4 CNNalt,0.15,0,8352,2 giai đoạn,ok,1805.0,0.124271
+0,0,A4 CNNalt,0.15,0,8352,2 giai đoạn (mẫu con),ok,1811.0,0.12173
+0,0,A4 CNNalt,0.15,1,8352,1 giai đoạn,ok,2642.0,0.102382
+0,0,A4 CNNalt,0.15,1,8352,2 giai đoạn,ok,1757.0,0.149395
+0,0,A4 CNNalt,0.15,1,8352,2 giai đoạn (mẫu con),ok,1321.0,0.125945
+0,0,A4 CNNalt,0.15,2,8352,1 giai đoạn,ok,1804.0,0.119046
+0,0,A4 CNNalt,0.15,2,8352,2 giai đoạn,ok,2217.0,0.115862
+0,0,A4 CNNalt,0.15,2,8352,2 giai đoạn (mẫu con),ok,902.0,0.151064
+0,0,A4 CNNalt,0.15,3,8352,1 giai đoạn,ok,1656.0,0.126403
+0,0,A4 CNNalt,0.15,3,8352,2 giai đoạn,ok,2138.0,0.119762
+0,0,A4 CNNalt,0.15,3,8352,2 giai đoạn (mẫu con),ok,828.0,0.15675
+0,0,A4 CNNalt,0.15,4,8352,1 giai đoạn,ok,1990.0,0.11586
+0,0,A4 CNNalt,0.15,4,8352,2 giai đoạn,ok,2081.0,0.112464
+0,0,A4 CNNalt,0.15,4,8352,2 giai đoạn (mẫu con),ok,1303.0,0.130819
+0,0,A4 CNNalt,0.15,5,8352,1 giai đoạn,ok,1986.0,0.127874
+0,0,A4 CNNalt,0.15,5,8352,2 giai đoạn,ok,1842.0,0.125356
+0,0,A4 CNNalt,0.15,5,8352,2 giai đoạn (mẫu con),ok,993.0,0.16755
+0,0,A4 CNNalt,0.3,0,8352,1 giai đoạn,ok,865.0,0.155923
+0,0,A4 CNNalt,0.3,0,8352,2 giai đoạn,ok,560.0,0.203823
+0,0,A4 CNNalt,0.3,0,8352,2 giai đoạn (mẫu con),ok,433.0,0.230623
+0,0,A4 CNNalt,0.3,1,8352,1 giai đoạn,ok,561.0,0.18053
+0,0,A4 CNNalt,0.3,1,8352,2 giai đoạn,ok,561.0,0.184086
+0,0,A4 CNNalt,0.3,1,8352,2 giai đoạn (mẫu con),ok,300.0,0.226459
+0,0,A4 CNNalt,0.3,2,8352,1 giai đoạn,ok,504.0,0.212363
+0,0,A4 CNNalt,0.3,2,8352,2 giai đoạn,ok,504.0,0.176071
+0,0,A4 CNNalt,0.3,2,8352,2 giai đoạn (mẫu con),ok,455.0,0.186097
+0,0,A4 CNNalt,0.3,3,8352,1 giai đoạn,ok,382.0,0.212133
+0,0,A4 CNNalt,0.3,3,8352,2 giai đoạn,ok,382.0,0.175766
+0,0,A4 CNNalt,0.3,3,8352,2 giai đoạn (mẫu con),ok,300.0,0.210797
+0,0,A4 CNNalt,0.3,4,8352,1 giai đoạn,ok,674.0,0.171711
+0,0,A4 CNNalt,0.3,4,8352,2 giai đoạn,ok,604.0,0.168066
+0,0,A4 CNNalt,0.3,4,8352,2 giai đoạn (mẫu con),ok,337.0,0.272753
+0,0,A4 CNNalt,0.3,5,8352,1 giai đoạn,ok,431.0,0.190677
+0,0,A4 CNNalt,0.3,5,8352,2 giai đoạn,ok,431.0,0.224639
+0,0,A4 CNNalt,0.3,5,8352,2 giai đoạn (mẫu con),ok,398.0,0.216734
+0,1,A1 Sokolow,0.15,0,8352,1 giai đoạn,ok,3827.0,0.17182
+0,1,A1 Sokolow,0.15,0,8352,2 giai đoạn,ok,2806.0,0.17589
+0,1,A1 Sokolow,0.15,0,8352,2 giai đoạn (mẫu con),ok,1914.0,0.198159
+0,1,A1 Sokolow,0.15,1,8352,1 giai đoạn,ok,2089.0,0.202227
+0,1,A1 Sokolow,0.15,1,8352,2 giai đoạn,ok,2595.0,0.154641
+0,1,A1 Sokolow,0.15,1,8352,2 giai đoạn (mẫu con),ok,2035.0,0.184478
+0,1,A1 Sokolow,0.15,2,8352,1 giai đoạn,ok,2691.0,0.177703
+0,1,A1 Sokolow,0.15,2,8352,2 giai đoạn,ok,3156.0,0.160986
+0,1,A1 Sokolow,0.15,2,8352,2 giai đoạn (mẫu con),ok,2248.0,0.201073
+0,1,A1 Sokolow,0.15,3,8352,1 giai đoạn,ok,3598.0,0.16905
+0,1,A1 Sokolow,0.15,3,8352,2 giai đoạn,ok,4120.0,0.142741
+0,1,A1 Sokolow,0.15,3,8352,2 giai đoạn (mẫu con),ok,3542.0,0.155661
+0,1,A1 Sokolow,0.15,4,8352,1 giai đoạn,ok,2986.0,0.176332
+0,1,A1 Sokolow,0.15,4,8352,2 giai đoạn,ok,3504.0,0.160034
+0,1,A1 Sokolow,0.15,4,8352,2 giai đoạn (mẫu con),ok,5152.0,0.129071
+0,1,A1 Sokolow,0.15,5,8352,1 giai đoạn,ok,3263.0,0.157782
+0,1,A1 Sokolow,0.15,5,8352,2 giai đoạn,ok,2619.0,0.164222
+0,1,A1 Sokolow,0.15,5,8352,2 giai đoạn (mẫu con),ok,1632.0,0.215301
+0,1,A1 Sokolow,0.3,0,8352,1 giai đoạn,ok,605.0,0.26673
+0,1,A1 Sokolow,0.3,0,8352,2 giai đoạn,ok,602.0,0.279541
+0,1,A1 Sokolow,0.3,0,8352,2 giai đoạn (mẫu con),ok,303.0,0.347292
+0,1,A1 Sokolow,0.3,1,8352,1 giai đoạn,ok,650.0,0.258871
+0,1,A1 Sokolow,0.3,1,8352,2 giai đoạn,ok,581.0,0.282002
+0,1,A1 Sokolow,0.3,1,8352,2 giai đoạn (mẫu con),ok,424.0,0.303077
+0,1,A1 Sokolow,0.3,2,8352,1 giai đoạn,ok,461.0,0.289993
+0,1,A1 Sokolow,0.3,2,8352,2 giai đoạn,ok,461.0,0.316341
+0,1,A1 Sokolow,0.3,2,8352,2 giai đoạn (mẫu con),ok,300.0,0.335322
+0,1,A1 Sokolow,0.3,3,8352,1 giai đoạn,ok,966.0,0.244761
+0,1,A1 Sokolow,0.3,3,8352,2 giai đoạn,ok,745.0,0.253859
+0,1,A1 Sokolow,0.3,3,8352,2 giai đoạn (mẫu con),ok,483.0,0.288103
+0,1,A1 Sokolow,0.3,4,8352,1 giai đoạn,ok,492.0,0.287117
+0,1,A1 Sokolow,0.3,4,8352,2 giai đoạn,ok,492.0,0.300805
+0,1,A1 Sokolow,0.3,4,8352,2 giai đoạn (mẫu con),ok,300.0,0.350126
+0,1,A1 Sokolow,0.3,5,8352,1 giai đoạn,ok,1470.0,0.208047
+0,1,A1 Sokolow,0.3,5,8352,2 giai đoạn,ok,739.0,0.248055
+0,1,A1 Sokolow,0.3,5,8352,2 giai đoạn (mẫu con),ok,1084.0,0.256494
+0,1,A2 Cornell,0.15,0,8352,1 giai đoạn,không khả thi,7106.0,
+0,1,A2 Cornell,0.15,0,8352,2 giai đoạn,ok,6009.0,0.139538
+0,1,A2 Cornell,0.15,0,8352,2 giai đoạn (mẫu con),ok,5222.0,0.150122
+0,1,A2 Cornell,0.15,1,8352,1 giai đoạn,không khả thi,7514.0,
+0,1,A2 Cornell,0.15,1,8352,2 giai đoạn,không khả thi,7217.0,
+0,1,A2 Cornell,0.15,1,8352,2 giai đoạn (mẫu con),không khả thi,7293.0,
+0,1,A2 Cornell,0.15,2,8352,1 giai đoạn,ok,6479.0,0.141834
+0,1,A2 Cornell,0.15,2,8352,2 giai đoạn,không khả thi,6916.0,
+0,1,A2 Cornell,0.15,2,8352,2 giai đoạn (mẫu con),ok,6132.0,0.141141
+0,1,A2 Cornell,0.15,3,8352,1 giai đoạn,không khả thi,7363.0,
+0,1,A2 Cornell,0.15,3,8352,2 giai đoạn,ok,6581.0,0.13288
+0,1,A2 Cornell,0.15,3,8352,2 giai đoạn (mẫu con),ok,6581.0,0.123277
+0,1,A2 Cornell,0.15,4,8352,1 giai đoạn,không khả thi,6701.0,
+0,1,A2 Cornell,0.15,4,8352,2 giai đoạn,ok,6462.0,0.118883
+0,1,A2 Cornell,0.15,4,8352,2 giai đoạn (mẫu con),ok,5158.0,0.151652
+0,1,A2 Cornell,0.15,5,8352,1 giai đoạn,ok,6628.0,0.132094
+0,1,A2 Cornell,0.15,5,8352,2 giai đoạn,ok,6132.0,0.146803
+0,1,A2 Cornell,0.15,5,8352,2 giai đoạn (mẫu con),ok,3314.0,0.206382
+0,1,A2 Cornell,0.3,0,8352,1 giai đoạn,ok,2773.0,0.216034
+0,1,A2 Cornell,0.3,0,8352,2 giai đoạn,ok,1387.0,0.326252
+0,1,A2 Cornell,0.3,0,8352,2 giai đoạn (mẫu con),ok,1387.0,0.355906
+0,1,A2 Cornell,0.3,1,8352,1 giai đoạn,ok,2025.0,0.29752
+0,1,A2 Cornell,0.3,1,8352,2 giai đoạn,ok,2541.0,0.221758
+0,1,A2 Cornell,0.3,1,8352,2 giai đoạn (mẫu con),ok,2067.0,0.252041
+0,1,A2 Cornell,0.3,2,8352,1 giai đoạn,ok,4150.0,0.186794
+0,1,A2 Cornell,0.3,2,8352,2 giai đoạn,ok,2623.0,0.237956
+0,1,A2 Cornell,0.3,2,8352,2 giai đoạn (mẫu con),ok,2075.0,0.294571
+0,1,A2 Cornell,0.3,3,8352,1 giai đoạn,ok,1481.0,0.26603
+0,1,A2 Cornell,0.3,3,8352,2 giai đoạn,ok,2962.0,0.229515
+0,1,A2 Cornell,0.3,3,8352,2 giai đoạn (mẫu con),ok,2919.0,0.238841
+0,1,A2 Cornell,0.3,4,8352,1 giai đoạn,ok,2755.0,0.237119
+0,1,A2 Cornell,0.3,4,8352,2 giai đoạn,ok,2653.0,0.169817
+0,1,A2 Cornell,0.3,4,8352,2 giai đoạn (mẫu con),ok,3930.0,0.173575
+0,1,A2 Cornell,0.3,5,8352,1 giai đoạn,ok,3733.0,0.194688
+0,1,A2 Cornell,0.3,5,8352,2 giai đoạn,ok,2819.0,0.279227
+0,1,A2 Cornell,0.3,5,8352,2 giai đoạn (mẫu con),ok,3610.0,0.18832
+0,1,A3 LVH-LR,0.15,0,8352,1 giai đoạn,ok,4547.0,0.125528
+0,1,A3 LVH-LR,0.15,0,8352,2 giai đoạn,ok,3695.0,0.151184
+0,1,A3 LVH-LR,0.15,0,8352,2 giai đoạn (mẫu con),ok,2274.0,0.197181
+0,1,A3 LVH-LR,0.15,1,8352,1 giai đoạn,ok,3054.0,0.160084
+0,1,A3 LVH-LR,0.15,1,8352,2 giai đoạn,ok,4534.0,0.143505
+0,1,A3 LVH-LR,0.15,1,8352,2 giai đoạn (mẫu con),ok,5093.0,0.121874
+0,1,A3 LVH-LR,0.15,2,8352,1 giai đoạn,ok,4534.0,0.126941
+0,1,A3 LVH-LR,0.15,2,8352,2 giai đoạn,ok,3440.0,0.16592
+0,1,A3 LVH-LR,0.15,2,8352,2 giai đoạn (mẫu con),ok,2415.0,0.202891
+0,1,A3 LVH-LR,0.15,3,8352,1 giai đoạn,ok,3889.0,0.171461
+0,1,A3 LVH-LR,0.15,3,8352,2 giai đoạn,ok,4161.0,0.133507
+0,1,A3 LVH-LR,0.15,3,8352,2 giai đoạn (mẫu con),ok,5833.0,0.117063
+0,1,A3 LVH-LR,0.15,4,8352,1 giai đoạn,ok,5308.0,0.112992
+0,1,A3 LVH-LR,0.15,4,8352,2 giai đoạn,ok,3650.0,0.187849
+0,1,A3 LVH-LR,0.15,4,8352,2 giai đoạn (mẫu con),ok,3080.0,0.154498
+0,1,A3 LVH-LR,0.15,5,8352,1 giai đoạn,ok,4509.0,0.131273
+0,1,A3 LVH-LR,0.15,5,8352,2 giai đoạn,ok,4064.0,0.138733
+0,1,A3 LVH-LR,0.15,5,8352,2 giai đoạn (mẫu con),ok,3256.0,0.161512
+0,1,A3 LVH-LR,0.3,0,8352,1 giai đoạn,ok,1483.0,0.247784
+0,1,A3 LVH-LR,0.3,0,8352,2 giai đoạn,ok,1411.0,0.235337
+0,1,A3 LVH-LR,0.3,0,8352,2 giai đoạn (mẫu con),ok,889.0,0.262248
+0,1,A3 LVH-LR,0.3,1,8352,1 giai đoạn,ok,725.0,0.314174
+0,1,A3 LVH-LR,0.3,1,8352,2 giai đoạn,ok,727.0,0.313357
+0,1,A3 LVH-LR,0.3,1,8352,2 giai đoạn (mẫu con),ok,363.0,0.392488
+0,1,A3 LVH-LR,0.3,2,8352,1 giai đoạn,ok,789.0,0.286042
+0,1,A3 LVH-LR,0.3,2,8352,2 giai đoạn,ok,884.0,0.286178
+0,1,A3 LVH-LR,0.3,2,8352,2 giai đoạn (mẫu con),ok,395.0,0.370954
+0,1,A3 LVH-LR,0.3,3,8352,1 giai đoạn,ok,635.0,0.319823
+0,1,A3 LVH-LR,0.3,3,8352,2 giai đoạn,ok,587.0,0.321365
+0,1,A3 LVH-LR,0.3,3,8352,2 giai đoạn (mẫu con),ok,759.0,0.310309
+0,1,A3 LVH-LR,0.3,4,8352,1 giai đoạn,ok,933.0,0.278873
+0,1,A3 LVH-LR,0.3,4,8352,2 giai đoạn,ok,683.0,0.299525
+0,1,A3 LVH-LR,0.3,4,8352,2 giai đoạn (mẫu con),ok,683.0,0.302133
+0,1,A3 LVH-LR,0.3,5,8352,1 giai đoạn,ok,1513.0,0.250309
+0,1,A3 LVH-LR,0.3,5,8352,2 giai đoạn,ok,757.0,0.274522
+0,1,A3 LVH-LR,0.3,5,8352,2 giai đoạn (mẫu con),ok,757.0,0.326941
+0,1,A4 CNNalt,0.15,0,8352,1 giai đoạn,ok,1415.0,0.118884
+0,1,A4 CNNalt,0.15,0,8352,2 giai đoạn,ok,1537.0,0.126755
+0,1,A4 CNNalt,0.15,0,8352,2 giai đoạn (mẫu con),ok,708.0,0.148327
+0,1,A4 CNNalt,0.15,1,8352,1 giai đoạn,ok,3308.0,0.088366
+0,1,A4 CNNalt,0.15,1,8352,2 giai đoạn,ok,1735.0,0.112544
+0,1,A4 CNNalt,0.15,1,8352,2 giai đoạn (mẫu con),ok,1654.0,0.115707
+0,1,A4 CNNalt,0.15,2,8352,1 giai đoạn,ok,2321.0,0.095317
+0,1,A4 CNNalt,0.15,2,8352,2 giai đoạn,ok,1780.0,0.113956
+0,1,A4 CNNalt,0.15,2,8352,2 giai đoạn (mẫu con),ok,1161.0,0.135447
+0,1,A4 CNNalt,0.15,3,8352,1 giai đoạn,ok,960.0,0.142197
+0,1,A4 CNNalt,0.15,3,8352,2 giai đoạn,ok,1222.0,0.117951
+0,1,A4 CNNalt,0.15,3,8352,2 giai đoạn (mẫu con),ok,480.0,0.152397
+0,1,A4 CNNalt,0.15,4,8352,1 giai đoạn,ok,2756.0,0.105275
+0,1,A4 CNNalt,0.15,4,8352,2 giai đoạn,ok,1922.0,0.100859
+0,1,A4 CNNalt,0.15,4,8352,2 giai đoạn (mẫu con),ok,1378.0,0.115135
+0,1,A4 CNNalt,0.15,5,8352,1 giai đoạn,ok,1904.0,0.110014
+0,1,A4 CNNalt,0.15,5,8352,2 giai đoạn,ok,1447.0,0.1174
+0,1,A4 CNNalt,0.15,5,8352,2 giai đoạn (mẫu con),ok,952.0,0.124364
+0,1,A4 CNNalt,0.3,0,8352,1 giai đoạn,ok,300.0,0.197926
+0,1,A4 CNNalt,0.3,0,8352,2 giai đoạn,ok,300.0,0.194184
+0,1,A4 CNNalt,0.3,0,8352,2 giai đoạn (mẫu con),ok,300.0,0.2011
+0,1,A4 CNNalt,0.3,1,8352,1 giai đoạn,ok,565.0,0.17725
+0,1,A4 CNNalt,0.3,1,8352,2 giai đoạn,ok,565.0,0.172401
+0,1,A4 CNNalt,0.3,1,8352,2 giai đoạn (mẫu con),ok,300.0,0.206128
+0,1,A4 CNNalt,0.3,2,8352,1 giai đoạn,ok,344.0,0.187692
+0,1,A4 CNNalt,0.3,2,8352,2 giai đoạn,ok,344.0,0.170889
+0,1,A4 CNNalt,0.3,2,8352,2 giai đoạn (mẫu con),ok,300.0,0.174252
+0,1,A4 CNNalt,0.3,3,8352,1 giai đoạn,ok,381.0,0.173256
+0,1,A4 CNNalt,0.3,3,8352,2 giai đoạn,ok,381.0,0.180523
+0,1,A4 CNNalt,0.3,3,8352,2 giai đoạn (mẫu con),ok,300.0,0.174737
+0,1,A4 CNNalt,0.3,4,8352,1 giai đoạn,ok,300.0,0.199263
+0,1,A4 CNNalt,0.3,4,8352,2 giai đoạn,ok,300.0,0.208244
+0,1,A4 CNNalt,0.3,4,8352,2 giai đoạn (mẫu con),ok,300.0,0.17709
+0,1,A4 CNNalt,0.3,5,8352,1 giai đoạn,ok,362.0,0.18961
+0,1,A4 CNNalt,0.3,5,8352,2 giai đoạn,ok,362.0,0.195008
+0,1,A4 CNNalt,0.3,5,8352,2 giai đoạn (mẫu con),ok,300.0,0.206421
+0,2,A1 Sokolow,0.15,0,8352,1 giai đoạn,ok,5392.0,0.074071
+0,2,A1 Sokolow,0.15,0,8352,2 giai đoạn,ok,5306.0,0.071093
+0,2,A1 Sokolow,0.15,0,8352,2 giai đoạn (mẫu con),ok,2696.0,0.134836
+0,2,A1 Sokolow,0.15,1,8352,1 giai đoạn,ok,4647.0,0.108269
+0,2,A1 Sokolow,0.15,1,8352,2 giai đoạn,ok,4937.0,0.094942
+0,2,A1 Sokolow,0.15,1,8352,2 giai đoạn (mẫu con),ok,4727.0,0.110903
+0,2,A1 Sokolow,0.15,2,8352,1 giai đoạn,ok,4490.0,0.102689
+0,2,A1 Sokolow,0.15,2,8352,2 giai đoạn,ok,4240.0,0.099342
+0,2,A1 Sokolow,0.15,2,8352,2 giai đoạn (mẫu con),ok,4139.0,0.103499
+0,2,A1 Sokolow,0.15,3,8352,1 giai đoạn,ok,4381.0,0.122094
+0,2,A1 Sokolow,0.15,3,8352,2 giai đoạn,ok,5475.0,0.093564
+0,2,A1 Sokolow,0.15,3,8352,2 giai đoạn (mẫu con),ok,2765.0,0.152351
+0,2,A1 Sokolow,0.15,4,8352,1 giai đoạn,ok,3886.0,0.126205
+0,2,A1 Sokolow,0.15,4,8352,2 giai đoạn,ok,4307.0,0.104421
+0,2,A1 Sokolow,0.15,4,8352,2 giai đoạn (mẫu con),ok,1943.0,0.157611
+0,2,A1 Sokolow,0.15,5,8352,1 giai đoạn,ok,3833.0,0.124799
+0,2,A1 Sokolow,0.15,5,8352,2 giai đoạn,ok,4680.0,0.089643
+0,2,A1 Sokolow,0.15,5,8352,2 giai đoạn (mẫu con),ok,4088.0,0.131775
+0,2,A1 Sokolow,0.3,0,8352,1 giai đoạn,ok,1271.0,0.197985
+0,2,A1 Sokolow,0.3,0,8352,2 giai đoạn,ok,1026.0,0.249144
+0,2,A1 Sokolow,0.3,0,8352,2 giai đoạn (mẫu con),ok,2119.0,0.181489
+0,2,A1 Sokolow,0.3,1,8352,1 giai đoạn,ok,922.0,0.286627
+0,2,A1 Sokolow,0.3,1,8352,2 giai đoạn,ok,787.0,0.278738
+0,2,A1 Sokolow,0.3,1,8352,2 giai đoạn (mẫu con),ok,461.0,0.321931
+0,2,A1 Sokolow,0.3,2,8352,1 giai đoạn,ok,927.0,0.239053
+0,2,A1 Sokolow,0.3,2,8352,2 giai đoạn,ok,898.0,0.228326
+0,2,A1 Sokolow,0.3,2,8352,2 giai đoạn (mẫu con),ok,540.0,0.329234
+0,2,A1 Sokolow,0.3,3,8352,1 giai đoạn,ok,1707.0,0.154966
+0,2,A1 Sokolow,0.3,3,8352,2 giai đoạn,ok,2396.0,0.160916
+0,2,A1 Sokolow,0.3,3,8352,2 giai đoạn (mẫu con),ok,1528.0,0.186107
+0,2,A1 Sokolow,0.3,4,8352,1 giai đoạn,ok,1347.0,0.200425
+0,2,A1 Sokolow,0.3,4,8352,2 giai đoạn,ok,1363.0,0.220532
+0,2,A1 Sokolow,0.3,4,8352,2 giai đoạn (mẫu con),ok,1232.0,0.223374
+0,2,A1 Sokolow,0.3,5,8352,1 giai đoạn,ok,1395.0,0.198882
+0,2,A1 Sokolow,0.3,5,8352,2 giai đoạn,ok,820.0,0.251321
+0,2,A1 Sokolow,0.3,5,8352,2 giai đoạn (mẫu con),ok,698.0,0.324766
+0,2,A2 Cornell,0.15,0,8352,1 giai đoạn,ok,6631.0,0.168409
+0,2,A2 Cornell,0.15,0,8352,2 giai đoạn,ok,6243.0,0.160704
+0,2,A2 Cornell,0.15,0,8352,2 giai đoạn (mẫu con),ok,6401.0,0.17117
+0,2,A2 Cornell,0.15,1,8352,1 giai đoạn,không khả thi,6835.0,
+0,2,A2 Cornell,0.15,1,8352,2 giai đoạn,không khả thi,6752.0,
+0,2,A2 Cornell,0.15,1,8352,2 giai đoạn (mẫu con),không khả thi,7570.0,
+0,2,A2 Cornell,0.15,2,8352,1 giai đoạn,ok,6173.0,0.176395
+0,2,A2 Cornell,0.15,2,8352,2 giai đoạn,ok,6345.0,0.176948
+0,2,A2 Cornell,0.15,2,8352,2 giai đoạn (mẫu con),ok,5385.0,0.187243
+0,2,A2 Cornell,0.15,3,8352,1 giai đoạn,ok,6299.0,0.180751
+0,2,A2 Cornell,0.15,3,8352,2 giai đoạn,ok,6141.0,0.199511
+0,2,A2 Cornell,0.15,3,8352,2 giai đoạn (mẫu con),ok,6135.0,0.172469
+0,2,A2 Cornell,0.15,4,8352,1 giai đoạn,ok,4917.0,0.22776
+0,2,A2 Cornell,0.15,4,8352,2 giai đoạn,ok,6188.0,0.187913
+0,2,A2 Cornell,0.15,4,8352,2 giai đoạn (mẫu con),ok,6244.0,0.181617
+0,2,A2 Cornell,0.15,5,8352,1 giai đoạn,ok,6551.0,0.162126
+0,2,A2 Cornell,0.15,5,8352,2 giai đoạn,ok,6614.0,0.159387
+0,2,A2 Cornell,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,7295.0,
+0,2,A2 Cornell,0.3,0,8352,1 giai đoạn,ok,1461.0,0.347092
+0,2,A2 Cornell,0.3,0,8352,2 giai đoạn,ok,1718.0,0.347519
+0,2,A2 Cornell,0.3,0,8352,2 giai đoạn (mẫu con),ok,1286.0,0.368431
+0,2,A2 Cornell,0.3,1,8352,1 giai đoạn,ok,2378.0,0.305497
+0,2,A2 Cornell,0.3,1,8352,2 giai đoạn,ok,1627.0,0.382415
+0,2,A2 Cornell,0.3,1,8352,2 giai đoạn (mẫu con),ok,1189.0,0.397793
+0,2,A2 Cornell,0.3,2,8352,1 giai đoạn,ok,2178.0,0.317208
+0,2,A2 Cornell,0.3,2,8352,2 giai đoạn,ok,2313.0,0.327672
+0,2,A2 Cornell,0.3,2,8352,2 giai đoạn (mẫu con),ok,1571.0,0.395204
+0,2,A2 Cornell,0.3,3,8352,1 giai đoạn,ok,3502.0,0.239401
+0,2,A2 Cornell,0.3,3,8352,2 giai đoạn,ok,2237.0,0.326382
+0,2,A2 Cornell,0.3,3,8352,2 giai đoạn (mẫu con),ok,1751.0,0.407864
+0,2,A2 Cornell,0.3,4,8352,1 giai đoạn,ok,2203.0,0.278871
+0,2,A2 Cornell,0.3,4,8352,2 giai đoạn,ok,2113.0,0.33081
+0,2,A2 Cornell,0.3,4,8352,2 giai đoạn (mẫu con),ok,2126.0,0.313846
+0,2,A2 Cornell,0.3,5,8352,1 giai đoạn,ok,4525.0,0.238811
+0,2,A2 Cornell,0.3,5,8352,2 giai đoạn,ok,2534.0,0.290782
+0,2,A2 Cornell,0.3,5,8352,2 giai đoạn (mẫu con),ok,4090.0,0.22702
+0,2,A3 LVH-LR,0.15,0,8352,1 giai đoạn,ok,5153.0,0.096282
+0,2,A3 LVH-LR,0.15,0,8352,2 giai đoạn,ok,4285.0,0.108929
+0,2,A3 LVH-LR,0.15,0,8352,2 giai đoạn (mẫu con),ok,3624.0,0.13837
+0,2,A3 LVH-LR,0.15,1,8352,1 giai đoạn,ok,5918.0,0.086387
+0,2,A3 LVH-LR,0.15,1,8352,2 giai đoạn,ok,3342.0,0.155495
+0,2,A3 LVH-LR,0.15,1,8352,2 giai đoạn (mẫu con),ok,2959.0,0.143048
+0,2,A3 LVH-LR,0.15,2,8352,1 giai đoạn,ok,5309.0,0.090749
+0,2,A3 LVH-LR,0.15,2,8352,2 giai đoạn,ok,4020.0,0.118267
+0,2,A3 LVH-LR,0.15,2,8352,2 giai đoạn (mẫu con),ok,3470.0,0.133881
+0,2,A3 LVH-LR,0.15,3,8352,1 giai đoạn,ok,4979.0,0.121223
+0,2,A3 LVH-LR,0.15,3,8352,2 giai đoạn,ok,3722.0,0.121985
+0,2,A3 LVH-LR,0.15,3,8352,2 giai đoạn (mẫu con),ok,3252.0,0.131094
+0,2,A3 LVH-LR,0.15,4,8352,1 giai đoạn,ok,3530.0,0.12214
+0,2,A3 LVH-LR,0.15,4,8352,2 giai đoạn,ok,3410.0,0.139278
+0,2,A3 LVH-LR,0.15,4,8352,2 giai đoạn (mẫu con),ok,1898.0,0.175414
+0,2,A3 LVH-LR,0.15,5,8352,1 giai đoạn,ok,4107.0,0.122474
+0,2,A3 LVH-LR,0.15,5,8352,2 giai đoạn,ok,3907.0,0.126823
+0,2,A3 LVH-LR,0.15,5,8352,2 giai đoạn (mẫu con),ok,3861.0,0.107209
+0,2,A3 LVH-LR,0.3,0,8352,1 giai đoạn,ok,978.0,0.257967
+0,2,A3 LVH-LR,0.3,0,8352,2 giai đoạn,ok,1339.0,0.227333
+0,2,A3 LVH-LR,0.3,0,8352,2 giai đoạn (mẫu con),ok,489.0,0.34651
+0,2,A3 LVH-LR,0.3,1,8352,1 giai đoạn,ok,904.0,0.294239
+0,2,A3 LVH-LR,0.3,1,8352,2 giai đoạn,ok,1102.0,0.262897
+0,2,A3 LVH-LR,0.3,1,8352,2 giai đoạn (mẫu con),ok,938.0,0.275852
+0,2,A3 LVH-LR,0.3,2,8352,1 giai đoạn,ok,1317.0,0.208893
+0,2,A3 LVH-LR,0.3,2,8352,2 giai đoạn,ok,843.0,0.287653
+0,2,A3 LVH-LR,0.3,2,8352,2 giai đoạn (mẫu con),ok,879.0,0.281508
+0,2,A3 LVH-LR,0.3,3,8352,1 giai đoạn,ok,431.0,0.379144
+0,2,A3 LVH-LR,0.3,3,8352,2 giai đoạn,ok,431.0,0.373591
+0,2,A3 LVH-LR,0.3,3,8352,2 giai đoạn (mẫu con),ok,300.0,0.362133
+0,2,A3 LVH-LR,0.3,4,8352,1 giai đoạn,ok,1160.0,0.248235
+0,2,A3 LVH-LR,0.3,4,8352,2 giai đoạn,ok,1340.0,0.22225
+0,2,A3 LVH-LR,0.3,4,8352,2 giai đoạn (mẫu con),ok,3177.0,0.142755
+0,2,A3 LVH-LR,0.3,5,8352,1 giai đoạn,ok,827.0,0.268579
+0,2,A3 LVH-LR,0.3,5,8352,2 giai đoạn,ok,805.0,0.268272
+0,2,A3 LVH-LR,0.3,5,8352,2 giai đoạn (mẫu con),ok,506.0,0.347761
+0,2,A4 CNNalt,0.15,0,8352,1 giai đoạn,ok,3158.0,0.10396
+0,2,A4 CNNalt,0.15,0,8352,2 giai đoạn,ok,1708.0,0.141121
+0,2,A4 CNNalt,0.15,0,8352,2 giai đoạn (mẫu con),ok,1579.0,0.15163
+0,2,A4 CNNalt,0.15,1,8352,1 giai đoạn,ok,1582.0,0.136537
+0,2,A4 CNNalt,0.15,1,8352,2 giai đoạn,ok,1342.0,0.156319
+0,2,A4 CNNalt,0.15,1,8352,2 giai đoạn (mẫu con),ok,2869.0,0.129866
+0,2,A4 CNNalt,0.15,2,8352,1 giai đoạn,ok,2716.0,0.122188
+0,2,A4 CNNalt,0.15,2,8352,2 giai đoạn,ok,2054.0,0.140352
+0,2,A4 CNNalt,0.15,2,8352,2 giai đoạn (mẫu con),ok,1358.0,0.143454
+0,2,A4 CNNalt,0.15,3,8352,1 giai đoạn,ok,2119.0,0.128746
+0,2,A4 CNNalt,0.15,3,8352,2 giai đoạn,ok,1713.0,0.119793
+0,2,A4 CNNalt,0.15,3,8352,2 giai đoạn (mẫu con),ok,1138.0,0.149373
+0,2,A4 CNNalt,0.15,4,8352,1 giai đoạn,ok,3178.0,0.117657
+0,2,A4 CNNalt,0.15,4,8352,2 giai đoạn,ok,1723.0,0.140224
+0,2,A4 CNNalt,0.15,4,8352,2 giai đoạn (mẫu con),ok,2308.0,0.120151
+0,2,A4 CNNalt,0.15,5,8352,1 giai đoạn,ok,2509.0,0.131259
+0,2,A4 CNNalt,0.15,5,8352,2 giai đoạn,ok,1752.0,0.143022
+0,2,A4 CNNalt,0.15,5,8352,2 giai đoạn (mẫu con),ok,1255.0,0.156485
+0,2,A4 CNNalt,0.3,0,8352,1 giai đoạn,ok,300.0,0.209825
+0,2,A4 CNNalt,0.3,0,8352,2 giai đoạn,ok,300.0,0.236164
+0,2,A4 CNNalt,0.3,0,8352,2 giai đoạn (mẫu con),ok,300.0,0.213452
+0,2,A4 CNNalt,0.3,1,8352,1 giai đoạn,ok,411.0,0.214879
+0,2,A4 CNNalt,0.3,1,8352,2 giai đoạn,ok,411.0,0.204713
+0,2,A4 CNNalt,0.3,1,8352,2 giai đoạn (mẫu con),ok,300.0,0.236182
+0,2,A4 CNNalt,0.3,2,8352,1 giai đoạn,ok,300.0,0.234539
+0,2,A4 CNNalt,0.3,2,8352,2 giai đoạn,ok,300.0,0.207207
+0,2,A4 CNNalt,0.3,2,8352,2 giai đoạn (mẫu con),ok,300.0,0.223043
+0,2,A4 CNNalt,0.3,3,8352,1 giai đoạn,ok,342.0,0.2111
+0,2,A4 CNNalt,0.3,3,8352,2 giai đoạn,ok,342.0,0.182607
+0,2,A4 CNNalt,0.3,3,8352,2 giai đoạn (mẫu con),ok,300.0,0.237515
+0,2,A4 CNNalt,0.3,4,8352,1 giai đoạn,ok,300.0,0.230066
+0,2,A4 CNNalt,0.3,4,8352,2 giai đoạn,ok,300.0,0.2282
+0,2,A4 CNNalt,0.3,4,8352,2 giai đoạn (mẫu con),ok,300.0,0.214882
+0,2,A4 CNNalt,0.3,5,8352,1 giai đoạn,ok,506.0,0.189081
+0,2,A4 CNNalt,0.3,5,8352,2 giai đoạn,ok,506.0,0.178576
+0,2,A4 CNNalt,0.3,5,8352,2 giai đoạn (mẫu con),ok,300.0,0.223977
+1,0,A1 Sokolow,0.15,0,38221,1 giai đoạn,ok,7239.0,0.133963
+1,0,A1 Sokolow,0.15,0,38221,2 giai đoạn,ok,6020.0,0.135358
+1,0,A1 Sokolow,0.15,0,38221,2 giai đoạn (mẫu con),ok,6952.0,0.134534
+1,0,A1 Sokolow,0.15,1,38221,1 giai đoạn,ok,6458.0,0.141711
+1,0,A1 Sokolow,0.15,1,38221,2 giai đoạn,ok,7100.0,0.13191
+1,0,A1 Sokolow,0.15,1,38221,2 giai đoạn (mẫu con),ok,7912.0,0.126745
+1,0,A1 Sokolow,0.15,2,38221,1 giai đoạn,ok,4808.0,0.153599
+1,0,A1 Sokolow,0.15,2,38221,2 giai đoạn,ok,6519.0,0.139406
+1,0,A1 Sokolow,0.15,2,38221,2 giai đoạn (mẫu con),ok,2404.0,0.197563
+1,0,A1 Sokolow,0.15,3,38221,1 giai đoạn,ok,5241.0,0.133738
+1,0,A1 Sokolow,0.15,3,38221,2 giai đoạn,ok,4420.0,0.144799
+1,0,A1 Sokolow,0.15,3,38221,2 giai đoạn (mẫu con),ok,4044.0,0.149509
+1,0,A1 Sokolow,0.15,4,38221,1 giai đoạn,ok,6812.0,0.131859
+1,0,A1 Sokolow,0.15,4,38221,2 giai đoạn,ok,5798.0,0.142567
+1,0,A1 Sokolow,0.15,4,38221,2 giai đoạn (mẫu con),ok,3406.0,0.171656
+1,0,A1 Sokolow,0.15,5,38221,1 giai đoạn,ok,8312.0,0.124036
+1,0,A1 Sokolow,0.15,5,38221,2 giai đoạn,ok,4784.0,0.148972
+1,0,A1 Sokolow,0.15,5,38221,2 giai đoạn (mẫu con),ok,4156.0,0.150634
+1,0,A1 Sokolow,0.3,0,38221,1 giai đoạn,ok,3167.0,0.163834
+1,0,A1 Sokolow,0.3,0,38221,2 giai đoạn,ok,1584.0,0.213977
+1,0,A1 Sokolow,0.3,0,38221,2 giai đoạn (mẫu con),ok,1584.0,0.197898
+1,0,A1 Sokolow,0.3,1,38221,1 giai đoạn,ok,805.0,0.243539
+1,0,A1 Sokolow,0.3,1,38221,2 giai đoạn,ok,920.0,0.243951
+1,0,A1 Sokolow,0.3,1,38221,2 giai đoạn (mẫu con),ok,403.0,0.307319
+1,0,A1 Sokolow,0.3,2,38221,1 giai đoạn,ok,1869.0,0.214152
+1,0,A1 Sokolow,0.3,2,38221,2 giai đoạn,ok,1136.0,0.23424
+1,0,A1 Sokolow,0.3,2,38221,2 giai đoạn (mẫu con),ok,1534.0,0.216996
+1,0,A1 Sokolow,0.3,3,38221,1 giai đoạn,ok,1343.0,0.21897
+1,0,A1 Sokolow,0.3,3,38221,2 giai đoạn,ok,1137.0,0.235923
+1,0,A1 Sokolow,0.3,3,38221,2 giai đoạn (mẫu con),ok,2330.0,0.181084
+1,0,A1 Sokolow,0.3,4,38221,1 giai đoạn,ok,991.0,0.241566
+1,0,A1 Sokolow,0.3,4,38221,2 giai đoạn,ok,1073.0,0.248345
+1,0,A1 Sokolow,0.3,4,38221,2 giai đoạn (mẫu con),ok,1136.0,0.240757
+1,0,A1 Sokolow,0.3,5,38221,1 giai đoạn,ok,1270.0,0.224252
+1,0,A1 Sokolow,0.3,5,38221,2 giai đoạn,ok,744.0,0.259356
+1,0,A1 Sokolow,0.3,5,38221,2 giai đoạn (mẫu con),ok,743.0,0.254932
+1,0,A2 Cornell,0.15,0,38221,1 giai đoạn,ok,28391.0,0.017989
+1,0,A2 Cornell,0.15,0,38221,2 giai đoạn,ok,30272.0,0.015388
+1,0,A2 Cornell,0.15,0,38221,2 giai đoạn (mẫu con),ok,18648.0,0.080791
+1,0,A2 Cornell,0.15,1,38221,1 giai đoạn,ok,23723.0,0.051316
+1,0,A2 Cornell,0.15,1,38221,2 giai đoạn,ok,29480.0,0.013751
+1,0,A2 Cornell,0.15,1,38221,2 giai đoạn (mẫu con),ok,29121.0,0.012548
+1,0,A2 Cornell,0.15,2,38221,1 giai đoạn,ok,24794.0,0.031828
+1,0,A2 Cornell,0.15,2,38221,2 giai đoạn,không khả thi,31739.0,
+1,0,A2 Cornell,0.15,2,38221,2 giai đoạn (mẫu con),ok,15826.0,0.111678
+1,0,A2 Cornell,0.15,3,38221,1 giai đoạn,ok,22422.0,0.075104
+1,0,A2 Cornell,0.15,3,38221,2 giai đoạn,ok,24096.0,0.031068
+1,0,A2 Cornell,0.15,3,38221,2 giai đoạn (mẫu con),ok,11211.0,0.170297
+1,0,A2 Cornell,0.15,4,38221,1 giai đoạn,không khả thi,31175.0,
+1,0,A2 Cornell,0.15,4,38221,2 giai đoạn,ok,27300.0,0.031466
+1,0,A2 Cornell,0.15,4,38221,2 giai đoạn (mẫu con),ok,15588.0,0.14917
+1,0,A2 Cornell,0.15,5,38221,1 giai đoạn,không khả thi,35603.0,
+1,0,A2 Cornell,0.15,5,38221,2 giai đoạn,ok,29515.0,0.014937
+1,0,A2 Cornell,0.15,5,38221,2 giai đoạn (mẫu con),ok,26092.0,0.030864
+1,0,A2 Cornell,0.3,0,38221,1 giai đoạn,ok,14924.0,0.123452
+1,0,A2 Cornell,0.3,0,38221,2 giai đoạn,ok,9134.0,0.215045
+1,0,A2 Cornell,0.3,0,38221,2 giai đoạn (mẫu con),ok,7462.0,0.22797
+1,0,A2 Cornell,0.3,1,38221,1 giai đoạn,ok,7512.0,0.280495
+1,0,A2 Cornell,0.3,1,38221,2 giai đoạn,ok,11511.0,0.180796
+1,0,A2 Cornell,0.3,1,38221,2 giai đoạn (mẫu con),ok,9646.0,0.265086
+1,0,A2 Cornell,0.3,2,38221,1 giai đoạn,ok,20035.0,0.091085
+1,0,A2 Cornell,0.3,2,38221,2 giai đoạn,ok,14501.0,0.166306
+1,0,A2 Cornell,0.3,2,38221,2 giai đoạn (mẫu con),ok,16236.0,0.112586
+1,0,A2 Cornell,0.3,3,38221,1 giai đoạn,ok,16651.0,0.114575
+1,0,A2 Cornell,0.3,3,38221,2 giai đoạn,ok,8781.0,0.247834
+1,0,A2 Cornell,0.3,3,38221,2 giai đoạn (mẫu con),ok,10654.0,0.200922
+1,0,A2 Cornell,0.3,4,38221,1 giai đoạn,ok,26352.0,0.018265
+1,0,A2 Cornell,0.3,4,38221,2 giai đoạn,ok,13176.0,0.154232
+1,0,A2 Cornell,0.3,4,38221,2 giai đoạn (mẫu con),ok,13176.0,0.170733
+1,0,A2 Cornell,0.3,5,38221,1 giai đoạn,ok,13736.0,0.137425
+1,0,A2 Cornell,0.3,5,38221,2 giai đoạn,ok,7893.0,0.201447
+1,0,A2 Cornell,0.3,5,38221,2 giai đoạn (mẫu con),ok,6868.0,0.2798
+1,0,A3 LVH-LR,0.15,0,38221,1 giai đoạn,ok,19583.0,0.066038
+1,0,A3 LVH-LR,0.15,0,38221,2 giai đoạn,ok,9792.0,0.114728
+1,0,A3 LVH-LR,0.15,0,38221,2 giai đoạn (mẫu con),ok,9792.0,0.095829
+1,0,A3 LVH-LR,0.15,1,38221,1 giai đoạn,ok,10596.0,0.093158
+1,0,A3 LVH-LR,0.15,1,38221,2 giai đoạn,ok,8626.0,0.106119
+1,0,A3 LVH-LR,0.15,1,38221,2 giai đoạn (mẫu con),ok,5298.0,0.151485
+1,0,A3 LVH-LR,0.15,2,38221,1 giai đoạn,ok,10659.0,0.093939
+1,0,A3 LVH-LR,0.15,2,38221,2 giai đoạn,ok,10999.0,0.087033
+1,0,A3 LVH-LR,0.15,2,38221,2 giai đoạn (mẫu con),ok,5330.0,0.114816
+1,0,A3 LVH-LR,0.15,3,38221,1 giai đoạn,ok,20634.0,0.069589
+1,0,A3 LVH-LR,0.15,3,38221,2 giai đoạn,ok,10317.0,0.096586
+1,0,A3 LVH-LR,0.15,3,38221,2 giai đoạn (mẫu con),ok,10317.0,0.095634
+1,0,A3 LVH-LR,0.15,4,38221,1 giai đoạn,ok,11857.0,0.083001
+1,0,A3 LVH-LR,0.15,4,38221,2 giai đoạn,ok,7691.0,0.098707
+1,0,A3 LVH-LR,0.15,4,38221,2 giai đoạn (mẫu con),ok,5929.0,0.137125
+1,0,A3 LVH-LR,0.15,5,38221,1 giai đoạn,ok,12542.0,0.090342
+1,0,A3 LVH-LR,0.15,5,38221,2 giai đoạn,ok,6737.0,0.123974
+1,0,A3 LVH-LR,0.15,5,38221,2 giai đoạn (mẫu con),ok,6271.0,0.112721
+1,0,A3 LVH-LR,0.3,0,38221,1 giai đoạn,ok,835.0,0.275184
+1,0,A3 LVH-LR,0.3,0,38221,2 giai đoạn,ok,1211.0,0.272486
+1,0,A3 LVH-LR,0.3,0,38221,2 giai đoạn (mẫu con),ok,418.0,0.333747
+1,0,A3 LVH-LR,0.3,1,38221,1 giai đoạn,ok,2224.0,0.193941
+1,0,A3 LVH-LR,0.3,1,38221,2 giai đoạn,ok,1970.0,0.200972
+1,0,A3 LVH-LR,0.3,1,38221,2 giai đoạn (mẫu con),ok,2464.0,0.200834
+1,0,A3 LVH-LR,0.3,2,38221,1 giai đoạn,ok,1994.0,0.212644
+1,0,A3 LVH-LR,0.3,2,38221,2 giai đoạn,ok,2099.0,0.19914
+1,0,A3 LVH-LR,0.3,2,38221,2 giai đoạn (mẫu con),ok,4034.0,0.148672
+1,0,A3 LVH-LR,0.3,3,38221,1 giai đoạn,ok,2303.0,0.191131
+1,0,A3 LVH-LR,0.3,3,38221,2 giai đoạn,ok,1981.0,0.203735
+1,0,A3 LVH-LR,0.3,3,38221,2 giai đoạn (mẫu con),ok,1152.0,0.226292
+1,0,A3 LVH-LR,0.3,4,38221,1 giai đoạn,ok,3033.0,0.18254
+1,0,A3 LVH-LR,0.3,4,38221,2 giai đoạn,ok,1966.0,0.193691
+1,0,A3 LVH-LR,0.3,4,38221,2 giai đoạn (mẫu con),ok,1517.0,0.221013
+1,0,A3 LVH-LR,0.3,5,38221,1 giai đoạn,ok,2644.0,0.184526
+1,0,A3 LVH-LR,0.3,5,38221,2 giai đoạn,ok,1892.0,0.209783
+1,0,A3 LVH-LR,0.3,5,38221,2 giai đoạn (mẫu con),ok,2204.0,0.193287
+1,0,A4 CNNalt,0.15,0,38221,1 giai đoạn,ok,5535.0,0.075229
+1,0,A4 CNNalt,0.15,0,38221,2 giai đoạn,ok,3277.0,0.098385
+1,0,A4 CNNalt,0.15,0,38221,2 giai đoạn (mẫu con),ok,3123.0,0.09405
+1,0,A4 CNNalt,0.15,1,38221,1 giai đoạn,ok,11155.0,0.060931
+1,0,A4 CNNalt,0.15,1,38221,2 giai đoạn,ok,5578.0,0.075118
+1,0,A4 CNNalt,0.15,1,38221,2 giai đoạn (mẫu con),ok,7426.0,0.068174
+1,0,A4 CNNalt,0.15,2,38221,1 giai đoạn,ok,5556.0,0.079017
+1,0,A4 CNNalt,0.15,2,38221,2 giai đoạn,ok,2778.0,0.095993
+1,0,A4 CNNalt,0.15,2,38221,2 giai đoạn (mẫu con),ok,2778.0,0.098475
+1,0,A4 CNNalt,0.15,3,38221,1 giai đoạn,ok,7246.0,0.068912
+1,0,A4 CNNalt,0.15,3,38221,2 giai đoạn,ok,3623.0,0.087079
+1,0,A4 CNNalt,0.15,3,38221,2 giai đoạn (mẫu con),ok,3623.0,0.094109
+1,0,A4 CNNalt,0.15,4,38221,1 giai đoạn,ok,12589.0,0.06457
+1,0,A4 CNNalt,0.15,4,38221,2 giai đoạn,ok,6295.0,0.074439
+1,0,A4 CNNalt,0.15,4,38221,2 giai đoạn (mẫu con),ok,6295.0,0.066437
+1,0,A4 CNNalt,0.15,5,38221,1 giai đoạn,ok,3788.0,0.086501
+1,0,A4 CNNalt,0.15,5,38221,2 giai đoạn,ok,3336.0,0.093605
+1,0,A4 CNNalt,0.15,5,38221,2 giai đoạn (mẫu con),ok,1894.0,0.117487
+1,0,A4 CNNalt,0.3,0,38221,1 giai đoạn,ok,509.0,0.192382
+1,0,A4 CNNalt,0.3,0,38221,2 giai đoạn,ok,509.0,0.186736
+1,0,A4 CNNalt,0.3,0,38221,2 giai đoạn (mẫu con),ok,300.0,0.237173
+1,0,A4 CNNalt,0.3,1,38221,1 giai đoạn,ok,541.0,0.187543
+1,0,A4 CNNalt,0.3,1,38221,2 giai đoạn,ok,541.0,0.181683
+1,0,A4 CNNalt,0.3,1,38221,2 giai đoạn (mẫu con),ok,300.0,0.220618
+1,0,A4 CNNalt,0.3,2,38221,1 giai đoạn,ok,1286.0,0.128801
+1,0,A4 CNNalt,0.3,2,38221,2 giai đoạn,ok,643.0,0.179865
+1,0,A4 CNNalt,0.3,2,38221,2 giai đoạn (mẫu con),ok,643.0,0.164855
+1,0,A4 CNNalt,0.3,3,38221,1 giai đoạn,ok,440.0,0.178189
+1,0,A4 CNNalt,0.3,3,38221,2 giai đoạn,ok,440.0,0.19896
+1,0,A4 CNNalt,0.3,3,38221,2 giai đoạn (mẫu con),ok,300.0,0.227961
+1,0,A4 CNNalt,0.3,4,38221,1 giai đoạn,ok,988.0,0.154105
+1,0,A4 CNNalt,0.3,4,38221,2 giai đoạn,ok,891.0,0.14837
+1,0,A4 CNNalt,0.3,4,38221,2 giai đoạn (mẫu con),ok,494.0,0.221802
+1,0,A4 CNNalt,0.3,5,38221,1 giai đoạn,ok,997.0,0.143235
+1,0,A4 CNNalt,0.3,5,38221,2 giai đoạn,ok,799.0,0.178796
+1,0,A4 CNNalt,0.3,5,38221,2 giai đoạn (mẫu con),ok,499.0,0.176645
+1,1,A1 Sokolow,0.15,0,38221,1 giai đoạn,ok,2080.0,0.164185
+1,1,A1 Sokolow,0.15,0,38221,2 giai đoạn,ok,3785.0,0.129195
+1,1,A1 Sokolow,0.15,0,38221,2 giai đoạn (mẫu con),ok,4092.0,0.137475
+1,1,A1 Sokolow,0.15,1,38221,1 giai đoạn,ok,3875.0,0.135539
+1,1,A1 Sokolow,0.15,1,38221,2 giai đoạn,ok,3339.0,0.131969
+1,1,A1 Sokolow,0.15,1,38221,2 giai đoạn (mẫu con),ok,1938.0,0.162731
+1,1,A1 Sokolow,0.15,2,38221,1 giai đoạn,ok,1760.0,0.172042
+1,1,A1 Sokolow,0.15,2,38221,2 giai đoạn,ok,2816.0,0.137404
+1,1,A1 Sokolow,0.15,2,38221,2 giai đoạn (mẫu con),ok,1131.0,0.208719
+1,1,A1 Sokolow,0.15,3,38221,1 giai đoạn,ok,5440.0,0.109364
+1,1,A1 Sokolow,0.15,3,38221,2 giai đoạn,ok,3593.0,0.135848
+1,1,A1 Sokolow,0.15,3,38221,2 giai đoạn (mẫu con),ok,2720.0,0.135003
+1,1,A1 Sokolow,0.15,4,38221,1 giai đoạn,ok,6212.0,0.098876
+1,1,A1 Sokolow,0.15,4,38221,2 giai đoạn,ok,3106.0,0.142725
+1,1,A1 Sokolow,0.15,4,38221,2 giai đoạn (mẫu con),ok,5352.0,0.11455
+1,1,A1 Sokolow,0.15,5,38221,1 giai đoạn,ok,4155.0,0.136476
+1,1,A1 Sokolow,0.15,5,38221,2 giai đoạn,ok,3649.0,0.119338
+1,1,A1 Sokolow,0.15,5,38221,2 giai đoạn (mẫu con),ok,5031.0,0.132803
+1,1,A1 Sokolow,0.3,0,38221,1 giai đoạn,ok,630.0,0.229515
+1,1,A1 Sokolow,0.3,0,38221,2 giai đoạn,ok,551.0,0.240755
+1,1,A1 Sokolow,0.3,0,38221,2 giai đoạn (mẫu con),ok,315.0,0.301538
+1,1,A1 Sokolow,0.3,1,38221,1 giai đoạn,ok,411.0,0.280775
+1,1,A1 Sokolow,0.3,1,38221,2 giai đoạn,ok,411.0,0.289347
+1,1,A1 Sokolow,0.3,1,38221,2 giai đoạn (mẫu con),ok,300.0,0.337626
+1,1,A1 Sokolow,0.3,2,38221,1 giai đoạn,ok,1196.0,0.206355
+1,1,A1 Sokolow,0.3,2,38221,2 giai đoạn,ok,611.0,0.244465
+1,1,A1 Sokolow,0.3,2,38221,2 giai đoạn (mẫu con),ok,644.0,0.217373
+1,1,A1 Sokolow,0.3,3,38221,1 giai đoạn,ok,919.0,0.204632
+1,1,A1 Sokolow,0.3,3,38221,2 giai đoạn,ok,1020.0,0.207815
+1,1,A1 Sokolow,0.3,3,38221,2 giai đoạn (mẫu con),ok,731.0,0.212911
+1,1,A1 Sokolow,0.3,4,38221,1 giai đoạn,ok,402.0,0.275121
+1,1,A1 Sokolow,0.3,4,38221,2 giai đoạn,ok,402.0,0.268729
+1,1,A1 Sokolow,0.3,4,38221,2 giai đoạn (mẫu con),ok,300.0,0.273928
+1,1,A1 Sokolow,0.3,5,38221,1 giai đoạn,ok,1080.0,0.217692
+1,1,A1 Sokolow,0.3,5,38221,2 giai đoạn,ok,691.0,0.224563
+1,1,A1 Sokolow,0.3,5,38221,2 giai đoạn (mẫu con),ok,540.0,0.262646
+1,1,A2 Cornell,0.15,0,38221,1 giai đoạn,ok,23607.0,0.081804
+1,1,A2 Cornell,0.15,0,38221,2 giai đoạn,ok,22798.0,0.088883
+1,1,A2 Cornell,0.15,0,38221,2 giai đoạn (mẫu con),ok,29009.0,0.026867
+1,1,A2 Cornell,0.15,1,38221,1 giai đoạn,ok,27753.0,0.046362
+1,1,A2 Cornell,0.15,1,38221,2 giai đoạn,ok,24328.0,0.055334
+1,1,A2 Cornell,0.15,1,38221,2 giai đoạn (mẫu con),không khả thi,31153.0,
+1,1,A2 Cornell,0.15,2,38221,1 giai đoạn,ok,21410.0,0.088066
+1,1,A2 Cornell,0.15,2,38221,2 giai đoạn,ok,22859.0,0.087401
+1,1,A2 Cornell,0.15,2,38221,2 giai đoạn (mẫu con),ok,22999.0,0.082174
+1,1,A2 Cornell,0.15,3,38221,1 giai đoạn,ok,23840.0,0.095309
+1,1,A2 Cornell,0.15,3,38221,2 giai đoạn,ok,22665.0,0.057389
+1,1,A2 Cornell,0.15,3,38221,2 giai đoạn (mẫu con),ok,23743.0,0.083207
+1,1,A2 Cornell,0.15,4,38221,1 giai đoạn,ok,29776.0,0.03798
+1,1,A2 Cornell,0.15,4,38221,2 giai đoạn,ok,22634.0,0.107851
+1,1,A2 Cornell,0.15,4,38221,2 giai đoạn (mẫu con),ok,19959.0,0.113423
+1,1,A2 Cornell,0.15,5,38221,1 giai đoạn,ok,18092.0,0.116746
+1,1,A2 Cornell,0.15,5,38221,2 giai đoạn,ok,24753.0,0.072828
+1,1,A2 Cornell,0.15,5,38221,2 giai đoạn (mẫu con),ok,9046.0,0.208426
+1,1,A2 Cornell,0.3,0,38221,1 giai đoạn,ok,8107.0,0.257404
+1,1,A2 Cornell,0.3,0,38221,2 giai đoạn,ok,5867.0,0.277543
+1,1,A2 Cornell,0.3,0,38221,2 giai đoạn (mẫu con),ok,4054.0,0.304925
+1,1,A2 Cornell,0.3,1,38221,1 giai đoạn,ok,27322.0,0.034956
+1,1,A2 Cornell,0.3,1,38221,2 giai đoạn,ok,13661.0,0.15
+1,1,A2 Cornell,0.3,1,38221,2 giai đoạn (mẫu con),ok,13661.0,0.152334
+1,1,A2 Cornell,0.3,2,38221,1 giai đoạn,ok,16716.0,0.13934
+1,1,A2 Cornell,0.3,2,38221,2 giai đoạn,ok,8358.0,0.236195
+1,1,A2 Cornell,0.3,2,38221,2 giai đoạn (mẫu con),ok,8358.0,0.247393
+1,1,A2 Cornell,0.3,3,38221,1 giai đoạn,ok,9541.0,0.214393
+1,1,A2 Cornell,0.3,3,38221,2 giai đoạn,ok,5048.0,0.310746
+1,1,A2 Cornell,0.3,3,38221,2 giai đoạn (mẫu con),ok,5619.0,0.301897
+1,1,A2 Cornell,0.3,4,38221,1 giai đoạn,ok,7683.0,0.22141
+1,1,A2 Cornell,0.3,4,38221,2 giai đoạn,ok,4968.0,0.310897
+1,1,A2 Cornell,0.3,4,38221,2 giai đoạn (mẫu con),ok,3842.0,0.313537
+1,1,A2 Cornell,0.3,5,38221,1 giai đoạn,ok,10353.0,0.189958
+1,1,A2 Cornell,0.3,5,38221,2 giai đoạn,ok,7919.0,0.224184
+1,1,A2 Cornell,0.3,5,38221,2 giai đoạn (mẫu con),ok,5326.0,0.285965
+1,1,A3 LVH-LR,0.15,0,38221,1 giai đoạn,ok,10158.0,0.113774
+1,1,A3 LVH-LR,0.15,0,38221,2 giai đoạn,ok,5576.0,0.122575
+1,1,A3 LVH-LR,0.15,0,38221,2 giai đoạn (mẫu con),ok,7259.0,0.114039
+1,1,A3 LVH-LR,0.15,1,38221,1 giai đoạn,ok,7825.0,0.131941
+1,1,A3 LVH-LR,0.15,1,38221,2 giai đoạn,ok,5006.0,0.146992
+1,1,A3 LVH-LR,0.15,1,38221,2 giai đoạn (mẫu con),ok,3913.0,0.136838
+1,1,A3 LVH-LR,0.15,2,38221,1 giai đoạn,ok,5323.0,0.141028
+1,1,A3 LVH-LR,0.15,2,38221,2 giai đoạn,ok,4859.0,0.138066
+1,1,A3 LVH-LR,0.15,2,38221,2 giai đoạn (mẫu con),ok,2662.0,0.164972
+1,1,A3 LVH-LR,0.15,3,38221,1 giai đoạn,ok,6170.0,0.138249
+1,1,A3 LVH-LR,0.15,3,38221,2 giai đoạn,ok,5858.0,0.138959
+1,1,A3 LVH-LR,0.15,3,38221,2 giai đoạn (mẫu con),ok,8751.0,0.111942
+1,1,A3 LVH-LR,0.15,4,38221,1 giai đoạn,ok,5533.0,0.133655
+1,1,A3 LVH-LR,0.15,4,38221,2 giai đoạn,ok,4743.0,0.138738
+1,1,A3 LVH-LR,0.15,4,38221,2 giai đoạn (mẫu con),ok,2767.0,0.157969
+1,1,A3 LVH-LR,0.15,5,38221,1 giai đoạn,ok,11310.0,0.116769
+1,1,A3 LVH-LR,0.15,5,38221,2 giai đoạn,ok,5655.0,0.13008
+1,1,A3 LVH-LR,0.15,5,38221,2 giai đoạn (mẫu con),ok,5655.0,0.120262
+1,1,A3 LVH-LR,0.3,0,38221,1 giai đoạn,ok,1140.0,0.189745
+1,1,A3 LVH-LR,0.3,0,38221,2 giai đoạn,ok,816.0,0.207722
+1,1,A3 LVH-LR,0.3,0,38221,2 giai đoạn (mẫu con),ok,570.0,0.235504
+1,1,A3 LVH-LR,0.3,1,38221,1 giai đoạn,ok,1934.0,0.167625
+1,1,A3 LVH-LR,0.3,1,38221,2 giai đoạn,ok,1439.0,0.181004
+1,1,A3 LVH-LR,0.3,1,38221,2 giai đoạn (mẫu con),ok,1794.0,0.164468
+1,1,A3 LVH-LR,0.3,2,38221,1 giai đoạn,ok,1791.0,0.16787
+1,1,A3 LVH-LR,0.3,2,38221,2 giai đoạn,ok,2110.0,0.161059
+1,1,A3 LVH-LR,0.3,2,38221,2 giai đoạn (mẫu con),ok,1799.0,0.167654
+1,1,A3 LVH-LR,0.3,3,38221,1 giai đoạn,ok,691.0,0.235568
+1,1,A3 LVH-LR,0.3,3,38221,2 giai đoạn,ok,718.0,0.24898
+1,1,A3 LVH-LR,0.3,3,38221,2 giai đoạn (mẫu con),ok,731.0,0.210928
+1,1,A3 LVH-LR,0.3,4,38221,1 giai đoạn,ok,939.0,0.183032
+1,1,A3 LVH-LR,0.3,4,38221,2 giai đoạn,ok,1543.0,0.184375
+1,1,A3 LVH-LR,0.3,4,38221,2 giai đoạn (mẫu con),ok,1492.0,0.183978
+1,1,A3 LVH-LR,0.3,5,38221,1 giai đoạn,ok,2087.0,0.161972
+1,1,A3 LVH-LR,0.3,5,38221,2 giai đoạn,ok,1044.0,0.194001
+1,1,A3 LVH-LR,0.3,5,38221,2 giai đoạn (mẫu con),ok,1044.0,0.18296
+1,1,A4 CNNalt,0.15,0,38221,1 giai đoạn,ok,1785.0,0.099084
+1,1,A4 CNNalt,0.15,0,38221,2 giai đoạn,ok,2008.0,0.096073
+1,1,A4 CNNalt,0.15,0,38221,2 giai đoạn (mẫu con),ok,893.0,0.131023
+1,1,A4 CNNalt,0.15,1,38221,1 giai đoạn,ok,2025.0,0.10047
+1,1,A4 CNNalt,0.15,1,38221,2 giai đoạn,ok,2530.0,0.093864
+1,1,A4 CNNalt,0.15,1,38221,2 giai đoạn (mẫu con),ok,1170.0,0.124468
+1,1,A4 CNNalt,0.15,2,38221,1 giai đoạn,ok,3617.0,0.09081
+1,1,A4 CNNalt,0.15,2,38221,2 giai đoạn,ok,2142.0,0.102958
+1,1,A4 CNNalt,0.15,2,38221,2 giai đoạn (mẫu con),ok,1809.0,0.105648
+1,1,A4 CNNalt,0.15,3,38221,1 giai đoạn,ok,2966.0,0.101309
+1,1,A4 CNNalt,0.15,3,38221,2 giai đoạn,ok,2165.0,0.094679
+1,1,A4 CNNalt,0.15,3,38221,2 giai đoạn (mẫu con),ok,1483.0,0.105526
+1,1,A4 CNNalt,0.15,4,38221,1 giai đoạn,ok,3974.0,0.093251
+1,1,A4 CNNalt,0.15,4,38221,2 giai đoạn,ok,3052.0,0.094063
+1,1,A4 CNNalt,0.15,4,38221,2 giai đoạn (mẫu con),ok,1987.0,0.102168
+1,1,A4 CNNalt,0.15,5,38221,1 giai đoạn,ok,2920.0,0.090017
+1,1,A4 CNNalt,0.15,5,38221,2 giai đoạn,ok,2251.0,0.095746
+1,1,A4 CNNalt,0.15,5,38221,2 giai đoạn (mẫu con),ok,1460.0,0.111784
+1,1,A4 CNNalt,0.3,0,38221,1 giai đoạn,ok,490.0,0.162001
+1,1,A4 CNNalt,0.3,0,38221,2 giai đoạn,ok,490.0,0.153498
+1,1,A4 CNNalt,0.3,0,38221,2 giai đoạn (mẫu con),ok,300.0,0.189418
+1,1,A4 CNNalt,0.3,1,38221,1 giai đoạn,ok,300.0,0.17238
+1,1,A4 CNNalt,0.3,1,38221,2 giai đoạn,ok,300.0,0.175488
+1,1,A4 CNNalt,0.3,1,38221,2 giai đoạn (mẫu con),ok,300.0,0.176985
+1,1,A4 CNNalt,0.3,2,38221,1 giai đoạn,ok,300.0,0.196625
+1,1,A4 CNNalt,0.3,2,38221,2 giai đoạn,ok,300.0,0.191724
+1,1,A4 CNNalt,0.3,2,38221,2 giai đoạn (mẫu con),ok,300.0,0.187259
+1,1,A4 CNNalt,0.3,3,38221,1 giai đoạn,ok,511.0,0.146316
+1,1,A4 CNNalt,0.3,3,38221,2 giai đoạn,ok,511.0,0.160885
+1,1,A4 CNNalt,0.3,3,38221,2 giai đoạn (mẫu con),ok,326.0,0.187579
+1,1,A4 CNNalt,0.3,4,38221,1 giai đoạn,ok,657.0,0.133977
+1,1,A4 CNNalt,0.3,4,38221,2 giai đoạn,ok,540.0,0.146077
+1,1,A4 CNNalt,0.3,4,38221,2 giai đoạn (mẫu con),ok,329.0,0.182147
+1,1,A4 CNNalt,0.3,5,38221,1 giai đoạn,ok,616.0,0.15175
+1,1,A4 CNNalt,0.3,5,38221,2 giai đoạn,ok,594.0,0.1559
+1,1,A4 CNNalt,0.3,5,38221,2 giai đoạn (mẫu con),ok,308.0,0.195287
+1,2,A1 Sokolow,0.15,0,38221,1 giai đoạn,ok,6996.0,0.127438
+1,2,A1 Sokolow,0.15,0,38221,2 giai đoạn,ok,5674.0,0.13558
+1,2,A1 Sokolow,0.15,0,38221,2 giai đoạn (mẫu con),ok,7341.0,0.11112
+1,2,A1 Sokolow,0.15,1,38221,1 giai đoạn,ok,8857.0,0.107061
+1,2,A1 Sokolow,0.15,1,38221,2 giai đoạn,ok,4522.0,0.133768
+1,2,A1 Sokolow,0.15,1,38221,2 giai đoạn (mẫu con),ok,4429.0,0.126791
+1,2,A1 Sokolow,0.15,2,38221,1 giai đoạn,ok,4936.0,0.142784
+1,2,A1 Sokolow,0.15,2,38221,2 giai đoạn,ok,5352.0,0.126266
+1,2,A1 Sokolow,0.15,2,38221,2 giai đoạn (mẫu con),ok,8215.0,0.116665
+1,2,A1 Sokolow,0.15,3,38221,1 giai đoạn,ok,11423.0,0.096362
+1,2,A1 Sokolow,0.15,3,38221,2 giai đoạn,ok,5712.0,0.12632
+1,2,A1 Sokolow,0.15,3,38221,2 giai đoạn (mẫu con),ok,5712.0,0.122841
+1,2,A1 Sokolow,0.15,4,38221,1 giai đoạn,ok,5388.0,0.120899
+1,2,A1 Sokolow,0.15,4,38221,2 giai đoạn,ok,4157.0,0.13353
+1,2,A1 Sokolow,0.15,4,38221,2 giai đoạn (mẫu con),ok,5183.0,0.140611
+1,2,A1 Sokolow,0.15,5,38221,1 giai đoạn,ok,5469.0,0.123163
+1,2,A1 Sokolow,0.15,5,38221,2 giai đoạn,ok,5867.0,0.128627
+1,2,A1 Sokolow,0.15,5,38221,2 giai đoạn (mẫu con),ok,7612.0,0.112194
+1,2,A1 Sokolow,0.3,0,38221,1 giai đoạn,ok,1058.0,0.21243
+1,2,A1 Sokolow,0.3,0,38221,2 giai đoạn,ok,805.0,0.228785
+1,2,A1 Sokolow,0.3,0,38221,2 giai đoạn (mẫu con),ok,529.0,0.250039
+1,2,A1 Sokolow,0.3,1,38221,1 giai đoạn,ok,1354.0,0.21033
+1,2,A1 Sokolow,0.3,1,38221,2 giai đoạn,ok,790.0,0.243407
+1,2,A1 Sokolow,0.3,1,38221,2 giai đoạn (mẫu con),ok,677.0,0.258987
+1,2,A1 Sokolow,0.3,2,38221,1 giai đoạn,ok,861.0,0.225065
+1,2,A1 Sokolow,0.3,2,38221,2 giai đoạn,ok,1089.0,0.215047
+1,2,A1 Sokolow,0.3,2,38221,2 giai đoạn (mẫu con),ok,431.0,0.315186
+1,2,A1 Sokolow,0.3,3,38221,1 giai đoạn,ok,1272.0,0.193115
+1,2,A1 Sokolow,0.3,3,38221,2 giai đoạn,ok,769.0,0.237187
+1,2,A1 Sokolow,0.3,3,38221,2 giai đoạn (mẫu con),ok,636.0,0.293075
+1,2,A1 Sokolow,0.3,4,38221,1 giai đoạn,ok,1056.0,0.22464
+1,2,A1 Sokolow,0.3,4,38221,2 giai đoạn,ok,917.0,0.209289
+1,2,A1 Sokolow,0.3,4,38221,2 giai đoạn (mẫu con),ok,528.0,0.268592
+1,2,A1 Sokolow,0.3,5,38221,1 giai đoạn,ok,1229.0,0.216791
+1,2,A1 Sokolow,0.3,5,38221,2 giai đoạn,ok,860.0,0.241821
+1,2,A1 Sokolow,0.3,5,38221,2 giai đoạn (mẫu con),ok,889.0,0.2152
+1,2,A2 Cornell,0.15,0,38221,1 giai đoạn,ok,14471.0,0.217411
+1,2,A2 Cornell,0.15,0,38221,2 giai đoạn,ok,22297.0,0.188746
+1,2,A2 Cornell,0.15,0,38221,2 giai đoạn (mẫu con),ok,15383.0,0.22643
+1,2,A2 Cornell,0.15,1,38221,1 giai đoạn,ok,26070.0,0.17609
+1,2,A2 Cornell,0.15,1,38221,2 giai đoạn,ok,25103.0,0.173667
+1,2,A2 Cornell,0.15,1,38221,2 giai đoạn (mẫu con),ok,24528.0,0.164306
+1,2,A2 Cornell,0.15,2,38221,1 giai đoạn,không khả thi,37080.0,
+1,2,A2 Cornell,0.15,2,38221,2 giai đoạn,ok,20379.0,0.189548
+1,2,A2 Cornell,0.15,2,38221,2 giai đoạn (mẫu con),ok,27218.0,0.159316
+1,2,A2 Cornell,0.15,3,38221,1 giai đoạn,ok,30425.0,0.096807
+1,2,A2 Cornell,0.15,3,38221,2 giai đoạn,ok,27802.0,0.162772
+1,2,A2 Cornell,0.15,3,38221,2 giai đoạn (mẫu con),không khả thi,30611.0,
+1,2,A2 Cornell,0.15,4,38221,1 giai đoạn,không khả thi,35181.0,
+1,2,A2 Cornell,0.15,4,38221,2 giai đoạn,ok,23794.0,0.185944
+1,2,A2 Cornell,0.15,4,38221,2 giai đoạn (mẫu con),ok,22921.0,0.181671
+1,2,A2 Cornell,0.15,5,38221,1 giai đoạn,ok,26058.0,0.156722
+1,2,A2 Cornell,0.15,5,38221,2 giai đoạn,ok,27914.0,0.150744
+1,2,A2 Cornell,0.15,5,38221,2 giai đoạn (mẫu con),không khả thi,31352.0,
+1,2,A2 Cornell,0.3,0,38221,1 giai đoạn,ok,7805.0,0.290022
+1,2,A2 Cornell,0.3,0,38221,2 giai đoạn,ok,6430.0,0.336762
+1,2,A2 Cornell,0.3,0,38221,2 giai đoạn (mẫu con),ok,4258.0,0.368331
+1,2,A2 Cornell,0.3,1,38221,1 giai đoạn,ok,2816.0,0.400222
+1,2,A2 Cornell,0.3,1,38221,2 giai đoạn,ok,4494.0,0.329025
+1,2,A2 Cornell,0.3,1,38221,2 giai đoạn (mẫu con),ok,1408.0,0.474869
+1,2,A2 Cornell,0.3,2,38221,1 giai đoạn,ok,4062.0,0.327525
+1,2,A2 Cornell,0.3,2,38221,2 giai đoạn,ok,4782.0,0.364537
+1,2,A2 Cornell,0.3,2,38221,2 giai đoạn (mẫu con),ok,6290.0,0.346571
+1,2,A2 Cornell,0.3,3,38221,1 giai đoạn,ok,4262.0,0.360467
+1,2,A2 Cornell,0.3,3,38221,2 giai đoạn,ok,5935.0,0.320677
+1,2,A2 Cornell,0.3,3,38221,2 giai đoạn (mẫu con),ok,7400.0,0.301795
+1,2,A2 Cornell,0.3,4,38221,1 giai đoạn,ok,4631.0,0.362532
+1,2,A2 Cornell,0.3,4,38221,2 giai đoạn,ok,10184.0,0.29475
+1,2,A2 Cornell,0.3,4,38221,2 giai đoạn (mẫu con),ok,5448.0,0.34917
+1,2,A2 Cornell,0.3,5,38221,1 giai đoạn,ok,6082.0,0.336729
+1,2,A2 Cornell,0.3,5,38221,2 giai đoạn,ok,3264.0,0.406304
+1,2,A2 Cornell,0.3,5,38221,2 giai đoạn (mẫu con),ok,3041.0,0.363756
+1,2,A3 LVH-LR,0.15,0,38221,1 giai đoạn,ok,7509.0,0.168623
+1,2,A3 LVH-LR,0.15,0,38221,2 giai đoạn,ok,7443.0,0.174604
+1,2,A3 LVH-LR,0.15,0,38221,2 giai đoạn (mẫu con),ok,23666.0,0.12082
+1,2,A3 LVH-LR,0.15,1,38221,1 giai đoạn,ok,16711.0,0.120409
+1,2,A3 LVH-LR,0.15,1,38221,2 giai đoạn,ok,8586.0,0.143727
+1,2,A3 LVH-LR,0.15,1,38221,2 giai đoạn (mẫu con),ok,21293.0,0.119074
+1,2,A3 LVH-LR,0.15,2,38221,1 giai đoạn,ok,11222.0,0.152603
+1,2,A3 LVH-LR,0.15,2,38221,2 giai đoạn,ok,8052.0,0.160307
+1,2,A3 LVH-LR,0.15,2,38221,2 giai đoạn (mẫu con),ok,5611.0,0.17272
+1,2,A3 LVH-LR,0.15,3,38221,1 giai đoạn,ok,10854.0,0.140907
+1,2,A3 LVH-LR,0.15,3,38221,2 giai đoạn,ok,7850.0,0.126588
+1,2,A3 LVH-LR,0.15,3,38221,2 giai đoạn (mẫu con),ok,5427.0,0.203031
+1,2,A3 LVH-LR,0.15,4,38221,1 giai đoạn,ok,5079.0,0.203614
+1,2,A3 LVH-LR,0.15,4,38221,2 giai đoạn,ok,8563.0,0.166458
+1,2,A3 LVH-LR,0.15,4,38221,2 giai đoạn (mẫu con),ok,7271.0,0.142407
+1,2,A3 LVH-LR,0.15,5,38221,1 giai đoạn,ok,26549.0,0.109311
+1,2,A3 LVH-LR,0.15,5,38221,2 giai đoạn,ok,13275.0,0.138348
+1,2,A3 LVH-LR,0.15,5,38221,2 giai đoạn (mẫu con),ok,13275.0,0.146783
+1,2,A3 LVH-LR,0.3,0,38221,1 giai đoạn,ok,918.0,0.280072
+1,2,A3 LVH-LR,0.3,0,38221,2 giai đoạn,ok,1568.0,0.268408
+1,2,A3 LVH-LR,0.3,0,38221,2 giai đoạn (mẫu con),ok,459.0,0.378365
+1,2,A3 LVH-LR,0.3,1,38221,1 giai đoạn,ok,3390.0,0.227227
+1,2,A3 LVH-LR,0.3,1,38221,2 giai đoạn,ok,1695.0,0.234141
+1,2,A3 LVH-LR,0.3,1,38221,2 giai đoạn (mẫu con),ok,1947.0,0.249816
+1,2,A3 LVH-LR,0.3,2,38221,1 giai đoạn,ok,1396.0,0.242156
+1,2,A3 LVH-LR,0.3,2,38221,2 giai đoạn,ok,984.0,0.29348
+1,2,A3 LVH-LR,0.3,2,38221,2 giai đoạn (mẫu con),ok,925.0,0.312518
+1,2,A3 LVH-LR,0.3,3,38221,1 giai đoạn,ok,1697.0,0.254193
+1,2,A3 LVH-LR,0.3,3,38221,2 giai đoạn,ok,1171.0,0.268392
+1,2,A3 LVH-LR,0.3,3,38221,2 giai đoạn (mẫu con),ok,2960.0,0.210571
+1,2,A3 LVH-LR,0.3,4,38221,1 giai đoạn,ok,1626.0,0.246353
+1,2,A3 LVH-LR,0.3,4,38221,2 giai đoạn,ok,1356.0,0.258847
+1,2,A3 LVH-LR,0.3,4,38221,2 giai đoạn (mẫu con),ok,1804.0,0.260332
+1,2,A3 LVH-LR,0.3,5,38221,1 giai đoạn,ok,2924.0,0.210796
+1,2,A3 LVH-LR,0.3,5,38221,2 giai đoạn,ok,1465.0,0.258074
+1,2,A3 LVH-LR,0.3,5,38221,2 giai đoạn (mẫu con),ok,1462.0,0.255758
+1,2,A4 CNNalt,0.15,0,38221,1 giai đoạn,ok,6112.0,0.061324
+1,2,A4 CNNalt,0.15,0,38221,2 giai đoạn,ok,3056.0,0.085032
+1,2,A4 CNNalt,0.15,0,38221,2 giai đoạn (mẫu con),ok,3056.0,0.083086
+1,2,A4 CNNalt,0.15,1,38221,1 giai đoạn,ok,3882.0,0.085205
+1,2,A4 CNNalt,0.15,1,38221,2 giai đoạn,ok,4625.0,0.076337
+1,2,A4 CNNalt,0.15,1,38221,2 giai đoạn (mẫu con),ok,1941.0,0.101203
+1,2,A4 CNNalt,0.15,2,38221,1 giai đoạn,ok,4087.0,0.077802
+1,2,A4 CNNalt,0.15,2,38221,2 giai đoạn,ok,3180.0,0.091575
+1,2,A4 CNNalt,0.15,2,38221,2 giai đoạn (mẫu con),ok,2044.0,0.089974
+1,2,A4 CNNalt,0.15,3,38221,1 giai đoạn,ok,11775.0,0.042296
+1,2,A4 CNNalt,0.15,3,38221,2 giai đoạn,ok,5888.0,0.060896
+1,2,A4 CNNalt,0.15,3,38221,2 giai đoạn (mẫu con),ok,5888.0,0.067082
+1,2,A4 CNNalt,0.15,4,38221,1 giai đoạn,ok,7731.0,0.058527
+1,2,A4 CNNalt,0.15,4,38221,2 giai đoạn,ok,3866.0,0.071787
+1,2,A4 CNNalt,0.15,4,38221,2 giai đoạn (mẫu con),ok,3866.0,0.083785
+1,2,A4 CNNalt,0.15,5,38221,1 giai đoạn,ok,4780.0,0.071942
+1,2,A4 CNNalt,0.15,5,38221,2 giai đoạn,ok,2680.0,0.089442
+1,2,A4 CNNalt,0.15,5,38221,2 giai đoạn (mẫu con),ok,2390.0,0.103421
+1,2,A4 CNNalt,0.3,0,38221,1 giai đoạn,ok,797.0,0.140644
+1,2,A4 CNNalt,0.3,0,38221,2 giai đoạn,ok,815.0,0.146696
+1,2,A4 CNNalt,0.3,0,38221,2 giai đoạn (mẫu con),ok,399.0,0.190185
+1,2,A4 CNNalt,0.3,1,38221,1 giai đoạn,ok,476.0,0.189832
+1,2,A4 CNNalt,0.3,1,38221,2 giai đoạn,ok,476.0,0.171237
+1,2,A4 CNNalt,0.3,1,38221,2 giai đoạn (mẫu con),ok,300.0,0.241881
+1,2,A4 CNNalt,0.3,2,38221,1 giai đoạn,ok,714.0,0.153192
+1,2,A4 CNNalt,0.3,2,38221,2 giai đoạn,ok,714.0,0.144663
+1,2,A4 CNNalt,0.3,2,38221,2 giai đoạn (mẫu con),ok,357.0,0.224928
+1,2,A4 CNNalt,0.3,3,38221,1 giai đoạn,ok,600.0,0.148315
+1,2,A4 CNNalt,0.3,3,38221,2 giai đoạn,ok,600.0,0.160381
+1,2,A4 CNNalt,0.3,3,38221,2 giai đoạn (mẫu con),ok,1549.0,0.113124
+1,2,A4 CNNalt,0.3,4,38221,1 giai đoạn,ok,684.0,0.150646
+1,2,A4 CNNalt,0.3,4,38221,2 giai đoạn,ok,949.0,0.142662
+1,2,A4 CNNalt,0.3,4,38221,2 giai đoạn (mẫu con),ok,427.0,0.184307
+1,2,A4 CNNalt,0.3,5,38221,1 giai đoạn,ok,810.0,0.136858
+1,2,A4 CNNalt,0.3,5,38221,2 giai đoạn,ok,829.0,0.138124
+1,2,A4 CNNalt,0.3,5,38221,2 giai đoạn (mẫu con),ok,405.0,0.195976
+2,0,A1 Sokolow,0.15,0,12843,1 giai đoạn,ok,6257.0,0.166481
+2,0,A1 Sokolow,0.15,0,12843,2 giai đoạn,ok,5908.0,0.14677
+2,0,A1 Sokolow,0.15,0,12843,2 giai đoạn (mẫu con),ok,4209.0,0.219821
+2,0,A1 Sokolow,0.15,1,12843,1 giai đoạn,ok,5973.0,0.191623
+2,0,A1 Sokolow,0.15,1,12843,2 giai đoạn,ok,6953.0,0.175602
+2,0,A1 Sokolow,0.15,1,12843,2 giai đoạn (mẫu con),ok,4365.0,0.215236
+2,0,A1 Sokolow,0.15,2,12843,1 giai đoạn,ok,6984.0,0.145602
+2,0,A1 Sokolow,0.15,2,12843,2 giai đoạn,ok,6190.0,0.190244
+2,0,A1 Sokolow,0.15,2,12843,2 giai đoạn (mẫu con),ok,7370.0,0.185845
+2,0,A1 Sokolow,0.15,3,12843,1 giai đoạn,ok,8375.0,0.135226
+2,0,A1 Sokolow,0.15,3,12843,2 giai đoạn,ok,6748.0,0.153896
+2,0,A1 Sokolow,0.15,3,12843,2 giai đoạn (mẫu con),ok,7429.0,0.156641
+2,0,A1 Sokolow,0.15,4,12843,1 giai đoạn,ok,8323.0,0.137766
+2,0,A1 Sokolow,0.15,4,12843,2 giai đoạn,ok,6231.0,0.188268
+2,0,A1 Sokolow,0.15,4,12843,2 giai đoạn (mẫu con),ok,8167.0,0.181824
+2,0,A1 Sokolow,0.15,5,12843,1 giai đoạn,ok,7236.0,0.173031
+2,0,A1 Sokolow,0.15,5,12843,2 giai đoạn,ok,5536.0,0.197311
+2,0,A1 Sokolow,0.15,5,12843,2 giai đoạn (mẫu con),ok,3618.0,0.199021
+2,0,A1 Sokolow,0.3,0,12843,1 giai đoạn,ok,2173.0,0.275533
+2,0,A1 Sokolow,0.3,0,12843,2 giai đoạn,ok,1696.0,0.291358
+2,0,A1 Sokolow,0.3,0,12843,2 giai đoạn (mẫu con),ok,1087.0,0.325408
+2,0,A1 Sokolow,0.3,1,12843,1 giai đoạn,ok,1318.0,0.280301
+2,0,A1 Sokolow,0.3,1,12843,2 giai đoạn,ok,1425.0,0.292588
+2,0,A1 Sokolow,0.3,1,12843,2 giai đoạn (mẫu con),ok,2899.0,0.238056
+2,0,A1 Sokolow,0.3,2,12843,1 giai đoạn,ok,1095.0,0.300488
+2,0,A1 Sokolow,0.3,2,12843,2 giai đoạn,ok,1499.0,0.279126
+2,0,A1 Sokolow,0.3,2,12843,2 giai đoạn (mẫu con),ok,3772.0,0.191466
+2,0,A1 Sokolow,0.3,3,12843,1 giai đoạn,ok,1541.0,0.274726
+2,0,A1 Sokolow,0.3,3,12843,2 giai đoạn,ok,1936.0,0.255486
+2,0,A1 Sokolow,0.3,3,12843,2 giai đoạn (mẫu con),ok,1713.0,0.249355
+2,0,A1 Sokolow,0.3,4,12843,1 giai đoạn,ok,2744.0,0.255982
+2,0,A1 Sokolow,0.3,4,12843,2 giai đoạn,ok,1372.0,0.288379
+2,0,A1 Sokolow,0.3,4,12843,2 giai đoạn (mẫu con),ok,1372.0,0.268588
+2,0,A1 Sokolow,0.3,5,12843,1 giai đoạn,ok,1581.0,0.258268
+2,0,A1 Sokolow,0.3,5,12843,2 giai đoạn,ok,1045.0,0.30528
+2,0,A1 Sokolow,0.3,5,12843,2 giai đoạn (mẫu con),ok,962.0,0.311537
+2,0,A2 Cornell,0.15,0,12843,1 giai đoạn,không khả thi,11347.0,
+2,0,A2 Cornell,0.15,0,12843,2 giai đoạn,không khả thi,11091.0,
+2,0,A2 Cornell,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,11385.0,
+2,0,A2 Cornell,0.15,1,12843,1 giai đoạn,không khả thi,12561.0,
+2,0,A2 Cornell,0.15,1,12843,2 giai đoạn,không khả thi,11200.0,
+2,0,A2 Cornell,0.15,1,12843,2 giai đoạn (mẫu con),không khả thi,11061.0,
+2,0,A2 Cornell,0.15,2,12843,1 giai đoạn,không khả thi,12523.0,
+2,0,A2 Cornell,0.15,2,12843,2 giai đoạn,ok,9914.0,0.189429
+2,0,A2 Cornell,0.15,2,12843,2 giai đoạn (mẫu con),ok,6666.0,0.215069
+2,0,A2 Cornell,0.15,3,12843,1 giai đoạn,không khả thi,11615.0,
+2,0,A2 Cornell,0.15,3,12843,2 giai đoạn,không khả thi,11162.0,
+2,0,A2 Cornell,0.15,3,12843,2 giai đoạn (mẫu con),không khả thi,10719.0,
+2,0,A2 Cornell,0.15,4,12843,1 giai đoạn,không khả thi,11338.0,
+2,0,A2 Cornell,0.15,4,12843,2 giai đoạn,không khả thi,10483.0,
+2,0,A2 Cornell,0.15,4,12843,2 giai đoạn (mẫu con),ok,9033.0,0.198387
+2,0,A2 Cornell,0.15,5,12843,1 giai đoạn,ok,10273.0,0.1881
+2,0,A2 Cornell,0.15,5,12843,2 giai đoạn,ok,9023.0,0.209756
+2,0,A2 Cornell,0.15,5,12843,2 giai đoạn (mẫu con),ok,8430.0,0.202743
+2,0,A2 Cornell,0.3,0,12843,1 giai đoạn,ok,4703.0,0.24656
+2,0,A2 Cornell,0.3,0,12843,2 giai đoạn,ok,4010.0,0.290569
+2,0,A2 Cornell,0.3,0,12843,2 giai đoạn (mẫu con),ok,3475.0,0.260028
+2,0,A2 Cornell,0.3,1,12843,1 giai đoạn,ok,6743.0,0.241492
+2,0,A2 Cornell,0.3,1,12843,2 giai đoạn,ok,5093.0,0.248939
+2,0,A2 Cornell,0.3,1,12843,2 giai đoạn (mẫu con),ok,3372.0,0.262184
+2,0,A2 Cornell,0.3,2,12843,1 giai đoạn,ok,5412.0,0.223634
+2,0,A2 Cornell,0.3,2,12843,2 giai đoạn,ok,6962.0,0.219107
+2,0,A2 Cornell,0.3,2,12843,2 giai đoạn (mẫu con),ok,8655.0,0.210972
+2,0,A2 Cornell,0.3,3,12843,1 giai đoạn,ok,3426.0,0.298961
+2,0,A2 Cornell,0.3,3,12843,2 giai đoạn,ok,4882.0,0.23848
+2,0,A2 Cornell,0.3,3,12843,2 giai đoạn (mẫu con),ok,3416.0,0.298638
+2,0,A2 Cornell,0.3,4,12843,1 giai đoạn,ok,8470.0,0.200262
+2,0,A2 Cornell,0.3,4,12843,2 giai đoạn,ok,6607.0,0.210365
+2,0,A2 Cornell,0.3,4,12843,2 giai đoạn (mẫu con),ok,4235.0,0.272785
+2,0,A2 Cornell,0.3,5,12843,1 giai đoạn,không khả thi,11960.0,
+2,0,A2 Cornell,0.3,5,12843,2 giai đoạn,ok,5980.0,0.221247
+2,0,A2 Cornell,0.3,5,12843,2 giai đoạn (mẫu con),ok,5980.0,0.24725
+2,0,A3 LVH-LR,0.15,0,12843,1 giai đoạn,ok,8082.0,0.109369
+2,0,A3 LVH-LR,0.15,0,12843,2 giai đoạn,ok,5338.0,0.135442
+2,0,A3 LVH-LR,0.15,0,12843,2 giai đoạn (mẫu con),ok,6714.0,0.109208
+2,0,A3 LVH-LR,0.15,1,12843,1 giai đoạn,ok,5127.0,0.143281
+2,0,A3 LVH-LR,0.15,1,12843,2 giai đoạn,ok,5447.0,0.136186
+2,0,A3 LVH-LR,0.15,1,12843,2 giai đoạn (mẫu con),ok,2564.0,0.18027
+2,0,A3 LVH-LR,0.15,2,12843,1 giai đoạn,ok,4936.0,0.141793
+2,0,A3 LVH-LR,0.15,2,12843,2 giai đoạn,ok,6987.0,0.117808
+2,0,A3 LVH-LR,0.15,2,12843,2 giai đoạn (mẫu con),ok,2468.0,0.185736
+2,0,A3 LVH-LR,0.15,3,12843,1 giai đoạn,ok,8258.0,0.098539
+2,0,A3 LVH-LR,0.15,3,12843,2 giai đoạn,ok,7327.0,0.104322
+2,0,A3 LVH-LR,0.15,3,12843,2 giai đoạn (mẫu con),ok,8226.0,0.106343
+2,0,A3 LVH-LR,0.15,4,12843,1 giai đoạn,ok,6451.0,0.124781
+2,0,A3 LVH-LR,0.15,4,12843,2 giai đoạn,ok,4615.0,0.144715
+2,0,A3 LVH-LR,0.15,4,12843,2 giai đoạn (mẫu con),ok,3385.0,0.174374
+2,0,A3 LVH-LR,0.15,5,12843,1 giai đoạn,ok,5547.0,0.131393
+2,0,A3 LVH-LR,0.15,5,12843,2 giai đoạn,ok,5789.0,0.141741
+2,0,A3 LVH-LR,0.15,5,12843,2 giai đoạn (mẫu con),ok,5193.0,0.137173
+2,0,A3 LVH-LR,0.3,0,12843,1 giai đoạn,ok,1241.0,0.233853
+2,0,A3 LVH-LR,0.3,0,12843,2 giai đoạn,ok,1650.0,0.203122
+2,0,A3 LVH-LR,0.3,0,12843,2 giai đoạn (mẫu con),ok,1851.0,0.193516
+2,0,A3 LVH-LR,0.3,1,12843,1 giai đoạn,ok,1395.0,0.201675
+2,0,A3 LVH-LR,0.3,1,12843,2 giai đoạn,ok,1218.0,0.225078
+2,0,A3 LVH-LR,0.3,1,12843,2 giai đoạn (mẫu con),ok,698.0,0.273319
+2,0,A3 LVH-LR,0.3,2,12843,1 giai đoạn,ok,1494.0,0.209616
+2,0,A3 LVH-LR,0.3,2,12843,2 giai đoạn,ok,1300.0,0.228603
+2,0,A3 LVH-LR,0.3,2,12843,2 giai đoạn (mẫu con),ok,747.0,0.29855
+2,0,A3 LVH-LR,0.3,3,12843,1 giai đoạn,ok,1006.0,0.255366
+2,0,A3 LVH-LR,0.3,3,12843,2 giai đoạn,ok,1027.0,0.276802
+2,0,A3 LVH-LR,0.3,3,12843,2 giai đoạn (mẫu con),ok,503.0,0.33382
+2,0,A3 LVH-LR,0.3,4,12843,1 giai đoạn,ok,2755.0,0.174878
+2,0,A3 LVH-LR,0.3,4,12843,2 giai đoạn,ok,1791.0,0.217254
+2,0,A3 LVH-LR,0.3,4,12843,2 giai đoạn (mẫu con),ok,1378.0,0.2393
+2,0,A3 LVH-LR,0.3,5,12843,1 giai đoạn,ok,1011.0,0.283096
+2,0,A3 LVH-LR,0.3,5,12843,2 giai đoạn,ok,1263.0,0.211205
+2,0,A3 LVH-LR,0.3,5,12843,2 giai đoạn (mẫu con),ok,620.0,0.304984
+2,0,A4 CNNalt,0.15,0,12843,1 giai đoạn,ok,2583.0,0.109518
+2,0,A4 CNNalt,0.15,0,12843,2 giai đoạn,ok,3050.0,0.116018
+2,0,A4 CNNalt,0.15,0,12843,2 giai đoạn (mẫu con),ok,2556.0,0.119497
+2,0,A4 CNNalt,0.15,1,12843,1 giai đoạn,ok,4703.0,0.079731
+2,0,A4 CNNalt,0.15,1,12843,2 giai đoạn,ok,2466.0,0.119394
+2,0,A4 CNNalt,0.15,1,12843,2 giai đoạn (mẫu con),ok,2352.0,0.124957
+2,0,A4 CNNalt,0.15,2,12843,1 giai đoạn,ok,4107.0,0.080558
+2,0,A4 CNNalt,0.15,2,12843,2 giai đoạn,ok,2914.0,0.099499
+2,0,A4 CNNalt,0.15,2,12843,2 giai đoạn (mẫu con),ok,2054.0,0.117153
+2,0,A4 CNNalt,0.15,3,12843,1 giai đoạn,ok,3720.0,0.099332
+2,0,A4 CNNalt,0.15,3,12843,2 giai đoạn,ok,3037.0,0.107041
+2,0,A4 CNNalt,0.15,3,12843,2 giai đoạn (mẫu con),ok,1860.0,0.129883
+2,0,A4 CNNalt,0.15,4,12843,1 giai đoạn,ok,3776.0,0.072179
+2,0,A4 CNNalt,0.15,4,12843,2 giai đoạn,ok,2602.0,0.117477
+2,0,A4 CNNalt,0.15,4,12843,2 giai đoạn (mẫu con),ok,2429.0,0.135355
+2,0,A4 CNNalt,0.15,5,12843,1 giai đoạn,ok,4550.0,0.084868
+2,0,A4 CNNalt,0.15,5,12843,2 giai đoạn,ok,2275.0,0.120605
+2,0,A4 CNNalt,0.15,5,12843,2 giai đoạn (mẫu con),ok,2275.0,0.125949
+2,0,A4 CNNalt,0.3,0,12843,1 giai đoạn,ok,580.0,0.216084
+2,0,A4 CNNalt,0.3,0,12843,2 giai đoạn,ok,580.0,0.218104
+2,0,A4 CNNalt,0.3,0,12843,2 giai đoạn (mẫu con),ok,353.0,0.230878
+2,0,A4 CNNalt,0.3,1,12843,1 giai đoạn,ok,584.0,0.190877
+2,0,A4 CNNalt,0.3,1,12843,2 giai đoạn,ok,584.0,0.198293
+2,0,A4 CNNalt,0.3,1,12843,2 giai đoạn (mẫu con),ok,424.0,0.260783
+2,0,A4 CNNalt,0.3,2,12843,1 giai đoạn,ok,525.0,0.210463
+2,0,A4 CNNalt,0.3,2,12843,2 giai đoạn,ok,525.0,0.195301
+2,0,A4 CNNalt,0.3,2,12843,2 giai đoạn (mẫu con),ok,300.0,0.273699
+2,0,A4 CNNalt,0.3,3,12843,1 giai đoạn,ok,476.0,0.253126
+2,0,A4 CNNalt,0.3,3,12843,2 giai đoạn,ok,476.0,0.21592
+2,0,A4 CNNalt,0.3,3,12843,2 giai đoạn (mẫu con),ok,300.0,0.261483
+2,0,A4 CNNalt,0.3,4,12843,1 giai đoạn,ok,589.0,0.189256
+2,0,A4 CNNalt,0.3,4,12843,2 giai đoạn,ok,589.0,0.192177
+2,0,A4 CNNalt,0.3,4,12843,2 giai đoạn (mẫu con),ok,590.0,0.232391
+2,0,A4 CNNalt,0.3,5,12843,1 giai đoạn,ok,670.0,0.215029
+2,0,A4 CNNalt,0.3,5,12843,2 giai đoạn,ok,641.0,0.181915
+2,0,A4 CNNalt,0.3,5,12843,2 giai đoạn (mẫu con),ok,544.0,0.214092
+2,1,A1 Sokolow,0.15,0,12843,1 giai đoạn,ok,5445.0,0.07944
+2,1,A1 Sokolow,0.15,0,12843,2 giai đoạn,ok,4523.0,0.091384
+2,1,A1 Sokolow,0.15,0,12843,2 giai đoạn (mẫu con),ok,5160.0,0.091582
+2,1,A1 Sokolow,0.15,1,12843,1 giai đoạn,ok,4754.0,0.076701
+2,1,A1 Sokolow,0.15,1,12843,2 giai đoạn,ok,3969.0,0.087277
+2,1,A1 Sokolow,0.15,1,12843,2 giai đoạn (mẫu con),ok,3476.0,0.114126
+2,1,A1 Sokolow,0.15,2,12843,1 giai đoạn,ok,6722.0,0.049199
+2,1,A1 Sokolow,0.15,2,12843,2 giai đoạn,ok,4242.0,0.096018
+2,1,A1 Sokolow,0.15,2,12843,2 giai đoạn (mẫu con),ok,3361.0,0.131501
+2,1,A1 Sokolow,0.15,3,12843,1 giai đoạn,ok,6609.0,0.054782
+2,1,A1 Sokolow,0.15,3,12843,2 giai đoạn,ok,4795.0,0.108293
+2,1,A1 Sokolow,0.15,3,12843,2 giai đoạn (mẫu con),ok,3305.0,0.123551
+2,1,A1 Sokolow,0.15,4,12843,1 giai đoạn,ok,5542.0,0.082874
+2,1,A1 Sokolow,0.15,4,12843,2 giai đoạn,ok,4223.0,0.08489
+2,1,A1 Sokolow,0.15,4,12843,2 giai đoạn (mẫu con),ok,2771.0,0.127322
+2,1,A1 Sokolow,0.15,5,12843,1 giai đoạn,ok,5386.0,0.080598
+2,1,A1 Sokolow,0.15,5,12843,2 giai đoạn,ok,4475.0,0.086639
+2,1,A1 Sokolow,0.15,5,12843,2 giai đoạn (mẫu con),ok,2693.0,0.125156
+2,1,A1 Sokolow,0.3,0,12843,1 giai đoạn,ok,1006.0,0.231955
+2,1,A1 Sokolow,0.3,0,12843,2 giai đoạn,ok,1435.0,0.18365
+2,1,A1 Sokolow,0.3,0,12843,2 giai đoạn (mẫu con),ok,503.0,0.319482
+2,1,A1 Sokolow,0.3,1,12843,1 giai đoạn,ok,698.0,0.254984
+2,1,A1 Sokolow,0.3,1,12843,2 giai đoạn,ok,799.0,0.239417
+2,1,A1 Sokolow,0.3,1,12843,2 giai đoạn (mẫu con),ok,944.0,0.235945
+2,1,A1 Sokolow,0.3,2,12843,1 giai đoạn,ok,1586.0,0.203827
+2,1,A1 Sokolow,0.3,2,12843,2 giai đoạn,ok,938.0,0.255369
+2,1,A1 Sokolow,0.3,2,12843,2 giai đoạn (mẫu con),ok,793.0,0.312586
+2,1,A1 Sokolow,0.3,3,12843,1 giai đoạn,ok,1012.0,0.231668
+2,1,A1 Sokolow,0.3,3,12843,2 giai đoạn,ok,907.0,0.239828
+2,1,A1 Sokolow,0.3,3,12843,2 giai đoạn (mẫu con),ok,506.0,0.31339
+2,1,A1 Sokolow,0.3,4,12843,1 giai đoạn,ok,902.0,0.243509
+2,1,A1 Sokolow,0.3,4,12843,2 giai đoạn,ok,960.0,0.264341
+2,1,A1 Sokolow,0.3,4,12843,2 giai đoạn (mẫu con),ok,451.0,0.311951
+2,1,A1 Sokolow,0.3,5,12843,1 giai đoạn,ok,1089.0,0.221441
+2,1,A1 Sokolow,0.3,5,12843,2 giai đoạn,ok,943.0,0.257477
+2,1,A1 Sokolow,0.3,5,12843,2 giai đoạn (mẫu con),ok,1476.0,0.199759
+2,1,A2 Cornell,0.15,0,12843,1 giai đoạn,không khả thi,10974.0,
+2,1,A2 Cornell,0.15,0,12843,2 giai đoạn,ok,10138.0,0.248134
+2,1,A2 Cornell,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,11731.0,
+2,1,A2 Cornell,0.15,1,12843,1 giai đoạn,không khả thi,11956.0,
+2,1,A2 Cornell,0.15,1,12843,2 giai đoạn,không khả thi,11051.0,
+2,1,A2 Cornell,0.15,1,12843,2 giai đoạn (mẫu con),không khả thi,11845.0,
+2,1,A2 Cornell,0.15,2,12843,1 giai đoạn,ok,9929.0,0.26214
+2,1,A2 Cornell,0.15,2,12843,2 giai đoạn,không khả thi,10981.0,
+2,1,A2 Cornell,0.15,2,12843,2 giai đoạn (mẫu con),không khả thi,10730.0,
+2,1,A2 Cornell,0.15,3,12843,1 giai đoạn,không khả thi,11224.0,
+2,1,A2 Cornell,0.15,3,12843,2 giai đoạn,không khả thi,10790.0,
+2,1,A2 Cornell,0.15,3,12843,2 giai đoạn (mẫu con),không khả thi,12047.0,
+2,1,A2 Cornell,0.15,4,12843,1 giai đoạn,ok,8777.0,0.313575
+2,1,A2 Cornell,0.15,4,12843,2 giai đoạn,không khả thi,10930.0,
+2,1,A2 Cornell,0.15,4,12843,2 giai đoạn (mẫu con),không khả thi,11589.0,
+2,1,A2 Cornell,0.15,5,12843,1 giai đoạn,ok,8319.0,0.329213
+2,1,A2 Cornell,0.15,5,12843,2 giai đoạn,không khả thi,10852.0,
+2,1,A2 Cornell,0.15,5,12843,2 giai đoạn (mẫu con),ok,10204.0,0.292082
+2,1,A2 Cornell,0.3,0,12843,1 giai đoạn,ok,4802.0,0.366131
+2,1,A2 Cornell,0.3,0,12843,2 giai đoạn,ok,7146.0,0.335541
+2,1,A2 Cornell,0.3,0,12843,2 giai đoạn (mẫu con),không khả thi,10691.0,
+2,1,A2 Cornell,0.3,1,12843,1 giai đoạn,ok,3690.0,0.471098
+2,1,A2 Cornell,0.3,1,12843,2 giai đoạn,ok,4887.0,0.439069
+2,1,A2 Cornell,0.3,1,12843,2 giai đoạn (mẫu con),ok,8419.0,0.331186
+2,1,A2 Cornell,0.3,2,12843,1 giai đoạn,ok,6327.0,0.370782
+2,1,A2 Cornell,0.3,2,12843,2 giai đoạn,ok,5747.0,0.420736
+2,1,A2 Cornell,0.3,2,12843,2 giai đoạn (mẫu con),ok,7286.0,0.411371
+2,1,A2 Cornell,0.3,3,12843,1 giai đoạn,ok,3966.0,0.462907
+2,1,A2 Cornell,0.3,3,12843,2 giai đoạn,ok,4396.0,0.503033
+2,1,A2 Cornell,0.3,3,12843,2 giai đoạn (mẫu con),ok,3756.0,0.468527
+2,1,A2 Cornell,0.3,4,12843,1 giai đoạn,ok,7040.0,0.378255
+2,1,A2 Cornell,0.3,4,12843,2 giai đoạn,ok,8436.0,0.359174
+2,1,A2 Cornell,0.3,4,12843,2 giai đoạn (mẫu con),không khả thi,10433.0,
+2,1,A2 Cornell,0.3,5,12843,1 giai đoạn,ok,2743.0,0.527775
+2,1,A2 Cornell,0.3,5,12843,2 giai đoạn,ok,9569.0,0.309794
+2,1,A2 Cornell,0.3,5,12843,2 giai đoạn (mẫu con),ok,8066.0,0.317229
+2,1,A3 LVH-LR,0.15,0,12843,1 giai đoạn,ok,8624.0,0.145496
+2,1,A3 LVH-LR,0.15,0,12843,2 giai đoạn,ok,5321.0,0.174835
+2,1,A3 LVH-LR,0.15,0,12843,2 giai đoạn (mẫu con),ok,4312.0,0.174744
+2,1,A3 LVH-LR,0.15,1,12843,1 giai đoạn,ok,7058.0,0.149187
+2,1,A3 LVH-LR,0.15,1,12843,2 giai đoạn,ok,5173.0,0.17105
+2,1,A3 LVH-LR,0.15,1,12843,2 giai đoạn (mẫu con),ok,3529.0,0.194673
+2,1,A3 LVH-LR,0.15,2,12843,1 giai đoạn,ok,6221.0,0.159743
+2,1,A3 LVH-LR,0.15,2,12843,2 giai đoạn,ok,5552.0,0.160041
+2,1,A3 LVH-LR,0.15,2,12843,2 giai đoạn (mẫu con),ok,8267.0,0.144706
+2,1,A3 LVH-LR,0.15,3,12843,1 giai đoạn,ok,5648.0,0.15895
+2,1,A3 LVH-LR,0.15,3,12843,2 giai đoạn,ok,6284.0,0.155993
+2,1,A3 LVH-LR,0.15,3,12843,2 giai đoạn (mẫu con),ok,9083.0,0.14673
+2,1,A3 LVH-LR,0.15,4,12843,1 giai đoạn,ok,8126.0,0.149797
+2,1,A3 LVH-LR,0.15,4,12843,2 giai đoạn,ok,6295.0,0.143833
+2,1,A3 LVH-LR,0.15,4,12843,2 giai đoạn (mẫu con),ok,7238.0,0.155839
+2,1,A3 LVH-LR,0.15,5,12843,1 giai đoạn,ok,8779.0,0.139666
+2,1,A3 LVH-LR,0.15,5,12843,2 giai đoạn,ok,4680.0,0.175238
+2,1,A3 LVH-LR,0.15,5,12843,2 giai đoạn (mẫu con),ok,6856.0,0.151955
+2,1,A3 LVH-LR,0.3,0,12843,1 giai đoạn,ok,715.0,0.296886
+2,1,A3 LVH-LR,0.3,0,12843,2 giai đoạn,ok,617.0,0.335504
+2,1,A3 LVH-LR,0.3,0,12843,2 giai đoạn (mẫu con),ok,358.0,0.387226
+2,1,A3 LVH-LR,0.3,1,12843,1 giai đoạn,ok,1494.0,0.212704
+2,1,A3 LVH-LR,0.3,1,12843,2 giai đoạn,ok,1211.0,0.259115
+2,1,A3 LVH-LR,0.3,1,12843,2 giai đoạn (mẫu con),ok,747.0,0.323023
+2,1,A3 LVH-LR,0.3,2,12843,1 giai đoạn,ok,1067.0,0.238152
+2,1,A3 LVH-LR,0.3,2,12843,2 giai đoạn,ok,1756.0,0.235968
+2,1,A3 LVH-LR,0.3,2,12843,2 giai đoạn (mẫu con),ok,1625.0,0.216286
+2,1,A3 LVH-LR,0.3,3,12843,1 giai đoạn,ok,2323.0,0.207854
+2,1,A3 LVH-LR,0.3,3,12843,2 giai đoạn,ok,1162.0,0.256443
+2,1,A3 LVH-LR,0.3,3,12843,2 giai đoạn (mẫu con),ok,1162.0,0.264641
+2,1,A3 LVH-LR,0.3,4,12843,1 giai đoạn,ok,609.0,0.361992
+2,1,A3 LVH-LR,0.3,4,12843,2 giai đoạn,ok,661.0,0.293522
+2,1,A3 LVH-LR,0.3,4,12843,2 giai đoạn (mẫu con),ok,877.0,0.272073
+2,1,A3 LVH-LR,0.3,5,12843,1 giai đoạn,ok,784.0,0.306458
+2,1,A3 LVH-LR,0.3,5,12843,2 giai đoạn,ok,975.0,0.283033
+2,1,A3 LVH-LR,0.3,5,12843,2 giai đoạn (mẫu con),ok,392.0,0.376206
+2,1,A4 CNNalt,0.15,0,12843,1 giai đoạn,ok,3633.0,0.0878
+2,1,A4 CNNalt,0.15,0,12843,2 giai đoạn,ok,1817.0,0.094685
+2,1,A4 CNNalt,0.15,0,12843,2 giai đoạn (mẫu con),ok,1817.0,0.109075
+2,1,A4 CNNalt,0.15,1,12843,1 giai đoạn,ok,2590.0,0.090633
+2,1,A4 CNNalt,0.15,1,12843,2 giai đoạn,ok,1701.0,0.117803
+2,1,A4 CNNalt,0.15,1,12843,2 giai đoạn (mẫu con),ok,1295.0,0.11378
+2,1,A4 CNNalt,0.15,2,12843,1 giai đoạn,ok,3887.0,0.078193
+2,1,A4 CNNalt,0.15,2,12843,2 giai đoạn,ok,2208.0,0.091198
+2,1,A4 CNNalt,0.15,2,12843,2 giai đoạn (mẫu con),ok,2377.0,0.097103
+2,1,A4 CNNalt,0.15,3,12843,1 giai đoạn,ok,3411.0,0.084
+2,1,A4 CNNalt,0.15,3,12843,2 giai đoạn,ok,1706.0,0.109984
+2,1,A4 CNNalt,0.15,3,12843,2 giai đoạn (mẫu con),ok,1706.0,0.109237
+2,1,A4 CNNalt,0.15,4,12843,1 giai đoạn,ok,2534.0,0.092199
+2,1,A4 CNNalt,0.15,4,12843,2 giai đoạn,ok,1842.0,0.102164
+2,1,A4 CNNalt,0.15,4,12843,2 giai đoạn (mẫu con),ok,1267.0,0.115681
+2,1,A4 CNNalt,0.15,5,12843,1 giai đoạn,ok,2406.0,0.102105
+2,1,A4 CNNalt,0.15,5,12843,2 giai đoạn,ok,2232.0,0.100288
+2,1,A4 CNNalt,0.15,5,12843,2 giai đoạn (mẫu con),ok,2278.0,0.105705
+2,1,A4 CNNalt,0.3,0,12843,1 giai đoạn,ok,300.0,0.194911
+2,1,A4 CNNalt,0.3,0,12843,2 giai đoạn,ok,300.0,0.206277
+2,1,A4 CNNalt,0.3,0,12843,2 giai đoạn (mẫu con),ok,300.0,0.216278
+2,1,A4 CNNalt,0.3,1,12843,1 giai đoạn,ok,730.0,0.138307
+2,1,A4 CNNalt,0.3,1,12843,2 giai đoạn,ok,734.0,0.131571
+2,1,A4 CNNalt,0.3,1,12843,2 giai đoạn (mẫu con),ok,365.0,0.17691
+2,1,A4 CNNalt,0.3,2,12843,1 giai đoạn,ok,534.0,0.169803
+2,1,A4 CNNalt,0.3,2,12843,2 giai đoạn,ok,534.0,0.153136
+2,1,A4 CNNalt,0.3,2,12843,2 giai đoạn (mẫu con),ok,300.0,0.194441
+2,1,A4 CNNalt,0.3,3,12843,1 giai đoạn,ok,502.0,0.180751
+2,1,A4 CNNalt,0.3,3,12843,2 giai đoạn,ok,502.0,0.172036
+2,1,A4 CNNalt,0.3,3,12843,2 giai đoạn (mẫu con),ok,300.0,0.208297
+2,1,A4 CNNalt,0.3,4,12843,1 giai đoạn,ok,431.0,0.189632
+2,1,A4 CNNalt,0.3,4,12843,2 giai đoạn,ok,431.0,0.173667
+2,1,A4 CNNalt,0.3,4,12843,2 giai đoạn (mẫu con),ok,300.0,0.208512
+2,1,A4 CNNalt,0.3,5,12843,1 giai đoạn,ok,494.0,0.160093
+2,1,A4 CNNalt,0.3,5,12843,2 giai đoạn,ok,494.0,0.169817
+2,1,A4 CNNalt,0.3,5,12843,2 giai đoạn (mẫu con),ok,480.0,0.176232
+2,2,A1 Sokolow,0.15,0,12843,1 giai đoạn,ok,6495.0,0.055079
+2,2,A1 Sokolow,0.15,0,12843,2 giai đoạn,ok,5396.0,0.076276
+2,2,A1 Sokolow,0.15,0,12843,2 giai đoạn (mẫu con),ok,4291.0,0.104727
+2,2,A1 Sokolow,0.15,1,12843,1 giai đoạn,ok,7883.0,0.054724
+2,2,A1 Sokolow,0.15,1,12843,2 giai đoạn,ok,4377.0,0.107223
+2,2,A1 Sokolow,0.15,1,12843,2 giai đoạn (mẫu con),ok,3942.0,0.094374
+2,2,A1 Sokolow,0.15,2,12843,1 giai đoạn,ok,5601.0,0.078896
+2,2,A1 Sokolow,0.15,2,12843,2 giai đoạn,ok,4613.0,0.088665
+2,2,A1 Sokolow,0.15,2,12843,2 giai đoạn (mẫu con),ok,4369.0,0.105497
+2,2,A1 Sokolow,0.15,3,12843,1 giai đoạn,ok,4812.0,0.091308
+2,2,A1 Sokolow,0.15,3,12843,2 giai đoạn,ok,4169.0,0.089055
+2,2,A1 Sokolow,0.15,3,12843,2 giai đoạn (mẫu con),ok,4366.0,0.077334
+2,2,A1 Sokolow,0.15,4,12843,1 giai đoạn,ok,8654.0,0.040077
+2,2,A1 Sokolow,0.15,4,12843,2 giai đoạn,ok,5004.0,0.094107
+2,2,A1 Sokolow,0.15,4,12843,2 giai đoạn (mẫu con),ok,4327.0,0.087084
+2,2,A1 Sokolow,0.15,5,12843,1 giai đoạn,ok,6487.0,0.065669
+2,2,A1 Sokolow,0.15,5,12843,2 giai đoạn,ok,3737.0,0.12008
+2,2,A1 Sokolow,0.15,5,12843,2 giai đoạn (mẫu con),ok,3244.0,0.118468
+2,2,A1 Sokolow,0.3,0,12843,1 giai đoạn,ok,620.0,0.349506
+2,2,A1 Sokolow,0.3,0,12843,2 giai đoạn,ok,647.0,0.347872
+2,2,A1 Sokolow,0.3,0,12843,2 giai đoạn (mẫu con),ok,515.0,0.371098
+2,2,A1 Sokolow,0.3,1,12843,1 giai đoạn,ok,647.0,0.356405
+2,2,A1 Sokolow,0.3,1,12843,2 giai đoạn,ok,619.0,0.361381
+2,2,A1 Sokolow,0.3,1,12843,2 giai đoạn (mẫu con),ok,739.0,0.308567
+2,2,A1 Sokolow,0.3,2,12843,1 giai đoạn,ok,2005.0,0.198778
+2,2,A1 Sokolow,0.3,2,12843,2 giai đoạn,ok,1083.0,0.194171
+2,2,A1 Sokolow,0.3,2,12843,2 giai đoạn (mẫu con),ok,1003.0,0.272909
+2,2,A1 Sokolow,0.3,3,12843,1 giai đoạn,ok,854.0,0.291012
+2,2,A1 Sokolow,0.3,3,12843,2 giai đoạn,ok,820.0,0.364679
+2,2,A1 Sokolow,0.3,3,12843,2 giai đoạn (mẫu con),ok,978.0,0.260985
+2,2,A1 Sokolow,0.3,4,12843,1 giai đoạn,ok,1497.0,0.260744
+2,2,A1 Sokolow,0.3,4,12843,2 giai đoạn,ok,1554.0,0.212893
+2,2,A1 Sokolow,0.3,4,12843,2 giai đoạn (mẫu con),ok,2876.0,0.127995
+2,2,A1 Sokolow,0.3,5,12843,1 giai đoạn,ok,1572.0,0.226164
+2,2,A1 Sokolow,0.3,5,12843,2 giai đoạn,ok,1197.0,0.264031
+2,2,A1 Sokolow,0.3,5,12843,2 giai đoạn (mẫu con),ok,4769.0,0.065402
+2,2,A2 Cornell,0.15,0,12843,1 giai đoạn,không khả thi,10796.0,
+2,2,A2 Cornell,0.15,0,12843,2 giai đoạn,không khả thi,10645.0,
+2,2,A2 Cornell,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,10410.0,
+2,2,A2 Cornell,0.15,1,12843,1 giai đoạn,ok,7628.0,0.113672
+2,2,A2 Cornell,0.15,1,12843,2 giai đoạn,ok,10004.0,0.069504
+2,2,A2 Cornell,0.15,1,12843,2 giai đoạn (mẫu con),ok,3814.0,0.208235
+2,2,A2 Cornell,0.15,2,12843,1 giai đoạn,ok,8793.0,0.089602
+2,2,A2 Cornell,0.15,2,12843,2 giai đoạn,ok,9228.0,0.09015
+2,2,A2 Cornell,0.15,2,12843,2 giai đoạn (mẫu con),ok,5766.0,0.148848
+2,2,A2 Cornell,0.15,3,12843,1 giai đoạn,ok,9663.0,0.06795
+2,2,A2 Cornell,0.15,3,12843,2 giai đoạn,không khả thi,10454.0,
+2,2,A2 Cornell,0.15,3,12843,2 giai đoạn (mẫu con),ok,6721.0,0.121155
+2,2,A2 Cornell,0.15,4,12843,1 giai đoạn,ok,8657.0,0.116753
+2,2,A2 Cornell,0.15,4,12843,2 giai đoạn,không khả thi,10958.0,
+2,2,A2 Cornell,0.15,4,12843,2 giai đoạn (mẫu con),không khả thi,11248.0,
+2,2,A2 Cornell,0.15,5,12843,1 giai đoạn,ok,7808.0,0.117721
+2,2,A2 Cornell,0.15,5,12843,2 giai đoạn,ok,9328.0,0.080529
+2,2,A2 Cornell,0.15,5,12843,2 giai đoạn (mẫu con),ok,4805.0,0.146995
+2,2,A2 Cornell,0.3,0,12843,1 giai đoạn,ok,4087.0,0.159949
+2,2,A2 Cornell,0.3,0,12843,2 giai đoạn,ok,6808.0,0.129141
+2,2,A2 Cornell,0.3,0,12843,2 giai đoạn (mẫu con),ok,9564.0,0.087386
+2,2,A2 Cornell,0.3,1,12843,1 giai đoạn,ok,3311.0,0.198015
+2,2,A2 Cornell,0.3,1,12843,2 giai đoạn,ok,2774.0,0.305195
+2,2,A2 Cornell,0.3,1,12843,2 giai đoạn (mẫu con),ok,1656.0,0.414396
+2,2,A2 Cornell,0.3,2,12843,1 giai đoạn,ok,2239.0,0.318093
+2,2,A2 Cornell,0.3,2,12843,2 giai đoạn,ok,4584.0,0.19205
+2,2,A2 Cornell,0.3,2,12843,2 giai đoạn (mẫu con),ok,1120.0,0.410084
+2,2,A2 Cornell,0.3,3,12843,1 giai đoạn,ok,2850.0,0.26121
+2,2,A2 Cornell,0.3,3,12843,2 giai đoạn,ok,4049.0,0.20325
+2,2,A2 Cornell,0.3,3,12843,2 giai đoạn (mẫu con),ok,3461.0,0.233281
+2,2,A2 Cornell,0.3,4,12843,1 giai đoạn,ok,2432.0,0.294912
+2,2,A2 Cornell,0.3,4,12843,2 giai đoạn,ok,4128.0,0.22905
+2,2,A2 Cornell,0.3,4,12843,2 giai đoạn (mẫu con),ok,2148.0,0.298102
+2,2,A2 Cornell,0.3,5,12843,1 giai đoạn,ok,4545.0,0.17123
+2,2,A2 Cornell,0.3,5,12843,2 giai đoạn,ok,6355.0,0.124651
+2,2,A2 Cornell,0.3,5,12843,2 giai đoạn (mẫu con),ok,8577.0,0.093441
+2,2,A3 LVH-LR,0.15,0,12843,1 giai đoạn,ok,6200.0,0.132429
+2,2,A3 LVH-LR,0.15,0,12843,2 giai đoạn,ok,5051.0,0.150728
+2,2,A3 LVH-LR,0.15,0,12843,2 giai đoạn (mẫu con),ok,3100.0,0.166813
+2,2,A3 LVH-LR,0.15,1,12843,1 giai đoạn,ok,5876.0,0.145649
+2,2,A3 LVH-LR,0.15,1,12843,2 giai đoạn,ok,4760.0,0.153079
+2,2,A3 LVH-LR,0.15,1,12843,2 giai đoạn (mẫu con),ok,6329.0,0.134708
+2,2,A3 LVH-LR,0.15,2,12843,1 giai đoạn,ok,5423.0,0.146809
+2,2,A3 LVH-LR,0.15,2,12843,2 giai đoạn,ok,4760.0,0.154644
+2,2,A3 LVH-LR,0.15,2,12843,2 giai đoạn (mẫu con),ok,3590.0,0.154999
+2,2,A3 LVH-LR,0.15,3,12843,1 giai đoạn,ok,6156.0,0.141686
+2,2,A3 LVH-LR,0.15,3,12843,2 giai đoạn,ok,4925.0,0.148002
+2,2,A3 LVH-LR,0.15,3,12843,2 giai đoạn (mẫu con),ok,3078.0,0.178385
+2,2,A3 LVH-LR,0.15,4,12843,1 giai đoạn,ok,4749.0,0.147347
+2,2,A3 LVH-LR,0.15,4,12843,2 giai đoạn,ok,5032.0,0.153795
+2,2,A3 LVH-LR,0.15,4,12843,2 giai đoạn (mẫu con),ok,2872.0,0.18673
+2,2,A3 LVH-LR,0.15,5,12843,1 giai đoạn,ok,2952.0,0.155811
+2,2,A3 LVH-LR,0.15,5,12843,2 giai đoạn,ok,4068.0,0.157149
+2,2,A3 LVH-LR,0.15,5,12843,2 giai đoạn (mẫu con),ok,2252.0,0.177706
+2,2,A3 LVH-LR,0.3,0,12843,1 giai đoạn,ok,645.0,0.262456
+2,2,A3 LVH-LR,0.3,0,12843,2 giai đoạn,ok,658.0,0.278399
+2,2,A3 LVH-LR,0.3,0,12843,2 giai đoạn (mẫu con),ok,539.0,0.283597
+2,2,A3 LVH-LR,0.3,1,12843,1 giai đoạn,ok,610.0,0.263176
+2,2,A3 LVH-LR,0.3,1,12843,2 giai đoạn,ok,567.0,0.288628
+2,2,A3 LVH-LR,0.3,1,12843,2 giai đoạn (mẫu con),ok,305.0,0.322738
+2,2,A3 LVH-LR,0.3,2,12843,1 giai đoạn,ok,602.0,0.298956
+2,2,A3 LVH-LR,0.3,2,12843,2 giai đoạn,ok,603.0,0.258616
+2,2,A3 LVH-LR,0.3,2,12843,2 giai đoạn (mẫu con),ok,425.0,0.350018
+2,2,A3 LVH-LR,0.3,3,12843,1 giai đoạn,ok,2368.0,0.181851
+2,2,A3 LVH-LR,0.3,3,12843,2 giai đoạn,ok,1184.0,0.234629
+2,2,A3 LVH-LR,0.3,3,12843,2 giai đoạn (mẫu con),ok,1184.0,0.23693
+2,2,A3 LVH-LR,0.3,4,12843,1 giai đoạn,ok,1020.0,0.236507
+2,2,A3 LVH-LR,0.3,4,12843,2 giai đoạn,ok,970.0,0.241308
+2,2,A3 LVH-LR,0.3,4,12843,2 giai đoạn (mẫu con),ok,632.0,0.303873
+2,2,A3 LVH-LR,0.3,5,12843,1 giai đoạn,ok,717.0,0.260883
+2,2,A3 LVH-LR,0.3,5,12843,2 giai đoạn,ok,692.0,0.274303
+2,2,A3 LVH-LR,0.3,5,12843,2 giai đoạn (mẫu con),ok,448.0,0.34126
+2,2,A4 CNNalt,0.15,0,12843,1 giai đoạn,ok,1653.0,0.087563
+2,2,A4 CNNalt,0.15,0,12843,2 giai đoạn,ok,1686.0,0.08957
+2,2,A4 CNNalt,0.15,0,12843,2 giai đoạn (mẫu con),ok,827.0,0.129478
+2,2,A4 CNNalt,0.15,1,12843,1 giai đoạn,ok,1301.0,0.108092
+2,2,A4 CNNalt,0.15,1,12843,2 giai đoạn,ok,1742.0,0.099857
+2,2,A4 CNNalt,0.15,1,12843,2 giai đoạn (mẫu con),ok,651.0,0.140347
+2,2,A4 CNNalt,0.15,2,12843,1 giai đoạn,ok,2308.0,0.084467
+2,2,A4 CNNalt,0.15,2,12843,2 giai đoạn,ok,1577.0,0.096136
+2,2,A4 CNNalt,0.15,2,12843,2 giai đoạn (mẫu con),ok,1154.0,0.112132
+2,2,A4 CNNalt,0.15,3,12843,1 giai đoạn,ok,2920.0,0.081825
+2,2,A4 CNNalt,0.15,3,12843,2 giai đoạn,ok,1872.0,0.100447
+2,2,A4 CNNalt,0.15,3,12843,2 giai đoạn (mẫu con),ok,1460.0,0.092388
+2,2,A4 CNNalt,0.15,4,12843,1 giai đoạn,ok,3493.0,0.078428
+2,2,A4 CNNalt,0.15,4,12843,2 giai đoạn,ok,2262.0,0.096982
+2,2,A4 CNNalt,0.15,4,12843,2 giai đoạn (mẫu con),ok,1747.0,0.0985
+2,2,A4 CNNalt,0.15,5,12843,1 giai đoạn,ok,2639.0,0.085192
+2,2,A4 CNNalt,0.15,5,12843,2 giai đoạn,ok,2122.0,0.092715
+2,2,A4 CNNalt,0.15,5,12843,2 giai đoạn (mẫu con),ok,1320.0,0.101211
+2,2,A4 CNNalt,0.3,0,12843,1 giai đoạn,ok,559.0,0.131121
+2,2,A4 CNNalt,0.3,0,12843,2 giai đoạn,ok,559.0,0.13987
+2,2,A4 CNNalt,0.3,0,12843,2 giai đoạn (mẫu con),ok,300.0,0.188159
+2,2,A4 CNNalt,0.3,1,12843,1 giai đoạn,ok,300.0,0.183692
+2,2,A4 CNNalt,0.3,1,12843,2 giai đoạn,ok,300.0,0.181052
+2,2,A4 CNNalt,0.3,1,12843,2 giai đoạn (mẫu con),ok,300.0,0.18894
+2,2,A4 CNNalt,0.3,2,12843,1 giai đoạn,ok,630.0,0.14681
+2,2,A4 CNNalt,0.3,2,12843,2 giai đoạn,ok,646.0,0.140592
+2,2,A4 CNNalt,0.3,2,12843,2 giai đoạn (mẫu con),ok,315.0,0.173019
+2,2,A4 CNNalt,0.3,3,12843,1 giai đoạn,ok,300.0,0.156436
+2,2,A4 CNNalt,0.3,3,12843,2 giai đoạn,ok,300.0,0.15834
+2,2,A4 CNNalt,0.3,3,12843,2 giai đoạn (mẫu con),ok,300.0,0.159093
+2,2,A4 CNNalt,0.3,4,12843,1 giai đoạn,ok,426.0,0.1592
+2,2,A4 CNNalt,0.3,4,12843,2 giai đoạn,ok,426.0,0.158368
+2,2,A4 CNNalt,0.3,4,12843,2 giai đoạn (mẫu con),ok,300.0,0.183795
+2,2,A4 CNNalt,0.3,5,12843,1 giai đoạn,ok,335.0,0.170732
+2,2,A4 CNNalt,0.3,5,12843,2 giai đoạn,ok,335.0,0.19366
+2,2,A4 CNNalt,0.3,5,12843,2 giai đoạn (mẫu con),ok,300.0,0.175402
+3,0,A1 Sokolow,0.15,0,38221,1 giai đoạn,ok,8405.0,0.085835
+3,0,A1 Sokolow,0.15,0,38221,2 giai đoạn,ok,7265.0,0.081593
+3,0,A1 Sokolow,0.15,0,38221,2 giai đoạn (mẫu con),ok,4203.0,0.139185
+3,0,A1 Sokolow,0.15,1,38221,1 giai đoạn,ok,4507.0,0.136206
+3,0,A1 Sokolow,0.15,1,38221,2 giai đoạn,ok,9291.0,0.0857
+3,0,A1 Sokolow,0.15,1,38221,2 giai đoạn (mẫu con),ok,13416.0,0.041846
+3,0,A1 Sokolow,0.15,2,38221,1 giai đoạn,ok,13697.0,0.053666
+3,0,A1 Sokolow,0.15,2,38221,2 giai đoạn,ok,6849.0,0.111248
+3,0,A1 Sokolow,0.15,2,38221,2 giai đoạn (mẫu con),ok,6849.0,0.096489
+3,0,A1 Sokolow,0.15,3,38221,1 giai đoạn,ok,12295.0,0.060558
+3,0,A1 Sokolow,0.15,3,38221,2 giai đoạn,ok,8705.0,0.086769
+3,0,A1 Sokolow,0.15,3,38221,2 giai đoạn (mẫu con),ok,6856.0,0.112137
+3,0,A1 Sokolow,0.15,4,38221,1 giai đoạn,ok,9602.0,0.065984
+3,0,A1 Sokolow,0.15,4,38221,2 giai đoạn,ok,9581.0,0.058212
+3,0,A1 Sokolow,0.15,4,38221,2 giai đoạn (mẫu con),ok,4801.0,0.112925
+3,0,A1 Sokolow,0.15,5,38221,1 giai đoạn,ok,19386.0,0.028485
+3,0,A1 Sokolow,0.15,5,38221,2 giai đoạn,ok,10512.0,0.070805
+3,0,A1 Sokolow,0.15,5,38221,2 giai đoạn (mẫu con),ok,13641.0,0.055837
+3,0,A1 Sokolow,0.3,0,38221,1 giai đoạn,ok,2309.0,0.210576
+3,0,A1 Sokolow,0.3,0,38221,2 giai đoạn,ok,1390.0,0.268585
+3,0,A1 Sokolow,0.3,0,38221,2 giai đoạn (mẫu con),ok,1155.0,0.270194
+3,0,A1 Sokolow,0.3,1,38221,1 giai đoạn,ok,2386.0,0.183035
+3,0,A1 Sokolow,0.3,1,38221,2 giai đoạn,ok,1341.0,0.286725
+3,0,A1 Sokolow,0.3,1,38221,2 giai đoạn (mẫu con),ok,1387.0,0.245241
+3,0,A1 Sokolow,0.3,2,38221,1 giai đoạn,ok,2335.0,0.185302
+3,0,A1 Sokolow,0.3,2,38221,2 giai đoạn,ok,1606.0,0.246505
+3,0,A1 Sokolow,0.3,2,38221,2 giai đoạn (mẫu con),ok,1168.0,0.29971
+3,0,A1 Sokolow,0.3,3,38221,1 giai đoạn,ok,2823.0,0.1959
+3,0,A1 Sokolow,0.3,3,38221,2 giai đoạn,ok,1872.0,0.229673
+3,0,A1 Sokolow,0.3,3,38221,2 giai đoạn (mẫu con),ok,1412.0,0.256033
+3,0,A1 Sokolow,0.3,4,38221,1 giai đoạn,ok,1047.0,0.287402
+3,0,A1 Sokolow,0.3,4,38221,2 giai đoạn,ok,930.0,0.277715
+3,0,A1 Sokolow,0.3,4,38221,2 giai đoạn (mẫu con),ok,824.0,0.313392
+3,0,A1 Sokolow,0.3,5,38221,1 giai đoạn,ok,5277.0,0.128019
+3,0,A1 Sokolow,0.3,5,38221,2 giai đoạn,ok,2639.0,0.175971
+3,0,A1 Sokolow,0.3,5,38221,2 giai đoạn (mẫu con),ok,2639.0,0.157069
+3,0,A2 Cornell,0.15,0,38221,1 giai đoạn,ok,27373.0,0.088958
+3,0,A2 Cornell,0.15,0,38221,2 giai đoạn,ok,29494.0,0.073817
+3,0,A2 Cornell,0.15,0,38221,2 giai đoạn (mẫu con),ok,28299.0,0.121924
+3,0,A2 Cornell,0.15,1,38221,1 giai đoạn,ok,29990.0,0.065119
+3,0,A2 Cornell,0.15,1,38221,2 giai đoạn,không khả thi,33017.0,
+3,0,A2 Cornell,0.15,1,38221,2 giai đoạn (mẫu con),ok,26981.0,0.095982
+3,0,A2 Cornell,0.15,2,38221,1 giai đoạn,ok,29700.0,0.084871
+3,0,A2 Cornell,0.15,2,38221,2 giai đoạn,không khả thi,33393.0,
+3,0,A2 Cornell,0.15,2,38221,2 giai đoạn (mẫu con),ok,30523.0,0.056618
+3,0,A2 Cornell,0.15,3,38221,1 giai đoạn,không khả thi,31164.0,
+3,0,A2 Cornell,0.15,3,38221,2 giai đoạn,ok,27853.0,0.090173
+3,0,A2 Cornell,0.15,3,38221,2 giai đoạn (mẫu con),ok,21909.0,0.173471
+3,0,A2 Cornell,0.15,4,38221,1 giai đoạn,không khả thi,33942.0,
+3,0,A2 Cornell,0.15,4,38221,2 giai đoạn,không khả thi,31793.0,
+3,0,A2 Cornell,0.15,4,38221,2 giai đoạn (mẫu con),không khả thi,32206.0,
+3,0,A2 Cornell,0.15,5,38221,1 giai đoạn,ok,25496.0,0.136315
+3,0,A2 Cornell,0.15,5,38221,2 giai đoạn,không khả thi,30649.0,
+3,0,A2 Cornell,0.15,5,38221,2 giai đoạn (mẫu con),không khả thi,30798.0,
+3,0,A2 Cornell,0.3,0,38221,1 giai đoạn,ok,19165.0,0.203809
+3,0,A2 Cornell,0.3,0,38221,2 giai đoạn,ok,9621.0,0.320385
+3,0,A2 Cornell,0.3,0,38221,2 giai đoạn (mẫu con),ok,9583.0,0.29991
+3,0,A2 Cornell,0.3,1,38221,1 giai đoạn,ok,10344.0,0.296883
+3,0,A2 Cornell,0.3,1,38221,2 giai đoạn,ok,13545.0,0.226586
+3,0,A2 Cornell,0.3,1,38221,2 giai đoạn (mẫu con),ok,13074.0,0.216702
+3,0,A2 Cornell,0.3,2,38221,1 giai đoạn,ok,12990.0,0.24617
+3,0,A2 Cornell,0.3,2,38221,2 giai đoạn,ok,13191.0,0.217512
+3,0,A2 Cornell,0.3,2,38221,2 giai đoạn (mẫu con),ok,10743.0,0.256194
+3,0,A2 Cornell,0.3,3,38221,1 giai đoạn,ok,6894.0,0.339099
+3,0,A2 Cornell,0.3,3,38221,2 giai đoạn,ok,13758.0,0.23604
+3,0,A2 Cornell,0.3,3,38221,2 giai đoạn (mẫu con),ok,3447.0,0.393314
+3,0,A2 Cornell,0.3,4,38221,1 giai đoạn,ok,21117.0,0.178551
+3,0,A2 Cornell,0.3,4,38221,2 giai đoạn,ok,12471.0,0.262782
+3,0,A2 Cornell,0.3,4,38221,2 giai đoạn (mẫu con),ok,10559.0,0.307215
+3,0,A2 Cornell,0.3,5,38221,1 giai đoạn,ok,10807.0,0.291029
+3,0,A2 Cornell,0.3,5,38221,2 giai đoạn,ok,16353.0,0.20663
+3,0,A2 Cornell,0.3,5,38221,2 giai đoạn (mẫu con),ok,5404.0,0.337545
+3,0,A3 LVH-LR,0.15,0,38221,1 giai đoạn,ok,18184.0,0.075526
+3,0,A3 LVH-LR,0.15,0,38221,2 giai đoạn,ok,9092.0,0.106453
+3,0,A3 LVH-LR,0.15,0,38221,2 giai đoạn (mẫu con),ok,9092.0,0.12123
+3,0,A3 LVH-LR,0.15,1,38221,1 giai đoạn,ok,10506.0,0.09703
+3,0,A3 LVH-LR,0.15,1,38221,2 giai đoạn,ok,5714.0,0.135484
+3,0,A3 LVH-LR,0.15,1,38221,2 giai đoạn (mẫu con),ok,5253.0,0.139904
+3,0,A3 LVH-LR,0.15,2,38221,1 giai đoạn,ok,12236.0,0.107168
+3,0,A3 LVH-LR,0.15,2,38221,2 giai đoạn,ok,6943.0,0.116617
+3,0,A3 LVH-LR,0.15,2,38221,2 giai đoạn (mẫu con),ok,6118.0,0.123857
+3,0,A3 LVH-LR,0.15,3,38221,1 giai đoạn,ok,10017.0,0.104766
+3,0,A3 LVH-LR,0.15,3,38221,2 giai đoạn,ok,7177.0,0.117399
+3,0,A3 LVH-LR,0.15,3,38221,2 giai đoạn (mẫu con),ok,7674.0,0.10433
+3,0,A3 LVH-LR,0.15,4,38221,1 giai đoạn,ok,6303.0,0.132677
+3,0,A3 LVH-LR,0.15,4,38221,2 giai đoạn,ok,7905.0,0.117502
+3,0,A3 LVH-LR,0.15,4,38221,2 giai đoạn (mẫu con),ok,11176.0,0.104544
+3,0,A3 LVH-LR,0.15,5,38221,1 giai đoạn,ok,7182.0,0.123661
+3,0,A3 LVH-LR,0.15,5,38221,2 giai đoạn,ok,6665.0,0.133046
+3,0,A3 LVH-LR,0.15,5,38221,2 giai đoạn (mẫu con),ok,3591.0,0.175018
+3,0,A3 LVH-LR,0.3,0,38221,1 giai đoạn,ok,967.0,0.243346
+3,0,A3 LVH-LR,0.3,0,38221,2 giai đoạn,ok,907.0,0.270193
+3,0,A3 LVH-LR,0.3,0,38221,2 giai đoạn (mẫu con),ok,484.0,0.353264
+3,0,A3 LVH-LR,0.3,1,38221,1 giai đoạn,ok,1311.0,0.253129
+3,0,A3 LVH-LR,0.3,1,38221,2 giai đoạn,ok,1165.0,0.227482
+3,0,A3 LVH-LR,0.3,1,38221,2 giai đoạn (mẫu con),ok,656.0,0.319531
+3,0,A3 LVH-LR,0.3,2,38221,1 giai đoạn,ok,1520.0,0.222288
+3,0,A3 LVH-LR,0.3,2,38221,2 giai đoạn,ok,1258.0,0.256803
+3,0,A3 LVH-LR,0.3,2,38221,2 giai đoạn (mẫu con),ok,760.0,0.297212
+3,0,A3 LVH-LR,0.3,3,38221,1 giai đoạn,ok,2106.0,0.18005
+3,0,A3 LVH-LR,0.3,3,38221,2 giai đoạn,ok,1290.0,0.282944
+3,0,A3 LVH-LR,0.3,3,38221,2 giai đoạn (mẫu con),ok,1053.0,0.272863
+3,0,A3 LVH-LR,0.3,4,38221,1 giai đoạn,ok,1671.0,0.217038
+3,0,A3 LVH-LR,0.3,4,38221,2 giai đoạn,ok,1999.0,0.212601
+3,0,A3 LVH-LR,0.3,4,38221,2 giai đoạn (mẫu con),ok,836.0,0.307923
+3,0,A3 LVH-LR,0.3,5,38221,1 giai đoạn,ok,1662.0,0.238757
+3,0,A3 LVH-LR,0.3,5,38221,2 giai đoạn,ok,1158.0,0.226162
+3,0,A3 LVH-LR,0.3,5,38221,2 giai đoạn (mẫu con),ok,1724.0,0.228476
+3,0,A4 CNNalt,0.15,0,38221,1 giai đoạn,ok,10181.0,0.079645
+3,0,A4 CNNalt,0.15,0,38221,2 giai đoạn,ok,5091.0,0.123479
+3,0,A4 CNNalt,0.15,0,38221,2 giai đoạn (mẫu con),ok,5091.0,0.113808
+3,0,A4 CNNalt,0.15,1,38221,1 giai đoạn,ok,9978.0,0.092589
+3,0,A4 CNNalt,0.15,1,38221,2 giai đoạn,ok,4989.0,0.143885
+3,0,A4 CNNalt,0.15,1,38221,2 giai đoạn (mẫu con),ok,4989.0,0.130747
+3,0,A4 CNNalt,0.15,2,38221,1 giai đoạn,ok,3327.0,0.154604
+3,0,A4 CNNalt,0.15,2,38221,2 giai đoạn,ok,2626.0,0.15234
+3,0,A4 CNNalt,0.15,2,38221,2 giai đoạn (mẫu con),ok,1664.0,0.169438
+3,0,A4 CNNalt,0.15,3,38221,1 giai đoạn,ok,4621.0,0.130807
+3,0,A4 CNNalt,0.15,3,38221,2 giai đoạn,ok,3691.0,0.14521
+3,0,A4 CNNalt,0.15,3,38221,2 giai đoạn (mẫu con),ok,3993.0,0.134431
+3,0,A4 CNNalt,0.15,4,38221,1 giai đoạn,ok,3744.0,0.145876
+3,0,A4 CNNalt,0.15,4,38221,2 giai đoạn,ok,3715.0,0.144528
+3,0,A4 CNNalt,0.15,4,38221,2 giai đoạn (mẫu con),ok,1872.0,0.180918
+3,0,A4 CNNalt,0.15,5,38221,1 giai đoạn,ok,3665.0,0.136646
+3,0,A4 CNNalt,0.15,5,38221,2 giai đoạn,ok,3857.0,0.133827
+3,0,A4 CNNalt,0.15,5,38221,2 giai đoạn (mẫu con),ok,2998.0,0.14478
+3,0,A4 CNNalt,0.3,0,38221,1 giai đoạn,ok,829.0,0.218771
+3,0,A4 CNNalt,0.3,0,38221,2 giai đoạn,ok,894.0,0.203772
+3,0,A4 CNNalt,0.3,0,38221,2 giai đoạn (mẫu con),ok,415.0,0.232832
+3,0,A4 CNNalt,0.3,1,38221,1 giai đoạn,ok,723.0,0.202065
+3,0,A4 CNNalt,0.3,1,38221,2 giai đoạn,ok,840.0,0.207376
+3,0,A4 CNNalt,0.3,1,38221,2 giai đoạn (mẫu con),ok,362.0,0.257491
+3,0,A4 CNNalt,0.3,2,38221,1 giai đoạn,ok,531.0,0.238717
+3,0,A4 CNNalt,0.3,2,38221,2 giai đoạn,ok,531.0,0.233819
+3,0,A4 CNNalt,0.3,2,38221,2 giai đoạn (mẫu con),ok,300.0,0.269096
+3,0,A4 CNNalt,0.3,3,38221,1 giai đoạn,ok,592.0,0.217268
+3,0,A4 CNNalt,0.3,3,38221,2 giai đoạn,ok,592.0,0.243982
+3,0,A4 CNNalt,0.3,3,38221,2 giai đoạn (mẫu con),ok,300.0,0.319204
+3,0,A4 CNNalt,0.3,4,38221,1 giai đoạn,ok,740.0,0.208589
+3,0,A4 CNNalt,0.3,4,38221,2 giai đoạn,ok,955.0,0.192283
+3,0,A4 CNNalt,0.3,4,38221,2 giai đoạn (mẫu con),ok,418.0,0.247471
+3,0,A4 CNNalt,0.3,5,38221,1 giai đoạn,ok,1318.0,0.191423
+3,0,A4 CNNalt,0.3,5,38221,2 giai đoạn,ok,1032.0,0.206175
+3,0,A4 CNNalt,0.3,5,38221,2 giai đoạn (mẫu con),ok,1373.0,0.186582
+3,1,A1 Sokolow,0.15,0,38221,1 giai đoạn,ok,8060.0,0.166933
+3,1,A1 Sokolow,0.15,0,38221,2 giai đoạn,ok,4405.0,0.199847
+3,1,A1 Sokolow,0.15,0,38221,2 giai đoạn (mẫu con),ok,4030.0,0.226509
+3,1,A1 Sokolow,0.15,1,38221,1 giai đoạn,ok,14202.0,0.13834
+3,1,A1 Sokolow,0.15,1,38221,2 giai đoạn,ok,7101.0,0.163928
+3,1,A1 Sokolow,0.15,1,38221,2 giai đoạn (mẫu con),ok,10327.0,0.156933
+3,1,A1 Sokolow,0.15,2,38221,1 giai đoạn,ok,15757.0,0.117946
+3,1,A1 Sokolow,0.15,2,38221,2 giai đoạn,ok,7879.0,0.161748
+3,1,A1 Sokolow,0.15,2,38221,2 giai đoạn (mẫu con),ok,12982.0,0.115369
+3,1,A1 Sokolow,0.15,3,38221,1 giai đoạn,ok,6965.0,0.187199
+3,1,A1 Sokolow,0.15,3,38221,2 giai đoạn,ok,6580.0,0.184279
+3,1,A1 Sokolow,0.15,3,38221,2 giai đoạn (mẫu con),ok,9935.0,0.159973
+3,1,A1 Sokolow,0.15,4,38221,1 giai đoạn,ok,11055.0,0.144462
+3,1,A1 Sokolow,0.15,4,38221,2 giai đoạn,ok,5528.0,0.195949
+3,1,A1 Sokolow,0.15,4,38221,2 giai đoạn (mẫu con),ok,5528.0,0.178439
+3,1,A1 Sokolow,0.15,5,38221,1 giai đoạn,ok,7148.0,0.176859
+3,1,A1 Sokolow,0.15,5,38221,2 giai đoạn,ok,5063.0,0.181138
+3,1,A1 Sokolow,0.15,5,38221,2 giai đoạn (mẫu con),ok,11944.0,0.113254
+3,1,A1 Sokolow,0.3,0,38221,1 giai đoạn,ok,459.0,0.377929
+3,1,A1 Sokolow,0.3,0,38221,2 giai đoạn,ok,459.0,0.360798
+3,1,A1 Sokolow,0.3,0,38221,2 giai đoạn (mẫu con),ok,389.0,0.367655
+3,1,A1 Sokolow,0.3,1,38221,1 giai đoạn,ok,819.0,0.305669
+3,1,A1 Sokolow,0.3,1,38221,2 giai đoạn,ok,620.0,0.308086
+3,1,A1 Sokolow,0.3,1,38221,2 giai đoạn (mẫu con),ok,410.0,0.327925
+3,1,A1 Sokolow,0.3,2,38221,1 giai đoạn,ok,642.0,0.327831
+3,1,A1 Sokolow,0.3,2,38221,2 giai đoạn,ok,569.0,0.362786
+3,1,A1 Sokolow,0.3,2,38221,2 giai đoạn (mẫu con),ok,321.0,0.365857
+3,1,A1 Sokolow,0.3,3,38221,1 giai đoạn,ok,832.0,0.284022
+3,1,A1 Sokolow,0.3,3,38221,2 giai đoạn,ok,766.0,0.301568
+3,1,A1 Sokolow,0.3,3,38221,2 giai đoạn (mẫu con),ok,695.0,0.327253
+3,1,A1 Sokolow,0.3,4,38221,1 giai đoạn,ok,1448.0,0.244837
+3,1,A1 Sokolow,0.3,4,38221,2 giai đoạn,ok,831.0,0.315465
+3,1,A1 Sokolow,0.3,4,38221,2 giai đoạn (mẫu con),ok,910.0,0.294703
+3,1,A1 Sokolow,0.3,5,38221,1 giai đoạn,ok,1979.0,0.245052
+3,1,A1 Sokolow,0.3,5,38221,2 giai đoạn,ok,990.0,0.308124
+3,1,A1 Sokolow,0.3,5,38221,2 giai đoạn (mẫu con),ok,1480.0,0.250651
+3,1,A2 Cornell,0.15,0,38221,1 giai đoạn,không khả thi,31283.0,
+3,1,A2 Cornell,0.15,0,38221,2 giai đoạn,ok,24063.0,0.21332
+3,1,A2 Cornell,0.15,0,38221,2 giai đoạn (mẫu con),không khả thi,31645.0,
+3,1,A2 Cornell,0.15,1,38221,1 giai đoạn,ok,23016.0,0.183627
+3,1,A2 Cornell,0.15,1,38221,2 giai đoạn,ok,24152.0,0.20624
+3,1,A2 Cornell,0.15,1,38221,2 giai đoạn (mẫu con),ok,11508.0,0.266697
+3,1,A2 Cornell,0.15,2,38221,1 giai đoạn,ok,22400.0,0.223212
+3,1,A2 Cornell,0.15,2,38221,2 giai đoạn,ok,23892.0,0.206042
+3,1,A2 Cornell,0.15,2,38221,2 giai đoạn (mẫu con),ok,11200.0,0.307743
+3,1,A2 Cornell,0.15,3,38221,1 giai đoạn,ok,21063.0,0.242935
+3,1,A2 Cornell,0.15,3,38221,2 giai đoạn,ok,27615.0,0.191807
+3,1,A2 Cornell,0.15,3,38221,2 giai đoạn (mẫu con),không khả thi,33772.0,
+3,1,A2 Cornell,0.15,4,38221,1 giai đoạn,ok,29311.0,0.178542
+3,1,A2 Cornell,0.15,4,38221,2 giai đoạn,ok,27120.0,0.181107
+3,1,A2 Cornell,0.15,4,38221,2 giai đoạn (mẫu con),ok,28454.0,0.17772
+3,1,A2 Cornell,0.15,5,38221,1 giai đoạn,ok,29750.0,0.162051
+3,1,A2 Cornell,0.15,5,38221,2 giai đoạn,ok,28168.0,0.176848
+3,1,A2 Cornell,0.15,5,38221,2 giai đoạn (mẫu con),không khả thi,32149.0,
+3,1,A2 Cornell,0.3,0,38221,1 giai đoạn,ok,8461.0,0.353191
+3,1,A2 Cornell,0.3,0,38221,2 giai đoạn,ok,12547.0,0.287995
+3,1,A2 Cornell,0.3,0,38221,2 giai đoạn (mẫu con),ok,13058.0,0.305363
+3,1,A2 Cornell,0.3,1,38221,1 giai đoạn,ok,11101.0,0.261089
+3,1,A2 Cornell,0.3,1,38221,2 giai đoạn,ok,14072.0,0.311346
+3,1,A2 Cornell,0.3,1,38221,2 giai đoạn (mẫu con),ok,18895.0,0.245536
+3,1,A2 Cornell,0.3,2,38221,1 giai đoạn,ok,5531.0,0.402214
+3,1,A2 Cornell,0.3,2,38221,2 giai đoạn,ok,8187.0,0.346078
+3,1,A2 Cornell,0.3,2,38221,2 giai đoạn (mẫu con),ok,15749.0,0.266608
+3,1,A2 Cornell,0.3,3,38221,1 giai đoạn,ok,18679.0,0.242869
+3,1,A2 Cornell,0.3,3,38221,2 giai đoạn,ok,9340.0,0.332515
+3,1,A2 Cornell,0.3,3,38221,2 giai đoạn (mẫu con),ok,11799.0,0.295879
+3,1,A2 Cornell,0.3,4,38221,1 giai đoạn,ok,26780.0,0.197849
+3,1,A2 Cornell,0.3,4,38221,2 giai đoạn,ok,13390.0,0.295547
+3,1,A2 Cornell,0.3,4,38221,2 giai đoạn (mẫu con),ok,13390.0,0.272739
+3,1,A2 Cornell,0.3,5,38221,1 giai đoạn,ok,8160.0,0.341111
+3,1,A2 Cornell,0.3,5,38221,2 giai đoạn,ok,7131.0,0.317656
+3,1,A2 Cornell,0.3,5,38221,2 giai đoạn (mẫu con),ok,9758.0,0.325441
+3,1,A3 LVH-LR,0.15,0,38221,1 giai đoạn,ok,9273.0,0.113509
+3,1,A3 LVH-LR,0.15,0,38221,2 giai đoạn,ok,10042.0,0.129302
+3,1,A3 LVH-LR,0.15,0,38221,2 giai đoạn (mẫu con),ok,9360.0,0.109157
+3,1,A3 LVH-LR,0.15,1,38221,1 giai đoạn,ok,12221.0,0.085161
+3,1,A3 LVH-LR,0.15,1,38221,2 giai đoạn,ok,6386.0,0.144951
+3,1,A3 LVH-LR,0.15,1,38221,2 giai đoạn (mẫu con),ok,7963.0,0.121617
+3,1,A3 LVH-LR,0.15,2,38221,1 giai đoạn,ok,10922.0,0.107631
+3,1,A3 LVH-LR,0.15,2,38221,2 giai đoạn,ok,8815.0,0.123147
+3,1,A3 LVH-LR,0.15,2,38221,2 giai đoạn (mẫu con),ok,5461.0,0.165646
+3,1,A3 LVH-LR,0.15,3,38221,1 giai đoạn,ok,22646.0,0.068818
+3,1,A3 LVH-LR,0.15,3,38221,2 giai đoạn,ok,11323.0,0.096476
+3,1,A3 LVH-LR,0.15,3,38221,2 giai đoạn (mẫu con),ok,11323.0,0.110396
+3,1,A3 LVH-LR,0.15,4,38221,1 giai đoạn,ok,10294.0,0.112317
+3,1,A3 LVH-LR,0.15,4,38221,2 giai đoạn,ok,6891.0,0.146797
+3,1,A3 LVH-LR,0.15,4,38221,2 giai đoạn (mẫu con),ok,5147.0,0.172802
+3,1,A3 LVH-LR,0.15,5,38221,1 giai đoạn,ok,11227.0,0.106025
+3,1,A3 LVH-LR,0.15,5,38221,2 giai đoạn,ok,5830.0,0.138506
+3,1,A3 LVH-LR,0.15,5,38221,2 giai đoạn (mẫu con),ok,5689.0,0.173144
+3,1,A3 LVH-LR,0.3,0,38221,1 giai đoạn,ok,1130.0,0.25465
+3,1,A3 LVH-LR,0.3,0,38221,2 giai đoạn,ok,1314.0,0.215664
+3,1,A3 LVH-LR,0.3,0,38221,2 giai đoạn (mẫu con),ok,565.0,0.326775
+3,1,A3 LVH-LR,0.3,1,38221,1 giai đoạn,ok,2021.0,0.205101
+3,1,A3 LVH-LR,0.3,1,38221,2 giai đoạn,ok,1486.0,0.28174
+3,1,A3 LVH-LR,0.3,1,38221,2 giai đoạn (mẫu con),ok,1011.0,0.246346
+3,1,A3 LVH-LR,0.3,2,38221,1 giai đoạn,ok,1047.0,0.284501
+3,1,A3 LVH-LR,0.3,2,38221,2 giai đoạn,ok,1510.0,0.243321
+3,1,A3 LVH-LR,0.3,2,38221,2 giai đoạn (mẫu con),ok,2549.0,0.214665
+3,1,A3 LVH-LR,0.3,3,38221,1 giai đoạn,ok,1241.0,0.249599
+3,1,A3 LVH-LR,0.3,3,38221,2 giai đoạn,ok,1097.0,0.279241
+3,1,A3 LVH-LR,0.3,3,38221,2 giai đoạn (mẫu con),ok,2026.0,0.220487
+3,1,A3 LVH-LR,0.3,4,38221,1 giai đoạn,ok,1965.0,0.240312
+3,1,A3 LVH-LR,0.3,4,38221,2 giai đoạn,ok,1502.0,0.225503
+3,1,A3 LVH-LR,0.3,4,38221,2 giai đoạn (mẫu con),ok,1651.0,0.233065
+3,1,A3 LVH-LR,0.3,5,38221,1 giai đoạn,ok,1410.0,0.229002
+3,1,A3 LVH-LR,0.3,5,38221,2 giai đoạn,ok,1931.0,0.220513
+3,1,A3 LVH-LR,0.3,5,38221,2 giai đoạn (mẫu con),ok,3981.0,0.177167
+3,1,A4 CNNalt,0.15,0,38221,1 giai đoạn,ok,6942.0,0.065189
+3,1,A4 CNNalt,0.15,0,38221,2 giai đoạn,ok,3471.0,0.073498
+3,1,A4 CNNalt,0.15,0,38221,2 giai đoạn (mẫu con),ok,3471.0,0.079557
+3,1,A4 CNNalt,0.15,1,38221,1 giai đoạn,ok,7061.0,0.065589
+3,1,A4 CNNalt,0.15,1,38221,2 giai đoạn,ok,3531.0,0.082928
+3,1,A4 CNNalt,0.15,1,38221,2 giai đoạn (mẫu con),ok,3531.0,0.068426
+3,1,A4 CNNalt,0.15,2,38221,1 giai đoạn,ok,4906.0,0.0711
+3,1,A4 CNNalt,0.15,2,38221,2 giai đoạn,ok,4045.0,0.080527
+3,1,A4 CNNalt,0.15,2,38221,2 giai đoạn (mẫu con),ok,2453.0,0.095251
+3,1,A4 CNNalt,0.15,3,38221,1 giai đoạn,ok,5147.0,0.065662
+3,1,A4 CNNalt,0.15,3,38221,2 giai đoạn,ok,3215.0,0.081196
+3,1,A4 CNNalt,0.15,3,38221,2 giai đoạn (mẫu con),ok,2574.0,0.093375
+3,1,A4 CNNalt,0.15,4,38221,1 giai đoạn,ok,4149.0,0.079416
+3,1,A4 CNNalt,0.15,4,38221,2 giai đoạn,ok,2561.0,0.07348
+3,1,A4 CNNalt,0.15,4,38221,2 giai đoạn (mẫu con),ok,2075.0,0.098049
+3,1,A4 CNNalt,0.15,5,38221,1 giai đoạn,ok,4823.0,0.06944
+3,1,A4 CNNalt,0.15,5,38221,2 giai đoạn,ok,3428.0,0.074154
+3,1,A4 CNNalt,0.15,5,38221,2 giai đoạn (mẫu con),ok,2412.0,0.095289
+3,1,A4 CNNalt,0.3,0,38221,1 giai đoạn,ok,606.0,0.148038
+3,1,A4 CNNalt,0.3,0,38221,2 giai đoạn,ok,625.0,0.163208
+3,1,A4 CNNalt,0.3,0,38221,2 giai đoạn (mẫu con),ok,303.0,0.208448
+3,1,A4 CNNalt,0.3,1,38221,1 giai đoạn,ok,867.0,0.143822
+3,1,A4 CNNalt,0.3,1,38221,2 giai đoạn,ok,900.0,0.14267
+3,1,A4 CNNalt,0.3,1,38221,2 giai đoạn (mẫu con),ok,434.0,0.194232
+3,1,A4 CNNalt,0.3,2,38221,1 giai đoạn,ok,484.0,0.162851
+3,1,A4 CNNalt,0.3,2,38221,2 giai đoạn,ok,484.0,0.174356
+3,1,A4 CNNalt,0.3,2,38221,2 giai đoạn (mẫu con),ok,411.0,0.192288
+3,1,A4 CNNalt,0.3,3,38221,1 giai đoạn,ok,729.0,0.14408
+3,1,A4 CNNalt,0.3,3,38221,2 giai đoạn,ok,1034.0,0.144355
+3,1,A4 CNNalt,0.3,3,38221,2 giai đoạn (mẫu con),ok,365.0,0.210396
+3,1,A4 CNNalt,0.3,4,38221,1 giai đoạn,ok,586.0,0.198864
+3,1,A4 CNNalt,0.3,4,38221,2 giai đoạn,ok,586.0,0.16008
+3,1,A4 CNNalt,0.3,4,38221,2 giai đoạn (mẫu con),ok,322.0,0.215364
+3,1,A4 CNNalt,0.3,5,38221,1 giai đoạn,ok,738.0,0.146266
+3,1,A4 CNNalt,0.3,5,38221,2 giai đoạn,ok,651.0,0.153307
+3,1,A4 CNNalt,0.3,5,38221,2 giai đoạn (mẫu con),ok,436.0,0.189861
+3,2,A1 Sokolow,0.15,0,38221,1 giai đoạn,ok,5369.0,0.134833
+3,2,A1 Sokolow,0.15,0,38221,2 giai đoạn,ok,4823.0,0.145715
+3,2,A1 Sokolow,0.15,0,38221,2 giai đoạn (mẫu con),ok,2685.0,0.172785
+3,2,A1 Sokolow,0.15,1,38221,1 giai đoạn,ok,12552.0,0.098325
+3,2,A1 Sokolow,0.15,1,38221,2 giai đoạn,ok,6276.0,0.134498
+3,2,A1 Sokolow,0.15,1,38221,2 giai đoạn (mẫu con),ok,6276.0,0.11602
+3,2,A1 Sokolow,0.15,2,38221,1 giai đoạn,ok,6170.0,0.138992
+3,2,A1 Sokolow,0.15,2,38221,2 giai đoạn,ok,6419.0,0.138893
+3,2,A1 Sokolow,0.15,2,38221,2 giai đoạn (mẫu con),ok,4449.0,0.153363
+3,2,A1 Sokolow,0.15,3,38221,1 giai đoạn,ok,4699.0,0.129567
+3,2,A1 Sokolow,0.15,3,38221,2 giai đoạn,ok,3799.0,0.149464
+3,2,A1 Sokolow,0.15,3,38221,2 giai đoạn (mẫu con),ok,2350.0,0.180436
+3,2,A1 Sokolow,0.15,4,38221,1 giai đoạn,ok,7077.0,0.131534
+3,2,A1 Sokolow,0.15,4,38221,2 giai đoạn,ok,4320.0,0.152686
+3,2,A1 Sokolow,0.15,4,38221,2 giai đoạn (mẫu con),ok,3539.0,0.174179
+3,2,A1 Sokolow,0.15,5,38221,1 giai đoạn,ok,2940.0,0.171397
+3,2,A1 Sokolow,0.15,5,38221,2 giai đoạn,ok,5638.0,0.135538
+3,2,A1 Sokolow,0.15,5,38221,2 giai đoạn (mẫu con),ok,8655.0,0.120603
+3,2,A1 Sokolow,0.3,0,38221,1 giai đoạn,ok,731.0,0.268756
+3,2,A1 Sokolow,0.3,0,38221,2 giai đoạn,ok,706.0,0.291492
+3,2,A1 Sokolow,0.3,0,38221,2 giai đoạn (mẫu con),ok,366.0,0.323399
+3,2,A1 Sokolow,0.3,1,38221,1 giai đoạn,ok,403.0,0.298062
+3,2,A1 Sokolow,0.3,1,38221,2 giai đoạn,ok,403.0,0.333315
+3,2,A1 Sokolow,0.3,1,38221,2 giai đoạn (mẫu con),ok,300.0,0.352275
+3,2,A1 Sokolow,0.3,2,38221,1 giai đoạn,ok,1185.0,0.227888
+3,2,A1 Sokolow,0.3,2,38221,2 giai đoạn,ok,1146.0,0.222407
+3,2,A1 Sokolow,0.3,2,38221,2 giai đoạn (mẫu con),ok,593.0,0.299475
+3,2,A1 Sokolow,0.3,3,38221,1 giai đoạn,ok,1501.0,0.206593
+3,2,A1 Sokolow,0.3,3,38221,2 giai đoạn,ok,1136.0,0.239781
+3,2,A1 Sokolow,0.3,3,38221,2 giai đoạn (mẫu con),ok,1061.0,0.231556
+3,2,A1 Sokolow,0.3,4,38221,1 giai đoạn,ok,873.0,0.234797
+3,2,A1 Sokolow,0.3,4,38221,2 giai đoạn,ok,816.0,0.260185
+3,2,A1 Sokolow,0.3,4,38221,2 giai đoạn (mẫu con),ok,1357.0,0.242229
+3,2,A1 Sokolow,0.3,5,38221,1 giai đoạn,ok,1007.0,0.253438
+3,2,A1 Sokolow,0.3,5,38221,2 giai đoạn,ok,1110.0,0.251214
+3,2,A1 Sokolow,0.3,5,38221,2 giai đoạn (mẫu con),ok,504.0,0.285869
+3,2,A2 Cornell,0.15,0,38221,1 giai đoạn,ok,17423.0,0.229152
+3,2,A2 Cornell,0.15,0,38221,2 giai đoạn,ok,25996.0,0.160083
+3,2,A2 Cornell,0.15,0,38221,2 giai đoạn (mẫu con),ok,25673.0,0.161748
+3,2,A2 Cornell,0.15,1,38221,1 giai đoạn,ok,24497.0,0.178776
+3,2,A2 Cornell,0.15,1,38221,2 giai đoạn,ok,26552.0,0.148167
+3,2,A2 Cornell,0.15,1,38221,2 giai đoạn (mẫu con),ok,29240.0,0.120222
+3,2,A2 Cornell,0.15,2,38221,1 giai đoạn,ok,21408.0,0.199362
+3,2,A2 Cornell,0.15,2,38221,2 giai đoạn,không khả thi,31562.0,
+3,2,A2 Cornell,0.15,2,38221,2 giai đoạn (mẫu con),không khả thi,36189.0,
+3,2,A2 Cornell,0.15,3,38221,1 giai đoạn,ok,19261.0,0.226867
+3,2,A2 Cornell,0.15,3,38221,2 giai đoạn,ok,28399.0,0.134692
+3,2,A2 Cornell,0.15,3,38221,2 giai đoạn (mẫu con),không khả thi,32576.0,
+3,2,A2 Cornell,0.15,4,38221,1 giai đoạn,ok,28010.0,0.127697
+3,2,A2 Cornell,0.15,4,38221,2 giai đoạn,ok,27562.0,0.14451
+3,2,A2 Cornell,0.15,4,38221,2 giai đoạn (mẫu con),ok,26299.0,0.130638
+3,2,A2 Cornell,0.15,5,38221,1 giai đoạn,không khả thi,34815.0,
+3,2,A2 Cornell,0.15,5,38221,2 giai đoạn,ok,24956.0,0.140928
+3,2,A2 Cornell,0.15,5,38221,2 giai đoạn (mẫu con),ok,23262.0,0.193587
+3,2,A2 Cornell,0.3,0,38221,1 giai đoạn,ok,5536.0,0.430583
+3,2,A2 Cornell,0.3,0,38221,2 giai đoạn,ok,13801.0,0.23574
+3,2,A2 Cornell,0.3,0,38221,2 giai đoạn (mẫu con),ok,10052.0,0.31412
+3,2,A2 Cornell,0.3,1,38221,1 giai đoạn,ok,6480.0,0.329825
+3,2,A2 Cornell,0.3,1,38221,2 giai đoạn,ok,3624.0,0.483805
+3,2,A2 Cornell,0.3,1,38221,2 giai đoạn (mẫu con),ok,5502.0,0.405592
+3,2,A2 Cornell,0.3,2,38221,1 giai đoạn,ok,14048.0,0.302689
+3,2,A2 Cornell,0.3,2,38221,2 giai đoạn,ok,11435.0,0.293024
+3,2,A2 Cornell,0.3,2,38221,2 giai đoạn (mẫu con),ok,7024.0,0.37731
+3,2,A2 Cornell,0.3,3,38221,1 giai đoạn,ok,2535.0,0.491435
+3,2,A2 Cornell,0.3,3,38221,2 giai đoạn,ok,6100.0,0.36697
+3,2,A2 Cornell,0.3,3,38221,2 giai đoạn (mẫu con),ok,3928.0,0.433664
+3,2,A2 Cornell,0.3,4,38221,1 giai đoạn,ok,5032.0,0.446085
+3,2,A2 Cornell,0.3,4,38221,2 giai đoạn,ok,5607.0,0.421613
+3,2,A2 Cornell,0.3,4,38221,2 giai đoạn (mẫu con),ok,2972.0,0.565321
+3,2,A2 Cornell,0.3,5,38221,1 giai đoạn,ok,9568.0,0.302329
+3,2,A2 Cornell,0.3,5,38221,2 giai đoạn,ok,11249.0,0.311083
+3,2,A2 Cornell,0.3,5,38221,2 giai đoạn (mẫu con),ok,20550.0,0.177123
+3,2,A3 LVH-LR,0.15,0,38221,1 giai đoạn,ok,7584.0,0.169667
+3,2,A3 LVH-LR,0.15,0,38221,2 giai đoạn,ok,6556.0,0.183025
+3,2,A3 LVH-LR,0.15,0,38221,2 giai đoạn (mẫu con),ok,3792.0,0.177841
+3,2,A3 LVH-LR,0.15,1,38221,1 giai đoạn,ok,6484.0,0.185162
+3,2,A3 LVH-LR,0.15,1,38221,2 giai đoạn,ok,6335.0,0.189103
+3,2,A3 LVH-LR,0.15,1,38221,2 giai đoạn (mẫu con),ok,4630.0,0.179333
+3,2,A3 LVH-LR,0.15,2,38221,1 giai đoạn,ok,8358.0,0.173878
+3,2,A3 LVH-LR,0.15,2,38221,2 giai đoạn,ok,6288.0,0.173792
+3,2,A3 LVH-LR,0.15,2,38221,2 giai đoạn (mẫu con),ok,11670.0,0.140491
+3,2,A3 LVH-LR,0.15,3,38221,1 giai đoạn,ok,11504.0,0.159674
+3,2,A3 LVH-LR,0.15,3,38221,2 giai đoạn,ok,5776.0,0.186593
+3,2,A3 LVH-LR,0.15,3,38221,2 giai đoạn (mẫu con),ok,5752.0,0.181891
+3,2,A3 LVH-LR,0.15,4,38221,1 giai đoạn,ok,3699.0,0.192141
+3,2,A3 LVH-LR,0.15,4,38221,2 giai đoạn,ok,4840.0,0.198667
+3,2,A3 LVH-LR,0.15,4,38221,2 giai đoạn (mẫu con),ok,1850.0,0.237623
+3,2,A3 LVH-LR,0.15,5,38221,1 giai đoạn,ok,7965.0,0.174572
+3,2,A3 LVH-LR,0.15,5,38221,2 giai đoạn,ok,9460.0,0.165452
+3,2,A3 LVH-LR,0.15,5,38221,2 giai đoạn (mẫu con),ok,17675.0,0.12194
+3,2,A3 LVH-LR,0.3,0,38221,1 giai đoạn,ok,1861.0,0.244551
+3,2,A3 LVH-LR,0.3,0,38221,2 giai đoạn,ok,931.0,0.253831
+3,2,A3 LVH-LR,0.3,0,38221,2 giai đoạn (mẫu con),ok,931.0,0.268752
+3,2,A3 LVH-LR,0.3,1,38221,1 giai đoạn,ok,949.0,0.259059
+3,2,A3 LVH-LR,0.3,1,38221,2 giai đoạn,ok,767.0,0.262451
+3,2,A3 LVH-LR,0.3,1,38221,2 giai đoạn (mẫu con),ok,475.0,0.30368
+3,2,A3 LVH-LR,0.3,2,38221,1 giai đoạn,ok,1283.0,0.254054
+3,2,A3 LVH-LR,0.3,2,38221,2 giai đoạn,ok,973.0,0.249029
+3,2,A3 LVH-LR,0.3,2,38221,2 giai đoạn (mẫu con),ok,1869.0,0.234852
+3,2,A3 LVH-LR,0.3,3,38221,1 giai đoạn,ok,974.0,0.268958
+3,2,A3 LVH-LR,0.3,3,38221,2 giai đoạn,ok,2496.0,0.22092
+3,2,A3 LVH-LR,0.3,3,38221,2 giai đoạn (mẫu con),ok,487.0,0.284211
+3,2,A3 LVH-LR,0.3,4,38221,1 giai đoạn,ok,565.0,0.284864
+3,2,A3 LVH-LR,0.3,4,38221,2 giai đoạn,ok,565.0,0.308917
+3,2,A3 LVH-LR,0.3,4,38221,2 giai đoạn (mẫu con),ok,300.0,0.343776
+3,2,A3 LVH-LR,0.3,5,38221,1 giai đoạn,ok,1180.0,0.229447
+3,2,A3 LVH-LR,0.3,5,38221,2 giai đoạn,ok,904.0,0.260717
+3,2,A3 LVH-LR,0.3,5,38221,2 giai đoạn (mẫu con),ok,1433.0,0.236934
+3,2,A4 CNNalt,0.15,0,38221,1 giai đoạn,ok,4238.0,0.091356
+3,2,A4 CNNalt,0.15,0,38221,2 giai đoạn,ok,2119.0,0.100369
+3,2,A4 CNNalt,0.15,0,38221,2 giai đoạn (mẫu con),ok,2119.0,0.123453
+3,2,A4 CNNalt,0.15,1,38221,1 giai đoạn,ok,5125.0,0.091057
+3,2,A4 CNNalt,0.15,1,38221,2 giai đoạn,ok,3520.0,0.088063
+3,2,A4 CNNalt,0.15,1,38221,2 giai đoạn (mẫu con),ok,2563.0,0.103873
+3,2,A4 CNNalt,0.15,2,38221,1 giai đoạn,ok,4134.0,0.080952
+3,2,A4 CNNalt,0.15,2,38221,2 giai đoạn,ok,3276.0,0.103111
+3,2,A4 CNNalt,0.15,2,38221,2 giai đoạn (mẫu con),ok,2067.0,0.107986
+3,2,A4 CNNalt,0.15,3,38221,1 giai đoạn,ok,2698.0,0.105037
+3,2,A4 CNNalt,0.15,3,38221,2 giai đoạn,ok,2425.0,0.110692
+3,2,A4 CNNalt,0.15,3,38221,2 giai đoạn (mẫu con),ok,1349.0,0.14328
+3,2,A4 CNNalt,0.15,4,38221,1 giai đoạn,ok,5497.0,0.072865
+3,2,A4 CNNalt,0.15,4,38221,2 giai đoạn,ok,3043.0,0.102098
+3,2,A4 CNNalt,0.15,4,38221,2 giai đoạn (mẫu con),ok,2749.0,0.094031
+3,2,A4 CNNalt,0.15,5,38221,1 giai đoạn,ok,4226.0,0.09302
+3,2,A4 CNNalt,0.15,5,38221,2 giai đoạn,ok,3632.0,0.097093
+3,2,A4 CNNalt,0.15,5,38221,2 giai đoạn (mẫu con),ok,2113.0,0.119871
+3,2,A4 CNNalt,0.3,0,38221,1 giai đoạn,ok,1233.0,0.135168
+3,2,A4 CNNalt,0.3,0,38221,2 giai đoạn,ok,1393.0,0.12755
+3,2,A4 CNNalt,0.3,0,38221,2 giai đoạn (mẫu con),ok,617.0,0.158308
+3,2,A4 CNNalt,0.3,1,38221,1 giai đoạn,ok,587.0,0.175301
+3,2,A4 CNNalt,0.3,1,38221,2 giai đoạn,ok,587.0,0.187781
+3,2,A4 CNNalt,0.3,1,38221,2 giai đoạn (mẫu con),ok,300.0,0.206465
+3,2,A4 CNNalt,0.3,2,38221,1 giai đoạn,ok,454.0,0.197485
+3,2,A4 CNNalt,0.3,2,38221,2 giai đoạn,ok,454.0,0.196646
+3,2,A4 CNNalt,0.3,2,38221,2 giai đoạn (mẫu con),ok,300.0,0.210859
+3,2,A4 CNNalt,0.3,3,38221,1 giai đoạn,ok,319.0,0.214319
+3,2,A4 CNNalt,0.3,3,38221,2 giai đoạn,ok,319.0,0.206165
+3,2,A4 CNNalt,0.3,3,38221,2 giai đoạn (mẫu con),ok,300.0,0.219289
+3,2,A4 CNNalt,0.3,4,38221,1 giai đoạn,ok,499.0,0.188517
+3,2,A4 CNNalt,0.3,4,38221,2 giai đoạn,ok,499.0,0.179039
+3,2,A4 CNNalt,0.3,4,38221,2 giai đoạn (mẫu con),ok,300.0,0.190768
+3,2,A4 CNNalt,0.3,5,38221,1 giai đoạn,ok,1352.0,0.123265
+3,2,A4 CNNalt,0.3,5,38221,2 giai đoạn,ok,676.0,0.165247
+3,2,A4 CNNalt,0.3,5,38221,2 giai đoạn (mẫu con),ok,676.0,0.149752
+4,0,A1 Sokolow,0.15,0,12843,1 giai đoạn,ok,8508.0,0.155679
+4,0,A1 Sokolow,0.15,0,12843,2 giai đoạn,ok,9583.0,0.131561
+4,0,A1 Sokolow,0.15,0,12843,2 giai đoạn (mẫu con),ok,4254.0,0.230534
+4,0,A1 Sokolow,0.15,1,12843,1 giai đoạn,ok,9674.0,0.128763
+4,0,A1 Sokolow,0.15,1,12843,2 giai đoạn,ok,9480.0,0.123442
+4,0,A1 Sokolow,0.15,1,12843,2 giai đoạn (mẫu con),ok,4837.0,0.204255
+4,0,A1 Sokolow,0.15,2,12843,1 giai đoạn,ok,10192.0,0.102021
+4,0,A1 Sokolow,0.15,2,12843,2 giai đoạn,ok,8628.0,0.15794
+4,0,A1 Sokolow,0.15,2,12843,2 giai đoạn (mẫu con),ok,6737.0,0.1624
+4,0,A1 Sokolow,0.15,3,12843,1 giai đoạn,ok,8917.0,0.145367
+4,0,A1 Sokolow,0.15,3,12843,2 giai đoạn,ok,8685.0,0.138454
+4,0,A1 Sokolow,0.15,3,12843,2 giai đoạn (mẫu con),ok,5430.0,0.185792
+4,0,A1 Sokolow,0.15,4,12843,1 giai đoạn,ok,8993.0,0.151824
+4,0,A1 Sokolow,0.15,4,12843,2 giai đoạn,ok,9511.0,0.127305
+4,0,A1 Sokolow,0.15,4,12843,2 giai đoạn (mẫu con),ok,5522.0,0.209332
+4,0,A1 Sokolow,0.15,5,12843,1 giai đoạn,không khả thi,10665.0,
+4,0,A1 Sokolow,0.15,5,12843,2 giai đoạn,không khả thi,10673.0,
+4,0,A1 Sokolow,0.15,5,12843,2 giai đoạn (mẫu con),ok,5333.0,0.18939
+4,0,A1 Sokolow,0.3,0,12843,1 giai đoạn,ok,3103.0,0.279083
+4,0,A1 Sokolow,0.3,0,12843,2 giai đoạn,ok,2934.0,0.265404
+4,0,A1 Sokolow,0.3,0,12843,2 giai đoạn (mẫu con),ok,1552.0,0.41484
+4,0,A1 Sokolow,0.3,1,12843,1 giai đoạn,ok,2153.0,0.389941
+4,0,A1 Sokolow,0.3,1,12843,2 giai đoạn,ok,3939.0,0.240618
+4,0,A1 Sokolow,0.3,1,12843,2 giai đoạn (mẫu con),ok,5213.0,0.184417
+4,0,A1 Sokolow,0.3,2,12843,1 giai đoạn,ok,8186.0,0.143864
+4,0,A1 Sokolow,0.3,2,12843,2 giai đoạn,ok,4093.0,0.189005
+4,0,A1 Sokolow,0.3,2,12843,2 giai đoạn (mẫu con),ok,4093.0,0.244216
+4,0,A1 Sokolow,0.3,3,12843,1 giai đoạn,ok,3060.0,0.300928
+4,0,A1 Sokolow,0.3,3,12843,2 giai đoạn,ok,3422.0,0.23359
+4,0,A1 Sokolow,0.3,3,12843,2 giai đoạn (mẫu con),ok,1706.0,0.323992
+4,0,A1 Sokolow,0.3,4,12843,1 giai đoạn,ok,8214.0,0.152976
+4,0,A1 Sokolow,0.3,4,12843,2 giai đoạn,ok,4107.0,0.212574
+4,0,A1 Sokolow,0.3,4,12843,2 giai đoạn (mẫu con),ok,4613.0,0.211838
+4,0,A1 Sokolow,0.3,5,12843,1 giai đoạn,ok,4218.0,0.238074
+4,0,A1 Sokolow,0.3,5,12843,2 giai đoạn,ok,3663.0,0.283228
+4,0,A1 Sokolow,0.3,5,12843,2 giai đoạn (mẫu con),ok,2865.0,0.278103
+4,0,A2 Cornell,0.15,0,12843,1 giai đoạn,ok,9955.0,0.258842
+4,0,A2 Cornell,0.15,0,12843,2 giai đoạn,không khả thi,11087.0,
+4,0,A2 Cornell,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,12110.0,
+4,0,A2 Cornell,0.15,1,12843,1 giai đoạn,không khả thi,10314.0,
+4,0,A2 Cornell,0.15,1,12843,2 giai đoạn,không khả thi,10300.0,
+4,0,A2 Cornell,0.15,1,12843,2 giai đoạn (mẫu con),ok,9545.0,0.253364
+4,0,A2 Cornell,0.15,2,12843,1 giai đoạn,không khả thi,10871.0,
+4,0,A2 Cornell,0.15,2,12843,2 giai đoạn,không khả thi,10406.0,
+4,0,A2 Cornell,0.15,2,12843,2 giai đoạn (mẫu con),không khả thi,11474.0,
+4,0,A2 Cornell,0.15,3,12843,1 giai đoạn,ok,9985.0,0.248742
+4,0,A2 Cornell,0.15,3,12843,2 giai đoạn,không khả thi,10306.0,
+4,0,A2 Cornell,0.15,3,12843,2 giai đoạn (mẫu con),không khả thi,11506.0,
+4,0,A2 Cornell,0.15,4,12843,1 giai đoạn,không khả thi,11692.0,
+4,0,A2 Cornell,0.15,4,12843,2 giai đoạn,ok,10181.0,0.244951
+4,0,A2 Cornell,0.15,4,12843,2 giai đoạn (mẫu con),không khả thi,10353.0,
+4,0,A2 Cornell,0.15,5,12843,1 giai đoạn,không khả thi,12000.0,
+4,0,A2 Cornell,0.15,5,12843,2 giai đoạn,không khả thi,11101.0,
+4,0,A2 Cornell,0.15,5,12843,2 giai đoạn (mẫu con),không khả thi,11826.0,
+4,0,A2 Cornell,0.3,0,12843,1 giai đoạn,ok,5472.0,0.312468
+4,0,A2 Cornell,0.3,0,12843,2 giai đoạn,ok,4779.0,0.340386
+4,0,A2 Cornell,0.3,0,12843,2 giai đoạn (mẫu con),ok,4927.0,0.315332
+4,0,A2 Cornell,0.3,1,12843,1 giai đoạn,ok,2983.0,0.4387
+4,0,A2 Cornell,0.3,1,12843,2 giai đoạn,ok,3055.0,0.415745
+4,0,A2 Cornell,0.3,1,12843,2 giai đoạn (mẫu con),ok,5040.0,0.310121
+4,0,A2 Cornell,0.3,2,12843,1 giai đoạn,ok,3343.0,0.424227
+4,0,A2 Cornell,0.3,2,12843,2 giai đoạn,ok,5970.0,0.294661
+4,0,A2 Cornell,0.3,2,12843,2 giai đoạn (mẫu con),ok,4203.0,0.370751
+4,0,A2 Cornell,0.3,3,12843,1 giai đoạn,ok,5379.0,0.330776
+4,0,A2 Cornell,0.3,3,12843,2 giai đoạn,ok,7332.0,0.284078
+4,0,A2 Cornell,0.3,3,12843,2 giai đoạn (mẫu con),ok,6832.0,0.307705
+4,0,A2 Cornell,0.3,4,12843,1 giai đoạn,ok,2766.0,0.443467
+4,0,A2 Cornell,0.3,4,12843,2 giai đoạn,ok,4695.0,0.312637
+4,0,A2 Cornell,0.3,4,12843,2 giai đoạn (mẫu con),ok,8822.0,0.268824
+4,0,A2 Cornell,0.3,5,12843,1 giai đoạn,ok,4059.0,0.385238
+4,0,A2 Cornell,0.3,5,12843,2 giai đoạn,ok,6860.0,0.268806
+4,0,A2 Cornell,0.3,5,12843,2 giai đoạn (mẫu con),ok,8180.0,0.256916
+4,0,A3 LVH-LR,0.15,0,12843,1 giai đoạn,không khả thi,11595.0,
+4,0,A3 LVH-LR,0.15,0,12843,2 giai đoạn,không khả thi,10328.0,
+4,0,A3 LVH-LR,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,12383.0,
+4,0,A3 LVH-LR,0.15,1,12843,1 giai đoạn,không khả thi,11471.0,
+4,0,A3 LVH-LR,0.15,1,12843,2 giai đoạn,không khả thi,10794.0,
+4,0,A3 LVH-LR,0.15,1,12843,2 giai đoạn (mẫu con),không khả thi,12394.0,
+4,0,A3 LVH-LR,0.15,2,12843,1 giai đoạn,ok,9582.0,0.135022
+4,0,A3 LVH-LR,0.15,2,12843,2 giai đoạn,ok,9945.0,0.182801
+4,0,A3 LVH-LR,0.15,2,12843,2 giai đoạn (mẫu con),không khả thi,12248.0,
+4,0,A3 LVH-LR,0.15,3,12843,1 giai đoạn,không khả thi,11204.0,
+4,0,A3 LVH-LR,0.15,3,12843,2 giai đoạn,ok,8916.0,0.204611
+4,0,A3 LVH-LR,0.15,3,12843,2 giai đoạn (mẫu con),không khả thi,11308.0,
+4,0,A3 LVH-LR,0.15,4,12843,1 giai đoạn,không khả thi,10430.0,
+4,0,A3 LVH-LR,0.15,4,12843,2 giai đoạn,không khả thi,10515.0,
+4,0,A3 LVH-LR,0.15,4,12843,2 giai đoạn (mẫu con),không khả thi,10840.0,
+4,0,A3 LVH-LR,0.15,5,12843,1 giai đoạn,không khả thi,11690.0,
+4,0,A3 LVH-LR,0.15,5,12843,2 giai đoạn,không khả thi,10495.0,
+4,0,A3 LVH-LR,0.15,5,12843,2 giai đoạn (mẫu con),không khả thi,12503.0,
+4,0,A3 LVH-LR,0.3,0,12843,1 giai đoạn,ok,4352.0,0.416042
+4,0,A3 LVH-LR,0.3,0,12843,2 giai đoạn,ok,3060.0,0.429363
+4,0,A3 LVH-LR,0.3,0,12843,2 giai đoạn (mẫu con),ok,7555.0,0.25874
+4,0,A3 LVH-LR,0.3,1,12843,1 giai đoạn,ok,6581.0,0.272187
+4,0,A3 LVH-LR,0.3,1,12843,2 giai đoạn,ok,4804.0,0.373263
+4,0,A3 LVH-LR,0.3,1,12843,2 giai đoạn (mẫu con),ok,10025.0,0.154514
+4,0,A3 LVH-LR,0.3,2,12843,1 giai đoạn,ok,2761.0,0.50769
+4,0,A3 LVH-LR,0.3,2,12843,2 giai đoạn,ok,2541.0,0.385833
+4,0,A3 LVH-LR,0.3,2,12843,2 giai đoạn (mẫu con),ok,6138.0,0.330923
+4,0,A3 LVH-LR,0.3,3,12843,1 giai đoạn,ok,6787.0,0.24594
+4,0,A3 LVH-LR,0.3,3,12843,2 giai đoạn,ok,4463.0,0.374461
+4,0,A3 LVH-LR,0.3,3,12843,2 giai đoạn (mẫu con),ok,5763.0,0.313889
+4,0,A3 LVH-LR,0.3,4,12843,1 giai đoạn,ok,2112.0,0.470213
+4,0,A3 LVH-LR,0.3,4,12843,2 giai đoạn,ok,3530.0,0.461337
+4,0,A3 LVH-LR,0.3,4,12843,2 giai đoạn (mẫu con),ok,5081.0,0.3265
+4,0,A3 LVH-LR,0.3,5,12843,1 giai đoạn,ok,3701.0,0.419923
+4,0,A3 LVH-LR,0.3,5,12843,2 giai đoạn,ok,3628.0,0.412916
+4,0,A3 LVH-LR,0.3,5,12843,2 giai đoạn (mẫu con),ok,5843.0,0.338197
+4,0,A4 CNNalt,0.15,0,12843,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+4,0,A4 CNNalt,0.15,0,12843,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+4,0,A4 CNNalt,0.15,0,12843,2 giai đoạn (mẫu con),mẫu thử < 5 nhãn giả,,
+4,0,A4 CNNalt,0.15,1,12843,1 giai đoạn,ok,8836.0,0.065239
+4,0,A4 CNNalt,0.15,1,12843,2 giai đoạn,ok,9845.0,0.067458
+4,0,A4 CNNalt,0.15,1,12843,2 giai đoạn (mẫu con),ok,4418.0,0.249186
+4,0,A4 CNNalt,0.15,2,12843,1 giai đoạn,ok,9964.0,0.068988
+4,0,A4 CNNalt,0.15,2,12843,2 giai đoạn,ok,9221.0,0.062237
+4,0,A4 CNNalt,0.15,2,12843,2 giai đoạn (mẫu con),ok,8945.0,0.070919
+4,0,A4 CNNalt,0.15,3,12843,1 giai đoạn,ok,9481.0,0.066826
+4,0,A4 CNNalt,0.15,3,12843,2 giai đoạn,ok,9375.0,0.0733
+4,0,A4 CNNalt,0.15,3,12843,2 giai đoạn (mẫu con),không khả thi,10323.0,
+4,0,A4 CNNalt,0.15,4,12843,1 giai đoạn,không khả thi,11384.0,
+4,0,A4 CNNalt,0.15,4,12843,2 giai đoạn,ok,8850.0,0.069579
+4,0,A4 CNNalt,0.15,4,12843,2 giai đoạn (mẫu con),ok,5692.0,0.229342
+4,0,A4 CNNalt,0.15,5,12843,1 giai đoạn,không khả thi,11021.0,
+4,0,A4 CNNalt,0.15,5,12843,2 giai đoạn,ok,9788.0,0.061022
+4,0,A4 CNNalt,0.15,5,12843,2 giai đoạn (mẫu con),ok,8803.0,0.06562
+4,0,A4 CNNalt,0.3,0,12843,1 giai đoạn,ok,4863.0,0.218757
+4,0,A4 CNNalt,0.3,0,12843,2 giai đoạn,ok,3066.0,0.302032
+4,0,A4 CNNalt,0.3,0,12843,2 giai đoạn (mẫu con),ok,2432.0,0.287734
+4,0,A4 CNNalt,0.3,1,12843,1 giai đoạn,ok,4012.0,0.290386
+4,0,A4 CNNalt,0.3,1,12843,2 giai đoạn,ok,5211.0,0.224174
+4,0,A4 CNNalt,0.3,1,12843,2 giai đoạn (mẫu con),ok,2611.0,0.315458
+4,0,A4 CNNalt,0.3,2,12843,1 giai đoạn,ok,2480.0,0.313336
+4,0,A4 CNNalt,0.3,2,12843,2 giai đoạn,ok,3446.0,0.262162
+4,0,A4 CNNalt,0.3,2,12843,2 giai đoạn (mẫu con),ok,1240.0,0.385388
+4,0,A4 CNNalt,0.3,3,12843,1 giai đoạn,mẫu thử < 5 nhãn giả,,
+4,0,A4 CNNalt,0.3,3,12843,2 giai đoạn,mẫu thử < 5 nhãn giả,,
+4,0,A4 CNNalt,0.3,3,12843,2 giai đoạn (mẫu con),mẫu thử < 5 nhãn giả,,
+4,0,A4 CNNalt,0.3,4,12843,1 giai đoạn,ok,4855.0,0.242009
+4,0,A4 CNNalt,0.3,4,12843,2 giai đoạn,ok,3000.0,0.299047
+4,0,A4 CNNalt,0.3,4,12843,2 giai đoạn (mẫu con),ok,3801.0,0.278827
+4,0,A4 CNNalt,0.3,5,12843,1 giai đoạn,ok,5431.0,0.185546
+4,0,A4 CNNalt,0.3,5,12843,2 giai đoạn,ok,3758.0,0.265982
+4,0,A4 CNNalt,0.3,5,12843,2 giai đoạn (mẫu con),ok,2716.0,0.280687
+4,1,A1 Sokolow,0.15,0,12843,1 giai đoạn,không khả thi,11271.0,
+4,1,A1 Sokolow,0.15,0,12843,2 giai đoạn,ok,9528.0,0.104638
+4,1,A1 Sokolow,0.15,0,12843,2 giai đoạn (mẫu con),ok,5636.0,0.18117
+4,1,A1 Sokolow,0.15,1,12843,1 giai đoạn,ok,10022.0,0.081794
+4,1,A1 Sokolow,0.15,1,12843,2 giai đoạn,ok,9776.0,0.07271
+4,1,A1 Sokolow,0.15,1,12843,2 giai đoạn (mẫu con),ok,5011.0,0.142751
+4,1,A1 Sokolow,0.15,2,12843,1 giai đoạn,không khả thi,11268.0,
+4,1,A1 Sokolow,0.15,2,12843,2 giai đoạn,không khả thi,10472.0,
+4,1,A1 Sokolow,0.15,2,12843,2 giai đoạn (mẫu con),ok,9759.0,0.078449
+4,1,A1 Sokolow,0.15,3,12843,1 giai đoạn,không khả thi,11026.0,
+4,1,A1 Sokolow,0.15,3,12843,2 giai đoạn,ok,9631.0,0.08295
+4,1,A1 Sokolow,0.15,3,12843,2 giai đoạn (mẫu con),ok,5513.0,0.133222
+4,1,A1 Sokolow,0.15,4,12843,1 giai đoạn,không khả thi,12004.0,
+4,1,A1 Sokolow,0.15,4,12843,2 giai đoạn,ok,10192.0,0.090226
+4,1,A1 Sokolow,0.15,4,12843,2 giai đoạn (mẫu con),ok,10093.0,0.073678
+4,1,A1 Sokolow,0.15,5,12843,1 giai đoạn,không khả thi,11767.0,
+4,1,A1 Sokolow,0.15,5,12843,2 giai đoạn,ok,9267.0,0.087627
+4,1,A1 Sokolow,0.15,5,12843,2 giai đoạn (mẫu con),ok,5884.0,0.158416
+4,1,A1 Sokolow,0.3,0,12843,1 giai đoạn,ok,3703.0,0.203754
+4,1,A1 Sokolow,0.3,0,12843,2 giai đoạn,ok,4568.0,0.163462
+4,1,A1 Sokolow,0.3,0,12843,2 giai đoạn (mẫu con),ok,1852.0,0.288855
+4,1,A1 Sokolow,0.3,1,12843,1 giai đoạn,ok,4802.0,0.164493
+4,1,A1 Sokolow,0.3,1,12843,2 giai đoạn,ok,3786.0,0.242728
+4,1,A1 Sokolow,0.3,1,12843,2 giai đoạn (mẫu con),ok,5197.0,0.139543
+4,1,A1 Sokolow,0.3,2,12843,1 giai đoạn,ok,6453.0,0.128036
+4,1,A1 Sokolow,0.3,2,12843,2 giai đoạn,ok,5146.0,0.189477
+4,1,A1 Sokolow,0.3,2,12843,2 giai đoạn (mẫu con),ok,4750.0,0.168318
+4,1,A1 Sokolow,0.3,3,12843,1 giai đoạn,ok,6934.0,0.116051
+4,1,A1 Sokolow,0.3,3,12843,2 giai đoạn,ok,4179.0,0.180819
+4,1,A1 Sokolow,0.3,3,12843,2 giai đoạn (mẫu con),ok,3467.0,0.17768
+4,1,A1 Sokolow,0.3,4,12843,1 giai đoạn,ok,4897.0,0.16717
+4,1,A1 Sokolow,0.3,4,12843,2 giai đoạn,ok,3659.0,0.182113
+4,1,A1 Sokolow,0.3,4,12843,2 giai đoạn (mẫu con),ok,2449.0,0.271004
+4,1,A1 Sokolow,0.3,5,12843,1 giai đoạn,ok,3984.0,0.216533
+4,1,A1 Sokolow,0.3,5,12843,2 giai đoạn,ok,3404.0,0.210771
+4,1,A1 Sokolow,0.3,5,12843,2 giai đoạn (mẫu con),ok,1992.0,0.279314
+4,1,A2 Cornell,0.15,0,12843,1 giai đoạn,ok,9327.0,0.1578
+4,1,A2 Cornell,0.15,0,12843,2 giai đoạn,không khả thi,10746.0,
+4,1,A2 Cornell,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,10628.0,
+4,1,A2 Cornell,0.15,1,12843,1 giai đoạn,ok,9640.0,0.161535
+4,1,A2 Cornell,0.15,1,12843,2 giai đoạn,ok,9704.0,0.150902
+4,1,A2 Cornell,0.15,1,12843,2 giai đoạn (mẫu con),không khả thi,10918.0,
+4,1,A2 Cornell,0.15,2,12843,1 giai đoạn,không khả thi,10953.0,
+4,1,A2 Cornell,0.15,2,12843,2 giai đoạn,không khả thi,11404.0,
+4,1,A2 Cornell,0.15,2,12843,2 giai đoạn (mẫu con),không khả thi,11752.0,
+4,1,A2 Cornell,0.15,3,12843,1 giai đoạn,không khả thi,11126.0,
+4,1,A2 Cornell,0.15,3,12843,2 giai đoạn,ok,10097.0,0.17401
+4,1,A2 Cornell,0.15,3,12843,2 giai đoạn (mẫu con),không khả thi,10314.0,
+4,1,A2 Cornell,0.15,4,12843,1 giai đoạn,không khả thi,11450.0,
+4,1,A2 Cornell,0.15,4,12843,2 giai đoạn,ok,9491.0,0.172302
+4,1,A2 Cornell,0.15,4,12843,2 giai đoạn (mẫu con),ok,9889.0,0.178039
+4,1,A2 Cornell,0.15,5,12843,1 giai đoạn,ok,7378.0,0.207185
+4,1,A2 Cornell,0.15,5,12843,2 giai đoạn,không khả thi,10674.0,
+4,1,A2 Cornell,0.15,5,12843,2 giai đoạn (mẫu con),ok,9942.0,0.169232
+4,1,A2 Cornell,0.3,0,12843,1 giai đoạn,ok,2036.0,0.358794
+4,1,A2 Cornell,0.3,0,12843,2 giai đoạn,ok,3624.0,0.295168
+4,1,A2 Cornell,0.3,0,12843,2 giai đoạn (mẫu con),ok,5001.0,0.263892
+4,1,A2 Cornell,0.3,1,12843,1 giai đoạn,ok,4102.0,0.302189
+4,1,A2 Cornell,0.3,1,12843,2 giai đoạn,ok,2310.0,0.346743
+4,1,A2 Cornell,0.3,1,12843,2 giai đoạn (mẫu con),ok,2314.0,0.348271
+4,1,A2 Cornell,0.3,2,12843,1 giai đoạn,ok,3958.0,0.312644
+4,1,A2 Cornell,0.3,2,12843,2 giai đoạn,ok,2455.0,0.301956
+4,1,A2 Cornell,0.3,2,12843,2 giai đoạn (mẫu con),ok,1979.0,0.370822
+4,1,A2 Cornell,0.3,3,12843,1 giai đoạn,ok,1416.0,0.443945
+4,1,A2 Cornell,0.3,3,12843,2 giai đoạn,ok,3536.0,0.277904
+4,1,A2 Cornell,0.3,3,12843,2 giai đoạn (mẫu con),ok,5698.0,0.259566
+4,1,A2 Cornell,0.3,4,12843,1 giai đoạn,ok,1948.0,0.360746
+4,1,A2 Cornell,0.3,4,12843,2 giai đoạn,ok,3979.0,0.278634
+4,1,A2 Cornell,0.3,4,12843,2 giai đoạn (mẫu con),ok,4055.0,0.296476
+4,1,A2 Cornell,0.3,5,12843,1 giai đoạn,ok,4184.0,0.288709
+4,1,A2 Cornell,0.3,5,12843,2 giai đoạn,ok,5525.0,0.244613
+4,1,A2 Cornell,0.3,5,12843,2 giai đoạn (mẫu con),ok,7405.0,0.208962
+4,1,A3 LVH-LR,0.15,0,12843,1 giai đoạn,không khả thi,11751.0,
+4,1,A3 LVH-LR,0.15,0,12843,2 giai đoạn,không khả thi,10314.0,
+4,1,A3 LVH-LR,0.15,0,12843,2 giai đoạn (mẫu con),ok,7172.0,0.205926
+4,1,A3 LVH-LR,0.15,1,12843,1 giai đoạn,ok,8678.0,0.199299
+4,1,A3 LVH-LR,0.15,1,12843,2 giai đoạn,ok,9167.0,0.178464
+4,1,A3 LVH-LR,0.15,1,12843,2 giai đoạn (mẫu con),không khả thi,11002.0,
+4,1,A3 LVH-LR,0.15,2,12843,1 giai đoạn,ok,9353.0,0.15764
+4,1,A3 LVH-LR,0.15,2,12843,2 giai đoạn,không khả thi,10544.0,
+4,1,A3 LVH-LR,0.15,2,12843,2 giai đoạn (mẫu con),không khả thi,11361.0,
+4,1,A3 LVH-LR,0.15,3,12843,1 giai đoạn,không khả thi,12055.0,
+4,1,A3 LVH-LR,0.15,3,12843,2 giai đoạn,không khả thi,10475.0,
+4,1,A3 LVH-LR,0.15,3,12843,2 giai đoạn (mẫu con),ok,8199.0,0.170087
+4,1,A3 LVH-LR,0.15,4,12843,1 giai đoạn,không khả thi,11875.0,
+4,1,A3 LVH-LR,0.15,4,12843,2 giai đoạn,không khả thi,10325.0,
+4,1,A3 LVH-LR,0.15,4,12843,2 giai đoạn (mẫu con),không khả thi,10888.0,
+4,1,A3 LVH-LR,0.15,5,12843,1 giai đoạn,không khả thi,11132.0,
+4,1,A3 LVH-LR,0.15,5,12843,2 giai đoạn,không khả thi,10751.0,
+4,1,A3 LVH-LR,0.15,5,12843,2 giai đoạn (mẫu con),không khả thi,12130.0,
+4,1,A3 LVH-LR,0.3,0,12843,1 giai đoạn,ok,4255.0,0.267319
+4,1,A3 LVH-LR,0.3,0,12843,2 giai đoạn,ok,3720.0,0.335002
+4,1,A3 LVH-LR,0.3,0,12843,2 giai đoạn (mẫu con),ok,2240.0,0.363637
+4,1,A3 LVH-LR,0.3,1,12843,1 giai đoạn,ok,3370.0,0.353312
+4,1,A3 LVH-LR,0.3,1,12843,2 giai đoạn,ok,3763.0,0.317353
+4,1,A3 LVH-LR,0.3,1,12843,2 giai đoạn (mẫu con),ok,1685.0,0.438783
+4,1,A3 LVH-LR,0.3,2,12843,1 giai đoạn,ok,5330.0,0.223279
+4,1,A3 LVH-LR,0.3,2,12843,2 giai đoạn,ok,6035.0,0.208619
+4,1,A3 LVH-LR,0.3,2,12843,2 giai đoạn (mẫu con),ok,5005.0,0.248889
+4,1,A3 LVH-LR,0.3,3,12843,1 giai đoạn,ok,9094.0,0.153279
+4,1,A3 LVH-LR,0.3,3,12843,2 giai đoạn,ok,5170.0,0.245986
+4,1,A3 LVH-LR,0.3,3,12843,2 giai đoạn (mẫu con),ok,6651.0,0.201565
+4,1,A3 LVH-LR,0.3,4,12843,1 giai đoạn,ok,7901.0,0.221315
+4,1,A3 LVH-LR,0.3,4,12843,2 giai đoạn,ok,4157.0,0.336646
+4,1,A3 LVH-LR,0.3,4,12843,2 giai đoạn (mẫu con),ok,5365.0,0.271142
+4,1,A3 LVH-LR,0.3,5,12843,1 giai đoạn,ok,4521.0,0.267488
+4,1,A3 LVH-LR,0.3,5,12843,2 giai đoạn,ok,4106.0,0.293913
+4,1,A3 LVH-LR,0.3,5,12843,2 giai đoạn (mẫu con),ok,4275.0,0.307634
+4,1,A4 CNNalt,0.15,0,12843,1 giai đoạn,không khả thi,10940.0,
+4,1,A4 CNNalt,0.15,0,12843,2 giai đoạn,ok,6511.0,0.136531
+4,1,A4 CNNalt,0.15,0,12843,2 giai đoạn (mẫu con),ok,7118.0,0.122405
+4,1,A4 CNNalt,0.15,1,12843,1 giai đoạn,ok,4479.0,0.171088
+4,1,A4 CNNalt,0.15,1,12843,2 giai đoạn,ok,6440.0,0.130989
+4,1,A4 CNNalt,0.15,1,12843,2 giai đoạn (mẫu con),ok,2258.0,0.185264
+4,1,A4 CNNalt,0.15,2,12843,1 giai đoạn,không khả thi,10800.0,
+4,1,A4 CNNalt,0.15,2,12843,2 giai đoạn,ok,7081.0,0.123717
+4,1,A4 CNNalt,0.15,2,12843,2 giai đoạn (mẫu con),ok,6472.0,0.142667
+4,1,A4 CNNalt,0.15,3,12843,1 giai đoạn,ok,9902.0,0.080727
+4,1,A4 CNNalt,0.15,3,12843,2 giai đoạn,ok,7361.0,0.116531
+4,1,A4 CNNalt,0.15,3,12843,2 giai đoạn (mẫu con),ok,5663.0,0.136907
+4,1,A4 CNNalt,0.15,4,12843,1 giai đoạn,ok,8043.0,0.10687
+4,1,A4 CNNalt,0.15,4,12843,2 giai đoạn,ok,6847.0,0.134687
+4,1,A4 CNNalt,0.15,4,12843,2 giai đoạn (mẫu con),ok,4298.0,0.176857
+4,1,A4 CNNalt,0.15,5,12843,1 giai đoạn,ok,9668.0,0.092476
+4,1,A4 CNNalt,0.15,5,12843,2 giai đoạn,ok,6890.0,0.116837
+4,1,A4 CNNalt,0.15,5,12843,2 giai đoạn (mẫu con),ok,4834.0,0.159488
+4,1,A4 CNNalt,0.3,0,12843,1 giai đoạn,ok,3759.0,0.187238
+4,1,A4 CNNalt,0.3,0,12843,2 giai đoạn,ok,1880.0,0.215994
+4,1,A4 CNNalt,0.3,0,12843,2 giai đoạn (mẫu con),ok,1880.0,0.241414
+4,1,A4 CNNalt,0.3,1,12843,1 giai đoạn,ok,2467.0,0.190154
+4,1,A4 CNNalt,0.3,1,12843,2 giai đoạn,ok,2024.0,0.234772
+4,1,A4 CNNalt,0.3,1,12843,2 giai đoạn (mẫu con),ok,1234.0,0.260269
+4,1,A4 CNNalt,0.3,2,12843,1 giai đoạn,ok,2431.0,0.206958
+4,1,A4 CNNalt,0.3,2,12843,2 giai đoạn,ok,2281.0,0.214264
+4,1,A4 CNNalt,0.3,2,12843,2 giai đoạn (mẫu con),ok,1216.0,0.275729
+4,1,A4 CNNalt,0.3,3,12843,1 giai đoạn,ok,1180.0,0.281476
+4,1,A4 CNNalt,0.3,3,12843,2 giai đoạn,ok,1477.0,0.241615
+4,1,A4 CNNalt,0.3,3,12843,2 giai đoạn (mẫu con),ok,701.0,0.325467
+4,1,A4 CNNalt,0.3,4,12843,1 giai đoạn,ok,4332.0,0.175005
+4,1,A4 CNNalt,0.3,4,12843,2 giai đoạn,ok,2166.0,0.197176
+4,1,A4 CNNalt,0.3,4,12843,2 giai đoạn (mẫu con),ok,2166.0,0.220027
+4,1,A4 CNNalt,0.3,5,12843,1 giai đoạn,ok,895.0,0.316863
+4,1,A4 CNNalt,0.3,5,12843,2 giai đoạn,ok,2175.0,0.2233
+4,1,A4 CNNalt,0.3,5,12843,2 giai đoạn (mẫu con),ok,878.0,0.283691
+4,2,A1 Sokolow,0.15,0,12843,1 giai đoạn,ok,10097.0,0.103427
+4,2,A1 Sokolow,0.15,0,12843,2 giai đoạn,ok,9536.0,0.113141
+4,2,A1 Sokolow,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,10805.0,
+4,2,A1 Sokolow,0.15,1,12843,1 giai đoạn,không khả thi,11384.0,
+4,2,A1 Sokolow,0.15,1,12843,2 giai đoạn,ok,10019.0,0.097467
+4,2,A1 Sokolow,0.15,1,12843,2 giai đoạn (mẫu con),không khả thi,11042.0,
+4,2,A1 Sokolow,0.15,2,12843,1 giai đoạn,không khả thi,10461.0,
+4,2,A1 Sokolow,0.15,2,12843,2 giai đoạn,ok,9363.0,0.127896
+4,2,A1 Sokolow,0.15,2,12843,2 giai đoạn (mẫu con),ok,6883.0,0.176676
+4,2,A1 Sokolow,0.15,3,12843,1 giai đoạn,ok,9224.0,0.132362
+4,2,A1 Sokolow,0.15,3,12843,2 giai đoạn,ok,9384.0,0.10682
+4,2,A1 Sokolow,0.15,3,12843,2 giai đoạn (mẫu con),ok,7851.0,0.192561
+4,2,A1 Sokolow,0.15,4,12843,1 giai đoạn,ok,9198.0,0.141979
+4,2,A1 Sokolow,0.15,4,12843,2 giai đoạn,ok,9289.0,0.133907
+4,2,A1 Sokolow,0.15,4,12843,2 giai đoạn (mẫu con),ok,7383.0,0.161634
+4,2,A1 Sokolow,0.15,5,12843,1 giai đoạn,ok,7920.0,0.184908
+4,2,A1 Sokolow,0.15,5,12843,2 giai đoạn,ok,8092.0,0.17114
+4,2,A1 Sokolow,0.15,5,12843,2 giai đoạn (mẫu con),ok,3960.0,0.283741
+4,2,A1 Sokolow,0.3,0,12843,1 giai đoạn,ok,2717.0,0.300164
+4,2,A1 Sokolow,0.3,0,12843,2 giai đoạn,ok,3863.0,0.284692
+4,2,A1 Sokolow,0.3,0,12843,2 giai đoạn (mẫu con),ok,4388.0,0.242489
+4,2,A1 Sokolow,0.3,1,12843,1 giai đoạn,ok,2432.0,0.331185
+4,2,A1 Sokolow,0.3,1,12843,2 giai đoạn,ok,3029.0,0.293073
+4,2,A1 Sokolow,0.3,1,12843,2 giai đoạn (mẫu con),ok,1610.0,0.413779
+4,2,A1 Sokolow,0.3,2,12843,1 giai đoạn,ok,3351.0,0.304751
+4,2,A1 Sokolow,0.3,2,12843,2 giai đoạn,ok,2134.0,0.351674
+4,2,A1 Sokolow,0.3,2,12843,2 giai đoạn (mẫu con),ok,4045.0,0.249664
+4,2,A1 Sokolow,0.3,3,12843,1 giai đoạn,ok,4040.0,0.268497
+4,2,A1 Sokolow,0.3,3,12843,2 giai đoạn,ok,3326.0,0.285557
+4,2,A1 Sokolow,0.3,3,12843,2 giai đoạn (mẫu con),ok,4982.0,0.212095
+4,2,A1 Sokolow,0.3,4,12843,1 giai đoạn,ok,2341.0,0.314094
+4,2,A1 Sokolow,0.3,4,12843,2 giai đoạn,ok,2599.0,0.301721
+4,2,A1 Sokolow,0.3,4,12843,2 giai đoạn (mẫu con),ok,5598.0,0.208737
+4,2,A1 Sokolow,0.3,5,12843,1 giai đoạn,ok,2331.0,0.360384
+4,2,A1 Sokolow,0.3,5,12843,2 giai đoạn,ok,4089.0,0.268112
+4,2,A1 Sokolow,0.3,5,12843,2 giai đoạn (mẫu con),ok,4884.0,0.274539
+4,2,A2 Cornell,0.15,0,12843,1 giai đoạn,ok,8205.0,0.128554
+4,2,A2 Cornell,0.15,0,12843,2 giai đoạn,ok,9810.0,0.054686
+4,2,A2 Cornell,0.15,0,12843,2 giai đoạn (mẫu con),ok,8948.0,0.065767
+4,2,A2 Cornell,0.15,1,12843,1 giai đoạn,ok,7099.0,0.14195
+4,2,A2 Cornell,0.15,1,12843,2 giai đoạn,ok,9799.0,0.04293
+4,2,A2 Cornell,0.15,1,12843,2 giai đoạn (mẫu con),ok,8115.0,0.096995
+4,2,A2 Cornell,0.15,2,12843,1 giai đoạn,không khả thi,11896.0,
+4,2,A2 Cornell,0.15,2,12843,2 giai đoạn,không khả thi,11528.0,
+4,2,A2 Cornell,0.15,2,12843,2 giai đoạn (mẫu con),không khả thi,12489.0,
+4,2,A2 Cornell,0.15,3,12843,1 giai đoạn,ok,7339.0,0.142694
+4,2,A2 Cornell,0.15,3,12843,2 giai đoạn,ok,9516.0,0.062179
+4,2,A2 Cornell,0.15,3,12843,2 giai đoạn (mẫu con),không khả thi,11172.0,
+4,2,A2 Cornell,0.15,4,12843,1 giai đoạn,không khả thi,10570.0,
+4,2,A2 Cornell,0.15,4,12843,2 giai đoạn,ok,8713.0,0.067287
+4,2,A2 Cornell,0.15,4,12843,2 giai đoạn (mẫu con),ok,5285.0,0.170932
+4,2,A2 Cornell,0.15,5,12843,1 giai đoạn,ok,7973.0,0.117854
+4,2,A2 Cornell,0.15,5,12843,2 giai đoạn,ok,9419.0,0.059293
+4,2,A2 Cornell,0.15,5,12843,2 giai đoạn (mẫu con),ok,6057.0,0.106771
+4,2,A2 Cornell,0.3,0,12843,1 giai đoạn,ok,1244.0,0.509742
+4,2,A2 Cornell,0.3,0,12843,2 giai đoạn,ok,1002.0,0.530137
+4,2,A2 Cornell,0.3,0,12843,2 giai đoạn (mẫu con),ok,622.0,0.547172
+4,2,A2 Cornell,0.3,1,12843,1 giai đoạn,ok,1647.0,0.488608
+4,2,A2 Cornell,0.3,1,12843,2 giai đoạn,ok,2808.0,0.358637
+4,2,A2 Cornell,0.3,1,12843,2 giai đoạn (mẫu con),ok,2694.0,0.343159
+4,2,A2 Cornell,0.3,2,12843,1 giai đoạn,ok,8151.0,0.08405
+4,2,A2 Cornell,0.3,2,12843,2 giai đoạn,ok,4394.0,0.23677
+4,2,A2 Cornell,0.3,2,12843,2 giai đoạn (mẫu con),ok,4076.0,0.284012
+4,2,A2 Cornell,0.3,3,12843,1 giai đoạn,ok,3143.0,0.289695
+4,2,A2 Cornell,0.3,3,12843,2 giai đoạn,ok,2724.0,0.308059
+4,2,A2 Cornell,0.3,3,12843,2 giai đoạn (mẫu con),ok,1572.0,0.445663
+4,2,A2 Cornell,0.3,4,12843,1 giai đoạn,ok,3446.0,0.230556
+4,2,A2 Cornell,0.3,4,12843,2 giai đoạn,ok,3460.0,0.291371
+4,2,A2 Cornell,0.3,4,12843,2 giai đoạn (mẫu con),ok,3600.0,0.206404
+4,2,A2 Cornell,0.3,5,12843,1 giai đoạn,ok,1640.0,0.407733
+4,2,A2 Cornell,0.3,5,12843,2 giai đoạn,ok,1631.0,0.437071
+4,2,A2 Cornell,0.3,5,12843,2 giai đoạn (mẫu con),ok,2923.0,0.359662
+4,2,A3 LVH-LR,0.15,0,12843,1 giai đoạn,ok,10082.0,0.140114
+4,2,A3 LVH-LR,0.15,0,12843,2 giai đoạn,không khả thi,10857.0,
+4,2,A3 LVH-LR,0.15,0,12843,2 giai đoạn (mẫu con),không khả thi,11329.0,
+4,2,A3 LVH-LR,0.15,1,12843,1 giai đoạn,ok,9629.0,0.144918
+4,2,A3 LVH-LR,0.15,1,12843,2 giai đoạn,không khả thi,10459.0,
+4,2,A3 LVH-LR,0.15,1,12843,2 giai đoạn (mẫu con),không khả thi,10737.0,
+4,2,A3 LVH-LR,0.15,2,12843,1 giai đoạn,ok,9226.0,0.12934
+4,2,A3 LVH-LR,0.15,2,12843,2 giai đoạn,ok,9831.0,0.145422
+4,2,A3 LVH-LR,0.15,2,12843,2 giai đoạn (mẫu con),ok,4613.0,0.267099
+4,2,A3 LVH-LR,0.15,3,12843,1 giai đoạn,không khả thi,11680.0,
+4,2,A3 LVH-LR,0.15,3,12843,2 giai đoạn,ok,10240.0,0.138819
+4,2,A3 LVH-LR,0.15,3,12843,2 giai đoạn (mẫu con),ok,8922.0,0.156471
+4,2,A3 LVH-LR,0.15,4,12843,1 giai đoạn,ok,10123.0,0.146542
+4,2,A3 LVH-LR,0.15,4,12843,2 giai đoạn,ok,9664.0,0.130487
+4,2,A3 LVH-LR,0.15,4,12843,2 giai đoạn (mẫu con),không khả thi,10997.0,
+4,2,A3 LVH-LR,0.15,5,12843,1 giai đoạn,không khả thi,10671.0,
+4,2,A3 LVH-LR,0.15,5,12843,2 giai đoạn,ok,9539.0,0.154104
+4,2,A3 LVH-LR,0.15,5,12843,2 giai đoạn (mẫu con),ok,5934.0,0.196906
+4,2,A3 LVH-LR,0.3,0,12843,1 giai đoạn,ok,3210.0,0.27676
+4,2,A3 LVH-LR,0.3,0,12843,2 giai đoạn,ok,3189.0,0.349138
+4,2,A3 LVH-LR,0.3,0,12843,2 giai đoạn (mẫu con),ok,3503.0,0.310324
+4,2,A3 LVH-LR,0.3,1,12843,1 giai đoạn,ok,6031.0,0.20684
+4,2,A3 LVH-LR,0.3,1,12843,2 giai đoạn,ok,3566.0,0.335359
+4,2,A3 LVH-LR,0.3,1,12843,2 giai đoạn (mẫu con),ok,3518.0,0.284307
+4,2,A3 LVH-LR,0.3,2,12843,1 giai đoạn,ok,1862.0,0.386617
+4,2,A3 LVH-LR,0.3,2,12843,2 giai đoạn,ok,3965.0,0.261607
+4,2,A3 LVH-LR,0.3,2,12843,2 giai đoạn (mẫu con),ok,5588.0,0.217806
+4,2,A3 LVH-LR,0.3,3,12843,1 giai đoạn,ok,5210.0,0.244383
+4,2,A3 LVH-LR,0.3,3,12843,2 giai đoạn,ok,4649.0,0.251658
+4,2,A3 LVH-LR,0.3,3,12843,2 giai đoạn (mẫu con),ok,3537.0,0.287482
+4,2,A3 LVH-LR,0.3,4,12843,1 giai đoạn,ok,3437.0,0.28463
+4,2,A3 LVH-LR,0.3,4,12843,2 giai đoạn,ok,3279.0,0.326097
+4,2,A3 LVH-LR,0.3,4,12843,2 giai đoạn (mẫu con),ok,4991.0,0.222856
+4,2,A3 LVH-LR,0.3,5,12843,1 giai đoạn,ok,3551.0,0.272376
+4,2,A3 LVH-LR,0.3,5,12843,2 giai đoạn,ok,2423.0,0.34165
+4,2,A3 LVH-LR,0.3,5,12843,2 giai đoạn (mẫu con),ok,2506.0,0.350039
+4,2,A4 CNNalt,0.15,0,12843,1 giai đoạn,ok,8523.0,0.053936
+4,2,A4 CNNalt,0.15,0,12843,2 giai đoạn,ok,8396.0,0.05851
+4,2,A4 CNNalt,0.15,0,12843,2 giai đoạn (mẫu con),ok,6323.0,0.066909
+4,2,A4 CNNalt,0.15,1,12843,1 giai đoạn,ok,7046.0,0.06681
+4,2,A4 CNNalt,0.15,1,12843,2 giai đoạn,ok,6214.0,0.078598
+4,2,A4 CNNalt,0.15,1,12843,2 giai đoạn (mẫu con),ok,3523.0,0.124342
+4,2,A4 CNNalt,0.15,2,12843,1 giai đoạn,ok,7953.0,0.058795
+4,2,A4 CNNalt,0.15,2,12843,2 giai đoạn,ok,7632.0,0.058534
+4,2,A4 CNNalt,0.15,2,12843,2 giai đoạn (mẫu con),ok,3977.0,0.122616
+4,2,A4 CNNalt,0.15,3,12843,1 giai đoạn,ok,7681.0,0.055938
+4,2,A4 CNNalt,0.15,3,12843,2 giai đoạn,ok,7894.0,0.056183
+4,2,A4 CNNalt,0.15,3,12843,2 giai đoạn (mẫu con),ok,3841.0,0.103197
+4,2,A4 CNNalt,0.15,4,12843,1 giai đoạn,ok,8589.0,0.05192
+4,2,A4 CNNalt,0.15,4,12843,2 giai đoạn,ok,7530.0,0.067121
+4,2,A4 CNNalt,0.15,4,12843,2 giai đoạn (mẫu con),ok,6557.0,0.070196
+4,2,A4 CNNalt,0.15,5,12843,1 giai đoạn,ok,8397.0,0.049515
+4,2,A4 CNNalt,0.15,5,12843,2 giai đoạn,ok,7640.0,0.062501
+4,2,A4 CNNalt,0.15,5,12843,2 giai đoạn (mẫu con),ok,6398.0,0.069189
+4,2,A4 CNNalt,0.3,0,12843,1 giai đoạn,ok,3170.0,0.118341
+4,2,A4 CNNalt,0.3,0,12843,2 giai đoạn,ok,3098.0,0.131199
+4,2,A4 CNNalt,0.3,0,12843,2 giai đoạn (mẫu con),ok,1585.0,0.203367
+4,2,A4 CNNalt,0.3,1,12843,1 giai đoạn,ok,7716.0,0.06074
+4,2,A4 CNNalt,0.3,1,12843,2 giai đoạn,ok,3858.0,0.104378
+4,2,A4 CNNalt,0.3,1,12843,2 giai đoạn (mẫu con),ok,3858.0,0.135396
+4,2,A4 CNNalt,0.3,2,12843,1 giai đoạn,ok,2396.0,0.156929
+4,2,A4 CNNalt,0.3,2,12843,2 giai đoạn,ok,2159.0,0.185562
+4,2,A4 CNNalt,0.3,2,12843,2 giai đoạn (mẫu con),ok,2710.0,0.144284
+4,2,A4 CNNalt,0.3,3,12843,1 giai đoạn,ok,3483.0,0.134766
+4,2,A4 CNNalt,0.3,3,12843,2 giai đoạn,ok,1859.0,0.19066
+4,2,A4 CNNalt,0.3,3,12843,2 giai đoạn (mẫu con),ok,1742.0,0.202269
+4,2,A4 CNNalt,0.3,4,12843,1 giai đoạn,ok,2055.0,0.199029
+4,2,A4 CNNalt,0.3,4,12843,2 giai đoạn,ok,1847.0,0.243998
+4,2,A4 CNNalt,0.3,4,12843,2 giai đoạn (mẫu con),ok,1028.0,0.288009
+4,2,A4 CNNalt,0.3,5,12843,1 giai đoạn,ok,5375.0,0.087939
+4,2,A4 CNNalt,0.3,5,12843,2 giai đoạn,ok,2688.0,0.170418
+4,2,A4 CNNalt,0.3,5,12843,2 giai đoạn (mẫu con),ok,2688.0,0.173695
+5,0,A1 Sokolow,0.15,0,8352,1 giai đoạn,không khả thi,7017.0,
+5,0,A1 Sokolow,0.15,0,8352,2 giai đoạn,ok,6142.0,0.11128
+5,0,A1 Sokolow,0.15,0,8352,2 giai đoạn (mẫu con),ok,4955.0,0.132634
+5,0,A1 Sokolow,0.15,1,8352,1 giai đoạn,ok,5566.0,0.126667
+5,0,A1 Sokolow,0.15,1,8352,2 giai đoạn,ok,6438.0,0.092735
+5,0,A1 Sokolow,0.15,1,8352,2 giai đoạn (mẫu con),ok,4816.0,0.176312
+5,0,A1 Sokolow,0.15,2,8352,1 giai đoạn,ok,5344.0,0.114219
+5,0,A1 Sokolow,0.15,2,8352,2 giai đoạn,ok,5936.0,0.10226
+5,0,A1 Sokolow,0.15,2,8352,2 giai đoạn (mẫu con),ok,5826.0,0.117337
+5,0,A1 Sokolow,0.15,3,8352,1 giai đoạn,không khả thi,6841.0,
+5,0,A1 Sokolow,0.15,3,8352,2 giai đoạn,ok,6641.0,0.082252
+5,0,A1 Sokolow,0.15,3,8352,2 giai đoạn (mẫu con),ok,3421.0,0.193851
+5,0,A1 Sokolow,0.15,4,8352,1 giai đoạn,ok,6541.0,0.105829
+5,0,A1 Sokolow,0.15,4,8352,2 giai đoạn,ok,6229.0,0.104183
+5,0,A1 Sokolow,0.15,4,8352,2 giai đoạn (mẫu con),ok,4450.0,0.162668
+5,0,A1 Sokolow,0.15,5,8352,1 giai đoạn,không khả thi,6807.0,
+5,0,A1 Sokolow,0.15,5,8352,2 giai đoạn,ok,6545.0,0.094398
+5,0,A1 Sokolow,0.15,5,8352,2 giai đoạn (mẫu con),ok,3404.0,0.205596
+5,0,A1 Sokolow,0.3,0,8352,1 giai đoạn,ok,1557.0,0.297878
+5,0,A1 Sokolow,0.3,0,8352,2 giai đoạn,ok,1521.0,0.290264
+5,0,A1 Sokolow,0.3,0,8352,2 giai đoạn (mẫu con),ok,979.0,0.308993
+5,0,A1 Sokolow,0.3,1,8352,1 giai đoạn,ok,2617.0,0.21668
+5,0,A1 Sokolow,0.3,1,8352,2 giai đoạn,ok,3293.0,0.197937
+5,0,A1 Sokolow,0.3,1,8352,2 giai đoạn (mẫu con),ok,1309.0,0.264685
+5,0,A1 Sokolow,0.3,2,8352,1 giai đoạn,ok,2056.0,0.242658
+5,0,A1 Sokolow,0.3,2,8352,2 giai đoạn,ok,2533.0,0.227855
+5,0,A1 Sokolow,0.3,2,8352,2 giai đoạn (mẫu con),ok,1528.0,0.271913
+5,0,A1 Sokolow,0.3,3,8352,1 giai đoạn,ok,2810.0,0.211227
+5,0,A1 Sokolow,0.3,3,8352,2 giai đoạn,ok,2441.0,0.215887
+5,0,A1 Sokolow,0.3,3,8352,2 giai đoạn (mẫu con),ok,1405.0,0.298246
+5,0,A1 Sokolow,0.3,4,8352,1 giai đoạn,ok,1429.0,0.274959
+5,0,A1 Sokolow,0.3,4,8352,2 giai đoạn,ok,2489.0,0.225118
+5,0,A1 Sokolow,0.3,4,8352,2 giai đoạn (mẫu con),ok,3442.0,0.186745
+5,0,A1 Sokolow,0.3,5,8352,1 giai đoạn,ok,2208.0,0.22478
+5,0,A1 Sokolow,0.3,5,8352,2 giai đoạn,ok,2511.0,0.236541
+5,0,A1 Sokolow,0.3,5,8352,2 giai đoạn (mẫu con),ok,1104.0,0.313183
+5,0,A2 Cornell,0.15,0,8352,1 giai đoạn,không khả thi,7843.0,
+5,0,A2 Cornell,0.15,0,8352,2 giai đoạn,không khả thi,7525.0,
+5,0,A2 Cornell,0.15,0,8352,2 giai đoạn (mẫu con),không khả thi,7357.0,
+5,0,A2 Cornell,0.15,1,8352,1 giai đoạn,không khả thi,7433.0,
+5,0,A2 Cornell,0.15,1,8352,2 giai đoạn,không khả thi,6890.0,
+5,0,A2 Cornell,0.15,1,8352,2 giai đoạn (mẫu con),ok,4217.0,0.392462
+5,0,A2 Cornell,0.15,2,8352,1 giai đoạn,không khả thi,7523.0,
+5,0,A2 Cornell,0.15,2,8352,2 giai đoạn,không khả thi,7394.0,
+5,0,A2 Cornell,0.15,2,8352,2 giai đoạn (mẫu con),không khả thi,7831.0,
+5,0,A2 Cornell,0.15,3,8352,1 giai đoạn,không khả thi,7046.0,
+5,0,A2 Cornell,0.15,3,8352,2 giai đoạn,không khả thi,6867.0,
+5,0,A2 Cornell,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,7346.0,
+5,0,A2 Cornell,0.15,4,8352,1 giai đoạn,ok,6578.0,0.392035
+5,0,A2 Cornell,0.15,4,8352,2 giai đoạn,không khả thi,7795.0,
+5,0,A2 Cornell,0.15,4,8352,2 giai đoạn (mẫu con),không khả thi,7798.0,
+5,0,A2 Cornell,0.15,5,8352,1 giai đoạn,không khả thi,6951.0,
+5,0,A2 Cornell,0.15,5,8352,2 giai đoạn,không khả thi,7443.0,
+5,0,A2 Cornell,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,7908.0,
+5,0,A2 Cornell,0.3,0,8352,1 giai đoạn,ok,3181.0,0.443458
+5,0,A2 Cornell,0.3,0,8352,2 giai đoạn,ok,3338.0,0.426217
+5,0,A2 Cornell,0.3,0,8352,2 giai đoạn (mẫu con),ok,2948.0,0.420776
+5,0,A2 Cornell,0.3,1,8352,1 giai đoạn,ok,4087.0,0.418236
+5,0,A2 Cornell,0.3,1,8352,2 giai đoạn,ok,3532.0,0.430839
+5,0,A2 Cornell,0.3,1,8352,2 giai đoạn (mẫu con),ok,2044.0,0.457928
+5,0,A2 Cornell,0.3,2,8352,1 giai đoạn,ok,4566.0,0.410065
+5,0,A2 Cornell,0.3,2,8352,2 giai đoạn,ok,3767.0,0.422549
+5,0,A2 Cornell,0.3,2,8352,2 giai đoạn (mẫu con),ok,2825.0,0.446518
+5,0,A2 Cornell,0.3,3,8352,1 giai đoạn,ok,6366.0,0.433791
+5,0,A2 Cornell,0.3,3,8352,2 giai đoạn,ok,3183.0,0.431177
+5,0,A2 Cornell,0.3,3,8352,2 giai đoạn (mẫu con),ok,3183.0,0.41496
+5,0,A2 Cornell,0.3,4,8352,1 giai đoạn,ok,2815.0,0.448169
+5,0,A2 Cornell,0.3,4,8352,2 giai đoạn,ok,3136.0,0.429218
+5,0,A2 Cornell,0.3,4,8352,2 giai đoạn (mẫu con),ok,3181.0,0.447865
+5,0,A2 Cornell,0.3,5,8352,1 giai đoạn,ok,4670.0,0.430665
+5,0,A2 Cornell,0.3,5,8352,2 giai đoạn,ok,3740.0,0.400856
+5,0,A2 Cornell,0.3,5,8352,2 giai đoạn (mẫu con),ok,3732.0,0.424244
+5,0,A3 LVH-LR,0.15,0,8352,1 giai đoạn,ok,5878.0,0.119101
+5,0,A3 LVH-LR,0.15,0,8352,2 giai đoạn,không khả thi,6802.0,
+5,0,A3 LVH-LR,0.15,0,8352,2 giai đoạn (mẫu con),ok,6313.0,0.166249
+5,0,A3 LVH-LR,0.15,1,8352,1 giai đoạn,ok,6528.0,0.114528
+5,0,A3 LVH-LR,0.15,1,8352,2 giai đoạn,ok,6484.0,0.141652
+5,0,A3 LVH-LR,0.15,1,8352,2 giai đoạn (mẫu con),ok,6029.0,0.124375
+5,0,A3 LVH-LR,0.15,2,8352,1 giai đoạn,không khả thi,6999.0,
+5,0,A3 LVH-LR,0.15,2,8352,2 giai đoạn,không khả thi,6712.0,
+5,0,A3 LVH-LR,0.15,2,8352,2 giai đoạn (mẫu con),không khả thi,7581.0,
+5,0,A3 LVH-LR,0.15,3,8352,1 giai đoạn,ok,6676.0,0.099667
+5,0,A3 LVH-LR,0.15,3,8352,2 giai đoạn,không khả thi,6762.0,
+5,0,A3 LVH-LR,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,6683.0,
+5,0,A3 LVH-LR,0.15,4,8352,1 giai đoạn,ok,6679.0,0.13239
+5,0,A3 LVH-LR,0.15,4,8352,2 giai đoạn,ok,6379.0,0.124887
+5,0,A3 LVH-LR,0.15,4,8352,2 giai đoạn (mẫu con),không khả thi,6740.0,
+5,0,A3 LVH-LR,0.15,5,8352,1 giai đoạn,ok,5578.0,0.152105
+5,0,A3 LVH-LR,0.15,5,8352,2 giai đoạn,ok,6224.0,0.136559
+5,0,A3 LVH-LR,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,6717.0,
+5,0,A3 LVH-LR,0.3,0,8352,1 giai đoạn,ok,1942.0,0.360385
+5,0,A3 LVH-LR,0.3,0,8352,2 giai đoạn,ok,2657.0,0.303742
+5,0,A3 LVH-LR,0.3,0,8352,2 giai đoạn (mẫu con),ok,1650.0,0.388979
+5,0,A3 LVH-LR,0.3,1,8352,1 giai đoạn,ok,2297.0,0.320001
+5,0,A3 LVH-LR,0.3,1,8352,2 giai đoạn,ok,2489.0,0.287638
+5,0,A3 LVH-LR,0.3,1,8352,2 giai đoạn (mẫu con),ok,4332.0,0.204451
+5,0,A3 LVH-LR,0.3,2,8352,1 giai đoạn,ok,4602.0,0.221777
+5,0,A3 LVH-LR,0.3,2,8352,2 giai đoạn,ok,3402.0,0.273086
+5,0,A3 LVH-LR,0.3,2,8352,2 giai đoạn (mẫu con),ok,2301.0,0.315823
+5,0,A3 LVH-LR,0.3,3,8352,1 giai đoạn,ok,4226.0,0.240082
+5,0,A3 LVH-LR,0.3,3,8352,2 giai đoạn,ok,2426.0,0.278221
+5,0,A3 LVH-LR,0.3,3,8352,2 giai đoạn (mẫu con),ok,2113.0,0.34003
+5,0,A3 LVH-LR,0.3,4,8352,1 giai đoạn,ok,2823.0,0.293579
+5,0,A3 LVH-LR,0.3,4,8352,2 giai đoạn,ok,2092.0,0.310086
+5,0,A3 LVH-LR,0.3,4,8352,2 giai đoạn (mẫu con),ok,2862.0,0.301214
+5,0,A3 LVH-LR,0.3,5,8352,1 giai đoạn,ok,2272.0,0.304892
+5,0,A3 LVH-LR,0.3,5,8352,2 giai đoạn,ok,2798.0,0.284963
+5,0,A3 LVH-LR,0.3,5,8352,2 giai đoạn (mẫu con),ok,4807.0,0.207351
+5,0,A4 CNNalt,0.15,0,8352,1 giai đoạn,ok,6644.0,0.135685
+5,0,A4 CNNalt,0.15,0,8352,2 giai đoạn,không khả thi,6688.0,
+5,0,A4 CNNalt,0.15,0,8352,2 giai đoạn (mẫu con),ok,3322.0,0.191222
+5,0,A4 CNNalt,0.15,1,8352,1 giai đoạn,ok,6537.0,0.119696
+5,0,A4 CNNalt,0.15,1,8352,2 giai đoạn,ok,6294.0,0.132839
+5,0,A4 CNNalt,0.15,1,8352,2 giai đoạn (mẫu con),ok,4016.0,0.174015
+5,0,A4 CNNalt,0.15,2,8352,1 giai đoạn,không khả thi,7361.0,
+5,0,A4 CNNalt,0.15,2,8352,2 giai đoạn,ok,6507.0,0.147366
+5,0,A4 CNNalt,0.15,2,8352,2 giai đoạn (mẫu con),ok,4144.0,0.163045
+5,0,A4 CNNalt,0.15,3,8352,1 giai đoạn,ok,6587.0,0.117992
+5,0,A4 CNNalt,0.15,3,8352,2 giai đoạn,không khả thi,7156.0,
+5,0,A4 CNNalt,0.15,3,8352,2 giai đoạn (mẫu con),ok,4352.0,0.183258
+5,0,A4 CNNalt,0.15,4,8352,1 giai đoạn,ok,6490.0,0.123028
+5,0,A4 CNNalt,0.15,4,8352,2 giai đoạn,không khả thi,6805.0,
+5,0,A4 CNNalt,0.15,4,8352,2 giai đoạn (mẫu con),ok,4910.0,0.16597
+5,0,A4 CNNalt,0.15,5,8352,1 giai đoạn,không khả thi,7597.0,
+5,0,A4 CNNalt,0.15,5,8352,2 giai đoạn,không khả thi,6739.0,
+5,0,A4 CNNalt,0.15,5,8352,2 giai đoạn (mẫu con),ok,6083.0,0.135777
+5,0,A4 CNNalt,0.3,0,8352,1 giai đoạn,ok,3214.0,0.19002
+5,0,A4 CNNalt,0.3,0,8352,2 giai đoạn,ok,3532.0,0.176658
+5,0,A4 CNNalt,0.3,0,8352,2 giai đoạn (mẫu con),ok,1607.0,0.258272
+5,0,A4 CNNalt,0.3,1,8352,1 giai đoạn,ok,5550.0,0.158011
+5,0,A4 CNNalt,0.3,1,8352,2 giai đoạn,ok,3205.0,0.175929
+5,0,A4 CNNalt,0.3,1,8352,2 giai đoạn (mẫu con),ok,2775.0,0.217166
+5,0,A4 CNNalt,0.3,2,8352,1 giai đoạn,ok,4569.0,0.152643
+5,0,A4 CNNalt,0.3,2,8352,2 giai đoạn,ok,2761.0,0.19611
+5,0,A4 CNNalt,0.3,2,8352,2 giai đoạn (mẫu con),ok,2649.0,0.203135
+5,0,A4 CNNalt,0.3,3,8352,1 giai đoạn,không khả thi,6901.0,
+5,0,A4 CNNalt,0.3,3,8352,2 giai đoạn,ok,3451.0,0.174169
+5,0,A4 CNNalt,0.3,3,8352,2 giai đoạn (mẫu con),ok,3451.0,0.197659
+5,0,A4 CNNalt,0.3,4,8352,1 giai đoạn,không khả thi,6956.0,
+5,0,A4 CNNalt,0.3,4,8352,2 giai đoạn,ok,3478.0,0.173942
+5,0,A4 CNNalt,0.3,4,8352,2 giai đoạn (mẫu con),ok,3478.0,0.170647
+5,0,A4 CNNalt,0.3,5,8352,1 giai đoạn,ok,2733.0,0.220842
+5,0,A4 CNNalt,0.3,5,8352,2 giai đoạn,ok,2921.0,0.203157
+5,0,A4 CNNalt,0.3,5,8352,2 giai đoạn (mẫu con),ok,3846.0,0.172702
+5,1,A1 Sokolow,0.15,0,8352,1 giai đoạn,không khả thi,7620.0,
+5,1,A1 Sokolow,0.15,0,8352,2 giai đoạn,không khả thi,7064.0,
+5,1,A1 Sokolow,0.15,0,8352,2 giai đoạn (mẫu con),không khả thi,7275.0,
+5,1,A1 Sokolow,0.15,1,8352,1 giai đoạn,không khả thi,7243.0,
+5,1,A1 Sokolow,0.15,1,8352,2 giai đoạn,không khả thi,6799.0,
+5,1,A1 Sokolow,0.15,1,8352,2 giai đoạn (mẫu con),ok,6156.0,0.246611
+5,1,A1 Sokolow,0.15,2,8352,1 giai đoạn,ok,6424.0,0.235707
+5,1,A1 Sokolow,0.15,2,8352,2 giai đoạn,không khả thi,6693.0,
+5,1,A1 Sokolow,0.15,2,8352,2 giai đoạn (mẫu con),ok,5603.0,0.266233
+5,1,A1 Sokolow,0.15,3,8352,1 giai đoạn,không khả thi,7302.0,
+5,1,A1 Sokolow,0.15,3,8352,2 giai đoạn,không khả thi,6948.0,
+5,1,A1 Sokolow,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,7124.0,
+5,1,A1 Sokolow,0.15,4,8352,1 giai đoạn,không khả thi,7707.0,
+5,1,A1 Sokolow,0.15,4,8352,2 giai đoạn,không khả thi,7481.0,
+5,1,A1 Sokolow,0.15,4,8352,2 giai đoạn (mẫu con),ok,5522.0,0.242838
+5,1,A1 Sokolow,0.15,5,8352,1 giai đoạn,không khả thi,7189.0,
+5,1,A1 Sokolow,0.15,5,8352,2 giai đoạn,không khả thi,7415.0,
+5,1,A1 Sokolow,0.15,5,8352,2 giai đoạn (mẫu con),ok,5658.0,0.246525
+5,1,A1 Sokolow,0.3,0,8352,1 giai đoạn,ok,3587.0,0.319882
+5,1,A1 Sokolow,0.3,0,8352,2 giai đoạn,ok,3818.0,0.299377
+5,1,A1 Sokolow,0.3,0,8352,2 giai đoạn (mẫu con),ok,2916.0,0.369807
+5,1,A1 Sokolow,0.3,1,8352,1 giai đoạn,ok,2965.0,0.352481
+5,1,A1 Sokolow,0.3,1,8352,2 giai đoạn,ok,3418.0,0.349787
+5,1,A1 Sokolow,0.3,1,8352,2 giai đoạn (mẫu con),ok,2061.0,0.434746
+5,1,A1 Sokolow,0.3,2,8352,1 giai đoạn,ok,4442.0,0.294407
+5,1,A1 Sokolow,0.3,2,8352,2 giai đoạn,ok,3455.0,0.298762
+5,1,A1 Sokolow,0.3,2,8352,2 giai đoạn (mẫu con),ok,2221.0,0.419608
+5,1,A1 Sokolow,0.3,3,8352,1 giai đoạn,ok,3039.0,0.348174
+5,1,A1 Sokolow,0.3,3,8352,2 giai đoạn,ok,4620.0,0.280271
+5,1,A1 Sokolow,0.3,3,8352,2 giai đoạn (mẫu con),ok,4432.0,0.26165
+5,1,A1 Sokolow,0.3,4,8352,1 giai đoạn,ok,2640.0,0.378361
+5,1,A1 Sokolow,0.3,4,8352,2 giai đoạn,ok,2617.0,0.362136
+5,1,A1 Sokolow,0.3,4,8352,2 giai đoạn (mẫu con),ok,1495.0,0.460181
+5,1,A1 Sokolow,0.3,5,8352,1 giai đoạn,ok,3588.0,0.339866
+5,1,A1 Sokolow,0.3,5,8352,2 giai đoạn,ok,4850.0,0.273376
+5,1,A1 Sokolow,0.3,5,8352,2 giai đoạn (mẫu con),không khả thi,7172.0,
+5,1,A2 Cornell,0.15,0,8352,1 giai đoạn,ok,4950.0,0.44029
+5,1,A2 Cornell,0.15,0,8352,2 giai đoạn,không khả thi,7157.0,
+5,1,A2 Cornell,0.15,0,8352,2 giai đoạn (mẫu con),không khả thi,7415.0,
+5,1,A2 Cornell,0.15,1,8352,1 giai đoạn,ok,4485.0,0.414363
+5,1,A2 Cornell,0.15,1,8352,2 giai đoạn,không khả thi,7150.0,
+5,1,A2 Cornell,0.15,1,8352,2 giai đoạn (mẫu con),không khả thi,7631.0,
+5,1,A2 Cornell,0.15,2,8352,1 giai đoạn,không khả thi,7970.0,
+5,1,A2 Cornell,0.15,2,8352,2 giai đoạn,không khả thi,7466.0,
+5,1,A2 Cornell,0.15,2,8352,2 giai đoạn (mẫu con),không khả thi,7759.0,
+5,1,A2 Cornell,0.15,3,8352,1 giai đoạn,không khả thi,7217.0,
+5,1,A2 Cornell,0.15,3,8352,2 giai đoạn,không khả thi,7075.0,
+5,1,A2 Cornell,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,6789.0,
+5,1,A2 Cornell,0.15,4,8352,1 giai đoạn,ok,4984.0,0.433014
+5,1,A2 Cornell,0.15,4,8352,2 giai đoạn,ok,6586.0,0.387827
+5,1,A2 Cornell,0.15,4,8352,2 giai đoạn (mẫu con),không khả thi,7263.0,
+5,1,A2 Cornell,0.15,5,8352,1 giai đoạn,ok,5166.0,0.40888
+5,1,A2 Cornell,0.15,5,8352,2 giai đoạn,không khả thi,7126.0,
+5,1,A2 Cornell,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,7672.0,
+5,1,A2 Cornell,0.3,0,8352,1 giai đoạn,ok,3029.0,0.425794
+5,1,A2 Cornell,0.3,0,8352,2 giai đoạn,ok,2844.0,0.43617
+5,1,A2 Cornell,0.3,0,8352,2 giai đoạn (mẫu con),ok,3573.0,0.448415
+5,1,A2 Cornell,0.3,1,8352,1 giai đoạn,ok,2979.0,0.432828
+5,1,A2 Cornell,0.3,1,8352,2 giai đoạn,ok,3997.0,0.423235
+5,1,A2 Cornell,0.3,1,8352,2 giai đoạn (mẫu con),ok,3033.0,0.4351
+5,1,A2 Cornell,0.3,2,8352,1 giai đoạn,ok,5504.0,0.44682
+5,1,A2 Cornell,0.3,2,8352,2 giai đoạn,ok,3467.0,0.466457
+5,1,A2 Cornell,0.3,2,8352,2 giai đoạn (mẫu con),ok,4165.0,0.388095
+5,1,A2 Cornell,0.3,3,8352,1 giai đoạn,ok,5779.0,0.395646
+5,1,A2 Cornell,0.3,3,8352,2 giai đoạn,ok,2890.0,0.451287
+5,1,A2 Cornell,0.3,3,8352,2 giai đoạn (mẫu con),ok,3517.0,0.443587
+5,1,A2 Cornell,0.3,4,8352,1 giai đoạn,ok,2921.0,0.459643
+5,1,A2 Cornell,0.3,4,8352,2 giai đoạn,ok,1903.0,0.51652
+5,1,A2 Cornell,0.3,4,8352,2 giai đoạn (mẫu con),ok,1461.0,0.514868
+5,1,A2 Cornell,0.3,5,8352,1 giai đoạn,ok,4286.0,0.442575
+5,1,A2 Cornell,0.3,5,8352,2 giai đoạn,ok,2143.0,0.449585
+5,1,A2 Cornell,0.3,5,8352,2 giai đoạn (mẫu con),ok,2851.0,0.447733
+5,1,A3 LVH-LR,0.15,0,8352,1 giai đoạn,không khả thi,7685.0,
+5,1,A3 LVH-LR,0.15,0,8352,2 giai đoạn,không khả thi,7136.0,
+5,1,A3 LVH-LR,0.15,0,8352,2 giai đoạn (mẫu con),không khả thi,7695.0,
+5,1,A3 LVH-LR,0.15,1,8352,1 giai đoạn,ok,6452.0,0.252959
+5,1,A3 LVH-LR,0.15,1,8352,2 giai đoạn,không khả thi,6764.0,
+5,1,A3 LVH-LR,0.15,1,8352,2 giai đoạn (mẫu con),không khả thi,7694.0,
+5,1,A3 LVH-LR,0.15,2,8352,1 giai đoạn,không khả thi,6834.0,
+5,1,A3 LVH-LR,0.15,2,8352,2 giai đoạn,không khả thi,7000.0,
+5,1,A3 LVH-LR,0.15,2,8352,2 giai đoạn (mẫu con),không khả thi,7519.0,
+5,1,A3 LVH-LR,0.15,3,8352,1 giai đoạn,không khả thi,6974.0,
+5,1,A3 LVH-LR,0.15,3,8352,2 giai đoạn,không khả thi,7126.0,
+5,1,A3 LVH-LR,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,7756.0,
+5,1,A3 LVH-LR,0.15,4,8352,1 giai đoạn,không khả thi,7122.0,
+5,1,A3 LVH-LR,0.15,4,8352,2 giai đoạn,không khả thi,7186.0,
+5,1,A3 LVH-LR,0.15,4,8352,2 giai đoạn (mẫu con),không khả thi,7692.0,
+5,1,A3 LVH-LR,0.15,5,8352,1 giai đoạn,không khả thi,7797.0,
+5,1,A3 LVH-LR,0.15,5,8352,2 giai đoạn,không khả thi,7097.0,
+5,1,A3 LVH-LR,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,7490.0,
+5,1,A3 LVH-LR,0.3,0,8352,1 giai đoạn,ok,2912.0,0.382325
+5,1,A3 LVH-LR,0.3,0,8352,2 giai đoạn,ok,3324.0,0.328228
+5,1,A3 LVH-LR,0.3,0,8352,2 giai đoạn (mẫu con),ok,5388.0,0.27521
+5,1,A3 LVH-LR,0.3,1,8352,1 giai đoạn,ok,5364.0,0.26811
+5,1,A3 LVH-LR,0.3,1,8352,2 giai đoạn,ok,4263.0,0.33641
+5,1,A3 LVH-LR,0.3,1,8352,2 giai đoạn (mẫu con),ok,3403.0,0.365608
+5,1,A3 LVH-LR,0.3,2,8352,1 giai đoạn,ok,3461.0,0.357845
+5,1,A3 LVH-LR,0.3,2,8352,2 giai đoạn,ok,2762.0,0.399315
+5,1,A3 LVH-LR,0.3,2,8352,2 giai đoạn (mẫu con),ok,1731.0,0.470669
+5,1,A3 LVH-LR,0.3,3,8352,1 giai đoạn,ok,1992.0,0.423387
+5,1,A3 LVH-LR,0.3,3,8352,2 giai đoạn,ok,3152.0,0.37653
+5,1,A3 LVH-LR,0.3,3,8352,2 giai đoạn (mẫu con),ok,996.0,0.567555
+5,1,A3 LVH-LR,0.3,4,8352,1 giai đoạn,ok,3784.0,0.337953
+5,1,A3 LVH-LR,0.3,4,8352,2 giai đoạn,ok,2566.0,0.42199
+5,1,A3 LVH-LR,0.3,4,8352,2 giai đoạn (mẫu con),ok,3213.0,0.405371
+5,1,A3 LVH-LR,0.3,5,8352,1 giai đoạn,ok,3249.0,0.359067
+5,1,A3 LVH-LR,0.3,5,8352,2 giai đoạn,ok,2689.0,0.414065
+5,1,A3 LVH-LR,0.3,5,8352,2 giai đoạn (mẫu con),ok,3813.0,0.322401
+5,1,A4 CNNalt,0.15,0,8352,1 giai đoạn,ok,6194.0,0.066547
+5,1,A4 CNNalt,0.15,0,8352,2 giai đoạn,ok,5255.0,0.071035
+5,1,A4 CNNalt,0.15,0,8352,2 giai đoạn (mẫu con),ok,3325.0,0.125351
+5,1,A4 CNNalt,0.15,1,8352,1 giai đoạn,ok,6080.0,0.066674
+5,1,A4 CNNalt,0.15,1,8352,2 giai đoạn,ok,5322.0,0.075239
+5,1,A4 CNNalt,0.15,1,8352,2 giai đoạn (mẫu con),ok,4065.0,0.094428
+5,1,A4 CNNalt,0.15,2,8352,1 giai đoạn,ok,6408.0,0.058173
+5,1,A4 CNNalt,0.15,2,8352,2 giai đoạn,ok,5239.0,0.07323
+5,1,A4 CNNalt,0.15,2,8352,2 giai đoạn (mẫu con),ok,3204.0,0.123574
+5,1,A4 CNNalt,0.15,3,8352,1 giai đoạn,không khả thi,6872.0,
+5,1,A4 CNNalt,0.15,3,8352,2 giai đoạn,ok,5226.0,0.077042
+5,1,A4 CNNalt,0.15,3,8352,2 giai đoạn (mẫu con),ok,3436.0,0.126782
+5,1,A4 CNNalt,0.15,4,8352,1 giai đoạn,ok,3676.0,0.124091
+5,1,A4 CNNalt,0.15,4,8352,2 giai đoạn,ok,5461.0,0.082044
+5,1,A4 CNNalt,0.15,4,8352,2 giai đoạn (mẫu con),ok,1838.0,0.156571
+5,1,A4 CNNalt,0.15,5,8352,1 giai đoạn,không khả thi,7475.0,
+5,1,A4 CNNalt,0.15,5,8352,2 giai đoạn,ok,5197.0,0.079792
+5,1,A4 CNNalt,0.15,5,8352,2 giai đoạn (mẫu con),ok,3738.0,0.110204
+5,1,A4 CNNalt,0.3,0,8352,1 giai đoạn,ok,2740.0,0.128837
+5,1,A4 CNNalt,0.3,0,8352,2 giai đoạn,ok,2197.0,0.159247
+5,1,A4 CNNalt,0.3,0,8352,2 giai đoạn (mẫu con),ok,1370.0,0.166538
+5,1,A4 CNNalt,0.3,1,8352,1 giai đoạn,ok,2249.0,0.149113
+5,1,A4 CNNalt,0.3,1,8352,2 giai đoạn,ok,2082.0,0.131586
+5,1,A4 CNNalt,0.3,1,8352,2 giai đoạn (mẫu con),ok,1125.0,0.195398
+5,1,A4 CNNalt,0.3,2,8352,1 giai đoạn,ok,2159.0,0.154859
+5,1,A4 CNNalt,0.3,2,8352,2 giai đoạn,ok,1583.0,0.167688
+5,1,A4 CNNalt,0.3,2,8352,2 giai đoạn (mẫu con),ok,1222.0,0.194434
+5,1,A4 CNNalt,0.3,3,8352,1 giai đoạn,ok,2212.0,0.167638
+5,1,A4 CNNalt,0.3,3,8352,2 giai đoạn,ok,1583.0,0.169588
+5,1,A4 CNNalt,0.3,3,8352,2 giai đoạn (mẫu con),ok,1763.0,0.156912
+5,1,A4 CNNalt,0.3,4,8352,1 giai đoạn,ok,1560.0,0.175677
+5,1,A4 CNNalt,0.3,4,8352,2 giai đoạn,ok,1649.0,0.152757
+5,1,A4 CNNalt,0.3,4,8352,2 giai đoạn (mẫu con),ok,780.0,0.198518
+5,1,A4 CNNalt,0.3,5,8352,1 giai đoạn,ok,3186.0,0.130927
+5,1,A4 CNNalt,0.3,5,8352,2 giai đoạn,ok,1838.0,0.162367
+5,1,A4 CNNalt,0.3,5,8352,2 giai đoạn (mẫu con),ok,1593.0,0.147485
+5,2,A1 Sokolow,0.15,0,8352,1 giai đoạn,ok,6528.0,0.197738
+5,2,A1 Sokolow,0.15,0,8352,2 giai đoạn,ok,6023.0,0.192651
+5,2,A1 Sokolow,0.15,0,8352,2 giai đoạn (mẫu con),ok,6490.0,0.165339
+5,2,A1 Sokolow,0.15,1,8352,1 giai đoạn,không khả thi,7167.0,
+5,2,A1 Sokolow,0.15,1,8352,2 giai đoạn,ok,6536.0,0.185408
+5,2,A1 Sokolow,0.15,1,8352,2 giai đoạn (mẫu con),không khả thi,6732.0,
+5,2,A1 Sokolow,0.15,2,8352,1 giai đoạn,không khả thi,7028.0,
+5,2,A1 Sokolow,0.15,2,8352,2 giai đoạn,ok,6502.0,0.185736
+5,2,A1 Sokolow,0.15,2,8352,2 giai đoạn (mẫu con),ok,5774.0,0.206496
+5,2,A1 Sokolow,0.15,3,8352,1 giai đoạn,không khả thi,7083.0,
+5,2,A1 Sokolow,0.15,3,8352,2 giai đoạn,ok,6120.0,0.193009
+5,2,A1 Sokolow,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,6849.0,
+5,2,A1 Sokolow,0.15,4,8352,1 giai đoạn,ok,5996.0,0.19923
+5,2,A1 Sokolow,0.15,4,8352,2 giai đoạn,ok,5691.0,0.225648
+5,2,A1 Sokolow,0.15,4,8352,2 giai đoạn (mẫu con),ok,5725.0,0.21998
+5,2,A1 Sokolow,0.15,5,8352,1 giai đoạn,ok,5134.0,0.20429
+5,2,A1 Sokolow,0.15,5,8352,2 giai đoạn,ok,6367.0,0.191918
+5,2,A1 Sokolow,0.15,5,8352,2 giai đoạn (mẫu con),ok,6208.0,0.198672
+5,2,A1 Sokolow,0.3,0,8352,1 giai đoạn,ok,1584.0,0.336544
+5,2,A1 Sokolow,0.3,0,8352,2 giai đoạn,ok,1026.0,0.422281
+5,2,A1 Sokolow,0.3,0,8352,2 giai đoạn (mẫu con),ok,792.0,0.467292
+5,2,A1 Sokolow,0.3,1,8352,1 giai đoạn,ok,2797.0,0.292589
+5,2,A1 Sokolow,0.3,1,8352,2 giai đoạn,ok,2174.0,0.298275
+5,2,A1 Sokolow,0.3,1,8352,2 giai đoạn (mẫu con),ok,3478.0,0.283076
+5,2,A1 Sokolow,0.3,2,8352,1 giai đoạn,ok,3994.0,0.227986
+5,2,A1 Sokolow,0.3,2,8352,2 giai đoạn,ok,2929.0,0.316853
+5,2,A1 Sokolow,0.3,2,8352,2 giai đoạn (mẫu con),ok,4768.0,0.226547
+5,2,A1 Sokolow,0.3,3,8352,1 giai đoạn,ok,3287.0,0.257491
+5,2,A1 Sokolow,0.3,3,8352,2 giai đoạn,ok,2902.0,0.276438
+5,2,A1 Sokolow,0.3,3,8352,2 giai đoạn (mẫu con),ok,2866.0,0.282225
+5,2,A1 Sokolow,0.3,4,8352,1 giai đoạn,ok,5922.0,0.205982
+5,2,A1 Sokolow,0.3,4,8352,2 giai đoạn,ok,2961.0,0.293733
+5,2,A1 Sokolow,0.3,4,8352,2 giai đoạn (mẫu con),ok,3404.0,0.272138
+5,2,A1 Sokolow,0.3,5,8352,1 giai đoạn,ok,2114.0,0.327707
+5,2,A1 Sokolow,0.3,5,8352,2 giai đoạn,ok,2323.0,0.354527
+5,2,A1 Sokolow,0.3,5,8352,2 giai đoạn (mẫu con),ok,2945.0,0.266619
+5,2,A2 Cornell,0.15,0,8352,1 giai đoạn,ok,5092.0,0.141488
+5,2,A2 Cornell,0.15,0,8352,2 giai đoạn,không khả thi,7060.0,
+5,2,A2 Cornell,0.15,0,8352,2 giai đoạn (mẫu con),không khả thi,7473.0,
+5,2,A2 Cornell,0.15,1,8352,1 giai đoạn,ok,6562.0,0.068009
+5,2,A2 Cornell,0.15,1,8352,2 giai đoạn,không khả thi,6945.0,
+5,2,A2 Cornell,0.15,1,8352,2 giai đoạn (mẫu con),ok,6405.0,0.071934
+5,2,A2 Cornell,0.15,2,8352,1 giai đoạn,không khả thi,7384.0,
+5,2,A2 Cornell,0.15,2,8352,2 giai đoạn,ok,6299.0,0.066942
+5,2,A2 Cornell,0.15,2,8352,2 giai đoạn (mẫu con),ok,4904.0,0.138613
+5,2,A2 Cornell,0.15,3,8352,1 giai đoạn,ok,6002.0,0.131426
+5,2,A2 Cornell,0.15,3,8352,2 giai đoạn,không khả thi,7561.0,
+5,2,A2 Cornell,0.15,3,8352,2 giai đoạn (mẫu con),không khả thi,7227.0,
+5,2,A2 Cornell,0.15,4,8352,1 giai đoạn,không khả thi,8304.0,
+5,2,A2 Cornell,0.15,4,8352,2 giai đoạn,ok,6060.0,0.081055
+5,2,A2 Cornell,0.15,4,8352,2 giai đoạn (mẫu con),ok,4234.0,0.17931
+5,2,A2 Cornell,0.15,5,8352,1 giai đoạn,không khả thi,7974.0,
+5,2,A2 Cornell,0.15,5,8352,2 giai đoạn,không khả thi,6736.0,
+5,2,A2 Cornell,0.15,5,8352,2 giai đoạn (mẫu con),ok,3987.0,0.202027
+5,2,A2 Cornell,0.3,0,8352,1 giai đoạn,ok,5526.0,0.109158
+5,2,A2 Cornell,0.3,0,8352,2 giai đoạn,ok,5761.0,0.07892
+5,2,A2 Cornell,0.3,0,8352,2 giai đoạn (mẫu con),ok,4142.0,0.223215
+5,2,A2 Cornell,0.3,1,8352,1 giai đoạn,ok,1949.0,0.332231
+5,2,A2 Cornell,0.3,1,8352,2 giai đoạn,ok,2081.0,0.29408
+5,2,A2 Cornell,0.3,1,8352,2 giai đoạn (mẫu con),ok,975.0,0.498634
+5,2,A2 Cornell,0.3,2,8352,1 giai đoạn,ok,2068.0,0.328993
+5,2,A2 Cornell,0.3,2,8352,2 giai đoạn,ok,2552.0,0.244921
+5,2,A2 Cornell,0.3,2,8352,2 giai đoạn (mẫu con),ok,1420.0,0.357817
+5,2,A2 Cornell,0.3,3,8352,1 giai đoạn,ok,3670.0,0.186942
+5,2,A2 Cornell,0.3,3,8352,2 giai đoạn,ok,2599.0,0.255326
+5,2,A2 Cornell,0.3,3,8352,2 giai đoạn (mẫu con),ok,1835.0,0.348922
+5,2,A2 Cornell,0.3,4,8352,1 giai đoạn,ok,3832.0,0.199992
+5,2,A2 Cornell,0.3,4,8352,2 giai đoạn,ok,2259.0,0.295007
+5,2,A2 Cornell,0.3,4,8352,2 giai đoạn (mẫu con),ok,1916.0,0.346592
+5,2,A2 Cornell,0.3,5,8352,1 giai đoạn,ok,3840.0,0.193153
+5,2,A2 Cornell,0.3,5,8352,2 giai đoạn,ok,3960.0,0.17543
+5,2,A2 Cornell,0.3,5,8352,2 giai đoạn (mẫu con),ok,3557.0,0.260144
+5,2,A3 LVH-LR,0.15,0,8352,1 giai đoạn,ok,5343.0,0.145942
+5,2,A3 LVH-LR,0.15,0,8352,2 giai đoạn,ok,6109.0,0.128433
+5,2,A3 LVH-LR,0.15,0,8352,2 giai đoạn (mẫu con),ok,6474.0,0.112638
+5,2,A3 LVH-LR,0.15,1,8352,1 giai đoạn,không khả thi,7923.0,
+5,2,A3 LVH-LR,0.15,1,8352,2 giai đoạn,không khả thi,6753.0,
+5,2,A3 LVH-LR,0.15,1,8352,2 giai đoạn (mẫu con),không khả thi,7129.0,
+5,2,A3 LVH-LR,0.15,2,8352,1 giai đoạn,không khả thi,7619.0,
+5,2,A3 LVH-LR,0.15,2,8352,2 giai đoạn,không khả thi,6693.0,
+5,2,A3 LVH-LR,0.15,2,8352,2 giai đoạn (mẫu con),ok,6507.0,0.118294
+5,2,A3 LVH-LR,0.15,3,8352,1 giai đoạn,không khả thi,6976.0,
+5,2,A3 LVH-LR,0.15,3,8352,2 giai đoạn,không khả thi,7177.0,
+5,2,A3 LVH-LR,0.15,3,8352,2 giai đoạn (mẫu con),ok,4808.0,0.190465
+5,2,A3 LVH-LR,0.15,4,8352,1 giai đoạn,không khả thi,7314.0,
+5,2,A3 LVH-LR,0.15,4,8352,2 giai đoạn,ok,6654.0,0.097665
+5,2,A3 LVH-LR,0.15,4,8352,2 giai đoạn (mẫu con),ok,6532.0,0.104191
+5,2,A3 LVH-LR,0.15,5,8352,1 giai đoạn,không khả thi,7339.0,
+5,2,A3 LVH-LR,0.15,5,8352,2 giai đoạn,không khả thi,7274.0,
+5,2,A3 LVH-LR,0.15,5,8352,2 giai đoạn (mẫu con),không khả thi,7704.0,
+5,2,A3 LVH-LR,0.3,0,8352,1 giai đoạn,ok,2833.0,0.297514
+5,2,A3 LVH-LR,0.3,0,8352,2 giai đoạn,ok,3126.0,0.290734
+5,2,A3 LVH-LR,0.3,0,8352,2 giai đoạn (mẫu con),ok,1417.0,0.369561
+5,2,A3 LVH-LR,0.3,1,8352,1 giai đoạn,ok,2171.0,0.324393
+5,2,A3 LVH-LR,0.3,1,8352,2 giai đoạn,ok,2380.0,0.292349
+5,2,A3 LVH-LR,0.3,1,8352,2 giai đoạn (mẫu con),ok,1086.0,0.432724
+5,2,A3 LVH-LR,0.3,2,8352,1 giai đoạn,ok,5781.0,0.112697
+5,2,A3 LVH-LR,0.3,2,8352,2 giai đoạn,ok,3364.0,0.27437
+5,2,A3 LVH-LR,0.3,2,8352,2 giai đoạn (mẫu con),ok,2891.0,0.277446
+5,2,A3 LVH-LR,0.3,3,8352,1 giai đoạn,ok,3189.0,0.292628
+5,2,A3 LVH-LR,0.3,3,8352,2 giai đoạn,ok,2330.0,0.313643
+5,2,A3 LVH-LR,0.3,3,8352,2 giai đoạn (mẫu con),ok,1595.0,0.350767
+5,2,A3 LVH-LR,0.3,4,8352,1 giai đoạn,ok,3792.0,0.211248
+5,2,A3 LVH-LR,0.3,4,8352,2 giai đoạn,ok,2851.0,0.290539
+5,2,A3 LVH-LR,0.3,4,8352,2 giai đoạn (mẫu con),ok,1896.0,0.349721
+5,2,A3 LVH-LR,0.3,5,8352,1 giai đoạn,ok,2743.0,0.307107
+5,2,A3 LVH-LR,0.3,5,8352,2 giai đoạn,ok,2258.0,0.352178
+5,2,A3 LVH-LR,0.3,5,8352,2 giai đoạn (mẫu con),ok,2422.0,0.339925
+5,2,A4 CNNalt,0.15,0,8352,1 giai đoạn,ok,5233.0,0.10179
+5,2,A4 CNNalt,0.15,0,8352,2 giai đoạn,ok,4957.0,0.096297
+5,2,A4 CNNalt,0.15,0,8352,2 giai đoạn (mẫu con),ok,2617.0,0.195155
+5,2,A4 CNNalt,0.15,1,8352,1 giai đoạn,ok,5327.0,0.084647
+5,2,A4 CNNalt,0.15,1,8352,2 giai đoạn,ok,4976.0,0.104316
+5,2,A4 CNNalt,0.15,1,8352,2 giai đoạn (mẫu con),ok,3861.0,0.100788
+5,2,A4 CNNalt,0.15,2,8352,1 giai đoạn,không khả thi,7033.0,
+5,2,A4 CNNalt,0.15,2,8352,2 giai đoạn,ok,4827.0,0.103049
+5,2,A4 CNNalt,0.15,2,8352,2 giai đoạn (mẫu con),ok,3517.0,0.156474
+5,2,A4 CNNalt,0.15,3,8352,1 giai đoạn,ok,5807.0,0.087474
+5,2,A4 CNNalt,0.15,3,8352,2 giai đoạn,ok,4882.0,0.088062
+5,2,A4 CNNalt,0.15,3,8352,2 giai đoạn (mẫu con),ok,2904.0,0.163479
+5,2,A4 CNNalt,0.15,4,8352,1 giai đoạn,không khả thi,6962.0,
+5,2,A4 CNNalt,0.15,4,8352,2 giai đoạn,ok,4950.0,0.097731
+5,2,A4 CNNalt,0.15,4,8352,2 giai đoạn (mẫu con),ok,3481.0,0.130461
+5,2,A4 CNNalt,0.15,5,8352,1 giai đoạn,ok,6015.0,0.084317
+5,2,A4 CNNalt,0.15,5,8352,2 giai đoạn,ok,5379.0,0.090963
+5,2,A4 CNNalt,0.15,5,8352,2 giai đoạn (mẫu con),ok,3008.0,0.155507
+5,2,A4 CNNalt,0.3,0,8352,1 giai đoạn,ok,2544.0,0.178349
+5,2,A4 CNNalt,0.3,0,8352,2 giai đoạn,ok,1561.0,0.270165
+5,2,A4 CNNalt,0.3,0,8352,2 giai đoạn (mẫu con),ok,1272.0,0.254132
+5,2,A4 CNNalt,0.3,1,8352,1 giai đoạn,ok,2499.0,0.172601
+5,2,A4 CNNalt,0.3,1,8352,2 giai đoạn,ok,1801.0,0.215315
+5,2,A4 CNNalt,0.3,1,8352,2 giai đoạn (mẫu con),ok,1250.0,0.223903
+5,2,A4 CNNalt,0.3,2,8352,1 giai đoạn,ok,3966.0,0.120148
+5,2,A4 CNNalt,0.3,2,8352,2 giai đoạn,ok,1983.0,0.2363
+5,2,A4 CNNalt,0.3,2,8352,2 giai đoạn (mẫu con),ok,1983.0,0.190943
+5,2,A4 CNNalt,0.3,3,8352,1 giai đoạn,không khả thi,6726.0,
+5,2,A4 CNNalt,0.3,3,8352,2 giai đoạn,ok,3363.0,0.136831
+5,2,A4 CNNalt,0.3,3,8352,2 giai đoạn (mẫu con),ok,3363.0,0.144535
+5,2,A4 CNNalt,0.3,4,8352,1 giai đoạn,ok,2569.0,0.175621
+5,2,A4 CNNalt,0.3,4,8352,2 giai đoạn,ok,2636.0,0.166503
+5,2,A4 CNNalt,0.3,4,8352,2 giai đoạn (mẫu con),ok,1285.0,0.246553
+5,2,A4 CNNalt,0.3,5,8352,1 giai đoạn,ok,2288.0,0.176043
+5,2,A4 CNNalt,0.3,5,8352,2 giai đoạn,ok,1205.0,0.236875
+5,2,A4 CNNalt,0.3,5,8352,2 giai đoạn (mẫu con),ok,1144.0,0.269096

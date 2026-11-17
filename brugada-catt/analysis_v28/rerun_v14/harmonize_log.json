@@ -1,0 +1,33 @@
+{
+ "ptb_total": 21799,
+ "ptb_excluded_other_device": 0,
+ "ptb_excluded_irbbb_only": 1117,
+ "ptb_cs": {
+  "n": 12403,
+  "n_pos": 297,
+  "excluded_few_beats": 0
+ },
+ "ptb_at": {
+  "n": 8278,
+  "n_pos": 244,
+  "excluded_few_beats": 1
+ },
+ "cn_header_entries": 89960,
+ "cn_unique_records": 45152,
+ "cn_duplicate_header_entries": 44808,
+ "cn_headers_without_mat": 0,
+ "cn_records_with_2plus_copies": 44573,
+ "cn_mat_smaller_than_120024_bytes": 0,
+ "cn_read_first_copy": 43073,
+ "cn_read_other_copy": 2054,
+ "cn_unreadable_all_copies": 24,
+ "cn_bad_header_format": 1,
+ "cn_excluded_irbbb_only": 246,
+ "cn_excluded_malformed_header": 25,
+ "cn": {
+  "n_headers": 45152,
+  "n": 43380,
+  "n_pos": 1733,
+  "excluded_few_beats": 1501
+ }
+}

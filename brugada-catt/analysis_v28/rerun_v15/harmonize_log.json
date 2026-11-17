@@ -1,0 +1,35 @@
+{
+ "ptb_total": 21799,
+ "ptb_excluded_other_device": 0,
+ "ptb_excluded_lvh_likelihood_lt50": 381,
+ "ptb_excluded_vclvh_only": 222,
+ "ptb_cs": {
+  "n": 12843,
+  "n_pos": 941,
+  "excluded_few_beats": 0
+ },
+ "ptb_at": {
+  "n": 8352,
+  "n_pos": 810,
+  "excluded_few_beats": 1
+ },
+ "cn_header_entries": 89960,
+ "cn_unique_records": 45152,
+ "cn_duplicate_header_entries": 44808,
+ "cn_headers_without_mat": 0,
+ "cn_records_with_2plus_copies": 44573,
+ "cn_mat_smaller_than_120024_bytes": 0,
+ "cn_read_first_copy": 43073,
+ "cn_read_other_copy": 2054,
+ "cn_unreadable_all_copies": 24,
+ "cn_bad_header_format": 1,
+ "cn_headers": 45152,
+ "cn_excluded_lvhv_only": 5397,
+ "cn_excluded_malformed_header": 25,
+ "cn_excluded_sex_unknown": 22,
+ "cn": {
+  "n": 38221,
+  "n_pos": 637,
+  "excluded_few_beats": 1487
+ }
+}

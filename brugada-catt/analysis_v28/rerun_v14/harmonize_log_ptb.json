@@ -1,0 +1,15 @@
+{
+ "ptb_total": 21799,
+ "ptb_excluded_other_device": 0,
+ "ptb_excluded_irbbb_only": 1117,
+ "ptb_cs": {
+  "n": 12403,
+  "n_pos": 297,
+  "excluded_few_beats": 0
+ },
+ "ptb_at": {
+  "n": 8278,
+  "n_pos": 244,
+  "excluded_few_beats": 1
+ }
+}
