@@ -43,7 +43,7 @@ không chứa 0. KTC bootstrap bệnh nhân không tính độ dao động do hu
 lợi**; muốn kết luận cần nhiều lần huấn luyện (ví dụ 5 hạt giống huấn luyện) và báo cáo độ dao động giữa các lần. LVH ổn định.
 
 Định lý 1 (P1) giữ: RBBB dự đoán/quan sát 0,81 (cũ 0,80), Spearman 0,80 (cũ 0,87); LVH 1,07 (cũ 1,06), Spearman 0,99.
-Quy tắc dừng (P3): RBBB vẫn không đạt (50–62% đạt đích ±20%); LVH bản một giai đoạn tụt (77% so với 83–87%), hai giai đoạn
+Quy tắc dừng (P3): RBBB vẫn không đạt (48–62% đạt đích ±20%); LVH bản một giai đoạn tụt (77% so với 83–87%), hai giai đoạn
 81–87% (cũ 89–90%).
 
 ## Tệp
