@@ -91,15 +91,20 @@ for i, vs in JOBS:
     tr, va = next(StratifiedShuffleSplit(1, test_size=0.15, random_state=vs).split(np.zeros(len(ys)), ys))
     xt, yt = X[tgt], Y[tgt]; it = np.arange(len(yt))
     s1, s2, slr = features(src, keep); t1, t2, tlr = features(tgt, it)
-    f_nets = [L.train_cnn(xs[tr], ys[tr], xs[va], ys[va], s) for s in (0, 1, 2)]
-    a_nets = [L.train_cnn(xs[tr], ys[tr], xs[va], ys[va], s) for s in (3, 4, 5)]
+    PD = os.path.join(OUT, "_parts")          # lưu từng mạng: bị ngắt thì chỉ huấn luyện lại mạng chưa xong
+    f_val, f_tgt = L.ensemble_ckpt(PD, f"{i}_{vs}_f", xs[tr], ys[tr], xs[va], ys[va], (0, 1, 2), (xs[va], xt))
+    alt_val, alt_tgt = L.ensemble_ckpt(PD, f"{i}_{vs}_alt", xs[tr], ys[tr], xs[va], ys[va], (3, 4, 5), (xs[va], xt))
     lr = make_pipeline(StandardScaler(), LogisticRegression(C=1.0, max_iter=2000)).fit(slr[tr], ys[tr])
     out = dict(y_val=ys[va], y_tgt=yt,
-               f_val=L.cnn_predict(f_nets, xs[va]), f_tgt=L.cnn_predict(f_nets, xt),
-               alt_val=L.cnn_predict(a_nets, xs[va]), alt_tgt=L.cnn_predict(a_nets, xt),
+               f_val=f_val, f_tgt=f_tgt, alt_val=alt_val, alt_tgt=alt_tgt,
                a1_val=s1[va], a1_tgt=t1, a2_val=s2[va], a2_tgt=t2,
                a3_val=lr.predict_proba(slr[va])[:, 1], a3_tgt=lr.predict_proba(tlr)[:, 1])
-    np.savez_compressed(fn, **out)
+    _tmp = os.path.join(OUT, f"tmp_scores_{i}_{vs}.npz"); np.savez_compressed(_tmp, **out); os.replace(_tmp, fn)   # ghi nguyên tử
+    for _t in ("f", "alt"):
+        for _s in ((0, 1, 2) if _t == "f" else (3, 4, 5)):
+            _p = os.path.join(PD, f"part_{i}_{vs}_{_t}_s{_s}.npz")
+            if os.path.exists(_p):
+                os.remove(_p)
     print(i, src, "->", tgt, vs, "AUROC f/alt/A1/A2/A3:",
           [round(roc_auc_score(yt, out[k]), 3) for k in ("f_tgt", "alt_tgt", "a1_tgt", "a2_tgt", "a3_tgt")],
           f"{time.time() - t0:.0f}s", flush=True)

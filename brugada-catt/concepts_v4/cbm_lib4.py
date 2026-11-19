@@ -99,6 +99,28 @@ def cnn_predict(nets, x):
         return np.mean([torch.sigmoid(n(torch.tensor(x))).numpy() for n in nets], 0)
 
 
+def ensemble_ckpt(part_dir, tag, xtr, ytr, xva, yva, seeds, xs):
+    """Như [cnn_predict([train_cnn(..., s) for s in seeds], x) for x in xs], nhưng lưu kết quả TỪNG mạng ngay khi huấn luyện xong
+    (part_dir/part_<tag>_s<s>.npz, ghi nguyên tử). Bị ngắt giữa chừng thì lần chạy sau chỉ huấn luyện lại mạng chưa xong.
+    Kết quả trùng tuyệt đối cách cũ (cùng trung bình theo cùng thứ tự)."""
+    import os
+    os.makedirs(part_dir, exist_ok=True)
+    per = []
+    for s in seeds:
+        fn = os.path.join(part_dir, f"part_{tag}_s{s}.npz")
+        try:
+            with np.load(fn) as z:
+                preds = [z[f"p{k}"] for k in range(len(xs))]
+        except Exception:
+            net = train_cnn(xtr, ytr, xva, yva, s)
+            preds = [cnn_predict([net], x) for x in xs]
+            tmp = fn + ".tmp.npz"
+            np.savez(tmp, **{f"p{k}": v for k, v in enumerate(preds)})
+            os.replace(tmp, fn)
+        per.append(preds)
+    return [np.mean([per[j][k] for j in range(len(seeds))], 0) for k in range(len(xs))]
+
+
 # ------------------------------------------------------------------ CBM2
 FROZEN = {k: c(learn=False) for k, c in CLS.items()}
 
