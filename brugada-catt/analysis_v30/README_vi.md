@@ -67,7 +67,7 @@ Brugada đúng 5 (cùng năm thiết lập) ở cả 5.
 1. **Hình ảnh chung rõ hơn trước:** CATT sửa lớn khi ngưỡng nguồn hỏng (Brugada +0,093; LVH mV +0,134), nhưng **làm kém đi** khi ngưỡng
    nguồn vốn đúng (LVH −0,013; LVH mV không hỏng −0,038). RBBB (không hỏng) +0,011 là ngoại lệ nhỏ.
 2. **Ở thiết lập hỏng, CATT ngang GMM-2/Otsu** (Brugada tỉ lệ tự nhiên, LVH mV). CATT hơn rõ GMM-2/Otsu khi tỉ lệ bệnh thấp
-   (Brugada 5%; LVH 1,7–11%: +0,031/+0,037).
+   (Brugada 5%; LVH, tỉ lệ 1,7–10%: +0,031/+0,037).
 3. **Câu hỏi còn mở (quan sát sau):** RBBB lần 11/11 cho −0,008, nằm ngoài khoảng của cả 5 lần mới (+0,007 đến +0,013). Khác biệt
    không do hạt giống mà do môi trường chạy (máy, phiên bản thư viện, 23 bản ghi ít hơn, hoặc bản sao bản ghi đọc từ zip HuggingFace).
    Bài nên dùng 5 lần mới, nêu lần 11/11 là chạy trên dữ liệu PhysioNet gốc với kết quả khác dấu, và không diễn giải hiệu RBBB.
