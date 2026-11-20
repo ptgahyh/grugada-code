@@ -1,9 +1,29 @@
 {
  "V1_bootstrap_understates": {
+  "rbbb / tất cả 6": true,
+  "lvh / tất cả 6": true,
+  "lvhmv / hỏng (lần 0)": true,
+  "lvhmv / không hỏng (lần 0)": true,
+  "lvhmv / tất cả 6": true,
   "brugada / held-out": false,
   "brugada / tỉ lệ 5%": false
  },
  "V2": {
+  "rbbb / tất cả 6 / CATT − SRC": "CATT tốt hơn",
+  "rbbb / tất cả 6 / CATT − GMM-2": "CATT tốt hơn",
+  "rbbb / tất cả 6 / CATT − Otsu": "CATT kém hơn",
+  "lvh / tất cả 6 / CATT − SRC": "CATT kém hơn",
+  "lvh / tất cả 6 / CATT − GMM-2": "CATT tốt hơn",
+  "lvh / tất cả 6 / CATT − Otsu": "CATT tốt hơn",
+  "lvhmv / hỏng (lần 0) / CATT − SRC": "CATT tốt hơn",
+  "lvhmv / hỏng (lần 0) / CATT − GMM-2": "không phân biệt được",
+  "lvhmv / hỏng (lần 0) / CATT − Otsu": "không phân biệt được",
+  "lvhmv / không hỏng (lần 0) / CATT − SRC": "CATT kém hơn",
+  "lvhmv / không hỏng (lần 0) / CATT − GMM-2": "CATT tốt hơn",
+  "lvhmv / không hỏng (lần 0) / CATT − Otsu": "CATT tốt hơn",
+  "lvhmv / tất cả 6 / CATT − SRC": "CATT tốt hơn",
+  "lvhmv / tất cả 6 / CATT − GMM-2": "CATT tốt hơn",
+  "lvhmv / tất cả 6 / CATT − Otsu": "CATT tốt hơn",
   "brugada / held-out / CATT − SRC": "CATT tốt hơn",
   "brugada / held-out / CATT − GMM-2": "CATT tốt hơn",
   "brugada / held-out / CATT − Otsu": "CATT tốt hơn",
@@ -13,6 +33,21 @@
  },
  "V3_brugada_main_holds": true,
  "posthoc_combined": {
+  "rbbb / tất cả 6 / CATT − SRC": "CATT tốt hơn",
+  "rbbb / tất cả 6 / CATT − GMM-2": "CATT tốt hơn",
+  "rbbb / tất cả 6 / CATT − Otsu": "CATT kém hơn",
+  "lvh / tất cả 6 / CATT − SRC": "CATT kém hơn",
+  "lvh / tất cả 6 / CATT − GMM-2": "CATT tốt hơn",
+  "lvh / tất cả 6 / CATT − Otsu": "CATT tốt hơn",
+  "lvhmv / hỏng (lần 0) / CATT − SRC": "CATT tốt hơn",
+  "lvhmv / hỏng (lần 0) / CATT − GMM-2": "không phân biệt được",
+  "lvhmv / hỏng (lần 0) / CATT − Otsu": "không phân biệt được",
+  "lvhmv / không hỏng (lần 0) / CATT − SRC": "CATT kém hơn",
+  "lvhmv / không hỏng (lần 0) / CATT − GMM-2": "CATT tốt hơn",
+  "lvhmv / không hỏng (lần 0) / CATT − Otsu": "CATT tốt hơn",
+  "lvhmv / tất cả 6 / CATT − SRC": "CATT tốt hơn",
+  "lvhmv / tất cả 6 / CATT − GMM-2": "CATT tốt hơn",
+  "lvhmv / tất cả 6 / CATT − Otsu": "CATT tốt hơn",
   "brugada / held-out / CATT − SRC": "CATT tốt hơn",
   "brugada / held-out / CATT − GMM-2": "không phân biệt được",
   "brugada / held-out / CATT − Otsu": "không phân biệt được",
@@ -27,6 +62,27 @@
    5,
    5,
    5
+  ],
+  "lvh": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "lvhmv": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "rbbb": [
+   0,
+   0,
+   1,
+   0,
+   0
   ]
  }
 }
